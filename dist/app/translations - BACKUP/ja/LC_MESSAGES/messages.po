@@ -1,0 +1,407 @@
+# Japanese translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-02-07 12:19+0800\n"
+"PO-Revision-Date: 2018-02-07 12:23+0800\n"
+"Last-Translator: \n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: templates/BASE.html:55 templates/BASE.html:125 templates/about.html:6
+msgid "About ICC"
+msgstr "ICCについて"
+
+#: templates/BASE.html:58 templates/BASE.html:127 templates/about.html:10
+msgid "Introduction"
+msgstr "序文"
+
+#: templates/BASE.html:59 templates/BASE.html:128
+msgid "Mission"
+msgstr "使命"
+
+#: templates/BASE.html:60 templates/BASE.html:129 templates/about.html:34
+msgid "Faculty"
+msgstr "ファカルティ"
+
+#: templates/BASE.html:61 templates/BASE.html:86 templates/BASE.html:130 templates/BASE.html:152 templates/about.html:42
+msgid "Matriculation"
+msgstr "入学"
+
+#: templates/BASE.html:62 templates/BASE.html:131 templates/about.html:50
+msgid "Admission"
+msgstr "入場料"
+
+#: templates/BASE.html:66 templates/BASE.html:135
+msgid "News & Events"
+msgstr "イベントとニュース"
+
+#: templates/BASE.html:69 templates/BASE.html:137 templates/resources.html:6
+msgid "School Calendar"
+msgstr "学校のカレンダー"
+
+#: templates/BASE.html:73 templates/BASE.html:141
+msgid "Academics"
+msgstr "アカデミック"
+
+#: templates/BASE.html:76 templates/BASE.html:143 templates/academics.html:6
+msgid "Chinese Curricula"
+msgstr "中国語カリキュラム"
+
+#: templates/BASE.html:77 templates/BASE.html:144
+msgid "A Level Program"
+msgstr "ケンブリッジAレベルプログラム（AL）"
+
+#: templates/BASE.html:78 templates/BASE.html:145
+msgid "The Advanced Placement Program"
+msgstr "AP（Advanced Placement Program）プログラムは、"
+
+#: templates/BASE.html:79 templates/BASE.html:146
+msgid "International Baccalaureate"
+msgstr "国際バカロレアート（IB / IBDP）"
+
+#: templates/BASE.html:83 templates/BASE.html:150
+msgid "Student"
+msgstr "学生"
+
+#: templates/BASE.html:87 templates/BASE.html:153 templates/student.html:6
+msgid "Extra-curricular Life"
+msgstr "余分な生活"
+
+#: templates/BASE.html:170
+msgid "人大附中中外合作办学项目"
+msgstr "ICC"
+
+#: templates/BASE.html:171
+msgid "北京市海淀区中关村大街37号 100080"
+msgstr "No37, Zhongguancun St, Haidian, Beijing  100080"
+
+#: templates/BASE.html:176
+msgid "IBO国际组织"
+msgstr "IBO"
+
+#: templates/BASE.html:177
+msgid "剑桥大学考试委员会"
+msgstr ""
+
+#: templates/BASE.html:178
+msgid "Collegeboard"
+msgstr ""
+
+#: templates/about.html:11
+msgid ""
+"The High School Affiliated to Renmin University of China is a world-renowned public school founded in 1950.<br/> The school offers both Chinese and international curricula.<br/> Two types of Chinese curricula are offered: the national curriculum and the Early Development Program for Top Innovative Talents.<br/> Three international curricula are offered at the Chinese-"
+"Foreign Education Program: the Cambridge International Advanced Level (A Level) program, started in 2004; the Advanced Placement (AP) program, started in 2010; and the International Baccalaureate Diploma (IB) program, started in 2012.<br/> Students are regularly admitted to top Universities domestically and abroad."
+msgstr ""
+"中国人民大学に所属する高等学校は、1950年に設立された世界的に有名な公立学校です。<br/>この学校は中国語と国際カリキュラムの両方を提供しています。中国語カリキュラムには2つのタイプがあります。 2004年に開始されたケンブリッジ・インターナショナル・アドバンスト・レベル（Aレベル）プログラム、中国語教育プログラムでは3つの国際教育カリキュラムが提供されています。 2010年に開始された"
+"AP（Advanced Placement）プログラム。 国際バカロレアディプロマ（IB）プログラムは、2012年に始まりました。学生は、国内外のトップ大学に定期的に入学しています。"
+
+#: templates/about.html:15
+msgid "Accreditation"
+msgstr "認証評価"
+
+#: templates/about.html:16
+msgid "RDFZ has been fully accredited by the University of Cambridge International Examinations (CIE) since 2004.<br/> The Cambridge Exam Center number is CN230.<br/> In 2012 RDFZ received lBO authorization to offer the IBDP, and the IB School Code is 049099.<br/>RDFZ&apos;s CEEB code: 694270"
+msgstr "RDFZは、2004年以来、ケンブリッジ国際試験（CIE）大学の完全認定を受けています。<br/>ケンブリッジ試験センター番号はCN230です。<br/>2012年、RDFZはIBDPを提供するIBO認可を取得し、IBスクールコード <br/>RDFZのCEEBコード：694270"
+
+#: templates/about.html:20
+msgid "Contact Information"
+msgstr "連絡先情報"
+
+#: templates/about.html:21
+msgid "See here"
+msgstr "これ見て"
+
+#: templates/about.html:26
+msgid "Our Mission"
+msgstr "弊社のミッション"
+
+#: templates/about.html:29
+msgid ""
+"<b>\"Virtue, Erudition, Creativity, and Pragmatism\"</b> are the principles of the school. <br/><br/>RDFZ aims to cultivate students not only with a solid well-rounded development, but also with special skills, innovation, and morality. <br/><br/>The mission statement of the school is <b>\"respect individuality, discover and promote each student&apos;s potential, and "
+"help them develop into solid citizens anxious to further the prosperity of our country and the advancement of humanity\"</b>."
+msgstr ""
+"<b> \"Virtue, Erudition, Creativity, and Pragmatism\" </b> are the principles of the school. RDFZ aims to cultivate students not only with a solid well-rounded development, but also with special skills, innovation, and morality. The mission statement of the school is <b> \"respect individuality, discover and promote each student 's potential, and help them develop into "
+"solid citizens anxious to further prosperity of our country and the advancement of humanity \"</b>."
+
+#: templates/about.html:37
+msgid ""
+"RDFZ has a professional Chinese faculty team, with 66&#37; holding a master&apos;s or doctorate degree. <br/>There are 60 international faculty teachers at the ChineseForeign Education Program with nationalities represented by the following countries: <div class=\"ui basic segment\"><b>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The U."
+"K. and The U.S. </b></div>More than half of the international teachers hold a master&apos;s or doctorate degree"
+msgstr ""
+"RDFZ has a professional Chinese faculty team, with 66% holding a master 's or doctorate degree. There are 60 international faculty teachers at the Chinese Foreign Education Program with nationalities shown by the following countries: <div class = \"ui basic segment \"> <b> Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The UK and The US </"
+"div> More than half of the international teachers hold a master 's or doctorate degree"
+
+#: templates/about.html:53
+msgid ""
+"Admission to RDFZ high school is dependent on students&apos; Zhongkao (high school entrance exam) score. In addition to the Zhongkao, admission to RDFZ Chinese-Foreign Education Program also depends on interviews and extra exams that test math and English. Year after year, both the national and international curricula have continually increasing application to admission "
+"ratios. The admission score for the Chinese National Curriculum is among the highest in Beijing."
+msgstr "RDFZ高等学校への入学は、学生に依存します。 中華（高校入試）のスコア。 Zhongkaoに加えて、RDFZ中国語 - 外国語教育プログラムへの入学は、数学と英語をテストするインタビューや追加試験にも依存します。 毎年、国内と国際のカリキュラムの両方で、入学率への継続的な申請が増えています。 中国国家カリキュラムの入学スコアは、北京で最も高いです。"
+
+#: templates/about.html:55
+msgid "* For more information, click"
+msgstr "*詳細については、をクリックしてください。"
+
+#: templates/about.html:55
+msgid "here"
+msgstr "ここに"
+
+#: templates/academics.html:9
+msgid ""
+"Students in the Chinese curricula are required to learn subjects stipulated by Beijing Municipal Education Commission. <br/>According to the commission, each subject is composed of different modules and assessments are given based on those modules. <br/>Module scores include processing the evaluations of daily performance and the results of exams. <br/>The minimum "
+"credits requirement for graduation is 144. <br/>Students need to pass the Huikao (high school graduation exam) organized by the Beijing Education Examinations Authority to graduate from high school. <br/>Huikao subjects include: <div class=\"ui basic segment\"><b>Chinese, English, math, physics, chemistry, biology, politics, history, geography, information technology, "
+"general technology, music, arts, and physical education.</b></div> In 11th grade, students are divided into a social science stream or natural science stream."
+msgstr ""
+"中国のカリキュラムの学生は、北京市教育委員会が定めた科目を習得する必要があります。 <br/>委員会によれば、各科目は異なるモジュールで構成され、評価はそれらのモジュールに基づいて与えられます。 <br/>モジュールの得点には、毎日のパフォーマンスの評価と試験の結果の処理が含まれます。 <br/>卒業の最低履修要件は144です。‧北京教育試験庁が主催した高校卒業試験に合格する必要があります。 "
+"<br/><br/> Huikao科目には、<div class = \"ui basic segment\"><b>中国語、英語、数学、物理学、化学、生物学、政治、歴史、地理、情報技術、一般技術、音楽、芸術 </b> </div> 11年生は、社会科学の流れや自然科学の流れに分かれています。"
+
+#: templates/academics.html:11
+msgid "Chinese National Curriculum"
+msgstr "中国語のカリキュラム"
+
+#: templates/academics.html:12
+msgid ""
+"In accordance with the school&apos;s principle and cultivating goal, RDFZ has integrated national, local school-based, and international curricula to form a unique curricula system which is contemporary, selective, creative, and open. It covers eight different fields including: language, math, humanity, science, technology, physical education, arts, and interdisciplinary "
+"courses. According to the needs of individual students, courses are divided into three levels: basic, extensive, and honors. Basic courses are compulsory for all students to fulfill graduation requirements. Extensive courses include elective and development courses to fit the different interests and learning styles of the student body and each year the school offers more "
+"than 200 such courses. Honors courses are challenging for students talented in specific fields, including Olympiad competition courses, advanced college courses and research courses. The curricula promotes students&apos; individuality and creativity while maintaining their well-rounded development."
+msgstr ""
+"RDFZは、学校の原則および養成目標に従って、現代的、選択的、創造的、および開放的な独特のカリキュラムシステムを形成するために国家、地方学校、および国際カリキュラムを統合している。言語、数学、人道、科学、技術、体育、芸術、学際的なコースの8つの分野に分かれています。個々の学生のニーズに応じて、コースは3つのレベルに分かれています：基本、広範囲、および栄誉。すべての学生が卒業要件"
+"を満たすためには、基本コースは必須です。幅広いコースには、学生のさまざまな興味や学習スタイルに合わせた選択科目と開発科目が含まれています。毎年、学校は200以上のコースを提供しています。優等コースは、オリンピック競技コース、上級カレッジコース、研究コースなど、特定の分野で才能のある学生にとっては挑戦的です。カリキュラムは、個性と創造性を発揮しています。"
+
+#: templates/academics.html:15
+msgid "Early Development Program"
+msgstr "初期開発プログラム"
+
+#: templates/academics.html:16
+msgid ""
+"The Early Development Program for Top Innovative Talents (EDP) was founded in 2010 in cooperation with the Chinese Academy of Sciences, the Chinese Academy of Social Sciences, and other research institutes. It is a key research program of the Ministry of Education, aiming to cultivate leading innovative talents in various fields. The class of 2018 entered the program "
+"after finishing their 5th grade in 2011, and have been studying at RDFZ for seven years (students in classes 16, 17, and 18 are EDP graduates). Apart from Chinese National Curriculum courses, students have access to more than 100 EDP development courses from grade 7 to 11. Course content includes independent inquiry-based learning, Olympiad competitions, college level "
+"courses, and research and advanced study at university labs."
+msgstr ""
+"2010年には、中国科学アカデミー、中国社会科学アカデミー、その他の研究機関と協力して、トップイノベーティブタレント（EDP）の早期開発プログラムが設立されました。 教育省の重要な研究プログラムであり、様々な分野で革新的な有能な人材を育成することを目指しています。 2018年のクラスは2011年に5年次を終えてプログラムに入り、RDFZで7年間勉強しています（クラス16,17、および18の学生はEDP卒"
+"業生です）。 中国の全国カリキュラムコース以外に、学生は7〜11学年の100以上のEDP開発コースにアクセスできます。コース内容には、独立したアンケートベースの学習、オリンピック競技、大学レベルのコース、大学ラボの研究と高度な学習が含まれます。"
+
+#: templates/academics.html:19
+msgid "Compulsory courses for Chinese curricula"
+msgstr "中国カリキュラムのための必須コース"
+
+#: templates/academics.html:22
+msgid "10th Grade"
+msgstr "グレード10"
+
+#: templates/academics.html:23
+msgid "Chinese, math, English, chemistry, physics, history, geography, politics, physical education, information technology, general technology, art and music, research study"
+msgstr "中国語、数学、英語、化学、物理学、歴史、地理、政治、体育、情報技術、一般技術、美術と音楽、研究研究"
+
+#: templates/academics.html:26
+msgid "11th Grade"
+msgstr "グレード11"
+
+#: templates/academics.html:27
+msgid "Chinese, math, English, physics, biology, physical education, research study"
+msgstr "中国語、数学、英語、物理学、生物学、体育、研究研究"
+
+#: templates/academics.html:30
+msgid "12th Grade"
+msgstr "グレード12"
+
+#: templates/academics.html:31
+msgid "Chinese, math, English, physical education"
+msgstr "中国語、数学、英語、体育"
+
+#: templates/academics.html:38
+msgid "Cambridge A Level Program (AL)"
+msgstr "ケンブリッジAレベルプログラム（AL）"
+
+#: templates/academics.html:41
+msgid "Students in the A level program sit the UK Cambridge International Examinations (CIE) Advanced Level (A Levels) exams. Besides the mandatory courses that students are required to take, the average number of A Level subjects is four at AS level, carrying on three of them into A2 level."
+msgstr "Aレベルプログラムの学生は、英国ケンブリッジ国際試験（CIE）上級（Aレベル）試験に参加します。 学生が必要とする義務的なコースの他に、Aレベルの科目の平均数はASレベルで4つあり、そのうち3つをA2レベルに持ちます。"
+
+#: templates/academics.html:43 templates/academics.html:75 templates/academics.html:110
+msgid "Grade 10 (Year 1) Mandatory courses"
+msgstr "10年生（1年生）必須コース"
+
+#: templates/academics.html:45 templates/academics.html:52 templates/academics.html:77 templates/academics.html:84 templates/academics.html:91 templates/academics.html:112
+msgid "In Chinese: "
+msgstr "中国語で："
+
+#: templates/academics.html:46 templates/academics.html:113
+msgid "Chinese Literature, Chinese History & Politics, Geography"
+msgstr "中国文学、中国史および政治、地理学"
+
+#: templates/academics.html:47 templates/academics.html:54 templates/academics.html:79 templates/academics.html:86 templates/academics.html:93 templates/academics.html:114
+msgid "In English: "
+msgstr "英語で："
+
+#: templates/academics.html:48
+msgid "Art, Music, ICT (Information, Communication & Technology, IGCSE Biology, IGCSE Chemistry, IGCSE English, IGCSE Physics, AS Mathematics, AS Statistics, Thinking Skills"
+msgstr "アート、音楽、ICT（情報通信技術、IGCSE生物学、IGCSE化学、IGCSE英語、IGCSE物理、AS数学、AS統計、思考スキル"
+
+#: templates/academics.html:50
+msgid "Grade 11 & 12 (Year 2 & 3) Mandatory courses"
+msgstr "11＆12年生（2＆3年生）必須コース"
+
+#: templates/academics.html:53
+msgid "Chinese Literature, Technology & Design"
+msgstr "中国文学、テクノロジー＆デザイン"
+
+#: templates/academics.html:55
+msgid "IB Certificate Language A/B English SL or HL, A2 Mathematics"
+msgstr "IB証明書言語A / B英語SLまたはHL、A2数学"
+
+#: templates/academics.html:57
+msgid "Grade 11 & 12 (Year 2 & 3) A Level courses offered in English"
+msgstr "11＆12年生（2＆3年生）Aレベルの英語コース"
+
+#: templates/academics.html:59
+msgid "A Level Art and Design, A L e v e l Biology, A Level Business, A L e v e l Chemistry, A Level Economics, A Level Computer Science, A Level Further Mathematics, A Level Music, A Level Physics, AP Statistics"
+msgstr "レベルアートとデザイン、生物学、レベルビジネス、化学、レベル経済学、レベルコンピュータ科学、レベルさらに数学、レベル音楽、レベル物理学、AP統計"
+
+#: templates/academics.html:61
+msgid "* Students taking IB Certificate Language A English SL need approval from English teachers to enter into the class. All other students take Language B English SL."
+msgstr "* IB Certificate Language A English SLを受講している学生は、英語教師の承認が必要です。 他のすべての学生は、Language B English SLを受講します。"
+
+#: templates/academics.html:70
+msgid "The Advanced Placement Program (AP)"
+msgstr "AP（Advanced Placement Program）プログラムは、"
+
+#: templates/academics.html:73
+msgid ""
+"Students in the Advanced Placement (AP) Program take the College Board AP courses to earn university recognized credits. Over the three-year program, students may take up to 9 AP courses. Beside the mandatory courses that students are required to take, students are required to choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on each course&apos; s "
+"prerequisites."
+msgstr "AP（Advanced Placement）プログラムの学生は、大学認定の単位を取得するためにCollege Board APコースを受講します。 3年間のプログラムでは、9つのAPコースを受講することができます。 学生は必須のコースのほかに、11学年の3つのAPコースと12コースの4つのAPコースをそれぞれのコースに基づいて選択する必要があります。 必要条件。"
+
+#: templates/academics.html:78
+msgid "Chinese Language & Literature, Geography, History, Political Science, ICT (Information Communication & Technology)"
+msgstr "中国語、文学、地理、歴史、政治学、ICT（情報通信技術）"
+
+#: templates/academics.html:80
+msgid "Intensive English, Pre-AP Chemistry, Pre-AP Biology, Pre-AP Calculus or AP Calculus, Pre-AP Economics, AP Physics I, Music, Art"
+msgstr "集中英語、Pre-AP化学、Pre-AP生物学、Pre-AP微積分またはAP微積分、Pre-AP経済学、AP物理学I、音楽、アート"
+
+#: templates/academics.html:82
+msgid "Grade 11 (Year 2) [Mandatory courses marked with*]"
+msgstr "11年生（2年生）[必須のコース*]"
+
+#: templates/academics.html:85
+msgid "Chinese Language & Literature*, Technology & Design*"
+msgstr "中国語と文学*、テクノロジー＆デザイン*"
+
+#: templates/academics.html:87
+msgid "Academic Research*, English Speech*, Integrated Global Studies*, Pre-AP English Language & Composition*, Pre-AP World Cultures, AP Calculus AB/BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP Microeconomics"
+msgstr "アカデミックリサーチ*、英語スピーチ*、統合グローバルスタディ*、Pre-AP English Language＆Composition *、Pre-AP World Cultures、AP Calculus AB / BC *、AP Chemistry、AP Physics 2、AP Physics CM、AP Microeconomics"
+
+#: templates/academics.html:89
+msgid "Grade 12 (Year 3) [Mandatory courses marked with*]"
+msgstr "12年生（3年生）[必須のコース*]"
+
+#: templates/academics.html:92
+msgid "Chinese Language & Literature*"
+msgstr "中国語と文学*"
+
+#: templates/academics.html:94
+msgid "AP English Literature & Composition, AP English Language & Composition, AP Calculus BC, AP Statistics, AP Computer Science A, AP Biology, AP Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP Physics C (E&M), AP Macro-economics, AP World Cultures"
+msgstr "AP英語文学、AP英語文学、AP Calculus BC、AP統計、APコンピュータサイエンスA、AP生物学、AP化学、AP環境科学、AP物理学C、AP Physics C（E＆M）、APマクロ - 経済学、AP世界文化"
+
+#: templates/academics.html:105
+msgid "International Baccalaureate (IB/IBDP)"
+msgstr "国際バカロレアート（IB / IBDP）"
+
+#: templates/academics.html:108
+msgid ""
+"International Baccalaureate Diploma Program students in the IB curriculum are all IB Diploma candidates. IBDP Students must study three or four courses at HL and two or three others at SL. They must complete 150 hours of creativity, action, and service (CAS) study, be assessed in Theory of Knowledge, and write a 4000-word Extended Essay. Since the IB diploma curriculum "
+"runs in a two-year period from grade 11 to grade 12, the grade 10 IB curriculum shares the same courses with A Level grade 10 curriculum."
+msgstr ""
+"インターナショナル・バカロレア・ディプロマプログラムIBカリキュラムの学生は、すべてIBディプロマ候補者です。 IBDPの学生は、HLでは3つまたは4つのコースを、SLでは2つまたは3つのコースを勉強しなければなりません。 150時間の創造性、行動、サービス（CAS）研究を完了し、知識理論で評価され、4000語の拡張エッセイを書く必要があります。 IB卒業証書カリキュラムは、11年生から12年生までの2年間"
+"で実行されるため、10年生のIBカリキュラムはA Levelの10年生カリキュラムと同じコースを共有します。"
+
+#: templates/academics.html:115
+msgid " Art, Music, ICT (information Communication & Technology), Thinking Skills, IGCSE English, IGCSE Biology, IGCSE Chemistry, IGCSE Physics, AS Mathematics, AS Statistics"
+msgstr "アート、音楽、ICT（情報通信技術）、思考スキル、IGCSE英語、IGCSE生物学、IGCSE化学、IGCSE物理、AS数学、AS統計"
+
+#: templates/academics.html:117
+msgid "Grade 11 & 12 (Year 2 & 3)"
+msgstr "11＆12年生（2＆3年生）"
+
+#: templates/academics.html:119
+msgid "Group 1:"
+msgstr "グループ1："
+
+#: templates/academics.html:120
+msgid " Chinese A Literature, English A Language and Literature"
+msgstr "中国文学、英語A言語と文学"
+
+#: templates/academics.html:121
+msgid "Group 2:"
+msgstr "グループ2："
+
+#: templates/academics.html:122
+msgid "Language B English, Language B French ab initio"
+msgstr "言語B英語、言語Bフランス語ab initio"
+
+#: templates/academics.html:123
+msgid "Group 3:"
+msgstr "グループ3："
+
+#: templates/academics.html:124
+msgid "Economics, Business Management, Environmental System and Society"
+msgstr "経済、経営管理、環境システム、社会"
+
+#: templates/academics.html:125
+msgid "Group 4:"
+msgstr "グループ4："
+
+#: templates/academics.html:126
+msgid "Biology, Chemistry, Computer Science, Environmental System and Society, Physics"
+msgstr "生物学、化学、コンピュータサイエンス、環境システムと社会、物理学"
+
+#: templates/academics.html:127
+msgid "Group 5:"
+msgstr "グループ5："
+
+#: templates/academics.html:128
+msgid "Further Mathematics, Mathematics"
+msgstr "さらなる数学、数学"
+
+#: templates/academics.html:129
+msgid "Group 6:"
+msgstr "グループ6："
+
+#: templates/academics.html:130
+msgid "Music, Visual Arts"
+msgstr "音楽、ビジュアルアーツ"
+
+#: templates/academics.html:132
+msgid "* CAS, EE, TOK are required for the IB curriculum."
+msgstr "* IBカリキュラムにはCAS、EE、TOKが必要です。"
+
+#: templates/home.html:16
+msgid "Not Familiar With Us?"
+msgstr "私たちには親しみませんか？"
+
+#: templates/home.html:17
+msgid "The High School Affiliated to Renmin University of China<br/> is a world renowned public school founded in 1950. "
+msgstr "中国人民大学に所属する高等学校は、1950年に設立された世界的に有名な公立学校です。"
+
+#: templates/home.html:19
+msgid "Read More"
+msgstr "続きを読む"
+
+#: templates/student.html:9
+msgid ""
+"The Students&apos; Union, whose president and heads of each division are elected by democratic campaign, is a major selfgovernment institution to serve all students. The campus is full of activities and annual events such as a movie festival, art and performance festivals, speech contests, debate tournaments, etc. There are more than 100 student associations on campus. "
+"The RDFZ Art Troupe, consisting of an orchestra, marching band, dance troupe, martial arts group, choir, and gymnastics team are all professional groups with numerous national and international accolades."
+msgstr ""
+"学生たちは、 大統領と各部門の長が民主化運動によって選出された連合は、すべての学生に役立つ主要な自治体機関です。 キャンパスには、映画祭、芸術とパフォーマンスの祭典、スピーチコンテスト、討論トーナメントなどの活動や年中行事がたくさんあります。キャンパスには100以上の学生団体があります。 オーケストラ、マーチングバンド、ダンス劇団、武道グループ、合唱団、体操チームで構成されてい"
+"るRDFZアート劇団は、数多くの国内外の賞賛を受ける専門家グループです。"

@@ -1,0 +1,651 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-02-07 12:19+0800\n"
+"PO-Revision-Date: 2018-02-07 12:22+0800\n"
+"Last-Translator: \n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: templates/BASE.html:55 templates/BASE.html:125 templates/about.html:6
+msgid "About ICC"
+msgstr "Acerca de ICC"
+
+#: templates/BASE.html:58 templates/BASE.html:127 templates/about.html:10
+msgid "Introduction"
+msgstr "Introducción"
+
+#: templates/BASE.html:59 templates/BASE.html:128
+msgid "Mission"
+msgstr "Nuestra misión"
+
+#: templates/BASE.html:60 templates/BASE.html:129 templates/about.html:34
+msgid "Faculty"
+msgstr "Facultad"
+
+#: templates/BASE.html:61 templates/BASE.html:86 templates/BASE.html:130
+#: templates/BASE.html:152 templates/about.html:42
+msgid "Matriculation"
+msgstr "Matriculación"
+
+#: templates/BASE.html:62 templates/BASE.html:131 templates/about.html:50
+msgid "Admission"
+msgstr "Admisión"
+
+#: templates/BASE.html:66 templates/BASE.html:135
+msgid "News & Events"
+msgstr "Noticias y Eventos"
+
+#: templates/BASE.html:69 templates/BASE.html:137 templates/resources.html:6
+msgid "School Calendar"
+msgstr "Calendario escolar"
+
+#: templates/BASE.html:73 templates/BASE.html:141
+msgid "Academics"
+msgstr "Académica"
+
+#: templates/BASE.html:76 templates/BASE.html:143 templates/academics.html:6
+msgid "Chinese Curricula"
+msgstr "Currículo chino"
+
+#: templates/BASE.html:77 templates/BASE.html:144
+msgid "A Level Program"
+msgstr "Programa Cambridge A Level (AL)"
+
+#: templates/BASE.html:78 templates/BASE.html:145
+msgid "The Advanced Placement Program"
+msgstr "El programa de colocación avanzada (AP)"
+
+#: templates/BASE.html:79 templates/BASE.html:146
+msgid "International Baccalaureate"
+msgstr "Bachillerato Internacional (IB / IBDP)"
+
+#: templates/BASE.html:83 templates/BASE.html:150
+msgid "Student"
+msgstr "Estudiante"
+
+#: templates/BASE.html:87 templates/BASE.html:153 templates/student.html:6
+msgid "Extra-curricular Life"
+msgstr "Vida Extracurricular"
+
+#: templates/BASE.html:170
+msgid "人大附中中外合作办学项目"
+msgstr "ICC"
+
+#: templates/BASE.html:171
+msgid "北京市海淀区中关村大街37号 100080"
+msgstr "No37, Zhongguancun St, Haidian, Beijing  100080"
+
+#: templates/BASE.html:176
+msgid "IBO国际组织"
+msgstr "IBO"
+
+#: templates/BASE.html:177
+msgid "剑桥大学考试委员会"
+msgstr "CIE"
+
+#: templates/BASE.html:178
+msgid "Collegeboard"
+msgstr "Collegeboard"
+
+#: templates/about.html:11
+msgid ""
+"The High School Affiliated to Renmin University of China is a world-"
+"renowned public school founded in 1950.<br/> The school offers both "
+"Chinese and international curricula.<br/> Two types of Chinese curricula "
+"are offered: the national curriculum and the Early Development Program for "
+"Top Innovative Talents.<br/> Three international curricula are offered at "
+"the Chinese-Foreign Education Program: the Cambridge International "
+"Advanced Level (A Level) program, started in 2004; the Advanced Placement "
+"(AP) program, started in 2010; and the International Baccalaureate Diploma "
+"(IB) program, started in 2012.<br/> Students are regularly admitted to top "
+"Universities domestically and abroad."
+msgstr ""
+"La escuela secundaria afiliada a la Universidad Renmin de China es una "
+"escuela pública de renombre mundial fundada en 1950. <br/> La escuela "
+"ofrece currículos tanto chinos como internacionales. <br/> Se ofrecen dos "
+"tipos de currículos chinos: el currículo nacional y el Programa de "
+"desarrollo temprano para los mejores talentos innovadores. <br/> Se "
+"ofrecen tres currículos internacionales en el programa de educación chino-"
+"extranjera: el programa de nivel avanzado internacional de Cambridge "
+"(nivel A), que comenzó en 2004; el programa Advanced Placement (AP), "
+"iniciado en 2010; y el programa de Diploma de Bachillerato Internacional "
+"(IB), que comenzó en 2012. <br/> Los estudiantes son admitidos "
+"regularmente en las mejores universidades del país y el extranjero."
+
+#: templates/about.html:15
+msgid "Accreditation"
+msgstr "Acreditacion"
+
+#: templates/about.html:16
+msgid ""
+"RDFZ has been fully accredited by the University of Cambridge "
+"International Examinations (CIE) since 2004.<br/> The Cambridge Exam "
+"Center number is CN230.<br/> In 2012 RDFZ received lBO authorization to "
+"offer the IBDP, and the IB School Code is 049099.<br/>RDFZ&apos;s CEEB "
+"code: 694270"
+msgstr ""
+"RDFZ ha sido acreditado por los Exámenes Internacionales de la Universidad "
+"de Cambridge (CIE) desde 2004. <br/> El número del Cambridge Exam Center "
+"es CN230. <br/> En 2012, RDFZ recibió la autorización de lBO para ofrecer "
+"el IBDP y el Código Escolar del IB. es 049099. <br/> Código CEEB de RDFZ: "
+"694270"
+
+#: templates/about.html:20
+msgid "Contact Information"
+msgstr "Información del contacto"
+
+#: templates/about.html:21
+msgid "See here"
+msgstr "Mira aquí"
+
+#: templates/about.html:26
+msgid "Our Mission"
+msgstr "Nuestra misión"
+
+#: templates/about.html:29
+msgid ""
+"<b>\"Virtue, Erudition, Creativity, and Pragmatism\"</b> are the "
+"principles of the school. <br/><br/>RDFZ aims to cultivate students not "
+"only with a solid well-rounded development, but also with special skills, "
+"innovation, and morality. <br/><br/>The mission statement of the school is "
+"<b>\"respect individuality, discover and promote each student&apos;s "
+"potential, and help them develop into solid citizens anxious to further "
+"the prosperity of our country and the advancement of humanity\"</b>."
+msgstr ""
+"<b> \"Virtud, Erudición, Creatividad y Pragmatismo\" </b> son los "
+"principios de la escuela. <br/> <br/> RDFZ tiene como objetivo cultivar a "
+"los estudiantes no solo con un desarrollo sólido y completo, sino también "
+"con habilidades especiales, innovación y moralidad. <br/> <br/> La "
+"declaración de la misión de la escuela es <b> \"respetar la "
+"individualidad, descubrir y promover el potencial de cada estudiante, y "
+"ayudarlos a convertirse en ciudadanos sólidos ansiosos por promover la "
+"prosperidad de nuestro país y el avance de humanidad \"</b>."
+
+#: templates/about.html:37
+msgid ""
+"RDFZ has a professional Chinese faculty team, with 66&#37; holding a "
+"master&apos;s or doctorate degree. <br/>There are 60 international faculty "
+"teachers at the ChineseForeign Education Program with nationalities "
+"represented by the following countries: <div class=\"ui basic segment"
+"\"><b>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri "
+"Lanka, Nepal, The U.K. and The U.S. </b></div>More than half of the "
+"international teachers hold a master&apos;s or doctorate degree"
+msgstr ""
+"RDFZ tiene un equipo de docentes profesionales chinos, con un 66% con un "
+"máster o un doctorado. <br/> Hay 60 profesores docentes internacionales en "
+"el Programa chino de educación extranjera con nacionalidades representadas "
+"por los siguientes países: <div class = \"ui basic segment\"><b> "
+"Australia, Canadá, India, Irlanda, Nueva Zelanda, Filipinas, Sri Lanka, "
+"Nepal, el Reino Unido y los EE. UU. </b> </div> Más de la mitad de los "
+"profesores internacionales tienen un máster o un doctorado"
+
+#: templates/about.html:53
+msgid ""
+"Admission to RDFZ high school is dependent on students&apos; Zhongkao "
+"(high school entrance exam) score. In addition to the Zhongkao, admission "
+"to RDFZ Chinese-Foreign Education Program also depends on interviews and "
+"extra exams that test math and English. Year after year, both the national "
+"and international curricula have continually increasing application to "
+"admission ratios. The admission score for the Chinese National Curriculum "
+"is among the highest in Beijing."
+msgstr ""
+"La admisión a la escuela secundaria RDFZ depende de los estudiantes & "
+"apos; Puntuación de Zhongkao (examen de ingreso a la escuela secundaria). "
+"Además del Zhongkao, la admisión al Programa de Educación Chino-Extranjera "
+"RDFZ también depende de entrevistas y exámenes adicionales que evalúan "
+"matemáticas e inglés. Año tras año, tanto el currículo nacional como el "
+"internacional tienen una aplicación cada vez mayor a los índices de "
+"admisión. El puntaje de admisión para el Currículo Nacional de China es "
+"uno de los más altos en Beijing."
+
+#: templates/about.html:55
+msgid "* For more information, click"
+msgstr "* Para más información, haga clic"
+
+#: templates/about.html:55
+msgid "here"
+msgstr "aquí"
+
+#: templates/academics.html:9
+msgid ""
+"Students in the Chinese curricula are required to learn subjects "
+"stipulated by Beijing Municipal Education Commission. <br/>According to "
+"the commission, each subject is composed of different modules and "
+"assessments are given based on those modules. <br/>Module scores include "
+"processing the evaluations of daily performance and the results of exams. "
+"<br/>The minimum credits requirement for graduation is 144. <br/>Students "
+"need to pass the Huikao (high school graduation exam) organized by the "
+"Beijing Education Examinations Authority to graduate from high school. <br/"
+">Huikao subjects include: <div class=\"ui basic segment\"><b>Chinese, "
+"English, math, physics, chemistry, biology, politics, history, geography, "
+"information technology, general technology, music, arts, and physical "
+"education.</b></div> In 11th grade, students are divided into a social "
+"science stream or natural science stream."
+msgstr ""
+"Se requiere que los estudiantes en los planes de estudio de China aprendan "
+"materias estipuladas por la Comisión Municipal de Educación de Beijing. "
+"<br/> Según la comisión, cada materia se compone de diferentes módulos y "
+"las evaluaciones se basan en esos módulos. <br/> Los puntajes del módulo "
+"incluyen el procesamiento de las evaluaciones del rendimiento diario y los "
+"resultados de los exámenes. <br/> El requisito mínimo de créditos para la "
+"graduación es 144. <br/> Los estudiantes deben aprobar el Huikao (examen "
+"de graduación de la escuela secundaria) organizado por la Autoridad de "
+"Exámenes de Educación de Beijing para graduarse de la escuela secundaria. "
+"<br/> Las asignaturas de Huikao incluyen: <div class = \"ui basic segment"
+"\"> <b> chino, inglés, matemáticas, física, química, biología, política, "
+"historia, geografía, tecnología de la información, tecnología general, "
+"música, arte y educación física. </b> </div> En 11 ° grado, los "
+"estudiantes se dividen en una secuencia de ciencias sociales o de ciencias "
+"naturales."
+
+#: templates/academics.html:11
+msgid "Chinese National Curriculum"
+msgstr "Currículo nacional chino"
+
+#: templates/academics.html:12
+msgid ""
+"In accordance with the school&apos;s principle and cultivating goal, RDFZ "
+"has integrated national, local school-based, and international curricula "
+"to form a unique curricula system which is contemporary, selective, "
+"creative, and open. It covers eight different fields including: language, "
+"math, humanity, science, technology, physical education, arts, and "
+"interdisciplinary courses. According to the needs of individual students, "
+"courses are divided into three levels: basic, extensive, and honors. Basic "
+"courses are compulsory for all students to fulfill graduation "
+"requirements. Extensive courses include elective and development courses "
+"to fit the different interests and learning styles of the student body and "
+"each year the school offers more than 200 such courses. Honors courses are "
+"challenging for students talented in specific fields, including Olympiad "
+"competition courses, advanced college courses and research courses. The "
+"curricula promotes students&apos; individuality and creativity while "
+"maintaining their well-rounded development."
+msgstr ""
+"De acuerdo con el principio de la escuela y la meta de cultivar, RDFZ ha "
+"integrado currículos nacionales, locales escolares e internacionales para "
+"formar un sistema curricular único que es contemporáneo, selectivo, "
+"creativo y abierto. Cubre ocho campos diferentes, que incluyen: lenguaje, "
+"matemática, humanidad, ciencia, tecnología, educación física, arte y "
+"cursos interdisciplinarios. De acuerdo con las necesidades de los "
+"estudiantes individuales, los cursos se dividen en tres niveles: básico, "
+"extensivo y honores. Los cursos básicos son obligatorios para que todos "
+"los estudiantes cumplan con los requisitos de graduación. Los cursos "
+"extensivos incluyen cursos electivos y de desarrollo para adaptarse a los "
+"diferentes intereses y estilos de aprendizaje del cuerpo estudiantil y "
+"cada año la escuela ofrece más de 200 de dichos cursos. Los cursos de "
+"honores son un reto para los estudiantes con talento en campos "
+"específicos, incluidos los cursos de competencia de Olimpiadas, cursos "
+"universitarios avanzados y cursos de investigación. El currículo promueve "
+"a los estudiantes; individualidad y creatividad mientras se mantiene su "
+"desarrollo integral."
+
+#: templates/academics.html:15
+msgid "Early Development Program"
+msgstr "Programa de desarrollo temprano"
+
+#: templates/academics.html:16
+msgid ""
+"The Early Development Program for Top Innovative Talents (EDP) was founded "
+"in 2010 in cooperation with the Chinese Academy of Sciences, the Chinese "
+"Academy of Social Sciences, and other research institutes. It is a key "
+"research program of the Ministry of Education, aiming to cultivate leading "
+"innovative talents in various fields. The class of 2018 entered the "
+"program after finishing their 5th grade in 2011, and have been studying at "
+"RDFZ for seven years (students in classes 16, 17, and 18 are EDP "
+"graduates). Apart from Chinese National Curriculum courses, students have "
+"access to more than 100 EDP development courses from grade 7 to 11. Course "
+"content includes independent inquiry-based learning, Olympiad "
+"competitions, college level courses, and research and advanced study at "
+"university labs."
+msgstr ""
+"El Programa de Desarrollo Temprano para Top Innovative Talents (EDP) se "
+"fundó en 2010 en cooperación con la Academia de Ciencias de China, la "
+"Academia China de Ciencias Sociales y otros institutos de investigación. "
+"Es un programa de investigación clave del Ministerio de Educación, con el "
+"objetivo de cultivar talentos innovadores líderes en diversos campos. La "
+"clase de 2018 ingresó al programa después de terminar su 5 ° grado en "
+"2011, y ha estado estudiando en RDFZ durante siete años (los estudiantes "
+"de las clases 16, 17 y 18 son graduados de EDP). Además de los cursos de "
+"Currículo Nacional de China, los estudiantes tienen acceso a más de 100 "
+"cursos de desarrollo de EDP de 7º a 11.º grado. El contenido del curso "
+"incluye aprendizaje independiente basado en investigación, competencias de "
+"Olimpiada, cursos de nivel universitario e investigación y estudio "
+"avanzado en laboratorios universitarios."
+
+#: templates/academics.html:19
+msgid "Compulsory courses for Chinese curricula"
+msgstr "Cursos obligatorios para currículos chinos"
+
+#: templates/academics.html:22
+msgid "10th Grade"
+msgstr "Grado 10"
+
+#: templates/academics.html:23
+msgid ""
+"Chinese, math, English, chemistry, physics, history, geography, politics, "
+"physical education, information technology, general technology, art and "
+"music, research study"
+msgstr ""
+"Chino, matemáticas, inglés, química, física, historia, geografía, "
+"política, educación física, tecnología de la información, tecnología "
+"general, arte y música, estudio de investigación"
+
+#: templates/academics.html:26
+msgid "11th Grade"
+msgstr "Grado 11"
+
+#: templates/academics.html:27
+msgid ""
+"Chinese, math, English, physics, biology, physical education, research "
+"study"
+msgstr ""
+"Chino, matemáticas, inglés, física, biología, educación física, estudio de "
+"investigación"
+
+#: templates/academics.html:30
+msgid "12th Grade"
+msgstr "Grado 12"
+
+#: templates/academics.html:31
+msgid "Chinese, math, English, physical education"
+msgstr "Chino, matemáticas, inglés, educación física"
+
+#: templates/academics.html:38
+msgid "Cambridge A Level Program (AL)"
+msgstr "Programa Cambridge A Level (AL)"
+
+#: templates/academics.html:41
+msgid ""
+"Students in the A level program sit the UK Cambridge International "
+"Examinations (CIE) Advanced Level (A Levels) exams. Besides the mandatory "
+"courses that students are required to take, the average number of A Level "
+"subjects is four at AS level, carrying on three of them into A2 level."
+msgstr ""
+"Los estudiantes en el programa de nivel A se sientan en los exámenes de "
+"Cambridge International Examinations (CIE) Advanced Level (A Levels). "
+"Además de los cursos obligatorios que los estudiantes deben tomar, la "
+"cantidad promedio de asignaturas de Nivel A es cuatro en el nivel AS, y "
+"tres de ellos en el nivel A2."
+
+#: templates/academics.html:43 templates/academics.html:75
+#: templates/academics.html:110
+msgid "Grade 10 (Year 1) Mandatory courses"
+msgstr "Grado 10 (año 1) Cursos obligatorios"
+
+#: templates/academics.html:45 templates/academics.html:52
+#: templates/academics.html:77 templates/academics.html:84
+#: templates/academics.html:91 templates/academics.html:112
+msgid "In Chinese: "
+msgstr "En chino:"
+
+#: templates/academics.html:46 templates/academics.html:113
+msgid "Chinese Literature, Chinese History & Politics, Geography"
+msgstr "Literatura china, Historia y política china, Geografía"
+
+#: templates/academics.html:47 templates/academics.html:54
+#: templates/academics.html:79 templates/academics.html:86
+#: templates/academics.html:93 templates/academics.html:114
+msgid "In English: "
+msgstr "En inglés:"
+
+#: templates/academics.html:48
+msgid ""
+"Art, Music, ICT (Information, Communication & Technology, IGCSE Biology, "
+"IGCSE Chemistry, IGCSE English, IGCSE Physics, AS Mathematics, AS "
+"Statistics, Thinking Skills"
+msgstr ""
+"Arte, Música, TIC (Información, Comunicación y Tecnología, IGCSE Biología, "
+"IGCSE Química, IGCSE Inglés, IGCSE Física, AS Matemáticas, AS "
+"Estadísticas, Habilidades de Pensamiento"
+
+#: templates/academics.html:50
+msgid "Grade 11 & 12 (Year 2 & 3) Mandatory courses"
+msgstr "Grados 11 y 12 (año 2 y 3) Cursos obligatorios"
+
+#: templates/academics.html:53
+msgid "Chinese Literature, Technology & Design"
+msgstr "Literatura china, tecnología y diseño"
+
+#: templates/academics.html:55
+msgid "IB Certificate Language A/B English SL or HL, A2 Mathematics"
+msgstr "Certificado IB Idioma A / B Inglés SL o HL, A2 Matemáticas"
+
+#: templates/academics.html:57
+msgid "Grade 11 & 12 (Year 2 & 3) A Level courses offered in English"
+msgstr "Grados 11 y 12 (año 2 y 3) Cursos de nivel A ofrecidos en inglés"
+
+#: templates/academics.html:59
+msgid ""
+"A Level Art and Design, A L e v e l Biology, A Level Business, A L e v e l "
+"Chemistry, A Level Economics, A Level Computer Science, A Level Further "
+"Mathematics, A Level Music, A Level Physics, AP Statistics"
+msgstr ""
+"A Level Art and Design, A Level Biology, A Level Business, A Level "
+"Chemistry, A Level Economics, A Level Computer Science, A Level Further "
+"Mathematics, A Level Music, A Level Physics, AP Statistics"
+
+#: templates/academics.html:61
+msgid ""
+"* Students taking IB Certificate Language A English SL need approval from "
+"English teachers to enter into the class. All other students take Language "
+"B English SL."
+msgstr ""
+"* Los estudiantes que toman IB Certificate Language A English SL necesitan "
+"la aprobación de los profesores de inglés para ingresar a la clase. Todos "
+"los demás estudiantes toman Language B English SL."
+
+#: templates/academics.html:70
+msgid "The Advanced Placement Program (AP)"
+msgstr "El programa de colocación avanzada (AP)"
+
+#: templates/academics.html:73
+msgid ""
+"Students in the Advanced Placement (AP) Program take the College Board AP "
+"courses to earn university recognized credits. Over the three-year "
+"program, students may take up to 9 AP courses. Beside the mandatory "
+"courses that students are required to take, students are required to "
+"choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on each "
+"course&apos; s prerequisites."
+msgstr ""
+"Los estudiantes en el Programa de Colocación Avanzada (AP) toman los "
+"cursos AP del College Board para obtener créditos universitarios "
+"reconocidos. Durante el programa de tres años, los estudiantes pueden "
+"tomar hasta 9 cursos de AP. Además de los cursos obligatorios que los "
+"estudiantes deben tomar, se requiere que los estudiantes elijan 3 cursos "
+"AP en los cursos 11º y 4 AP en el Grado 12 según cada curso y apos; s "
+"prerrequisitos."
+
+#: templates/academics.html:78
+msgid ""
+"Chinese Language & Literature, Geography, History, Political Science, ICT "
+"(Information Communication & Technology)"
+msgstr ""
+"Lengua y literatura china, geografía, historia, ciencias políticas, TIC "
+"(comunicación y tecnología de la información)"
+
+#: templates/academics.html:80
+msgid ""
+"Intensive English, Pre-AP Chemistry, Pre-AP Biology, Pre-AP Calculus or AP "
+"Calculus, Pre-AP Economics, AP Physics I, Music, Art"
+msgstr ""
+"Inglés Intensivo, Química Pre-AP, Biología Pre-AP, Cálculo Pre-AP o "
+"Cálculo AP, Economía Pre-AP, AP Física I, Música, Arte"
+
+#: templates/academics.html:82
+msgid "Grade 11 (Year 2) [Mandatory courses marked with*]"
+msgstr "Grado 11 (Año 2) [Cursos obligatorios marcados con *]"
+
+#: templates/academics.html:85
+msgid "Chinese Language & Literature*, Technology & Design*"
+msgstr "Lengua y literatura china *, tecnología y diseño *"
+
+#: templates/academics.html:87
+msgid ""
+"Academic Research*, English Speech*, Integrated Global Studies*, Pre-AP "
+"English Language & Composition*, Pre-AP World Cultures, AP Calculus AB/"
+"BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP Microeconomics"
+msgstr ""
+"Investigación Académica *, Habla Inglés *, Estudios Globales Integrados *, "
+"Idioma Inglés Pre-AP y Composición *, Culturas Pre-AP del Mundo, Cálculo "
+"AP AB / BC *, Química AP, Física AP 2, AP Física CM, Microeconomía AP"
+
+#: templates/academics.html:89
+msgid "Grade 12 (Year 3) [Mandatory courses marked with*]"
+msgstr "Grado 12 (Año 3) [Cursos obligatorios marcados con *]"
+
+#: templates/academics.html:92
+msgid "Chinese Language & Literature*"
+msgstr "Lengua y literatura china *"
+
+#: templates/academics.html:94
+msgid ""
+"AP English Literature & Composition, AP English Language & Composition, AP "
+"Calculus BC, AP Statistics, AP Computer Science A, AP Biology, AP "
+"Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP Physics "
+"C (E&M), AP Macro-economics, AP World Cultures"
+msgstr ""
+"AP Literatura y composición en inglés, Lengua y composición inglesa AP, "
+"Cálculo AP BC, Estadística AP, Informática AP A, Biología AP, Química AP, "
+"Ciencia ambiental AP, Física C AP (Mecánica), Física AP C (E y M), Macro "
+"AP -economics, AP World Cultures"
+
+#: templates/academics.html:105
+msgid "International Baccalaureate (IB/IBDP)"
+msgstr "Bachillerato Internacional (IB / IBDP)"
+
+#: templates/academics.html:108
+msgid ""
+"International Baccalaureate Diploma Program students in the IB curriculum "
+"are all IB Diploma candidates. IBDP Students must study three or four "
+"courses at HL and two or three others at SL. They must complete 150 hours "
+"of creativity, action, and service (CAS) study, be assessed in Theory of "
+"Knowledge, and write a 4000-word Extended Essay. Since the IB diploma "
+"curriculum runs in a two-year period from grade 11 to grade 12, the grade "
+"10 IB curriculum shares the same courses with A Level grade 10 curriculum."
+msgstr ""
+"Los estudiantes del Programa del Diploma del Bachillerato Internacional en "
+"el plan de estudios del IB son todos candidatos al Diploma IB. IBDP Los "
+"estudiantes deben estudiar tres o cuatro cursos en HL y dos o tres más en "
+"SL. Deben completar 150 horas de estudio de creatividad, acción y servicio "
+"(CAS), evaluarse en Teoría del conocimiento y escribir un Ensayo ampliado "
+"de 4000 palabras. Dado que el plan de estudios del diploma del IB se "
+"ejecuta en un período de dos años desde el 11º grado hasta el 12º grado, "
+"el plan de estudios IB del 10º grado comparte los mismos cursos con el "
+"plan de estudios A Level 10."
+
+#: templates/academics.html:115
+msgid ""
+" Art, Music, ICT (information Communication & Technology), Thinking "
+"Skills, IGCSE English, IGCSE Biology, IGCSE Chemistry, IGCSE Physics, AS "
+"Mathematics, AS Statistics"
+msgstr ""
+"Arte, Música, TIC (comunicación y tecnología de la información), "
+"Habilidades de pensamiento, IGCSE Inglés, IGCSE Biología, IGCSE Química, "
+"IGCSE Física, AS Matemáticas, AS Estadísticas"
+
+#: templates/academics.html:117
+msgid "Grade 11 & 12 (Year 2 & 3)"
+msgstr "Grado 11 y 12 (año 2 y 3)"
+
+#: templates/academics.html:119
+msgid "Group 1:"
+msgstr "Grupo 1:"
+
+#: templates/academics.html:120
+msgid " Chinese A Literature, English A Language and Literature"
+msgstr "Literatura china A, inglés A Lengua y literatura"
+
+#: templates/academics.html:121
+msgid "Group 2:"
+msgstr "Grupo 2:"
+
+#: templates/academics.html:122
+msgid "Language B English, Language B French ab initio"
+msgstr "Idioma B Inglés, Idioma B Francés ab initio"
+
+#: templates/academics.html:123
+msgid "Group 3:"
+msgstr "Grupo 3:"
+
+#: templates/academics.html:124
+msgid "Economics, Business Management, Environmental System and Society"
+msgstr "Economía, gestión empresarial, sistema ambiental y sociedad"
+
+#: templates/academics.html:125
+msgid "Group 4:"
+msgstr "Grupo 4:"
+
+#: templates/academics.html:126
+msgid ""
+"Biology, Chemistry, Computer Science, Environmental System and Society, "
+"Physics"
+msgstr "Biología, Química, Informática, Sistema Ambiental y Sociedad, Física"
+
+#: templates/academics.html:127
+msgid "Group 5:"
+msgstr "Grupo 5:"
+
+#: templates/academics.html:128
+msgid "Further Mathematics, Mathematics"
+msgstr "Más Matemáticas, Matemáticas"
+
+#: templates/academics.html:129
+msgid "Group 6:"
+msgstr "Grupo 6:"
+
+#: templates/academics.html:130
+msgid "Music, Visual Arts"
+msgstr "Música, Artes visuales"
+
+#: templates/academics.html:132
+msgid "* CAS, EE, TOK are required for the IB curriculum."
+msgstr "* Se requieren CAS, EE, TOK para el plan de estudios del IB."
+
+#: templates/home.html:16
+msgid "Not Familiar With Us?"
+msgstr "No estamos familiarizados con nosotros?"
+
+#: templates/home.html:17
+msgid ""
+"The High School Affiliated to Renmin University of China<br/> is a world "
+"renowned public school founded in 1950. "
+msgstr ""
+"High School afiliada a Renmin University of China <br/> es una escuela "
+"pública de renombre mundial fundada en 1950."
+
+#: templates/home.html:19
+msgid "Read More"
+msgstr "Lee mas"
+
+#: templates/student.html:9
+msgid ""
+"The Students&apos; Union, whose president and heads of each division are "
+"elected by democratic campaign, is a major selfgovernment institution to "
+"serve all students. The campus is full of activities and annual events "
+"such as a movie festival, art and performance festivals, speech contests, "
+"debate tournaments, etc. There are more than 100 student associations on "
+"campus. The RDFZ Art Troupe, consisting of an orchestra, marching band, "
+"dance troupe, martial arts group, choir, and gymnastics team are all "
+"professional groups with numerous national and international accolades."
+msgstr ""
+"El Sindicato de Estudiantes, cuyo presidente y jefes de cada división son "
+"elegidos por campaña democrática, es una importante institución autónoma "
+"para servir a todos los estudiantes. El campus está lleno de actividades y "
+"eventos anuales, como un festival de cine, festivales de arte y "
+"espectáculos, concursos de oratoria, torneos de debate, etc. Hay más de "
+"100 asociaciones de estudiantes en el campus. La Compañía de Arte RDFZ, "
+"compuesta por una orquesta, una banda de marcha, un grupo de danza, un "
+"grupo de artes marciales, un coro y un equipo de gimnasia, son grupos "
+"profesionales con numerosos reconocimientos nacionales e internacionales."

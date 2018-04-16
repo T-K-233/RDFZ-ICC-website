@@ -1,0 +1,10 @@
+{% extends "BASE.html" %}
+{% block body %}
+  {% for pic in PICS %}
+    <img src="{{ url_for('static', filename='pics/'+pic) }}" style="max-width: 30vw; vertical-align: top">
+  {% endfor %}
+  <form action="{{ url_for('picture_upload') }}" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button class="ui red basic button">Upload</button>
+  </form>
+{% endblock %}

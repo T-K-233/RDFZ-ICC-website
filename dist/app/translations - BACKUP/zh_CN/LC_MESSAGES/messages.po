@@ -1,0 +1,552 @@
+# Chinese (Simplified, China) translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-02-05 00:51+0800\n"
+"PO-Revision-Date: 2018-02-09 14:53+0800\n"
+"Language: zh_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: templates/BASE.html:43 templates/about.html:6
+msgid "About ICC"
+msgstr "关于ICC"
+
+#: templates/BASE.html:54
+msgid "News & Events"
+msgstr "新闻 & 活动"
+
+#: templates/BASE.html:61
+msgid "Academics"
+msgstr "学术"
+
+#: templates/BASE.html:71
+msgid "Student"
+msgstr "学生"
+
+#: templates/about.html:10
+msgid "Introduction"
+msgstr "介绍"
+
+#: templates/about.html:11
+msgid ""
+"The High School Affiliated to Renmin University of China is a world-"
+"renowned public school founded in 1950.<br/> The school offers both "
+"Chinese and international curricula.<br/> Two types of Chinese curricula "
+"are offered: the national curriculum and the Early Development Program "
+"for Top Innovative Talents.<br/> Three international curricula are "
+"offered at the Chinese-Foreign Education Program: the Cambridge "
+"International Advanced Level (A Level) program, started in 2004; the "
+"Advanced Placement (AP) program, started in 2010; and the International "
+"Baccalaureate Diploma (IB) program, started in 2012.<br/> Students are "
+"regularly admitted to top Universities domestically and abroad."
+msgstr ""
+"中国人民大学附属中学成立于1950年，是一所世界闻名的公立学校。<br/> 学校提"
+"供国内和国际两种课程。<br/> 国内课程分为两种：普通的全国课程和为顶尖学生"
+"所开设的早培课程。<br/> 而在中外合作办学项目中设有三种国际课程，分别是从"
+"2004年开设的英国高中课程（简称A Level课程）、从2010年开设的美国大学先修课"
+"程（简称AP课程）、以及从2012年开设的国际文凭课程（简称IB课程）。<br/> 每"
+"年都会有学生们被国内外的顶尖大学所录取。"
+
+#: templates/about.html:15
+msgid "Accreditation"
+msgstr "课程认证"
+
+#: templates/about.html:16
+msgid ""
+"RDFZ has been fully accredited by the University of Cambridge "
+"International Examinations (CIE) since 2004.<br/> The Cambridge Exam "
+"Center number is CN230.<br/> In 2012 RDFZ received lBO authorization to "
+"offer the IBDP, and the IB School Code is 049099.<br/>RDFZ&apos;s CEEB "
+"code: 694270"
+msgstr ""
+"自2004年以来，人大附中已经获得剑桥国际考试大学（CIE）的全面认证。<br/>剑"
+"桥考试中心的号码是CN230。<br/>在2012年，人大附中收到了来自国际文凭组织的"
+"关于开设国际文凭课程的授权，国际文凭学校的号码是049099。<br/>人大附中的大"
+"学入学考试委员会代码：694270"
+
+#: templates/about.html:20
+msgid "Contact Information"
+msgstr "联系信息"
+
+#: templates/about.html:21
+msgid "See here"
+msgstr "详情"
+
+#: templates/about.html:26
+msgid "Our Mission"
+msgstr "我们的任务"
+
+#: templates/about.html:29
+msgid ""
+"<b>\"Virtue, Erudition, Creativity, and Pragmatism\"</b> are the "
+"principles of the school. <br/><br/>RDFZ aims to cultivate students not "
+"only with a solid well-rounded development, but also with special "
+"skills, innovation, and morality. <br/><br/>The mission statement of the "
+"school is <b>\"respect individuality, discover and promote each "
+"student&apos;s potential, and help them develop into solid citizens "
+"anxious to further the prosperity of our country and the advancement of "
+"humanity\"</b>."
+msgstr ""
+"<b>“崇德、博学、创新、求实”</b>是我校的校训。<br/><br/>人大附中培养的学生"
+"不仅需要全面发展，同时还需要具有特殊技能，创新精神以及美德。<br/><br/>学"
+"校的使命是<b>“尊重个性，发现和促进每个学生的潜能，并且帮助他们发展成为急"
+"于推动我国繁荣和人类进步的坚定的公民”</b>。"
+
+#: templates/about.html:34
+msgid "Faculty"
+msgstr "师资队伍"
+
+#: templates/about.html:37
+msgid ""
+"RDFZ has a professional Chinese faculty team, with 66&#37; holding a "
+"master&apos;s or doctorate degree. <br/>There are 60 international "
+"faculty teachers at the ChineseForeign Education Program with "
+"nationalities represented by the following countries: <div class=\"ui "
+"basic segment\"><b>Australia, Canada, India, Ireland, New Zealand, "
+"Philippines, Sri Lanka, Nepal, The U.K. and The U.S. </b></div>More than "
+"half of the international teachers hold a master&apos;s or doctorate "
+"degree"
+msgstr ""
+"人大附中拥有专业的国内师资团队，其中66&#37;拥有硕士或博士学位。<br/>60位"
+"中外合作办学项目的国际教师拥有以下国家的国籍：<div class=“ui basic "
+"segment”><b>澳大利亚、加拿大、印度、爱尔兰、新西兰、菲律宾、斯里兰卡、尼"
+"泊尔、英国以及美国。</b></div>多于一半的国际教师拥有硕士或博士学位"
+
+#: templates/about.html:42
+msgid "Matriculation"
+msgstr "入学考试"
+
+#: templates/about.html:50
+msgid "Admission"
+msgstr "录取入学"
+
+#: templates/about.html:53
+msgid ""
+"Admission to RDFZ high school is dependent on students&apos; Zhongkao "
+"(high school entrance exam) score. In addition to the Zhongkao, "
+"admission to RDFZ Chinese-Foreign Education Program also depends on "
+"interviews and extra exams that test math and English. Year after year, "
+"both the national and international curricula have continually "
+"increasing application to admission ratios. The admission score for the "
+"Chinese National Curriculum is among the highest in Beijing."
+msgstr ""
+"人大附中高中部的录取取决于学生的中考（高中入学考试）成绩。除此之外，人大"
+"附中中外合作办学项目的录取还取决于入学的面试以及关于数学和英语的额外考"
+"试。每年国内和国际课程的录取通过率都在持续提升。国内课程的录取分数是全北"
+"京最高的。"
+
+#: templates/about.html:55
+msgid "* For more information, click"
+msgstr "*想看更多信息，点击"
+
+#: templates/about.html:55
+msgid "here"
+msgstr "此处"
+
+#: templates/academics.html:6
+msgid "Chinese Curricula"
+msgstr "中文课程"
+
+#: templates/academics.html:9
+msgid ""
+"Students in the Chinese curricula are required to learn subjects "
+"stipulated by Beijing Municipal Education Commission. <br/>According to "
+"the commission, each subject is composed of different modules and "
+"assessments are given based on those modules. <br/>Module scores include "
+"processing the evaluations of daily performance and the results of "
+"exams. <br/>The minimum credits requirement for graduation is 144. <br/"
+">Students need to pass the Huikao (high school graduation exam) "
+"organized by the Beijing Education Examinations Authority to graduate "
+"from high school. <br/>Huikao subjects include: <div class=\"ui basic "
+"segment\"><b>Chinese, English, math, physics, chemistry, biology, "
+"politics, history, geography, information technology, general "
+"technology, music, arts, and physical education.</b></div> In 11th "
+"grade, students are divided into a social science stream or natural "
+"science stream."
+msgstr ""
+"学习国内课程的学生需要学习北京市教委规定的科目。<br/>根据委员会的说法，每"
+"个科目都由不同的模块组成，并根据这些模块进行评估。<br/>模块成绩包括处理日"
+"常表现评估和考试结果。<br/>毕业需要的最低分数是144分。<br/>学生们需要通过"
+"由北京教育考试局组织的会考（高中毕业考试）才可以从高中毕业。<br/>会考科目"
+"包括：<div class=“ui basic segment”><b>语文、英语、数学、物理、化学、生"
+"物、政治、历史、地理、信息技术、通用技术、音乐、美术、以及体育。</b></"
+"div>在高二，学生将根据学习的科目分为文科生或理科生。"
+
+#: templates/academics.html:11
+msgid "Chinese National Curriculum"
+msgstr "中文国际课程"
+
+#: templates/academics.html:12
+msgid ""
+"In accordance with the school&apos;s principle and cultivating goal, "
+"RDFZ has integrated national, local school-based, and international "
+"curricula to form a unique curricula system which is contemporary, "
+"selective, creative, and open. It covers eight different fields "
+"including: language, math, humanity, science, technology, physical "
+"education, arts, and interdisciplinary courses. According to the needs "
+"of individual students, courses are divided into three levels: basic, "
+"extensive, and honors. Basic courses are compulsory for all students to "
+"fulfill graduation requirements. Extensive courses include elective and "
+"development courses to fit the different interests and learning styles "
+"of the student body and each year the school offers more than 200 such "
+"courses. Honors courses are challenging for students talented in "
+"specific fields, including Olympiad competition courses, advanced "
+"college courses and research courses. The curricula promotes "
+"students&apos; individuality and creativity while maintaining their well-"
+"rounded development."
+msgstr ""
+"人大附中根据学校的原则和培养目标，将国家，地方的校本和国际课程结合起来，"
+"形成了一个具有当代性，选择性，创造性和开放性的独特课程体系。它涵盖八个不"
+"同的领域，包括语言，数学，人文，科学，技术，体育，艺术和跨学科课程。根据"
+"个别学生的需要，课程分为三个层次：基础课程，拓展课程和荣誉课程。所有学生"
+"都必须学习基础课程以达到毕业要求。学校每年提供200多门拓展课程，包括选修课"
+"程和发展课程，以适应学生的不同兴趣和学习风格。荣誉课程对具有特定领域才能"
+"的学生来说是具有挑战性的，包括奥林匹克竞赛课程，大学先修课程以及研究课"
+"程。课程在保持全面发展的同时，也促进了学生的个性和创造力。"
+
+#: templates/academics.html:15
+msgid "Early Development Program"
+msgstr "早培项目"
+
+#: templates/academics.html:16
+msgid ""
+"The Early Development Program for Top Innovative Talents (EDP) was "
+"founded in 2010 in cooperation with the Chinese Academy of Sciences, the "
+"Chinese Academy of Social Sciences, and other research institutes. It is "
+"a key research program of the Ministry of Education, aiming to cultivate "
+"leading innovative talents in various fields. The class of 2018 entered "
+"the program after finishing their 5th grade in 2011, and have been "
+"studying at RDFZ for seven years (students in classes 16, 17, and 18 are "
+"EDP graduates). Apart from Chinese National Curriculum courses, students "
+"have access to more than 100 EDP development courses from grade 7 to 11. "
+"Course content includes independent inquiry-based learning, Olympiad "
+"competitions, college level courses, and research and advanced study at "
+"university labs."
+msgstr ""
+"人大附中在2010年与中国科学院，中国社会科学院等科研院所合作，成立了“顶尖创"
+"新人才早期培育项目”（EDP）。 这是教育部得重点攻关项目，旨在培养各领域的创"
+"新型领军人才。 2018届的学生在2011年完成五年级的学习后进入该课程，并在人大"
+"附中学习了七年（16,17和18届的学生是已毕业的早培学生）。除了中国国家课程，"
+"学生还可以参加100多个从7年级到11年级的早培课程。课程内容包括独立探究式学"
+"习，奥林匹克竞赛，大学水平课程以及大学实验室的研究和深造课程。"
+
+#: templates/academics.html:19
+msgid "Compulsory courses for Chinese curricula"
+msgstr "学习中文课程的必修课"
+
+#: templates/academics.html:22
+msgid "10th Grade"
+msgstr "高一"
+
+#: templates/academics.html:23
+msgid ""
+"Chinese, math, English, chemistry, physics, history, geography, "
+"politics, physical education, information technology, general "
+"technology, art and music, research study"
+msgstr ""
+"语文、数学、英语、化学、物理、历史、地理、政治、体育、信息技术、通用技"
+"术、美术和音乐、以及研究性学习"
+
+#: templates/academics.html:26
+msgid "11th Grade"
+msgstr "高二"
+
+#: templates/academics.html:27
+msgid ""
+"Chinese, math, English, physics, biology, physical education, research "
+"study"
+msgstr "语文、数学、英语、物理、生物、体育、以及研究性学习"
+
+#: templates/academics.html:30
+msgid "12th Grade"
+msgstr "高三"
+
+#: templates/academics.html:31
+msgid "Chinese, math, English, physical education"
+msgstr "语文、数学、英语、体育"
+
+#: templates/academics.html:38
+msgid "Cambridge A Level Program (AL)"
+msgstr "剑桥A Level课程（AL）"
+
+#: templates/academics.html:41
+msgid ""
+"Students in the A level program sit the UK Cambridge International "
+"Examinations (CIE) Advanced Level (A Levels) exams. Besides the "
+"mandatory courses that students are required to take, the average number "
+"of A Level subjects is four at AS level, carrying on three of them into "
+"A2 level."
+msgstr ""
+"学习A level课程的学生将参加英国剑桥国际考试（CIE）英国高中课程（A "
+"Levels）考试。 除了要求学生参加的必修课程外，AS阶段平均有4门ALevel课程，"
+"其中三门会延续到A2阶段。"
+
+#: templates/academics.html:43 templates/academics.html:75
+#: templates/academics.html:110
+msgid "Grade 10 (Year 1) Mandatory courses"
+msgstr "十年级（第一年）的必修课程"
+
+#: templates/academics.html:45 templates/academics.html:52
+#: templates/academics.html:77 templates/academics.html:84
+#: templates/academics.html:91 templates/academics.html:112
+msgid "In Chinese: "
+msgstr "中文授课： "
+
+#: templates/academics.html:46 templates/academics.html:113
+msgid "Chinese Literature, Chinese History & Politics, Geography"
+msgstr "中国文学、历史&政治、以及地理"
+
+#: templates/academics.html:47 templates/academics.html:54
+#: templates/academics.html:79 templates/academics.html:86
+#: templates/academics.html:93 templates/academics.html:114
+msgid "In English: "
+msgstr "英文授课： "
+
+#: templates/academics.html:48
+msgid ""
+"Art, Music, ICT (Information, Communication & Technology, IGCSE Biology, "
+"IGCSE Chemistry, IGCSE English, IGCSE Physics, AS Mathematics, AS "
+"Statistics, Thinking Skills"
+msgstr ""
+"美术、音乐、计算机、IGCSE生物、IGCSE化学、IGCSE英语、IGCSE物理、AS数学、"
+"AS统计、以及思考技巧"
+
+#: templates/academics.html:50
+msgid "Grade 11 & 12 (Year 2 & 3) Mandatory courses"
+msgstr "11年级与12年级（高二与高三）必修课程"
+
+#: templates/academics.html:53
+msgid "Chinese Literature, Technology & Design"
+msgstr "语文，信息与通讯技术"
+
+#: templates/academics.html:55
+msgid "IB Certificate Language A/B English SL or HL, A2 Mathematics"
+msgstr "国际课程文凭语言A/B 英语标准级或高级，A2 数学"
+
+#: templates/academics.html:57
+msgid "Grade 11 & 12 (Year 2 & 3) A Level courses offered in English"
+msgstr "11年级与12年级（高二与高三）A Level所教授的英文课程"
+
+#: templates/academics.html:59
+msgid ""
+"A Level Art and Design, A L e v e l Biology, A Level Business, A L e v e "
+"l Chemistry, A Level Economics, A Level Computer Science, A Level "
+"Further Mathematics, A Level Music, A Level Physics, AP Statistics"
+msgstr ""
+"A Level 美术设计，A Level 生物，A Level 商学，A Level 化学，A Level 经"
+"济，A Level 计算机科学，A Level 进阶数学，A Level 音乐，A Level 物理学，"
+"AP 统计学"
+
+#: templates/academics.html:61
+msgid ""
+"* Students taking IB Certificate Language A English SL need approval "
+"from English teachers to enter into the class. All other students take "
+"Language B English SL."
+msgstr ""
+"* 学习IB文聘语言A 英语标准级的学生需要得到英语老师的许可方可加入，其他学"
+"生会学习语言B 英语标准级课程。"
+
+#: templates/academics.html:70
+msgid "The Advanced Placement Program (AP)"
+msgstr "大学先修课程(AP)"
+
+#: templates/academics.html:73
+msgid ""
+"Students in the Advanced Placement (AP) Program take the College Board "
+"AP courses to earn university recognized credits. Over the three-year "
+"program, students may take up to 9 AP courses. Beside the mandatory "
+"courses that students are required to take, students are required to "
+"choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on "
+"each course&apos; s prerequisites."
+msgstr ""
+"AP项目的学生需要学习美国大学理事会的AP课程，可以换取大学认证的学分。在三"
+"年项目之中，学生最多可以学习九门课程。除了必修课程之外，学生需要在11年级"
+"选择三门AP课程，并在12年级根据先决条件选择四门AP课程。"
+
+#: templates/academics.html:78
+msgid ""
+"Chinese Language & Literature, Geography, History, Political Science, "
+"ICT (Information Communication & Technology)"
+msgstr "汉语文学，地理，历史，政治，信息与通讯技术"
+
+#: templates/academics.html:80
+msgid ""
+"Intensive English, Pre-AP Chemistry, Pre-AP Biology, Pre-AP Calculus or "
+"AP Calculus, Pre-AP Economics, AP Physics I, Music, Art"
+msgstr ""
+"英语强化课程，AP化学预备课程，AP生物预备课程，AP微积分预备课程或AP微积"
+"分，AP经济学预备课程，AP物理I，音乐，美术"
+
+#: templates/academics.html:82
+msgid "Grade 11 (Year 2) [Mandatory courses marked with*]"
+msgstr "11年级（高二）【必修课程标记为*】"
+
+#: templates/academics.html:85
+msgid "Chinese Language & Literature*, Technology & Design*"
+msgstr "汉语文学*，劳技*"
+
+#: templates/academics.html:87
+msgid ""
+"Academic Research*, English Speech*, Integrated Global Studies*, Pre-AP "
+"English Language & Composition*, Pre-AP World Cultures, AP Calculus AB/"
+"BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP Microeconomics"
+msgstr ""
+"学术研究*，英文演讲*，全球综合研究，AP英语创作预备课程，AP世界文化预备课"
+"程，AP微积分AB/BC*，AP化学，AP物理2，AP物理CM，班会，AP微观经济学"
+
+#: templates/academics.html:89
+msgid "Grade 12 (Year 3) [Mandatory courses marked with*]"
+msgstr "12年级（高三）【必修课程标记为*】"
+
+#: templates/academics.html:92
+msgid "Chinese Language & Literature*"
+msgstr "汉语文学*"
+
+#: templates/academics.html:94
+msgid ""
+"AP English Literature & Composition, AP English Language & Composition, "
+"AP Calculus BC, AP Statistics, AP Computer Science A, AP Biology, AP "
+"Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP "
+"Physics C (E&M), AP Macro-economics, AP World Cultures"
+msgstr ""
+"AP英语文学创作，AP英语语言创作，AP微积分BC，AP统计学，AP计算机科学A，AP生"
+"物，AP化学，AP环境科学，AP物理C（机械），AP物理C（电磁），AP宏观经济学，"
+"AP世界文化"
+
+#: templates/academics.html:105
+msgid "International Baccalaureate (IB/IBDP)"
+msgstr "国际文凭课程（IB/IBDP）"
+
+#: templates/academics.html:108
+msgid ""
+"International Baccalaureate Diploma Program students in the IB "
+"curriculum are all IB Diploma candidates. IBDP Students must study three "
+"or four courses at HL and two or three others at SL. They must complete "
+"150 hours of creativity, action, and service (CAS) study, be assessed in "
+"Theory of Knowledge, and write a 4000-word Extended Essay. Since the IB "
+"diploma curriculum runs in a two-year period from grade 11 to grade 12, "
+"the grade 10 IB curriculum shares the same courses with A Level grade 10 "
+"curriculum."
+msgstr ""
+"国际文凭课程项目的学生全部为IB文聘考生。IB学生需要选择三到四门高级课程与"
+"两到三门标准级课程。他们必须完成150个小时的创新类，运动类，志愿类活动，同"
+"时要参与知识论的考试，并且完成一篇4000词的拓展论文。鉴于IB是一个11年级到"
+"12年级的两年课程，IB的10年级课程会与A Level的10年级课程相同。"
+
+#: templates/academics.html:115
+msgid ""
+" Art, Music, ICT (information Communication & Technology), Thinking "
+"Skills, IGCSE English, IGCSE Biology, IGCSE Chemistry, IGCSE Physics, AS "
+"Mathematics, AS Statistics"
+msgstr ""
+" 美术，音乐，信息与通讯技术，思考技巧，IGCSE 英语，IGCSE 化学，IGCSE 物"
+"理，AS 数学，AS 统计学"
+
+#: templates/academics.html:117
+msgid "Grade 11 & 12 (Year 2 & 3)"
+msgstr "11年级与12年级（高二与高三）课程"
+
+#: templates/academics.html:119
+msgid "Group 1:"
+msgstr "第一组："
+
+#: templates/academics.html:120
+msgid " Chinese A Literature, English A Language and Literature"
+msgstr " 汉语文学A，英语语言与文学A"
+
+#: templates/academics.html:121
+msgid "Group 2:"
+msgstr "第二组："
+
+#: templates/academics.html:122
+msgid "Language B English, Language B French ab initio"
+msgstr "英语B，法语B"
+
+#: templates/academics.html:123
+msgid "Group 3:"
+msgstr "第三组："
+
+#: templates/academics.html:124
+msgid "Economics, Business Management, Environmental System and Society"
+msgstr "经济学，商学，环境科学"
+
+#: templates/academics.html:125
+msgid "Group 4:"
+msgstr "第四组："
+
+#: templates/academics.html:126
+msgid ""
+"Biology, Chemistry, Computer Science, Environmental System and Society, "
+"Physics"
+msgstr "生物学，化学，计算机科学，环境科学，物理学"
+
+#: templates/academics.html:127
+msgid "Group 5:"
+msgstr "第五组："
+
+#: templates/academics.html:128
+msgid "Further Mathematics, Mathematics"
+msgstr "进阶数学，数学"
+
+#: templates/academics.html:129
+msgid "Group 6:"
+msgstr "第六组："
+
+#: templates/academics.html:130
+msgid "Music, Visual Arts"
+msgstr "音乐，美术"
+
+#: templates/academics.html:132
+msgid "* CAS, EE, TOK are required for the IB curriculum."
+msgstr "*IB同时要求课外活动，拓展论文，知识论。"
+
+#: templates/home.html:16
+msgid "Not Familiar With Us?"
+msgstr "想了解更多？"
+
+#: templates/home.html:17
+msgid ""
+"The High School Affiliated to Renmin University of China<br/> is a world "
+"renowned public school founded in 1950. "
+msgstr "中国人民大学附属中学<br/>成立于1950年，是一所世界闻名的公立学校。 "
+
+#: templates/home.html:19
+msgid "Read More"
+msgstr "阅读全文"
+
+#: templates/resources.html:6
+msgid "School Calendar"
+msgstr "学校年历"
+
+#: templates/student.html:6
+msgid "Extra-curricular Life"
+msgstr "课外生活"
+
+#: templates/student.html:9
+msgid ""
+"The Students&apos; Union, whose president and heads of each division are "
+"elected by democratic campaign, is a major selfgovernment institution to "
+"serve all students. The campus is full of activities and annual events "
+"such as a movie festival, art and performance festivals, speech "
+"contests, debate tournaments, etc. There are more than 100 student "
+"associations on campus. The RDFZ Art Troupe, consisting of an orchestra, "
+"marching band, dance troupe, martial arts group, choir, and gymnastics "
+"team are all professional groups with numerous national and "
+"international accolades."
+msgstr ""
+"学生会是为全体学生服务的主要自治机构，主席与各部门部长都是经过竞选脱颖而"
+"出的。校园内的活动丰富多彩，如电影节，艺术节，演讲比赛，辩论赛，等等。学"
+"校内还有一百多个学生社团。人大附中艺术团包括管乐团，行进乐团，舞蹈团，武"
+"术队，合唱团，体操队，都是获得过国内外大奖的专业社团。"

@@ -1,0 +1,43 @@
+{% extends "BASE.html" %}
+{% block head %}
+  <style>
+  .ui.fluid.banner.image{margin-top: -2rem; z-index: -1}
+  .home.banner{position: absolute; bottom: 8rem; left: 0; right: 0; padding: 2rem 5rem; background: rgba(160,10,10, 0.5)}
+  .home.chs{font-size: 3.3rem; color: #fff}
+  .home.eng{font-size: 1.2rem; color: #fff{#rgb(255,87,87)#}; padding:3rem}
+  .home.eng_wrap{margin-top: 1rem}
+  @media screen and (max-width: 800px) {
+    .home.banner{top: 0; bottom: auto; padding: 1rem 1rem}
+    .home.chs{font-size: 1.6rem; color: #fff}
+    .home.eng{font-size: 0.8rem; padding:1rem}
+  .home.eng_wrap{margin-top: 0.5rem}
+    .ui.fluid.banner.image{margin-top: 1rem; z-index: -1}
+  }
+  </style>
+{% endblock %}
+{% block body %}
+  <div class="ui fluid banner image">
+    <img src="{{ url_for('static', filename='banner.jpg') }}">
+    <div class="home banner">
+      <div><span class="home chs">人大附中中外合作办学项目</span></div>
+      <div class="home eng_wrap"><span class="home eng">The High School Affiliated to Renmin University of China International Curriculum Center</span></div>
+    </div>
+  </div>
+  <div class="ui vertical stripe segment">
+    <div class="ui equal width stackable internally celled grid">
+      <div class="center aligned row">
+        <div class="column">
+          <img src="http://120.79.25.63/static/pics/standard_text.png" width="40%">
+        </div>
+        <div class="column">
+          <h3>{{ _('Not Familiar With Us?') }}</h3>
+          <p>{{ _('The High School Affiliated to Renmin University of China<br/> is a world renowned public school founded in 1950. ') }}</p>
+          <button class="ui large basic red animated button" onClick="window.location='{{ url_for('about', page='introduction') }}'">
+            <div class="visible content">{{ _('Read More') }}</div>
+            <div class="hidden content"><i class="right arrow icon"></i></div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "BASE.html" %}
+{% block body %}
+  {% if PAGE == 'student_union' %}
+    <!-- ↓ /student/activity/student_union 页面内容 ↓ -->
+    <div class="ui inverted banner basic segment">
+      <h1 class="ui inverted banner header">{{ _('Student Union') }}</h1>
+    </div>
+    <div class="ui text container">
+      <p>{{ _('The Students&apos; Union, whose president and heads of each division are elected by democratic campaign, is a major selfgovernment institution to serve all students. The campus is full of activities and annual events such as a movie festival, art and performance festivals, speech contests, debate tournaments, etc. There are more than 100 student associations on campus. The RDFZ Art Troupe, consisting of an orchestra, marching band, dance troupe, martial arts group, choir, and gymnastics team are all professional groups with numerous national and international accolades.') }}</p>
+    </div>
+  {% elif PAGE == 'STEM' %}
+    <!-- ↓ /student/activity/STEM 页面内容 ↓ -->
+    <div class="ui inverted banner basic segment">
+      <h1 class="ui inverted banner header">{{ _('STEM (Science, Technology, Enginnering, Math)') }}</h1>
+    </div>
+    <div class="ui text container">
+
+    </div>
+  {% elif PAGE == 'art' %}
+    <!-- ↓ /student/activity/art 页面内容 ↓ -->
+    <div class="ui inverted banner basic segment">
+      <h1 class="ui inverted banner header">{{ _('Art') }}</h1>
+    </div>
+    <div class="ui text container">
+    </div>
+  {% elif PAGE == 'language_and_literature' %}
+    <!-- ↓ /student/activity/art 页面内容 ↓ -->
+    <div class="ui inverted banner basic segment">
+      <h1 class="ui inverted banner header">{{ _('Language & Literature') }}</h1>
+    </div>
+    <div class="ui text container">
+    </div>
+  {% elif PAGE == 'volunteer_service' %}
+    <!-- ↓ /student/activity/art 页面内容 ↓ -->
+    <div class="ui inverted banner basic segment">
+      <h1 class="ui inverted banner header">{{ _('Volunteer Service') }}</h1>
+    </div>
+    <div class="ui text container">
+    <p>{{ _('The Elementary Education plays a significant role upon the society, both socially and economically. However, with its "inequality" status quo drawing more attention from the public, reflection as well as action needs to be addressed in an imperative degree. The responsibility has then fallen to the shoulder of us, the teenagers.
+Inspired by the rapid development of Internet, Orange Academy has initiated an experimental form of education—online curriculum system plus real-time discussion program—in an effort to better the expression and thinking ability of those students coming from less-developed areas. As our volunteer members, coming from Beijing, Shanghai, Hangzhou, Guiyang, the US, and Australia, soar to 102 and beyond, we incorporate more than 400 students from WuXiang, XingGuo, and YiChun, covering three different provinces in China. On the other hand, our teaching contents are also refining along the way. Back in the fall of 2017, aiming at fostering academic interest, critical thinking, expression ability, and confidence build-up, we self-designed numerous courses in accordance with the circumstance of our targeted students. Facilitated by video platforms and WeChat group, our volunteers uploaded more than 700 minutes tutoring videos, organized more than 80 times interactive discussions, produced more than fifty-thousand Q&A, and drew down more than ninety-thousand original words in the process of lecture preparation. In addition, we investigated other high-school students&apos; awareness towards the issue of education, the result was disturbing: most of them submit to the current education situation and even take it for granted, while only care about their own benefits and future success. To tackle down this dilemma, our team strives to spread the awareness by updating public account, advertising our video, open education-related electives at school. Hopefully other teenagers will join us and we can lay the foundation for future "reformers".
+In addition, more and more novel ideas like partnering up with the organization of Public Speaking in Beijing High Schools and cooperating with the speech club of High School Affiliated to Renmin University of China are assimilated and under progression.') }}</p>
+    </div>
+  {% endif %}
+{% endblock %}
