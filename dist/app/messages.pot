@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-02-07 12:19+0800\n"
+"POT-Creation-Date: 2018-04-19 10:47+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,85 +17,123 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: templates/BASE.html:55 templates/BASE.html:125 templates/about.html:6
+#: templates/BASE.html:56 templates/BASE.html:136 templates/about.html:6
 msgid "About ICC"
 msgstr ""
 
-#: templates/BASE.html:58 templates/BASE.html:127 templates/about.html:10
+#: templates/BASE.html:59 templates/BASE.html:138 templates/about.html:10
 msgid "Introduction"
 msgstr ""
 
-#: templates/BASE.html:59 templates/BASE.html:128
+#: templates/BASE.html:60 templates/BASE.html:139
 msgid "Mission"
 msgstr ""
 
-#: templates/BASE.html:60 templates/BASE.html:129 templates/about.html:34
+#: templates/BASE.html:61 templates/BASE.html:140 templates/about.html:34
 msgid "Faculty"
 msgstr ""
 
-#: templates/BASE.html:61 templates/BASE.html:86 templates/BASE.html:130
-#: templates/BASE.html:152 templates/about.html:42
+#: templates/BASE.html:62 templates/BASE.html:87 templates/BASE.html:141
+#: templates/BASE.html:163 templates/about.html:42
 msgid "Matriculation"
 msgstr ""
 
-#: templates/BASE.html:62 templates/BASE.html:131 templates/about.html:50
+#: templates/BASE.html:63 templates/BASE.html:142 templates/about.html:49
 msgid "Admission"
 msgstr ""
 
-#: templates/BASE.html:66 templates/BASE.html:135
+#: templates/BASE.html:67 templates/BASE.html:146
 msgid "News & Events"
 msgstr ""
 
-#: templates/BASE.html:69 templates/BASE.html:137 templates/resources.html:6
+#: templates/BASE.html:70 templates/BASE.html:148 templates/resources.html:13
 msgid "School Calendar"
 msgstr ""
 
-#: templates/BASE.html:73 templates/BASE.html:141
+#: templates/BASE.html:74 templates/BASE.html:152
 msgid "Academics"
 msgstr ""
 
-#: templates/BASE.html:76 templates/BASE.html:143 templates/academics.html:6
+#: templates/BASE.html:77 templates/BASE.html:154 templates/academics.html:6
 msgid "Chinese Curricula"
 msgstr ""
 
-#: templates/BASE.html:77 templates/BASE.html:144
+#: templates/BASE.html:78 templates/BASE.html:155
 msgid "A Level Program"
 msgstr ""
 
-#: templates/BASE.html:78 templates/BASE.html:145
+#: templates/BASE.html:79 templates/BASE.html:156
 msgid "The Advanced Placement Program"
 msgstr ""
 
-#: templates/BASE.html:79 templates/BASE.html:146
+#: templates/BASE.html:80 templates/BASE.html:157
 msgid "International Baccalaureate"
 msgstr ""
 
-#: templates/BASE.html:83 templates/BASE.html:150
+#: templates/BASE.html:84 templates/BASE.html:161
 msgid "Student"
 msgstr ""
 
-#: templates/BASE.html:87 templates/BASE.html:153 templates/student.html:6
+#: templates/BASE.html:88 templates/BASE.html:164 templates/student.html:6
 msgid "Extra-curricular Life"
 msgstr ""
 
-#: templates/BASE.html:170
-msgid "The High School Affiliated to Renmin University of China International Curriculum Center"
+#: templates/BASE.html:92 templates/BASE.html:168
+msgid "Resources"
 msgstr ""
 
-#: templates/BASE.html:171
-msgid "No.37, Zhongguancun St, Haidian District, Beijing, China 100080"
+#: templates/BASE.html:95 templates/BASE.html:170
+msgid "Contacts"
 msgstr ""
 
-#: templates/BASE.html:176
-msgid "IBO国际组织"
+#: templates/BASE.html:96 templates/BASE.html:171
+msgid "Calendar"
 msgstr ""
 
-#: templates/BASE.html:177
-msgid "剑桥大学考试委员会"
+#: templates/BASE.html:97 templates/resources.html:29
+msgid "Campus Map"
 msgstr ""
 
-#: templates/BASE.html:178
+#: templates/BASE.html:98 templates/resources.html:36
+msgid "Location"
+msgstr ""
+
+#: templates/BASE.html:172
+msgid "Map"
+msgstr ""
+
+#: templates/BASE.html:190
+msgid ""
+"The High School Affiliated to Renmin University of China International "
+"Curriculum Center"
+msgstr ""
+
+#: templates/BASE.html:191
+msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
+msgstr ""
+
+#: templates/BASE.html:194
+msgid "Helpful Links"
+msgstr ""
+
+#: templates/BASE.html:197
+msgid "International BaccalaureateO"
+msgstr ""
+
+#: templates/BASE.html:198
+msgid "Cambridge International Examination"
+msgstr ""
+
+#: templates/BASE.html:199
 msgid "Collegeboard"
+msgstr ""
+
+#: templates/BASE.html:200
+msgid "ACT"
+msgstr ""
+
+#: templates/BASE.html:201
+msgid "TOEFL"
 msgstr ""
 
 #: templates/about.html:11
@@ -125,7 +163,7 @@ msgid ""
 "code: 694270"
 msgstr ""
 
-#: templates/about.html:20
+#: templates/about.html:20 templates/resources.html:5
 msgid "Contact Information"
 msgstr ""
 
@@ -160,7 +198,7 @@ msgid ""
 "degree"
 msgstr ""
 
-#: templates/about.html:53
+#: templates/about.html:52
 msgid ""
 "Admission to RDFZ high school is dependent on students&apos; Zhongkao "
 "(high school entrance exam) score. In addition to the Zhongkao, admission"
@@ -171,11 +209,11 @@ msgid ""
 "National Curriculum is among the highest in Beijing."
 msgstr ""
 
-#: templates/about.html:55
+#: templates/about.html:54
 msgid "* For more information, click"
 msgstr ""
 
-#: templates/about.html:55
+#: templates/about.html:54
 msgid "here"
 msgstr ""
 
@@ -481,21 +519,108 @@ msgstr ""
 msgid "* CAS, EE, TOK are required for the IB curriculum."
 msgstr ""
 
-#: templates/home.html:16
+#: templates/author.html:4
+msgid "Website Authors"
+msgstr ""
+
+#: templates/author.html:7
+msgid "Mentors"
+msgstr ""
+
+#: templates/author.html:9
+msgid "LI YI"
+msgstr ""
+
+#: templates/author.html:13
+msgid "CHEN JINGTAO"
+msgstr ""
+
+#: templates/author.html:16
+msgid "Students"
+msgstr ""
+
+#: templates/author.html:18
+msgid "Project Leader: CHI YUFENG"
+msgstr ""
+
+#: templates/author.html:22
+msgid "Technical support: Uncertainty"
+msgstr ""
+
+#: templates/author.html:23
+msgid ""
+"A very uncertain website made by RDFZ students at <a target=\"_blank\" "
+"href=\"https://www.veryuncertain.com\">here.</a>"
+msgstr ""
+
+#: templates/author.html:26
+msgid "Information: AirPrint Club"
+msgstr ""
+
+#: templates/author.html:27
+msgid ""
+"A non-profit student organization that mainly focuses on the innovation "
+"of 3D printing technology. Discover more at <a target=\"_blank\" "
+"href=\"https://air3d.sxl.cn\">here.</a>"
+msgstr ""
+
+#: templates/author.html:30
+msgid "Translation: Nebula Subtitle Group"
+msgstr ""
+
+#: templates/author.html:34
+msgid "Design: Graphic Design Club"
+msgstr ""
+
+#: templates/author.html:35
+msgid ""
+"RDFZ Graphic Design Club, a platform for aspirational friends to discuss "
+"art, is affiliated to JODA Studio. The members of the club are not just "
+"students. They are designers; they are artists."
+msgstr ""
+
+#: templates/home.html:33
 msgid "Not Familiar With Us?"
 msgstr ""
 
-#: templates/home.html:17
+#: templates/home.html:34
 msgid ""
 "The High School Affiliated to Renmin University of China<br/> is a world "
 "renowned public school founded in 1950. "
 msgstr ""
 
-#: templates/home.html:19
+#: templates/home.html:36
 msgid "Read More"
 msgstr ""
 
-#: templates/student.html:9
+#: templates/resources.html:8
+msgid ""
+"Address: No. 37 Zhongguancun Street, Haidian District, Beijing, China "
+"100080<br/>Principal: Mr. Xiaoning Zhai<br/>Tel: 62513962<br/>Email: "
+"xinwen@rdfz.cn"
+msgstr ""
+
+#: templates/student.html:11 templates/student_activity.html:6
+msgid "Student Union"
+msgstr ""
+
+#: templates/student.html:14 templates/student_activity.html:14
+msgid "STEM (Science, Technology, Enginnering, Math)"
+msgstr ""
+
+#: templates/student.html:17 templates/student_activity.html:22
+msgid "Art"
+msgstr ""
+
+#: templates/student.html:20 templates/student_activity.html:29
+msgid "Language & Literature"
+msgstr ""
+
+#: templates/student.html:23 templates/student_activity.html:36
+msgid "Volunteer Service"
+msgstr ""
+
+#: templates/student_activity.html:9
 msgid ""
 "The Students&apos; Union, whose president and heads of each division are "
 "elected by democratic campaign, is a major selfgovernment institution to "
@@ -505,5 +630,42 @@ msgid ""
 " campus. The RDFZ Art Troupe, consisting of an orchestra, marching band, "
 "dance troupe, martial arts group, choir, and gymnastics team are all "
 "professional groups with numerous national and international accolades."
+msgstr ""
+
+#: templates/student_activity.html:39
+msgid ""
+"The Elementary Education plays a significant role upon the society, both "
+"socially and economically. However, with its \"inequality\" status quo "
+"drawing more attention from the public, reflection as well as action "
+"needs to be addressed in an imperative degree. The responsibility has "
+"then fallen to the shoulder of us, the teenagers.\n"
+"Inspired by the rapid development of Internet, Orange Academy has "
+"initiated an experimental form of education—online curriculum system plus"
+" real-time discussion program—in an effort to better the expression and "
+"thinking ability of those students coming from less-developed areas. As "
+"our volunteer members, coming from Beijing, Shanghai, Hangzhou, Guiyang, "
+"the US, and Australia, soar to 102 and beyond, we incorporate more than "
+"400 students from WuXiang, XingGuo, and YiChun, covering three different "
+"provinces in China. On the other hand, our teaching contents are also "
+"refining along the way. Back in the fall of 2017, aiming at fostering "
+"academic interest, critical thinking, expression ability, and confidence "
+"build-up, we self-designed numerous courses in accordance with the "
+"circumstance of our targeted students. Facilitated by video platforms and"
+" WeChat group, our volunteers uploaded more than 700 minutes tutoring "
+"videos, organized more than 80 times interactive discussions, produced "
+"more than fifty-thousand Q&A, and drew down more than ninety-thousand "
+"original words in the process of lecture preparation. In addition, we "
+"investigated other high-school students&apos; awareness towards the issue"
+" of education, the result was disturbing: most of them submit to the "
+"current education situation and even take it for granted, while only care"
+" about their own benefits and future success. To tackle down this "
+"dilemma, our team strives to spread the awareness by updating public "
+"account, advertising our video, open education-related electives at "
+"school. Hopefully other teenagers will join us and we can lay the "
+"foundation for future \"reformers\".\n"
+"In addition, more and more novel ideas like partnering up with the "
+"organization of Public Speaking in Beijing High Schools and cooperating "
+"with the speech club of High School Affiliated to Renmin University of "
+"China are assimilated and under progression."
 msgstr ""
 
