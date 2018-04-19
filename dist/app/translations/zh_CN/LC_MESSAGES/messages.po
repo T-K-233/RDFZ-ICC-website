@@ -7,144 +7,171 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-19 10:47+0800\n"
+"POT-Creation-Date: 2018-04-19 23:03+0800\n"
 "PO-Revision-Date: 2018-04-19 20:58+0800\n"
-"Language: zh_CN\n"
+"Last-Translator: \n"
+"Language: zh_Hans_CN\n"
 "Language-Team: zh_Hans_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
-"Last-Translator: \n"
-"X-Generator: Poedit 2.0.6\n"
+"Generated-By: Babel 2.5.0\n"
 
-#: templates/BASE.html:55 templates/BASE.html:125 templates/about.html:6
+#: templates/BASE.html:62 templates/BASE.html:146 templates/about.html:6
 msgid "About ICC"
 msgstr "关于ICC"
 
-#: templates/BASE.html:58 templates/BASE.html:127 templates/about.html:10
+#: templates/BASE.html:65 templates/BASE.html:148 templates/about.html:10
 msgid "Introduction"
 msgstr "介绍"
 
-#: templates/BASE.html:59 templates/BASE.html:128
+#: templates/BASE.html:66 templates/BASE.html:149
 msgid "Mission"
 msgstr "使命"
 
-#: templates/BASE.html:60 templates/BASE.html:129 templates/about.html:34
+#: templates/BASE.html:67 templates/BASE.html:150 templates/about.html:34
 msgid "Faculty"
 msgstr "师资队伍"
 
-#: templates/BASE.html:61 templates/BASE.html:86 templates/BASE.html:130
-#: templates/BASE.html:152 templates/about.html:42
+#: templates/BASE.html:68 templates/BASE.html:93 templates/BASE.html:151
+#: templates/BASE.html:173 templates/about.html:42
 msgid "Matriculation"
 msgstr "录取情况"
 
-#: templates/BASE.html:62 templates/BASE.html:131 templates/about.html:50
+#: templates/BASE.html:69 templates/BASE.html:152 templates/about.html:49
 msgid "Admission"
 msgstr "招生"
 
-#: templates/BASE.html:66 templates/BASE.html:135
+#: templates/BASE.html:73 templates/BASE.html:156
 msgid "News & Events"
 msgstr "新闻 & 活动"
 
-#: templates/BASE.html:69 templates/BASE.html:137 templates/resources.html:6
+#: templates/BASE.html:76 templates/BASE.html:158 templates/resources.html:13
 msgid "School Calendar"
 msgstr "学校年历"
 
-#: templates/BASE.html:73 templates/BASE.html:141
+#: templates/BASE.html:80 templates/BASE.html:162
 msgid "Academics"
 msgstr "学术"
 
-#: templates/BASE.html:76 templates/BASE.html:143 templates/academics.html:6
+#: templates/BASE.html:83 templates/BASE.html:164 templates/academics.html:6
 msgid "Chinese Curricula"
 msgstr "中文课程"
 
-#: templates/BASE.html:77 templates/BASE.html:144
+#: templates/BASE.html:84 templates/BASE.html:165
 msgid "A Level Program"
 msgstr "A Level课程"
 
-#: templates/BASE.html:78 templates/BASE.html:145
+#: templates/BASE.html:85 templates/BASE.html:166
 msgid "The Advanced Placement Program"
 msgstr "AP课程"
 
-#: templates/BASE.html:79 templates/BASE.html:146
+#: templates/BASE.html:86 templates/BASE.html:167 templates/BASE.html:208
 msgid "International Baccalaureate"
 msgstr "IB课程"
 
-#: templates/BASE.html:83 templates/BASE.html:150
+#: templates/BASE.html:90 templates/BASE.html:171
 msgid "Student"
 msgstr "学生"
 
-#: templates/BASE.html:87 templates/BASE.html:153 templates/student.html:6
+#: templates/BASE.html:94 templates/BASE.html:174 templates/student.html:6
 msgid "Extra-curricular Life"
 msgstr "课外活动"
 
-#: templates/BASE.html:92 templates/BASE.html:168
+#: templates/BASE.html:98 templates/BASE.html:178
 msgid "Resources"
 msgstr "其他资源"
 
-#: templates/BASE.html:95 templates/BASE.html:170
+#: templates/BASE.html:101 templates/BASE.html:180
 msgid "Contacts"
 msgstr "联系"
 
-#: templates/BASE.html:96 templates/BASE.html:171
+#: templates/BASE.html:102 templates/BASE.html:181
 msgid "Calendar"
 msgstr "日历"
 
-#: templates/BASE.html:97 templates/resources.html:29
+#: templates/BASE.html:103 templates/resources.html:29
 msgid "Campus Map"
 msgstr "校园地图"
 
-#: templates/BASE.html:98 templates/resources.html:36
+#: templates/BASE.html:104 templates/resources.html:36
 msgid "Location"
 msgstr "地点"
 
-#: templates/BASE.html:172
+#: templates/BASE.html:182
 msgid "Map"
 msgstr "地图"
 
-#: templates/BASE.html:190
-msgid "The High School Affiliated to Renmin University of China International Curriculum Center"
-msgstr "中国人民大学附属中学中外合作办学项目"
-
-#: templates/BASE.html:191
-msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
-msgstr "北京市海淀区中关村大街37号 100080"
-
-#: templates/BASE.html:194
-msgid "Helpful Links"
-msgstr "其他讯息链接"
-
-#: templates/BASE.html:198
-msgid "Cambridge International Examination"
-msgstr "剑桥大学考试委员会"
-
-#: templates/BASE.html:199
-msgid "Collegeboard"
-msgstr "美国大学理事会(SAT, AP)"
-
 #: templates/BASE.html:200
-msgid "ACT"
+msgid "The High School Affiliated to Renmin University of China"
 msgstr ""
 
 #: templates/BASE.html:201
+msgid "International Curriculum Center"
+msgstr ""
+
+#: templates/BASE.html:202
+msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
+msgstr "北京市海淀区中关村大街37号 100080"
+
+#: templates/BASE.html:205
+msgid "Helpful Links"
+msgstr "其他讯息链接"
+
+#: templates/BASE.html:209
+msgid "Cambridge International Examination"
+msgstr "剑桥大学考试委员会"
+
+#: templates/BASE.html:210
+msgid "The College Board"
+msgstr "美国大学理事会"
+
+#: templates/BASE.html:214
+msgid "ACT"
+msgstr ""
+
+#: templates/BASE.html:215
 msgid "TOEFL"
 msgstr ""
 
+#: templates/BASE.html:229 templates/author.html:4
+msgid "Website Authors"
+msgstr "网站作者"
+
 #: templates/about.html:11
-msgid "The High School Affiliated to Renmin University of China is a world-renowned public school founded in 1950.<br/> The school offers both Chinese and international curricula.<br/> Two types of Chinese curricula are offered: the national curriculum and the Early Development Program for Top Innovative Talents.<br/> Three international curricula are offered at the Chinese-Foreign Education Program: the Cambridge International Advanced Level (A Level) program, started in 2004; the Advanced Placement (AP) program, started in 2010; and the International Baccalaureate Diploma (IB) program, started in 2012.<br/> Students are regularly admitted to top Universities domestically and abroad."
-msgstr "中国人民大学附属中学成立于1950年，是一所世界闻名的公立学校。<br/> 学校提供国内和国际两种课程。<br/> 国内课程分为两种：普通的全国课程和为顶尖学生所开设的早培课程。<br/> 而在中外合作办学项目中设有三种国际课程，分别是从2004年开设的英国高中课程（简称A Level课程）、从2010年开设的美国大学先修课程（简称AP课程）、以及从2012年开设的国际文凭课程（简称IB课程）。<br/> 每年都会有学生们被国内外的顶尖大学所录取。"
+msgid ""
+"The High School Affiliated to Renmin University of China is a world-"
+"renowned public school founded in 1950.<br/> The school offers both "
+"Chinese and international curricula.<br/> Two types of Chinese curricula "
+"are offered: the national curriculum and the Early Development Program "
+"for Top Innovative Talents.<br/> Three international curricula are "
+"offered at the Chinese-Foreign Education Program: the Cambridge "
+"International Advanced Level (A Level) program, started in 2004; the "
+"Advanced Placement (AP) program, started in 2010; and the International "
+"Baccalaureate Diploma (IB) program, started in 2012.<br/> Students are "
+"regularly admitted to top Universities domestically and abroad."
+msgstr ""
+"中国人民大学附属中学成立于1950年，是一所世界闻名的公立学校。<br/> 学校提供国内和国际两种课程。<br/> "
+"国内课程分为两种：普通的全国课程和为顶尖学生所开设的早培课程。<br/> "
+"而在中外合作办学项目中设有三种国际课程，分别是从2004年开设的英国高中课程（简称A "
+"Level课程）、从2010年开设的美国大学先修课程（简称AP课程）、以及从2012年开设的国际文凭课程（简称IB课程）。<br/> "
+"每年都会有学生们被国内外的顶尖大学所录取。"
 
 #: templates/about.html:15
 msgid "Accreditation"
 msgstr "课程认证"
 
 #: templates/about.html:16
-msgid "RDFZ has been fully accredited by the University of Cambridge International Examinations (CIE) since 2004.<br/> The Cambridge Exam Center number is CN230.<br/> In 2012 RDFZ received lBO authorization to offer the IBDP, and the IB School Code is 049099.<br/>RDFZ&apos;s CEEB code: 694270"
+msgid ""
+"RDFZ has been fully accredited by the University of Cambridge "
+"International Examinations (CIE) since 2004.<br/> The Cambridge Exam "
+"Center number is CN230.<br/> In 2012 RDFZ received lBO authorization to "
+"offer the IBDP, and the IB School Code is 049099.<br/>RDFZ&apos;s CEEB "
+"code: 694270"
 msgstr "自2004年以来，人大附中已经获得剑桥国际考试大学（CIE）的全面认证。<br/>剑桥考试中心的号码是CN230。<br/>在2012年，人大附中收到了来自国际文凭组织的关于开设国际文凭课程的授权，国际文凭学校的号码是049099。<br/>人大附中的大学入学考试委员会代码：694270"
 
-#: templates/about.html:20
+#: templates/about.html:20 templates/resources.html:5
 msgid "Contact Information"
 msgstr "联系信息"
 
@@ -157,35 +184,91 @@ msgid "Our Mission"
 msgstr "我们的使命"
 
 #: templates/about.html:29
-msgid "<b>\"Virtue, Erudition, Creativity, and Pragmatism\"</b> are the principles of the school. <br/><br/>RDFZ aims to cultivate students not only with a solid well-rounded development, but also with special skills, innovation, and morality. <br/><br/>The mission statement of the school is <b>\"respect individuality, discover and promote each student&apos;s potential, and help them develop into solid citizens anxious to further the prosperity of our country and the advancement of humanity\"</b>."
+msgid ""
+"<b>\"Virtue, Erudition, Creativity, and Pragmatism\"</b> are the "
+"principles of the school. <br/><br/>RDFZ aims to cultivate students not "
+"only with a solid well-rounded development, but also with special skills,"
+" innovation, and morality. <br/><br/>The mission statement of the school "
+"is <b>\"respect individuality, discover and promote each student&apos;s "
+"potential, and help them develop into solid citizens anxious to further "
+"the prosperity of our country and the advancement of humanity\"</b>."
 msgstr "<b>“崇德、博学、创新、求实”</b>是我校的校训。<br/><br/>人大附中培养的学生不仅需要全面发展，同时还需要具有特殊技能，创新精神以及美德。<br/><br/>学校的使命是<b>“尊重个性，发现和促进每个学生的潜能，并且帮助他们发展成为致力于推动我国繁荣和人类进步的坚定的公民”</b>。"
 
 #: templates/about.html:37
-msgid "RDFZ has a professional Chinese faculty team, with 66&#37; holding a master&apos;s or doctorate degree. <br/>There are 60 international faculty teachers at the ChineseForeign Education Program with nationalities represented by the following countries: <div class=\"ui basic segment\"><b>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The U.K. and The U.S. </b></div>More than half of the international teachers hold a master&apos;s or doctorate degree"
-msgstr "人大附中拥有专业的国内师资团队，其中66&#37;拥有硕士或博士学位。<br/>60位中外合作办学项目的国际教师拥有以下国家的国籍：<div class=“ui basic segment”><b>澳大利亚、加拿大、印度、爱尔兰、新西兰、菲律宾、斯里兰卡、尼泊尔、英国以及美国。</b></div>多于一半的国际教师拥有硕士或博士学位"
+msgid ""
+"RDFZ has a professional Chinese faculty team, with 66&#37; holding a "
+"master&apos;s or doctorate degree. <br/>There are 60 international "
+"faculty teachers at the ChineseForeign Education Program with "
+"nationalities represented by the following countries: <div class=\"ui "
+"basic segment\"><b>Australia, Canada, India, Ireland, New Zealand, "
+"Philippines, Sri Lanka, Nepal, The U.K. and The U.S. </b></div>More than "
+"half of the international teachers hold a master&apos;s or doctorate "
+"degree"
+msgstr ""
+"人大附中拥有专业的国内师资团队，其中66&#37;拥有硕士或博士学位。<br/>60位中外合作办学项目的国际教师拥有以下国家的国籍：<div "
+"class=“ui basic "
+"segment”><b>澳大利亚、加拿大、印度、爱尔兰、新西兰、菲律宾、斯里兰卡、尼泊尔、英国以及美国。</b></div>多于一半的国际教师拥有硕士或博士学位"
 
-#: templates/about.html:53
-msgid "Admission to RDFZ high school is dependent on students&apos; Zhongkao (high school entrance exam) score. In addition to the Zhongkao, admission to RDFZ Chinese-Foreign Education Program also depends on interviews and extra exams that test math and English. Year after year, both the national and international curricula have continually increasing application to admission ratios. The admission score for the Chinese National Curriculum is among the highest in Beijing."
+#: templates/about.html:52
+msgid ""
+"Admission to RDFZ high school is dependent on students&apos; Zhongkao "
+"(high school entrance exam) score. In addition to the Zhongkao, admission"
+" to RDFZ Chinese-Foreign Education Program also depends on interviews and"
+" extra exams that test math and English. Year after year, both the "
+"national and international curricula have continually increasing "
+"application to admission ratios. The admission score for the Chinese "
+"National Curriculum is among the highest in Beijing."
 msgstr "人大附中高中部的录取取决于学生的中考（高中入学考试）成绩。除此之外，人大附中中外合作办学项目的录取还取决于入学的面试以及关于数学和英语的额外考试。每年国内和国际课程的录取通过率都在持续提升。国内课程的录取分数是全北京最高的。"
 
-#: templates/about.html:55
+#: templates/about.html:54
 msgid "* For more information, click"
 msgstr "*欲查看更多信息，点击"
 
-#: templates/about.html:55
+#: templates/about.html:54
 msgid "here"
 msgstr "此处"
 
 #: templates/academics.html:9
-msgid "Students in the Chinese curricula are required to learn subjects stipulated by Beijing Municipal Education Commission. <br/>According to the commission, each subject is composed of different modules and assessments are given based on those modules. <br/>Module scores include processing the evaluations of daily performance and the results of exams. <br/>The minimum credits requirement for graduation is 144. <br/>Students need to pass the Huikao (high school graduation exam) organized by the Beijing Education Examinations Authority to graduate from high school. <br/>Huikao subjects include: <div class=\"ui basic segment\"><b>Chinese, English, math, physics, chemistry, biology, politics, history, geography, information technology, general technology, music, arts, and physical education.</b></div> In 11th grade, students are divided into a social science stream or natural science stream."
-msgstr "学习国内课程的学生需要学习北京市教委规定的科目。<br/>根据委员会的说法，每个科目都由不同的模块组成，并根据这些模块进行评估。<br/>模块成绩包括处理日常表现评估和考试结果。<br/>毕业需要的最低分数是144分。<br/>学生们需要通过由北京教育考试局组织的会考（高中毕业考试）才可以从高中毕业。<br/>会考科目包括：<div class=“ui basic segment”><b>语文、英语、数学、物理、化学、生物、政治、历史、地理、信息技术、通用技术、音乐、美术、以及体育。</b></div>在高二，学生将根据学习的科目分为文科生或理科生。"
+msgid ""
+"Students in the Chinese curricula are required to learn subjects "
+"stipulated by Beijing Municipal Education Commission. <br/>According to "
+"the commission, each subject is composed of different modules and "
+"assessments are given based on those modules. <br/>Module scores include "
+"processing the evaluations of daily performance and the results of exams."
+" <br/>The minimum credits requirement for graduation is 144. "
+"<br/>Students need to pass the Huikao (high school graduation exam) "
+"organized by the Beijing Education Examinations Authority to graduate "
+"from high school. <br/>Huikao subjects include: <div class=\"ui basic "
+"segment\"><b>Chinese, English, math, physics, chemistry, biology, "
+"politics, history, geography, information technology, general technology,"
+" music, arts, and physical education.</b></div> In 11th grade, students "
+"are divided into a social science stream or natural science stream."
+msgstr ""
+"学习国内课程的学生需要学习北京市教委规定的科目。<br/>根据委员会的说法，每个科目都由不同的模块组成，并根据这些模块进行评估。<br/>模块成绩包括处理日常表现评估和考试结果。<br/>毕业需要的最低分数是144分。<br/>学生们需要通过由北京教育考试局组织的会考（高中毕业考试）才可以从高中毕业。<br/>会考科目包括：<div"
+" class=“ui basic "
+"segment”><b>语文、英语、数学、物理、化学、生物、政治、历史、地理、信息技术、通用技术、音乐、美术、以及体育。</b></div>在高二，学生将根据学习的科目分为文科生或理科生。"
 
 #: templates/academics.html:11
 msgid "Chinese National Curriculum"
 msgstr "中文国际课程"
 
 #: templates/academics.html:12
-msgid "In accordance with the school&apos;s principle and cultivating goal, RDFZ has integrated national, local school-based, and international curricula to form a unique curricula system which is contemporary, selective, creative, and open. It covers eight different fields including: language, math, humanity, science, technology, physical education, arts, and interdisciplinary courses. According to the needs of individual students, courses are divided into three levels: basic, extensive, and honors. Basic courses are compulsory for all students to fulfill graduation requirements. Extensive courses include elective and development courses to fit the different interests and learning styles of the student body and each year the school offers more than 200 such courses. Honors courses are challenging for students talented in specific fields, including Olympiad competition courses, advanced college courses and research courses. The curricula promotes students&apos; individuality and creativity while maintaining their well-rounded development."
+msgid ""
+"In accordance with the school&apos;s principle and cultivating goal, RDFZ"
+" has integrated national, local school-based, and international curricula"
+" to form a unique curricula system which is contemporary, selective, "
+"creative, and open. It covers eight different fields including: language,"
+" math, humanity, science, technology, physical education, arts, and "
+"interdisciplinary courses. According to the needs of individual students,"
+" courses are divided into three levels: basic, extensive, and honors. "
+"Basic courses are compulsory for all students to fulfill graduation "
+"requirements. Extensive courses include elective and development courses "
+"to fit the different interests and learning styles of the student body "
+"and each year the school offers more than 200 such courses. Honors "
+"courses are challenging for students talented in specific fields, "
+"including Olympiad competition courses, advanced college courses and "
+"research courses. The curricula promotes students&apos; individuality and"
+" creativity while maintaining their well-rounded development."
 msgstr "人大附中根据学校的原则和培养目标，将国家，地方的校本和国际课程结合起来，形成了一个具有当代性，选择性，创造性和开放性的独特课程体系。它涵盖八个不同的领域，包括语言，数学，人文，科学，技术，体育，艺术和跨学科课程。根据个别学生的需要，课程分为三个层次：基础课程，拓展课程和荣誉课程。所有学生都必须学习基础课程以达到毕业要求。学校每年提供200多门拓展课程，包括选修课程和发展课程，以适应学生的不同兴趣和学习风格。荣誉课程对具有特定领域才能的学生来说是具有挑战性的，包括奥林匹克竞赛课程，大学先修课程以及研究课程。课程在保持全面发展的同时，也促进了学生的个性和创造力。"
 
 #: templates/academics.html:15
@@ -193,8 +276,23 @@ msgid "Early Development Program"
 msgstr "早培项目"
 
 #: templates/academics.html:16
-msgid "The Early Development Program for Top Innovative Talents (EDP) was founded in 2010 in cooperation with the Chinese Academy of Sciences, the Chinese Academy of Social Sciences, and other research institutes. It is a key research program of the Ministry of Education, aiming to cultivate leading innovative talents in various fields. The class of 2018 entered the program after finishing their 5th grade in 2011, and have been studying at RDFZ for seven years (students in classes 16, 17, and 18 are EDP graduates). Apart from Chinese National Curriculum courses, students have access to more than 100 EDP development courses from grade 7 to 11. Course content includes independent inquiry-based learning, Olympiad competitions, college level courses, and research and advanced study at university labs."
-msgstr "人大附中在2010年与中国科学院，中国社会科学院等科研院所合作，成立了“顶尖创新人才早期培育项目”（EDP）。 这是教育部得重点攻关项目，旨在培养各领域的创新型领军人才。 2018届的学生在2011年完成五年级的学习后进入该课程，并在人大附中学习了七年（16,17和18届的学生是已毕业的早培学生）。除了中国国家课程，学生还可以参加100多个从7年级到11年级的早培课程。课程内容包括独立探究式学习，奥林匹克竞赛，大学水平课程以及大学实验室的研究和深造课程。"
+msgid ""
+"The Early Development Program for Top Innovative Talents (EDP) was "
+"founded in 2010 in cooperation with the Chinese Academy of Sciences, the "
+"Chinese Academy of Social Sciences, and other research institutes. It is "
+"a key research program of the Ministry of Education, aiming to cultivate "
+"leading innovative talents in various fields. The class of 2018 entered "
+"the program after finishing their 5th grade in 2011, and have been "
+"studying at RDFZ for seven years (students in classes 16, 17, and 18 are "
+"EDP graduates). Apart from Chinese National Curriculum courses, students "
+"have access to more than 100 EDP development courses from grade 7 to 11. "
+"Course content includes independent inquiry-based learning, Olympiad "
+"competitions, college level courses, and research and advanced study at "
+"university labs."
+msgstr ""
+"人大附中在2010年与中国科学院，中国社会科学院等科研院所合作，成立了“顶尖创新人才早期培育项目”（EDP）。 "
+"这是教育部得重点攻关项目，旨在培养各领域的创新型领军人才。 "
+"2018届的学生在2011年完成五年级的学习后进入该课程，并在人大附中学习了七年（16,17和18届的学生是已毕业的早培学生）。除了中国国家课程，学生还可以参加100多个从7年级到11年级的早培课程。课程内容包括独立探究式学习，奥林匹克竞赛，大学水平课程以及大学实验室的研究和深造课程。"
 
 #: templates/academics.html:19
 msgid "Compulsory courses for Chinese curricula"
@@ -205,7 +303,10 @@ msgid "10th Grade"
 msgstr "高一"
 
 #: templates/academics.html:23
-msgid "Chinese, math, English, chemistry, physics, history, geography, politics, physical education, information technology, general technology, art and music, research study"
+msgid ""
+"Chinese, math, English, chemistry, physics, history, geography, politics,"
+" physical education, information technology, general technology, art and "
+"music, research study"
 msgstr "语文、数学、英语、化学、物理、历史、地理、政治、体育、信息技术、通用技术、美术和音乐、以及研究性学习"
 
 #: templates/academics.html:26
@@ -213,7 +314,9 @@ msgid "11th Grade"
 msgstr "高二"
 
 #: templates/academics.html:27
-msgid "Chinese, math, English, physics, biology, physical education, research study"
+msgid ""
+"Chinese, math, English, physics, biology, physical education, research "
+"study"
 msgstr "语文、数学、英语、物理、生物、体育、以及研究性学习"
 
 #: templates/academics.html:30
@@ -229,8 +332,15 @@ msgid "Cambridge A Level Program (AL)"
 msgstr "剑桥A Level课程（AL）"
 
 #: templates/academics.html:41
-msgid "Students in the A level program sit the UK Cambridge International Examinations (CIE) Advanced Level (A Levels) exams. Besides the mandatory courses that students are required to take, the average number of A Level subjects is four at AS level, carrying on three of them into A2 level."
-msgstr "学习A level课程的学生将参加英国剑桥国际考试（CIE）英国高中课程（A Levels）考试。 除了要求学生参加的必修课程外，AS阶段平均有4门ALevel课程，其中三门会延续到A2阶段。"
+msgid ""
+"Students in the A level program sit the UK Cambridge International "
+"Examinations (CIE) Advanced Level (A Levels) exams. Besides the mandatory"
+" courses that students are required to take, the average number of A "
+"Level subjects is four at AS level, carrying on three of them into A2 "
+"level."
+msgstr ""
+"学习A level课程的学生将参加英国剑桥国际考试（CIE）英国高中课程（A Levels）考试。 "
+"除了要求学生参加的必修课程外，AS阶段平均有4门ALevel课程，其中三门会延续到A2阶段。"
 
 #: templates/academics.html:43 templates/academics.html:75
 #: templates/academics.html:110
@@ -254,7 +364,10 @@ msgid "In English: "
 msgstr "英文授课： "
 
 #: templates/academics.html:48
-msgid "Art, Music, ICT (Information, Communication & Technology, IGCSE Biology, IGCSE Chemistry, IGCSE English, IGCSE Physics, AS Mathematics, AS Statistics, Thinking Skills"
+msgid ""
+"Art, Music, ICT (Information, Communication & Technology, IGCSE Biology, "
+"IGCSE Chemistry, IGCSE English, IGCSE Physics, AS Mathematics, AS "
+"Statistics, Thinking Skills"
 msgstr "美术、音乐、计算机、IGCSE生物、IGCSE化学、IGCSE英语、IGCSE物理、AS数学、AS统计、以及思考技巧"
 
 #: templates/academics.html:50
@@ -274,11 +387,19 @@ msgid "Grade 11 & 12 (Year 2 & 3) A Level courses offered in English"
 msgstr "11年级与12年级（高二与高三）A Level所教授的英文课程"
 
 #: templates/academics.html:59
-msgid "A Level Art and Design, A L e v e l Biology, A Level Business, A L e v e l Chemistry, A Level Economics, A Level Computer Science, A Level Further Mathematics, A Level Music, A Level Physics, AP Statistics"
-msgstr "A Level 美术设计，A Level 生物，A Level 商学，A Level 化学，A Level 经济，A Level 计算机科学，A Level 进阶数学，A Level 音乐，A Level 物理学，AP 统计学"
+msgid ""
+"A Level Art and Design, A L e v e l Biology, A Level Business, A L e v e "
+"l Chemistry, A Level Economics, A Level Computer Science, A Level Further"
+" Mathematics, A Level Music, A Level Physics, AP Statistics"
+msgstr ""
+"A Level 美术设计，A Level 生物，A Level 商学，A Level 化学，A Level 经济，A Level 计算机科学，A "
+"Level 进阶数学，A Level 音乐，A Level 物理学，AP 统计学"
 
 #: templates/academics.html:61
-msgid "* Students taking IB Certificate Language A English SL need approval from English teachers to enter into the class. All other students take Language B English SL."
+msgid ""
+"* Students taking IB Certificate Language A English SL need approval from"
+" English teachers to enter into the class. All other students take "
+"Language B English SL."
 msgstr "* 学习IB文聘语言A 英语标准级的学生需要得到英语老师的许可方可加入，其他学生会学习语言B 英语标准级课程。"
 
 #: templates/academics.html:70
@@ -286,15 +407,25 @@ msgid "The Advanced Placement Program (AP)"
 msgstr "大学先修课程(AP)"
 
 #: templates/academics.html:73
-msgid "Students in the Advanced Placement (AP) Program take the College Board AP courses to earn university recognized credits. Over the three-year program, students may take up to 9 AP courses. Beside the mandatory courses that students are required to take, students are required to choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on each course&apos; s prerequisites."
+msgid ""
+"Students in the Advanced Placement (AP) Program take the College Board AP"
+" courses to earn university recognized credits. Over the three-year "
+"program, students may take up to 9 AP courses. Beside the mandatory "
+"courses that students are required to take, students are required to "
+"choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on "
+"each course&apos; s prerequisites."
 msgstr "AP项目的学生需要学习美国大学理事会的AP课程，可以换取大学认证的学分。在三年项目之中，学生最多可以学习九门课程。除了必修课程之外，学生需要在11年级选择三门AP课程，并在12年级根据先决条件选择四门AP课程。"
 
 #: templates/academics.html:78
-msgid "Chinese Language & Literature, Geography, History, Political Science, ICT (Information Communication & Technology)"
+msgid ""
+"Chinese Language & Literature, Geography, History, Political Science, ICT"
+" (Information Communication & Technology)"
 msgstr "汉语文学，地理，历史，政治，信息与通讯技术"
 
 #: templates/academics.html:80
-msgid "Intensive English, Pre-AP Chemistry, Pre-AP Biology, Pre-AP Calculus or AP Calculus, Pre-AP Economics, AP Physics I, Music, Art"
+msgid ""
+"Intensive English, Pre-AP Chemistry, Pre-AP Biology, Pre-AP Calculus or "
+"AP Calculus, Pre-AP Economics, AP Physics I, Music, Art"
 msgstr "英语强化课程，AP化学预备课程，AP生物预备课程，AP微积分预备课程或AP微积分，AP经济学预备课程，AP物理I，音乐，美术"
 
 #: templates/academics.html:82
@@ -306,7 +437,10 @@ msgid "Chinese Language & Literature*, Technology & Design*"
 msgstr "汉语文学*，劳技*"
 
 #: templates/academics.html:87
-msgid "Academic Research*, English Speech*, Integrated Global Studies*, Pre-AP English Language & Composition*, Pre-AP World Cultures, AP Calculus AB/BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP Microeconomics"
+msgid ""
+"Academic Research*, English Speech*, Integrated Global Studies*, Pre-AP "
+"English Language & Composition*, Pre-AP World Cultures, AP Calculus "
+"AB/BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP Microeconomics"
 msgstr "学术研究*，英文演讲*，全球综合研究，AP英语创作预备课程，AP世界文化预备课程，AP微积分AB/BC*，AP化学，AP物理2，AP物理CM，班会，AP微观经济学"
 
 #: templates/academics.html:89
@@ -318,7 +452,11 @@ msgid "Chinese Language & Literature*"
 msgstr "汉语文学*"
 
 #: templates/academics.html:94
-msgid "AP English Literature & Composition, AP English Language & Composition, AP Calculus BC, AP Statistics, AP Computer Science A, AP Biology, AP Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP Physics C (E&M), AP Macro-economics, AP World Cultures"
+msgid ""
+"AP English Literature & Composition, AP English Language & Composition, "
+"AP Calculus BC, AP Statistics, AP Computer Science A, AP Biology, AP "
+"Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP Physics"
+" C (E&M), AP Macro-economics, AP World Cultures"
 msgstr "AP英语文学创作，AP英语语言创作，AP微积分BC，AP统计学，AP计算机科学A，AP生物，AP化学，AP环境科学，AP物理C（机械），AP物理C（电磁），AP宏观经济学，AP世界文化"
 
 #: templates/academics.html:105
@@ -326,11 +464,24 @@ msgid "International Baccalaureate (IB/IBDP)"
 msgstr "国际文凭课程（IB/IBDP）"
 
 #: templates/academics.html:108
-msgid "International Baccalaureate Diploma Program students in the IB curriculum are all IB Diploma candidates. IBDP Students must study three or four courses at HL and two or three others at SL. They must complete 150 hours of creativity, action, and service (CAS) study, be assessed in Theory of Knowledge, and write a 4000-word Extended Essay. Since the IB diploma curriculum runs in a two-year period from grade 11 to grade 12, the grade 10 IB curriculum shares the same courses with A Level grade 10 curriculum."
-msgstr "国际文凭课程项目的学生全部为IB文聘考生。IB学生需要选择三到四门高级课程与两到三门标准级课程。他们必须完成150个小时的创新类，运动类，志愿类活动，同时要参与知识论的考试，并且完成一篇4000词的拓展论文。鉴于IB是一个11年级到12年级的两年课程，IB的10年级课程会与A Level的10年级课程相同。"
+msgid ""
+"International Baccalaureate Diploma Program students in the IB curriculum"
+" are all IB Diploma candidates. IBDP Students must study three or four "
+"courses at HL and two or three others at SL. They must complete 150 hours"
+" of creativity, action, and service (CAS) study, be assessed in Theory of"
+" Knowledge, and write a 4000-word Extended Essay. Since the IB diploma "
+"curriculum runs in a two-year period from grade 11 to grade 12, the grade"
+" 10 IB curriculum shares the same courses with A Level grade 10 "
+"curriculum."
+msgstr ""
+"国际文凭课程项目的学生全部为IB文聘考生。IB学生需要选择三到四门高级课程与两到三门标准级课程。他们必须完成150个小时的创新类，运动类，志愿类活动，同时要参与知识论的考试，并且完成一篇4000词的拓展论文。鉴于IB是一个11年级到12年级的两年课程，IB的10年级课程会与A"
+" Level的10年级课程相同。"
 
 #: templates/academics.html:115
-msgid " Art, Music, ICT (information Communication & Technology), Thinking Skills, IGCSE English, IGCSE Biology, IGCSE Chemistry, IGCSE Physics, AS Mathematics, AS Statistics"
+msgid ""
+" Art, Music, ICT (information Communication & Technology), Thinking "
+"Skills, IGCSE English, IGCSE Biology, IGCSE Chemistry, IGCSE Physics, AS "
+"Mathematics, AS Statistics"
 msgstr " 美术，音乐，信息与通讯技术，思考技巧，IGCSE 英语，IGCSE 化学，IGCSE 物理，AS 数学，AS 统计学"
 
 #: templates/academics.html:117
@@ -366,7 +517,9 @@ msgid "Group 4:"
 msgstr "第四组："
 
 #: templates/academics.html:126
-msgid "Biology, Chemistry, Computer Science, Environmental System and Society, Physics"
+msgid ""
+"Biology, Chemistry, Computer Science, Environmental System and Society, "
+"Physics"
 msgstr "生物学，化学，计算机科学，环境科学，物理学"
 
 #: templates/academics.html:127
@@ -388,10 +541,6 @@ msgstr "音乐，美术"
 #: templates/academics.html:132
 msgid "* CAS, EE, TOK are required for the IB curriculum."
 msgstr "*IB同时要求课外活动，拓展论文，知识论。"
-
-#: templates/author.html:4
-msgid "Website Authors"
-msgstr "网站作者"
 
 #: templates/author.html:7
 msgid "Mentors"
@@ -418,7 +567,9 @@ msgid "Technical support: Uncertainty"
 msgstr ""
 
 #: templates/author.html:23
-msgid "A very uncertain website made by RDFZ students at <a target=\"_blank\" href=\"https://www.veryuncertain.com\">here.</a>"
+msgid ""
+"A very uncertain website made by RDFZ students at <a target=\"_blank\" "
+"href=\"https://www.veryuncertain.com\">here.</a>"
 msgstr ""
 
 #: templates/author.html:26
@@ -426,8 +577,13 @@ msgid "Information: AirPrint Club"
 msgstr "信息：AirPrint社团"
 
 #: templates/author.html:27
-msgid "A non-profit student organization that mainly focuses on the innovation of 3D printing technology. Discover more at <a target=\"_blank\" href=\"https://air3d.sxl.cn\">here.</a>"
-msgstr "一个专注于3D打印技术创新的非营利性学生社团。欲了解更多，请点击 <a target=“_blank” href=“https://air3d.sxl.cn”>这里。</a>"
+msgid ""
+"A non-profit student organization that mainly focuses on the innovation "
+"of 3D printing technology. Discover more at <a target=\"_blank\" "
+"href=\"https://air3d.sxl.cn\">here.</a>"
+msgstr ""
+"一个专注于3D打印技术创新的非营利性学生社团。欲了解更多，请点击 <a target=“_blank” "
+"href=“https://air3d.sxl.cn”>这里。</a>"
 
 #: templates/author.html:30
 msgid "Translation: Nebula Subtitle Group"
@@ -438,7 +594,10 @@ msgid "Design: Graphic Design Club"
 msgstr "设计：人大附中平面设计社"
 
 #: templates/author.html:35
-msgid "RDFZ Graphic Design Club, a platform for aspirational friends to discuss art, is affiliated to JODA Studio. The members of the club are not just students. They are designers; they are artists."
+msgid ""
+"RDFZ Graphic Design Club, a platform for aspirational friends to discuss "
+"art, is affiliated to JODA Studio. The members of the club are not just "
+"students. They are designers; they are artists."
 msgstr "RDFZ平面设计社是隶属于JODA Studio的学生社团，是一个聚集着志同道合的朋友们的艺术交流平台。社团的成员是学生，是设计师，更是艺术家。"
 
 #: templates/home.html:33
@@ -446,7 +605,9 @@ msgid "Not Familiar With Us?"
 msgstr "想了解更多？"
 
 #: templates/home.html:34
-msgid "The High School Affiliated to Renmin University of China<br/> is a world renowned public school founded in 1950. "
+msgid ""
+"The High School Affiliated to Renmin University of China<br/> is a world "
+"renowned public school founded in 1950. "
 msgstr "中国人民大学附属中学<br/>成立于1950年，是一所世界闻名的公立学校。 "
 
 #: templates/home.html:36
@@ -454,8 +615,13 @@ msgid "Read More"
 msgstr "阅读全文"
 
 #: templates/resources.html:8
-msgid "Address: No. 37 Zhongguancun Street, Haidian District, Beijing, China 100080<br/>Principal: Mr. Xiaoning Zhai<br/>Tel: 62513962<br/>Email: xinwen@rdfz.cn"
-msgstr "地址：中国北京市海淀区中关村37号，100080<br/>校长: 翟小宁先生<br/>Tel: 62513962<br/>Email: xinwen@rdfz.cn"
+msgid ""
+"Address: No. 37 Zhongguancun Street, Haidian District, Beijing, China "
+"100080<br/>Principal: Mr. Xiaoning Zhai<br/>Tel: 62513962<br/>Email: "
+"xinwen@rdfz.cn"
+msgstr ""
+"地址：中国北京市海淀区中关村37号，100080<br/>校长: 翟小宁先生<br/>Tel: 62513962<br/>Email: "
+"xinwen@rdfz.cn"
 
 #: templates/student.html:11 templates/student_activity.html:6
 msgid "Student Union"
@@ -478,16 +644,86 @@ msgid "Volunteer Service"
 msgstr "志愿服务"
 
 #: templates/student_activity.html:9
-msgid "The Students&apos; Union, whose president and heads of each division are elected by democratic campaign, is a major selfgovernment institution to serve all students. The campus is full of activities and annual events such as a movie festival, art and performance festivals, speech contests, debate tournaments, etc. There are more than 100 student associations on campus. The RDFZ Art Troupe, consisting of an orchestra, marching band, dance troupe, martial arts group, choir, and gymnastics team are all professional groups with numerous national and international accolades."
+msgid ""
+"The Students&apos; Union, whose president and heads of each division are "
+"elected by democratic campaign, is a major selfgovernment institution to "
+"serve all students. The campus is full of activities and annual events "
+"such as a movie festival, art and performance festivals, speech contests,"
+" debate tournaments, etc. There are more than 100 student associations on"
+" campus. The RDFZ Art Troupe, consisting of an orchestra, marching band, "
+"dance troupe, martial arts group, choir, and gymnastics team are all "
+"professional groups with numerous national and international accolades."
 msgstr "学生会是为全体学生服务的主要自治机构，主席与各部门部长都是经过竞选脱颖而出的。校园内的活动丰富多彩，如电影节，艺术节，演讲比赛，辩论赛，等等。学校内还有一百多个学生社团。人大附中艺术团包括管乐团，行进乐团，舞蹈团，武术队，合唱团，体操队，都是获得过国内外大奖的专业社团。"
 
 #: templates/student_activity.html:39
 msgid ""
-"The Elementary Education plays a significant role upon the society, both socially and economically. However, with its \"inequality\" status quo drawing more attention from the public, reflection as well as action needs to be addressed in an imperative degree. The responsibility has then fallen to the shoulder of us, the teenagers.\n"
-"Inspired by the rapid development of Internet, Orange Academy has initiated an experimental form of education—online curriculum system plus real-time discussion program—in an effort to better the expression and thinking ability of those students coming from less-developed areas. As our volunteer members, coming from Beijing, Shanghai, Hangzhou, Guiyang, the US, and Australia, soar to 102 and beyond, we incorporate more than 400 students from WuXiang, XingGuo, and YiChun, covering three different provinces in China. On the other hand, our teaching contents are also refining along the way. Back in the fall of 2017, aiming at fostering academic interest, critical thinking, expression ability, and confidence build-up, we self-designed numerous courses in accordance with the circumstance of our targeted students. Facilitated by video platforms and WeChat group, our volunteers uploaded more than 700 minutes tutoring videos, organized more than 80 times interactive discussions, produced more than fifty-thousand Q&A, and drew down more than ninety-thousand original words in the process of lecture preparation. In addition, we investigated other high-school students&apos; awareness towards the issue of education, the result was disturbing: most of them submit to the current education situation and even take it for granted, while only care about their own benefits and future success. To tackle down this dilemma, our team strives to spread the awareness by updating public account, advertising our video, open education-related electives at school. Hopefully other teenagers will join us and we can lay the foundation for future \"reformers\".\n"
-"In addition, more and more novel ideas like partnering up with the organization of Public Speaking in Beijing High Schools and cooperating with the speech club of High School Affiliated to Renmin University of China are assimilated and under progression."
+"The Elementary Education plays a significant role upon the society, both "
+"socially and economically. However, with its \"inequality\" status quo "
+"drawing more attention from the public, reflection as well as action "
+"needs to be addressed in an imperative degree. The responsibility has "
+"then fallen to the shoulder of us, the teenagers.\n"
+"Inspired by the rapid development of Internet, Orange Academy has "
+"initiated an experimental form of education—online curriculum system plus"
+" real-time discussion program—in an effort to better the expression and "
+"thinking ability of those students coming from less-developed areas. As "
+"our volunteer members, coming from Beijing, Shanghai, Hangzhou, Guiyang, "
+"the US, and Australia, soar to 102 and beyond, we incorporate more than "
+"400 students from WuXiang, XingGuo, and YiChun, covering three different "
+"provinces in China. On the other hand, our teaching contents are also "
+"refining along the way. Back in the fall of 2017, aiming at fostering "
+"academic interest, critical thinking, expression ability, and confidence "
+"build-up, we self-designed numerous courses in accordance with the "
+"circumstance of our targeted students. Facilitated by video platforms and"
+" WeChat group, our volunteers uploaded more than 700 minutes tutoring "
+"videos, organized more than 80 times interactive discussions, produced "
+"more than fifty-thousand Q&A, and drew down more than ninety-thousand "
+"original words in the process of lecture preparation. In addition, we "
+"investigated other high-school students&apos; awareness towards the issue"
+" of education, the result was disturbing: most of them submit to the "
+"current education situation and even take it for granted, while only care"
+" about their own benefits and future success. To tackle down this "
+"dilemma, our team strives to spread the awareness by updating public "
+"account, advertising our video, open education-related electives at "
+"school. Hopefully other teenagers will join us and we can lay the "
+"foundation for future \"reformers\".\n"
+"In addition, more and more novel ideas like partnering up with the "
+"organization of Public Speaking in Beijing High Schools and cooperating "
+"with the speech club of High School Affiliated to Renmin University of "
+"China are assimilated and under progression."
 msgstr ""
-"基础教育具有重要的社会、经济意义。然而，由于资源分布不平衡，人们急需对当下基础教育系统进行反思和改进。这道重任一定程度上也落到了我们青少年的肩上。\n"
-"在互联网高速发展的大背景下，我们成立了Orange Academy——一个具有实时讨论功能的在线课程系统。Orange Academy是对教育的一场实验性改革项目，通过这个项目我们致力于提高来自经济欠发达地区的学生的表达和思维能力。我们的志愿者来自于北京、上海、杭州、贵阳、美国和澳大利亚，成员人数即将突破102人。我们帮助了来自武乡县、兴国县和宜春市这三个地方总共超过400位学生，覆盖了中国三个不同省份。另外，在教学过程中我们也改进着我们的教学内容。\n"
-"在2017年秋，本着提升学科兴趣、批判性思维能力、表达能力以及学生自信心的目标，我们根据学生的状况自己设计了许多课程。在视频平台和微信群的帮助下，我们的志愿者上传了总共超过700分钟的教学视频，组织了超过80场互动讨论，总共进行了超过5万次问答，并在准备课程的过程中一共写下了超过九万字的原创内容。此外，我们调查了其他高中生对当下教育问题的看法，而结果令人感到不安：大部分学生只顾自己的利益和未来而十分认同当下的教育状况，并觉得目前的状况是理所当然的。为了解决这个问题，我们的团队一直在努力增强大众的认知：我们一直更新公开账户，为我们的视频做宣传，并在学校开展有关教育问题的选修课程。我们希望其他青年人能加入我们，这样我们能给下一代的改革者打下基础。\n"
+"基础教育具有重要的社会、经济意义。然而，由于资源分布不平衡，人们急需对当下基础教育系统进行反思和改进。这道重任一定程度上也落到了我们青少年的肩上。"
+"\n"
+"在互联网高速发展的大背景下，我们成立了Orange Academy——一个具有实时讨论功能的在线课程系统。Orange "
+"Academy是对教育的一场实验性改革项目，通过这个项目我们致力于提高来自经济欠发达地区的学生的表达和思维能力。我们的志愿者来自于北京、上海、杭州、贵阳、美国和澳大利亚，成员人数即将突破102人。我们帮助了来自武乡县、兴国县和宜春市这三个地方总共超过400位学生，覆盖了中国三个不同省份。另外，在教学过程中我们也改进着我们的教学内容。"
+"\n"
+"在2017年秋，本着提升学科兴趣、批判性思维能力、表达能力以及学生自信心的目标，我们根据学生的状况自己设计了许多课程。在视频平台和微信群的帮助下，我们的志愿者上传了总共超过700分钟的教学视频，组织了超过80场互动讨论，总共进行了超过5万次问答，并在准备课程的过程中一共写下了超过九万字的原创内容。此外，我们调查了其他高中生对当下教育问题的看法，而结果令人感到不安：大部分学生只顾自己的利益和未来而十分认同当下的教育状况，并觉得目前的状况是理所当然的。为了解决这个问题，我们的团队一直在努力增强大众的认知：我们一直更新公开账户，为我们的视频做宣传，并在学校开展有关教育问题的选修课程。我们希望其他青年人能加入我们，这样我们能给下一代的改革者打下基础。"
+"\n"
 "此外，我们正在实施一些新的想法，比如说与北京高中演讲联盟以及中国人民大学附属中学的高中演讲社团合作来推广我们的活动。"
+
+#~ msgid "The Advanced Placement Program"
+#~ msgstr "AP课程"
+
+#~ msgid ""
+#~ "The High School Affiliated to Renmin "
+#~ "University of China International Curriculum"
+#~ " Center"
+#~ msgstr "中国人民大学附属中学中外合作办学项目"
+
+#~ msgid "Collegeboard"
+#~ msgstr "美国大学理事会(SAT, AP)"
+
+#~ msgid ""
+#~ "The Advanced\n"
+#~ "                    Placement Program"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Advanced Placement\n"
+#~ "                Program"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "International\n"
+#~ "                Baccalaureate"
+#~ msgstr ""
+
