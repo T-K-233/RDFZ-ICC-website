@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-20 18:58+0800\n"
+"POT-Creation-Date: 2018-04-20 21:53+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,16 +29,16 @@ msgstr ""
 msgid "Mission"
 msgstr ""
 
-#: templates/BASE.html:67 templates/BASE.html:153 templates/about.html:34
+#: templates/BASE.html:67 templates/BASE.html:153 templates/about.html:39
 msgid "Faculty"
 msgstr ""
 
 #: templates/BASE.html:68 templates/BASE.html:96 templates/BASE.html:154
-#: templates/BASE.html:179 templates/about.html:42
+#: templates/BASE.html:179 templates/about.html:47
 msgid "Matriculation"
 msgstr ""
 
-#: templates/BASE.html:69 templates/BASE.html:155 templates/about.html:49
+#: templates/BASE.html:69 templates/BASE.html:155 templates/about.html:54
 msgid "Admission"
 msgstr ""
 
@@ -141,15 +141,15 @@ msgstr ""
 #: templates/about.html:11
 msgid ""
 "The High School Affiliated to Renmin University of China is a world-"
-"renowned public school founded in 1950.<br/> The school offers both "
-"Chinese and international curricula.<br/> Two types of Chinese curricula "
-"are offered: the national curriculum and the Early Development Program "
-"for Top Innovative Talents.<br/> Three international curricula are "
-"offered at the Chinese-Foreign Education Program: the Cambridge "
-"International Advanced Level (A Level) program, started in 2004; the "
-"Advanced Placement (AP) program, started in 2010; and the International "
-"Baccalaureate Diploma (IB) program, started in 2012.<br/> Students are "
-"regularly admitted to top Universities domestically and abroad."
+"renowned public school founded in 1950. The school offers both Chinese "
+"and international curricula. Two types of Chinese curricula are offered: "
+"the national curriculum and the Early Development Program for Top "
+"Innovative Talents. Three international curricula are offered at the "
+"Chinese-Foreign Education Program: the Cambridge International Advanced "
+"Level (A Level) program, started in 2004; the Advanced Placement (AP) "
+"program, started in 2010; and the International Baccalaureate Diploma "
+"(IB) program, started in 2012. Students are regularly admitted to top "
+"Universities domestically and abroad."
 msgstr ""
 
 #: templates/about.html:15
@@ -159,48 +159,64 @@ msgstr ""
 #: templates/about.html:16
 msgid ""
 "RDFZ has been fully accredited by the University of Cambridge "
-"International Examinations (CIE) since 2004.<br/> The Cambridge Exam "
-"Center number is CN230.<br/> In 2012 RDFZ received lBO authorization to "
-"offer the IBDP, and the IB School Code is 049099.<br/>RDFZ&apos;s CEEB "
-"code: 694270"
+"International Examinations (CIE) since 2004. The Cambridge Exam Center "
+"number is CN230."
 msgstr ""
 
-#: templates/about.html:20 templates/resources.html:5
+#: templates/about.html:18
+msgid ""
+"In 2012 RDFZ received IBO authorization to offer the IBDP, and the IB "
+"School Code is 049099."
+msgstr ""
+
+#: templates/about.html:19
+msgid "RDFZ&apos;s CEEB code: 694270"
+msgstr ""
+
+#: templates/about.html:23 templates/resources.html:5
 msgid "Contact Information"
 msgstr ""
 
-#: templates/about.html:21
+#: templates/about.html:24
 msgid "See here"
 msgstr ""
 
-#: templates/about.html:26
+#: templates/about.html:29
 msgid "Our Mission"
 msgstr ""
 
-#: templates/about.html:29
+#: templates/about.html:32
 msgid ""
 "<b>\"Virtue, Erudition, Creativity, and Pragmatism\"</b> are the "
-"principles of the school. <br/><br/>RDFZ aims to cultivate students not "
-"only with a solid well-rounded development, but also with special skills,"
-" innovation, and morality. <br/><br/>The mission statement of the school "
-"is <b>\"respect individuality, discover and promote each student&apos;s "
-"potential, and help them develop into solid citizens anxious to further "
-"the prosperity of our country and the advancement of humanity\"</b>."
+"principles of the school."
 msgstr ""
 
-#: templates/about.html:37
+#: templates/about.html:33
+msgid ""
+"RDFZ aims to cultivate students not only with a solid well-rounded "
+"development, but also with special skills, innovation, and morality."
+msgstr ""
+
+#: templates/about.html:34
+msgid ""
+"The mission statement of the school is <b>\"respect individuality, "
+"discover and promote each student&apos;s potential, and help them develop"
+" into solid citizens anxious to further the prosperity of our country and"
+" the advancement of humanity\"</b>."
+msgstr ""
+
+#: templates/about.html:42
 msgid ""
 "RDFZ has a professional Chinese faculty team, with 66&#37; holding a "
-"master&apos;s or doctorate degree. <br/>There are 60 international "
-"faculty teachers at the ChineseForeign Education Program with "
-"nationalities represented by the following countries: <div class=\"ui "
-"basic segment\"><b>Australia, Canada, India, Ireland, New Zealand, "
-"Philippines, Sri Lanka, Nepal, The U.K. and The U.S. </b></div>More than "
-"half of the international teachers hold a master&apos;s or doctorate "
-"degree"
+"master&apos;s or doctorate degree. There are 60 international faculty "
+"teachers at the ChineseForeign Education Program with nationalities "
+"represented by the following countries: <div class=\"ui basic "
+"segment\"><b>Australia, Canada, India, Ireland, New Zealand, Philippines,"
+" Sri Lanka, Nepal, The U.K. and The U.S. </b></div>More than half of the "
+"international teachers hold a master&apos;s or doctorate degree"
 msgstr ""
 
-#: templates/about.html:52
+#: templates/about.html:57
 msgid ""
 "Admission to RDFZ high school is dependent on students&apos; Zhongkao "
 "(high school entrance exam) score. In addition to the Zhongkao, admission"
@@ -211,29 +227,29 @@ msgid ""
 "National Curriculum is among the highest in Beijing."
 msgstr ""
 
-#: templates/about.html:54
+#: templates/about.html:59
 msgid "* For more information, click"
 msgstr ""
 
-#: templates/about.html:54
+#: templates/about.html:59
 msgid "here"
 msgstr ""
 
 #: templates/academics.html:9
 msgid ""
 "Students in the Chinese curricula are required to learn subjects "
-"stipulated by Beijing Municipal Education Commission. <br/>According to "
-"the commission, each subject is composed of different modules and "
-"assessments are given based on those modules. <br/>Module scores include "
-"processing the evaluations of daily performance and the results of exams."
-" <br/>The minimum credits requirement for graduation is 144. "
-"<br/>Students need to pass the Huikao (high school graduation exam) "
-"organized by the Beijing Education Examinations Authority to graduate "
-"from high school. <br/>Huikao subjects include: <div class=\"ui basic "
-"segment\"><b>Chinese, English, math, physics, chemistry, biology, "
-"politics, history, geography, information technology, general technology,"
-" music, arts, and physical education.</b></div> In 11th grade, students "
-"are divided into a social science stream or natural science stream."
+"stipulated by Beijing Municipal Education Commission. According to the "
+"commission, each subject is composed of different modules and assessments"
+" are given based on those modules. Module scores include processing the "
+"evaluations of daily performance and the results of exams. The minimum "
+"credits requirement for graduation is 144. Students need to pass the "
+"Huikao (high school graduation exam) organized by the Beijing Education "
+"Examinations Authority to graduate from high school. Huikao subjects "
+"include: <div class=\"ui basic segment\"><b>Chinese, English, math, "
+"physics, chemistry, biology, politics, history, geography, information "
+"technology, general technology, music, arts, and physical "
+"education.</b></div> In 11th grade, students are divided into a social "
+"science stream or natural science stream."
 msgstr ""
 
 #: templates/academics.html:11
