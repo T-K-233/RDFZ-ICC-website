@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-21 00:04+0800\n"
+"POT-Creation-Date: 2018-04-21 07:54+0800\n"
 "PO-Revision-Date: 2018-04-19 20:58+0800\n"
 "Last-Translator: \n"
 "Language: zh_Hans_CN\n"
@@ -752,24 +752,27 @@ msgstr "咨询"
 msgid "Live"
 msgstr "现场直播"
 
-#: templates/open_day.html:112
+#: templates/open_day.html:113
 msgid "Download slides"
 msgstr "PPT下载"
 
-#: templates/open_day.html:117
+#: templates/open_day.html:118
 msgid ""
 "Note: Not all slides are currently available. Some of the slides used "
 "will be uploaded after presentation. "
 msgstr "部分PPT可能会在展示结束后上传"
 
-#: templates/open_day.html:118 templates/open_day.html:119
-#: templates/open_day.html:121
+#: templates/open_day.html:119 templates/open_day.html:120
 msgid "program introduction"
 msgstr "项目介绍"
 
-#: templates/open_day.html:120
+#: templates/open_day.html:121
 msgid "School principal speech"
 msgstr "校领导演讲"
+
+#: templates/open_day.html:122
+msgid "All in one"
+msgstr "所有PPT整合"
 
 #: templates/resources.html:8
 msgid ""
