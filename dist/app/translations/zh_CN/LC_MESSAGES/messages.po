@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-20 15:09+0800\n"
+"POT-Creation-Date: 2018-04-20 18:58+0800\n"
 "PO-Revision-Date: 2018-04-19 20:58+0800\n"
 "Last-Translator: \n"
 "Language: zh_Hans_CN\n"
@@ -45,7 +45,7 @@ msgstr "招生"
 
 #: templates/BASE.html:73 templates/BASE.html:159
 msgid "Open day schedule"
-msgstr ""
+msgstr "开放日安排"
 
 #: templates/BASE.html:76 templates/BASE.html:162
 msgid "News & Events"
@@ -83,7 +83,7 @@ msgstr "学生"
 msgid "Extra-curricular Life"
 msgstr "课外活动"
 
-#: templates/BASE.html:101 templates/BASE.html:184 templates/open_day.html:94
+#: templates/BASE.html:101 templates/BASE.html:184 templates/open_day.html:97
 msgid "Resources"
 msgstr "其他资源"
 
@@ -618,112 +618,116 @@ msgstr "阅读全文"
 msgid "Locations"
 msgstr "地点"
 
-#: templates/open_day.html:16
+#: templates/open_day.html:18
 msgid "Schedule"
 msgstr "开放日时间安排"
 
-#: templates/open_day.html:23
+#: templates/open_day.html:25
 msgid "Time"
 msgstr "时间"
 
-#: templates/open_day.html:24
+#: templates/open_day.html:26
 msgid "Event"
 msgstr "安排"
 
-#: templates/open_day.html:25
+#: templates/open_day.html:27
 msgid "People"
 msgstr "嘉宾"
 
-#: templates/open_day.html:31
+#: templates/open_day.html:33
 msgid "Video demo"
 msgstr "视频播放"
 
-#: templates/open_day.html:36
+#: templates/open_day.html:38
 msgid "Instrumental performance: Scarborough Fair"
 msgstr "乐器演奏《斯卡布罗集市》"
 
-#: templates/open_day.html:37
+#: templates/open_day.html:39
 msgid "Yuqing Zou et al"
 msgstr "邹雨菁等人"
 
-#: templates/open_day.html:41
+#: templates/open_day.html:43
 msgid "Speech"
 msgstr "演讲"
 
-#: templates/open_day.html:42
+#: templates/open_day.html:44
 msgid "School principal"
 msgstr "学校领导"
 
-#: templates/open_day.html:46
+#: templates/open_day.html:48
 msgid "Introduction of the ICC"
 msgstr "中外合作项目介绍"
 
-#: templates/open_day.html:47
+#: templates/open_day.html:49
 msgid "Shuyan Wang"
 msgstr "王淑艳"
 
-#: templates/open_day.html:51
+#: templates/open_day.html:53
 msgid "Speech: Why RDFZ"
 msgstr "演讲：为什么选择人大附中"
 
-#: templates/open_day.html:52
+#: templates/open_day.html:54
 msgid "Yilin Liu"
 msgstr "刘沂林"
 
-#: templates/open_day.html:56
+#: templates/open_day.html:58
 msgid "Cello performance"
 msgstr "大提琴演奏"
 
-#: templates/open_day.html:57
+#: templates/open_day.html:59
 msgid "Anyi Wang and Weina Liu"
 msgstr "王安怡和刘维纳"
 
-#: templates/open_day.html:61
+#: templates/open_day.html:63
 msgid "A-level program introduction"
 msgstr "A-level 项目介绍"
 
-#: templates/open_day.html:62
+#: templates/open_day.html:64
 msgid "Stuart McCall, Shiya Bian, Bowen Xiao, Fengruo Xi and Xinming Zhang"
 msgstr "Stuart McCall、边诗雅、肖博文、冯若兮、张芯铭"
 
-#: templates/open_day.html:66
+#: templates/open_day.html:68
 msgid "Drama: Les Miserables"
 msgstr "音乐剧《悲惨世界》片段"
 
-#: templates/open_day.html:67
+#: templates/open_day.html:69
 msgid "Hairuo Hu et al"
 msgstr "胡海若等人"
 
-#: templates/open_day.html:71
+#: templates/open_day.html:73
 msgid "IB program introduction"
 msgstr "IB 项目介绍"
 
-#: templates/open_day.html:72
+#: templates/open_day.html:74
 msgid "Randall Crismond, Yuze Cao, Xuanyu Zhou, Zhuorui Cao and Shuyan Liu"
 msgstr "Randall Crismond、曹羽泽、周轩羽、曹卓睿和刘书言"
 
-#: templates/open_day.html:76
+#: templates/open_day.html:78
 msgid "AP program introduction"
 msgstr "AP 项目介绍"
 
-#: templates/open_day.html:77
+#: templates/open_day.html:79
 msgid "Angela, Haodi Zou, Jingyi Xu, Yuchen Yanh and Botao Ju"
 msgstr "Angela、邹灏迪、许景怡、杨雨辰、琚博韬"
 
-#: templates/open_day.html:81
+#: templates/open_day.html:83
 msgid "Soul-Cappella choir"
 msgstr "Soul-Cappella 人声合唱"
 
-#: templates/open_day.html:82
+#: templates/open_day.html:84
 msgid "Aoyu Zhang et al"
 msgstr "张奥雨等人"
 
-#: templates/open_day.html:86
+#: templates/open_day.html:88
 msgid "Q&A"
 msgstr "咨询"
 
-#: templates/open_day.html:100 templates/open_day.html:101
-#: templates/open_day.html:102
+#: templates/open_day.html:103
+msgid "Live:"
+msgstr "现场直播："
+
+#: templates/open_day.html:104 templates/open_day.html:105
+#: templates/open_day.html:106
 msgid "program introduction"
 msgstr "项目介绍"
 

@@ -1,6 +1,6 @@
 {% extends "BASE.html" %}
 {% block body %}
-<div class="ui text container">
+<div class="ui container" style="width: 800px">
     <div class="ui accordion">
         <div class="title active" style="font-size: 25px">
             <i class="dropdown icon"></i>
@@ -8,7 +8,9 @@
         </div>
         <div class="content active">
             <div class="transition visible" style="display: block !important;">
-                <img src=""/>
+                <div class="ui fluid image">
+                    <img src="/static/open-day.jpg"/>
+                </div>
             </div>
         </div>
         <div class="title" style="font-size: 25px">
@@ -84,6 +86,7 @@
                     <tr>
                         <td>10:30 - 14:00</td>
                         <td>{{ _('Q&A') }}</td>
+                        <td> - </td>
                     </tr>
                     </tbody>
                 </table>
@@ -95,8 +98,9 @@
         </div>
         <div class="content">
             <div class="transition visible" style="display: block !important;">
-                <div class="ui link list" style="font-size: 20px; color: black">
-                    <a href="https://live.bilibili.com/h5/56927" target="_blank" class="item">现场直播地址：https://live.bilibili.com/h5/56927</a><br/>
+                <div class="ui link list" style="font-size: 20px; color: black; margin-left: 40px">
+                    <br/>
+                    <a href="https://live.bilibili.com/h5/56927" target="_blank" class="item">{{ _('Live:') }} https://live.bilibili.com/h5/56927</a><br/>
                     <a href="/static/viewer?file=IB.pdf" target="_blank" class="item">IB {{ _('program introduction') }} PPT </a><br/>
                     <a href="/static/viewer?file=AP.pdf" target="_blank" class="item">AP {{ _('program introduction') }} PPT</a><br/>
                     <a href="/static/viewer?file=.pdf" target="_blank" class="item">A-level {{ _('program introduction') }} PPT</a><br/>
