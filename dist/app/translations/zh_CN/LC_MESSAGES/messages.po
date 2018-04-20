@@ -105,11 +105,11 @@ msgstr "地点"
 
 #: templates/BASE.html:207
 msgid "The High School Affiliated to Renmin University of China"
-msgstr ""
+msgstr "中国人民大学附属中学"
 
 #: templates/BASE.html:208
 msgid "International Curriculum Center"
-msgstr ""
+msgstr "中外合作办学项目"
 
 #: templates/BASE.html:209
 msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
