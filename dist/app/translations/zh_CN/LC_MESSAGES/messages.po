@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-20 22:01+0800\n"
+"POT-Creation-Date: 2018-04-20 23:03+0800\n"
 "PO-Revision-Date: 2018-04-19 20:58+0800\n"
 "Last-Translator: \n"
 "Language: zh_Hans_CN\n"
@@ -73,7 +73,7 @@ msgstr "AP课程"
 
 #: templates/BASE.html:89 templates/BASE.html:173 templates/BASE.html:215
 msgid "International Baccalaureate"
-msgstr "IB课程"
+msgstr "国际文凭组织"
 
 #: templates/BASE.html:93 templates/BASE.html:177
 msgid "Student"
@@ -83,7 +83,7 @@ msgstr "学生"
 msgid "Extra-curricular Life"
 msgstr "课外活动"
 
-#: templates/BASE.html:101 templates/BASE.html:184 templates/open_day.html:97
+#: templates/BASE.html:101 templates/BASE.html:184
 msgid "Resources"
 msgstr "其他资源"
 
@@ -101,7 +101,7 @@ msgstr "校园地图"
 
 #: templates/BASE.html:107 templates/BASE.html:189 templates/resources.html:42
 msgid "Location"
-msgstr "地点"
+msgstr "地址"
 
 #: templates/BASE.html:207
 msgid "The High School Affiliated to Renmin University of China"
@@ -573,24 +573,32 @@ msgid "Students"
 msgstr "学生作者"
 
 #: templates/author.html:18
-msgid "Project Leader: CHI YUFENG"
-msgstr "项目主导者：池雨峰"
+msgid "Founder: YUFENG CHI"
+msgstr "项目创始人：池雨峰"
 
-#: templates/author.html:22
+#: templates/author.html:19
+msgid "Translators: YUFENG CHI, YUHAO ZHOU, HANZHI ZHOU et al"
+msgstr "翻译：池雨峰，周于皓，周涵之"
+
+#: templates/author.html:20
+msgid "Open day content editing by HANZHI ZHOU"
+msgstr "开放日内容编辑：周涵之"
+
+#: templates/author.html:24
 msgid "Technical support: Uncertainty"
-msgstr ""
+msgstr "技术支持：Uncertainty"
 
-#: templates/author.html:23
+#: templates/author.html:25
 msgid ""
 "A very uncertain website made by RDFZ students at <a target=\"_blank\" "
 "href=\"https://www.veryuncertain.com\">here.</a>"
 msgstr ""
 
-#: templates/author.html:26
+#: templates/author.html:28
 msgid "Information: AirPrint Club"
 msgstr "信息：AirPrint社团"
 
-#: templates/author.html:27
+#: templates/author.html:29
 msgid ""
 "A non-profit student organization that mainly focuses on the innovation "
 "of 3D printing technology. Discover more at <a target=\"_blank\" "
@@ -599,15 +607,15 @@ msgstr ""
 "一个专注于3D打印技术创新的非营利性学生社团。欲了解更多，请点击 <a target=“_blank” "
 "href=“https://air3d.sxl.cn”>这里。</a>"
 
-#: templates/author.html:30
+#: templates/author.html:32
 msgid "Translation: Nebula Subtitle Group"
 msgstr "星云字幕组"
 
-#: templates/author.html:34
+#: templates/author.html:36
 msgid "Design: Graphic Design Club"
 msgstr "设计：人大附中平面设计社"
 
-#: templates/author.html:35
+#: templates/author.html:37
 msgid ""
 "RDFZ Graphic Design Club, a platform for aspirational friends to discuss "
 "art, is affiliated to JODA Studio. The members of the club are not just "
@@ -634,7 +642,7 @@ msgstr "地点"
 
 #: templates/open_day.html:18
 msgid "Schedule"
-msgstr "开放日时间安排"
+msgstr "时间安排"
 
 #: templates/open_day.html:25
 msgid "Time"
@@ -736,12 +744,22 @@ msgstr "张奥雨等人"
 msgid "Q&A"
 msgstr "咨询"
 
-#: templates/open_day.html:103
-msgid "Live:"
-msgstr "现场直播："
+#: templates/open_day.html:97
+msgid "Live"
+msgstr "现场直播"
 
-#: templates/open_day.html:104 templates/open_day.html:105
-#: templates/open_day.html:106
+#: templates/open_day.html:108
+msgid "Download slides"
+msgstr "PPT下载"
+
+#: templates/open_day.html:113
+msgid ""
+"Note: Not all slides are currently available. Some of the slides used "
+"will be uploaded after presentation. "
+msgstr "部分PPT可能会在展示结束后上传"
+
+#: templates/open_day.html:114 templates/open_day.html:115
+#: templates/open_day.html:116
 msgid "program introduction"
 msgstr "项目介绍"
 
@@ -974,4 +992,10 @@ msgstr ""
 #~ "学习国内课程的学生需要学习北京市教委规定的科目。<br/>根据委员会的说法，每个科目都由不同的模块组成，并根据这些模块进行评估。<br/>模块成绩包括处理日常表现评估和考试结果。<br/>毕业需要的最低分数是144分。<br/>学生们需要通过由北京教育考试局组织的会考（高中毕业考试）才可以从高中毕业。<br/>会考科目包括：<div"
 #~ " class=“ui basic "
 #~ "segment”><b>语文、英语、数学、物理、化学、生物、政治、历史、地理、信息技术、通用技术、音乐、美术、以及体育。</b></div>在高二，学生将根据学习的科目分为文科生或理科生。"
+
+#~ msgid "Project Leader: CHI YUFENG"
+#~ msgstr "项目主导者：池雨峰"
+
+#~ msgid "Live:"
+#~ msgstr "现场直播："
 

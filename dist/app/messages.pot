@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-20 22:01+0800\n"
+"POT-Creation-Date: 2018-04-20 23:03+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr ""
 msgid "Extra-curricular Life"
 msgstr ""
 
-#: templates/BASE.html:101 templates/BASE.html:184 templates/open_day.html:97
+#: templates/BASE.html:101 templates/BASE.html:184
 msgid "Resources"
 msgstr ""
 
@@ -554,39 +554,47 @@ msgid "Students"
 msgstr ""
 
 #: templates/author.html:18
-msgid "Project Leader: CHI YUFENG"
+msgid "Founder: YUFENG CHI"
 msgstr ""
 
-#: templates/author.html:22
+#: templates/author.html:19
+msgid "Translators: YUFENG CHI, YUHAO ZHOU, HANZHI ZHOU et al"
+msgstr ""
+
+#: templates/author.html:20
+msgid "Open day content editing by HANZHI ZHOU"
+msgstr ""
+
+#: templates/author.html:24
 msgid "Technical support: Uncertainty"
 msgstr ""
 
-#: templates/author.html:23
+#: templates/author.html:25
 msgid ""
 "A very uncertain website made by RDFZ students at <a target=\"_blank\" "
 "href=\"https://www.veryuncertain.com\">here.</a>"
 msgstr ""
 
-#: templates/author.html:26
+#: templates/author.html:28
 msgid "Information: AirPrint Club"
 msgstr ""
 
-#: templates/author.html:27
+#: templates/author.html:29
 msgid ""
 "A non-profit student organization that mainly focuses on the innovation "
 "of 3D printing technology. Discover more at <a target=\"_blank\" "
 "href=\"https://air3d.sxl.cn\">here.</a>"
 msgstr ""
 
-#: templates/author.html:30
+#: templates/author.html:32
 msgid "Translation: Nebula Subtitle Group"
 msgstr ""
 
-#: templates/author.html:34
+#: templates/author.html:36
 msgid "Design: Graphic Design Club"
 msgstr ""
 
-#: templates/author.html:35
+#: templates/author.html:37
 msgid ""
 "RDFZ Graphic Design Club, a platform for aspirational friends to discuss "
 "art, is affiliated to JODA Studio. The members of the club are not just "
@@ -715,12 +723,22 @@ msgstr ""
 msgid "Q&A"
 msgstr ""
 
-#: templates/open_day.html:103
-msgid "Live:"
+#: templates/open_day.html:97
+msgid "Live"
 msgstr ""
 
-#: templates/open_day.html:104 templates/open_day.html:105
-#: templates/open_day.html:106
+#: templates/open_day.html:108
+msgid "Slides"
+msgstr ""
+
+#: templates/open_day.html:113
+msgid ""
+"Note: Not all slides are currently available. Some of the slides used "
+"will be uploaded after presentation. "
+msgstr ""
+
+#: templates/open_day.html:114 templates/open_day.html:115
+#: templates/open_day.html:116
 msgid "program introduction"
 msgstr ""
 
