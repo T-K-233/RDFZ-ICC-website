@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-20 23:40+0800\n"
+"POT-Creation-Date: 2018-04-21 00:04+0800\n"
 "PO-Revision-Date: 2018-02-07 12:22+0800\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -833,8 +833,12 @@ msgid ""
 msgstr ""
 
 #: templates/open_day.html:118 templates/open_day.html:119
-#: templates/open_day.html:120
+#: templates/open_day.html:121
 msgid "program introduction"
+msgstr ""
+
+#: templates/open_day.html:120
+msgid "School principal speech"
 msgstr ""
 
 #: templates/resources.html:8
