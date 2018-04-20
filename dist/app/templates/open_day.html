@@ -9,7 +9,7 @@
         <div class="content active">
             <div class="transition visible" style="display: block !important;">
                 <div class="ui fluid image">
-                    <img src="/static/open-day.jpg"/>
+                    <img src="{{ url_for('static', filename='open-day.jpg') }}"/>
                 </div>
             </div>
         </div>
@@ -101,9 +101,9 @@
                 <div class="ui link list" style="font-size: 20px; color: black; margin-left: 40px">
                     <br/>
                     <a href="https://live.bilibili.com/h5/56927" target="_blank" class="item">{{ _('Live:') }} https://live.bilibili.com/h5/56927</a><br/>
-                    <a href="/static/viewer?file=IB.pdf" target="_blank" class="item">IB {{ _('program introduction') }} PPT </a><br/>
-                    <a href="/static/viewer?file=AP.pdf" target="_blank" class="item">AP {{ _('program introduction') }} PPT</a><br/>
-                    <a href="/static/viewer?file=.pdf" target="_blank" class="item">A-level {{ _('program introduction') }} PPT</a><br/>
+                    <a href="{{ url_for('static', filename='web/viewer.html') }}?file=IB.pdf" target="_blank" class="item">IB {{ _('program introduction') }} PPT </a><br/>
+                    <a href="{{ url_for('static', filename='web/viewer.html') }}?file=AP.pdf" target="_blank" class="item">AP {{ _('program introduction') }} PPT</a><br/>
+                    <a href="{{ url_for('static', filename='web/viewer.html') }}?file=AL.pdf" target="_blank" class="item">A-level {{ _('program introduction') }} PPT</a><br/>
                 </div>
             </div>
         </div>
