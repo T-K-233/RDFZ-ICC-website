@@ -66,16 +66,19 @@
                 <a href="{{ url_for('about', page='mission') }}" class="item">{{ _('Mission') }}</a>
                 <a href="{{ url_for('about', page='faculty') }}" class="item">{{ _('Faculty') }}</a>
                 <a href="{{ url_for('about', page='matriculation') }}" class="item">{{ _('Matriculation') }}</a>
-                <a href="{{ url_for('about', page='admission') }}" class="item">{{ _('Admission') }}</a>
+                <!--<a href="{{ url_for('about', page='admission') }}" class="item">{{ _('Admission') }}</a>-->
             </div>
         </div>
-        <div class="ui dropdown item">
-            {{ _('News & Events') }}
-            <i class="dropdown icon"></i>
-            <div class="menu transition hidden">
-                <a href="{{ url_for('resources', page='calendar') }}" class="item">{{ _('School Calendar') }}</a>
-            </div>
-        </div>
+        <button class="ui item button">
+            <a href="{{ url_for('open_day') }}">{{ _('Open day schedule') }}</a>
+        </button>
+        <!--<div class="ui dropdown item">-->
+            <!--{{ _('News & Events') }}-->
+            <!--<i class="dropdown icon"></i>-->
+            <!--<div class="menu transition hidden">-->
+                <!--<a href="{{ url_for('resources', page='calendar') }}" class="item">{{ _('School Calendar') }}</a>-->
+            <!--</div>-->
+        <!--</div>-->
         <div class="ui dropdown item">
             {{ _('Academics') }}
             <i class="dropdown icon"></i>
@@ -86,20 +89,20 @@
                 <a href="{{ url_for('academics', page='international-baccalaureate') }}" class="item">{{ _('International Baccalaureate') }}</a>
             </div>
         </div>
-        <div class="ui dropdown item">
-            {{ _('Student') }}
-            <i class="dropdown icon"></i>
-            <div class="menu transition hidden">
-                <a href="{{ url_for('about', page='matriculation') }}" class="item">{{ _('Matriculation') }}</a>
-                <a href="{{ url_for('student', page='activity') }}" class="item">{{ _('Extra-curricular Life') }}</a>
-            </div>
-        </div>
+        <!--<div class="ui dropdown item">-->
+            <!--{{ _('Student') }}-->
+            <!--<i class="dropdown icon"></i>-->
+            <!--<div class="menu transition hidden">-->
+                <!--<a href="{{ url_for('about', page='matriculation') }}" class="item">{{ _('Matriculation') }}</a>-->
+                <!--<a href="{{ url_for('student', page='activity') }}" class="item">{{ _('Extra-curricular Life') }}</a>-->
+            <!--</div>-->
+        <!--</div>-->
         <div class="ui dropdown item">
             {{ _('Resources') }}
             <i class="dropdown icon"></i>
             <div class="menu transition hidden">
-                <a href="{{ url_for('resources', page='contacts') }}" class="item">{{ _('Contacts') }}</a>
-                <a href="{{ url_for('resources', page='calendar') }}" class="item">{{ _('Calendar') }}</a>
+                <!--<a href="{{ url_for('resources', page='contacts') }}" class="item">{{ _('Contacts') }}</a>-->
+                <!--<a href="{{ url_for('resources', page='calendar') }}" class="item">{{ _('Calendar') }}</a>-->
                 <a href="{{ url_for('resources', page='campus_map') }}" class="item">{{ _('Campus Map') }}</a>
                 <a href="{{ url_for('resources', page='location') }}" class="item">{{ _('Location') }}</a>
             </div>
@@ -113,8 +116,8 @@
             <div class="menu transition hidden" tabindex="-1">
                 <a class="item" href="javascript:void(0);" onclick="languageTo('zh')">简体中文<i class="right floated china flag"></i></a>
                 <a class="item" href="javascript:void(0);" onclick="languageTo('en')">English<i class="right floated america flag"></i></a>
-                <a class="item" href="javascript:void(0);" onclick="languageTo('es')">Español<i class="right floated spain flag"></i></a>
-                <a class="item" href="javascript:void(0);" onclick="languageTo('ja')">日本語<i class="right floated japan flag"></i></a>
+                <!--<a class="item" href="javascript:void(0);" onclick="languageTo('es')">Español<i class="right floated spain flag"></i></a>-->
+                <!--<a class="item" href="javascript:void(0);" onclick="languageTo('ja')">日本語<i class="right floated japan flag"></i></a>-->
             </div>
         </div>
     </div>
@@ -131,8 +134,8 @@
         <div class="menu transition hidden" tabindex="-1">
             <a class="item" href="javascript:void(0);" onclick="languageTo('zh')">简体中文<i class="right floated china flag"></i></a>
             <a class="item" href="javascript:void(0);" onclick="languageTo('en')">English<i class="right floated america flag"></i></a>
-            <a class="item" href="javascript:void(0);" onclick="languageTo('es')">Español<i class="right floated spain flag"></i></a>
-            <a class="item" href="javascript:void(0);" onclick="languageTo('ja')">日本語<i class="right floated japan flag"></i></a>
+            <!--<a class="item" href="javascript:void(0);" onclick="languageTo('es')">Español<i class="right floated spain flag"></i></a>-->
+            <!--<a class="item" href="javascript:void(0);" onclick="languageTo('ja')">日本語<i class="right floated japan flag"></i></a>-->
         </div>
     </div>
 </nav>
@@ -149,15 +152,18 @@
             <a href="{{ url_for('about', page='mission') }}" class="item">{{ _('Mission') }}</a>
             <a href="{{ url_for('about', page='faculty') }}" class="item">{{ _('Faculty') }}</a>
             <a href="{{ url_for('about', page='matriculation') }}" class="item">{{ _('Matriculation') }}</a>
-            <a href="{{ url_for('about', page='admission') }}" class="item">{{ _('Admission') }}</a>
+            <!--<a href="{{ url_for('about', page='admission') }}" class="item">{{ _('Admission') }}</a>-->
         </div>
     </div>
-    <div class="ui inverted accordion item">
-        <div class="title">{{ _('News & Events') }}<i class="dropdown icon"></i></div>
-        <div class="content">
-            <a href="{{ url_for('resources', page='calendar') }}" class="item">{{ _('School Calendar') }}</a>
-        </div>
-    </div>
+    <button class="ui inverted button item">
+        <a href="{{ url_for('open_day') }}">{{ _('Open day schedule') }}</a>
+    </button>
+    <!--<div class="ui inverted accordion item">-->
+        <!--<div class="title">{{ _('News & Events') }}<i class="dropdown icon"></i></div>-->
+        <!--<div class="content">-->
+            <!--<a href="{{ url_for('resources', page='calendar') }}" class="item">{{ _('School Calendar') }}</a>-->
+        <!--</div>-->
+    <!--</div>-->
     <div class="ui inverted accordion item">
         <div class="title">{{ _('Academics') }}<i class="dropdown icon"></i></div>
         <div class="content">
@@ -167,19 +173,20 @@
             <a href="{{ url_for('academics', page='international-baccalaureate') }}" class="item">{{ _('International Baccalaureate') }}</a>
         </div>
     </div>
-    <div class="ui inverted accordion item">
-        <div class="title">{{ _('Student') }}<i class="dropdown icon"></i></div>
-        <div class="content">
-            <a href="{{ url_for('about', page='matriculation') }}" class="item">{{ _('Matriculation') }}</a>
-            <a href="{{ url_for('student', page='activity') }}" class="item">{{ _('Extra-curricular Life') }}</a>
-        </div>
-    </div>
+    <!--<div class="ui inverted accordion item">-->
+        <!--<div class="title">{{ _('Student') }}<i class="dropdown icon"></i></div>-->
+        <!--<div class="content">-->
+            <!--<a href="{{ url_for('about', page='matriculation') }}" class="item">{{ _('Matriculation') }}</a>-->
+            <!--<a href="{{ url_for('student', page='activity') }}" class="item">{{ _('Extra-curricular Life') }}</a>-->
+        <!--</div>-->
+    <!--</div>-->
     <div class="ui inverted accordion item">
         <div class="title">{{ _('Resources') }}<i class="dropdown icon"></i></div>
         <div class="content">
-            <a href="{{ url_for('resources', page='contacts') }}" class="item">{{ _('Contacts') }}</a>
-            <a href="{{ url_for('resources', page='calendar') }}" class="item">{{ _('Calendar') }}</a>
-            <a href="{{ url_for('resources', page='map') }}" class="item">{{ _('Map') }}</a>
+            <!--<a href="{{ url_for('resources', page='contacts') }}" class="item">{{ _('Contacts') }}</a>-->
+            <!--<a href="{{ url_for('resources', page='calendar') }}" class="item">{{ _('Calendar') }}</a>-->
+            <a href="{{ url_for('resources', page='campus_map') }}" class="item">{{ _('Campus Map') }}</a>
+            <a href="{{ url_for('resources', page='map') }}" class="item">{{ _('Location') }}</a>
         </div>
     </div>
 </nav>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-19 23:03+0800\n"
+"POT-Creation-Date: 2018-04-20 15:09+0800\n"
 "PO-Revision-Date: 2018-04-19 20:58+0800\n"
 "Last-Translator: \n"
 "Language: zh_Hans_CN\n"
@@ -18,124 +18,124 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: templates/BASE.html:62 templates/BASE.html:146 templates/about.html:6
+#: templates/BASE.html:62 templates/BASE.html:149 templates/about.html:6
 msgid "About ICC"
 msgstr "关于ICC"
 
-#: templates/BASE.html:65 templates/BASE.html:148 templates/about.html:10
+#: templates/BASE.html:65 templates/BASE.html:151 templates/about.html:10
 msgid "Introduction"
 msgstr "介绍"
 
-#: templates/BASE.html:66 templates/BASE.html:149
+#: templates/BASE.html:66 templates/BASE.html:152
 msgid "Mission"
 msgstr "使命"
 
-#: templates/BASE.html:67 templates/BASE.html:150 templates/about.html:34
+#: templates/BASE.html:67 templates/BASE.html:153 templates/about.html:34
 msgid "Faculty"
 msgstr "师资队伍"
 
-#: templates/BASE.html:68 templates/BASE.html:93 templates/BASE.html:151
-#: templates/BASE.html:173 templates/about.html:42
+#: templates/BASE.html:68 templates/BASE.html:96 templates/BASE.html:154
+#: templates/BASE.html:179 templates/about.html:42
 msgid "Matriculation"
 msgstr "录取情况"
 
-#: templates/BASE.html:69 templates/BASE.html:152 templates/about.html:49
+#: templates/BASE.html:69 templates/BASE.html:155 templates/about.html:49
 msgid "Admission"
 msgstr "招生"
 
-#: templates/BASE.html:73 templates/BASE.html:156
+#: templates/BASE.html:73 templates/BASE.html:159
+msgid "Open day schedule"
+msgstr ""
+
+#: templates/BASE.html:76 templates/BASE.html:162
 msgid "News & Events"
 msgstr "新闻 & 活动"
 
-#: templates/BASE.html:76 templates/BASE.html:158 templates/resources.html:13
+#: templates/BASE.html:79 templates/BASE.html:164 templates/resources.html:13
 msgid "School Calendar"
 msgstr "学校年历"
 
-#: templates/BASE.html:80 templates/BASE.html:162
+#: templates/BASE.html:83 templates/BASE.html:168
 msgid "Academics"
 msgstr "学术"
 
-#: templates/BASE.html:83 templates/BASE.html:164 templates/academics.html:6
+#: templates/BASE.html:86 templates/BASE.html:170 templates/academics.html:6
 msgid "Chinese Curricula"
 msgstr "中文课程"
 
-#: templates/BASE.html:84 templates/BASE.html:165
+#: templates/BASE.html:87 templates/BASE.html:171
 msgid "A Level Program"
 msgstr "A Level课程"
 
-#: templates/BASE.html:85 templates/BASE.html:166
+#: templates/BASE.html:88 templates/BASE.html:172
 msgid "The Advanced Placement Program"
 msgstr "AP课程"
 
-#: templates/BASE.html:86 templates/BASE.html:167 templates/BASE.html:208
+#: templates/BASE.html:89 templates/BASE.html:173 templates/BASE.html:215
 msgid "International Baccalaureate"
 msgstr "IB课程"
 
-#: templates/BASE.html:90 templates/BASE.html:171
+#: templates/BASE.html:93 templates/BASE.html:177
 msgid "Student"
 msgstr "学生"
 
-#: templates/BASE.html:94 templates/BASE.html:174 templates/student.html:6
+#: templates/BASE.html:97 templates/BASE.html:180 templates/student.html:6
 msgid "Extra-curricular Life"
 msgstr "课外活动"
 
-#: templates/BASE.html:98 templates/BASE.html:178
+#: templates/BASE.html:101 templates/BASE.html:184 templates/open_day.html:94
 msgid "Resources"
 msgstr "其他资源"
 
-#: templates/BASE.html:101 templates/BASE.html:180
+#: templates/BASE.html:104 templates/BASE.html:186
 msgid "Contacts"
 msgstr "联系"
 
-#: templates/BASE.html:102 templates/BASE.html:181
+#: templates/BASE.html:105 templates/BASE.html:187
 msgid "Calendar"
 msgstr "日历"
 
-#: templates/BASE.html:103 templates/resources.html:29
+#: templates/BASE.html:106 templates/BASE.html:188 templates/resources.html:35
 msgid "Campus Map"
 msgstr "校园地图"
 
-#: templates/BASE.html:104 templates/resources.html:36
+#: templates/BASE.html:107 templates/BASE.html:189 templates/resources.html:42
 msgid "Location"
 msgstr "地点"
 
-#: templates/BASE.html:182
-msgid "Map"
-msgstr "地图"
-
-#: templates/BASE.html:200
+#: templates/BASE.html:207
 msgid "The High School Affiliated to Renmin University of China"
 msgstr ""
 
-#: templates/BASE.html:201
+#: templates/BASE.html:208
 msgid "International Curriculum Center"
 msgstr ""
 
-#: templates/BASE.html:202
+#: templates/BASE.html:209
 msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
 msgstr "北京市海淀区中关村大街37号 100080"
 
-#: templates/BASE.html:205
+#: templates/BASE.html:212
 msgid "Helpful Links"
 msgstr "其他讯息链接"
 
-#: templates/BASE.html:209
+#: templates/BASE.html:216
 msgid "Cambridge International Examination"
 msgstr "剑桥大学考试委员会"
 
-#: templates/BASE.html:210
+#: templates/BASE.html:217
 msgid "The College Board"
 msgstr "美国大学理事会"
 
-#: templates/BASE.html:214
+#: templates/BASE.html:221
 msgid "ACT"
 msgstr ""
 
-#: templates/BASE.html:215
+#: templates/BASE.html:222
 msgid "TOEFL"
 msgstr ""
 
-#: templates/BASE.html:229 templates/author.html:4
+#: templates/BASE.html:236 templates/author.html:4
 msgid "Website Authors"
 msgstr "网站作者"
 
@@ -614,6 +614,119 @@ msgstr "中国人民大学附属中学<br/>成立于1950年，是一所世界闻
 msgid "Read More"
 msgstr "阅读全文"
 
+#: templates/open_day.html:7
+msgid "Locations"
+msgstr "地点"
+
+#: templates/open_day.html:16
+msgid "Schedule"
+msgstr "开放日时间安排"
+
+#: templates/open_day.html:23
+msgid "Time"
+msgstr "时间"
+
+#: templates/open_day.html:24
+msgid "Event"
+msgstr "安排"
+
+#: templates/open_day.html:25
+msgid "People"
+msgstr "嘉宾"
+
+#: templates/open_day.html:31
+msgid "Video demo"
+msgstr "视频播放"
+
+#: templates/open_day.html:36
+msgid "Instrumental performance: Scarborough Fair"
+msgstr "乐器演奏《斯卡布罗集市》"
+
+#: templates/open_day.html:37
+msgid "Yuqing Zou et al"
+msgstr "邹雨菁等人"
+
+#: templates/open_day.html:41
+msgid "Speech"
+msgstr "演讲"
+
+#: templates/open_day.html:42
+msgid "School principal"
+msgstr "学校领导"
+
+#: templates/open_day.html:46
+msgid "Introduction of the ICC"
+msgstr "中外合作项目介绍"
+
+#: templates/open_day.html:47
+msgid "Shuyan Wang"
+msgstr "王淑艳"
+
+#: templates/open_day.html:51
+msgid "Speech: Why RDFZ"
+msgstr "演讲：为什么选择人大附中"
+
+#: templates/open_day.html:52
+msgid "Yilin Liu"
+msgstr "刘沂林"
+
+#: templates/open_day.html:56
+msgid "Cello performance"
+msgstr "大提琴演奏"
+
+#: templates/open_day.html:57
+msgid "Anyi Wang and Weina Liu"
+msgstr "王安怡和刘维纳"
+
+#: templates/open_day.html:61
+msgid "A-level program introduction"
+msgstr "A-level 项目介绍"
+
+#: templates/open_day.html:62
+msgid "Stuart McCall, Shiya Bian, Bowen Xiao, Fengruo Xi and Xinming Zhang"
+msgstr "Stuart McCall、边诗雅、肖博文、冯若兮、张芯铭"
+
+#: templates/open_day.html:66
+msgid "Drama: Les Miserables"
+msgstr "音乐剧《悲惨世界》片段"
+
+#: templates/open_day.html:67
+msgid "Hairuo Hu et al"
+msgstr "胡海若等人"
+
+#: templates/open_day.html:71
+msgid "IB program introduction"
+msgstr "IB 项目介绍"
+
+#: templates/open_day.html:72
+msgid "Randall Crismond, Yuze Cao, Xuanyu Zhou, Zhuorui Cao and Shuyan Liu"
+msgstr "Randall Crismond、曹羽泽、周轩羽、曹卓睿和刘书言"
+
+#: templates/open_day.html:76
+msgid "AP program introduction"
+msgstr "AP 项目介绍"
+
+#: templates/open_day.html:77
+msgid "Angela, Haodi Zou, Jingyi Xu, Yuchen Yanh and Botao Ju"
+msgstr "Angela、邹灏迪、许景怡、杨雨辰、琚博韬"
+
+#: templates/open_day.html:81
+msgid "Soul-Cappella choir"
+msgstr "Soul-Cappella 人声合唱"
+
+#: templates/open_day.html:82
+msgid "Aoyu Zhang et al"
+msgstr "张奥雨等人"
+
+#: templates/open_day.html:86
+msgid "Q&A"
+msgstr "咨询"
+
+#: templates/open_day.html:100 templates/open_day.html:101
+#: templates/open_day.html:102
+msgid "program introduction"
+msgstr "项目介绍"
+
 #: templates/resources.html:8
 msgid ""
 "Address: No. 37 Zhongguancun Street, Haidian District, Beijing, China "
@@ -725,5 +838,20 @@ msgstr ""
 #~ msgid ""
 #~ "International\n"
 #~ "                Baccalaureate"
+#~ msgstr ""
+
+#~ msgid "Map"
+#~ msgstr "地图"
+
+#~ msgid "Principal"
+#~ msgstr ""
+
+#~ msgid "Anyi Wang, Weina Liu et al"
+#~ msgstr ""
+
+#~ msgid "Stuart McCall, Shiya Bian et al"
+#~ msgstr ""
+
+#~ msgid "Qingyu Zou et al"
 #~ msgstr ""
 

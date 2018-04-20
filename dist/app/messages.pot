@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-19 23:03+0800\n"
+"POT-Creation-Date: 2018-04-20 15:09+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,124 +17,124 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: templates/BASE.html:62 templates/BASE.html:146 templates/about.html:6
+#: templates/BASE.html:62 templates/BASE.html:149 templates/about.html:6
 msgid "About ICC"
 msgstr ""
 
-#: templates/BASE.html:65 templates/BASE.html:148 templates/about.html:10
+#: templates/BASE.html:65 templates/BASE.html:151 templates/about.html:10
 msgid "Introduction"
 msgstr ""
 
-#: templates/BASE.html:66 templates/BASE.html:149
+#: templates/BASE.html:66 templates/BASE.html:152
 msgid "Mission"
 msgstr ""
 
-#: templates/BASE.html:67 templates/BASE.html:150 templates/about.html:34
+#: templates/BASE.html:67 templates/BASE.html:153 templates/about.html:34
 msgid "Faculty"
 msgstr ""
 
-#: templates/BASE.html:68 templates/BASE.html:93 templates/BASE.html:151
-#: templates/BASE.html:173 templates/about.html:42
+#: templates/BASE.html:68 templates/BASE.html:96 templates/BASE.html:154
+#: templates/BASE.html:179 templates/about.html:42
 msgid "Matriculation"
 msgstr ""
 
-#: templates/BASE.html:69 templates/BASE.html:152 templates/about.html:49
+#: templates/BASE.html:69 templates/BASE.html:155 templates/about.html:49
 msgid "Admission"
 msgstr ""
 
-#: templates/BASE.html:73 templates/BASE.html:156
+#: templates/BASE.html:73 templates/BASE.html:159
+msgid "Open day schedule"
+msgstr ""
+
+#: templates/BASE.html:76 templates/BASE.html:162
 msgid "News & Events"
 msgstr ""
 
-#: templates/BASE.html:76 templates/BASE.html:158 templates/resources.html:13
+#: templates/BASE.html:79 templates/BASE.html:164 templates/resources.html:13
 msgid "School Calendar"
 msgstr ""
 
-#: templates/BASE.html:80 templates/BASE.html:162
+#: templates/BASE.html:83 templates/BASE.html:168
 msgid "Academics"
 msgstr ""
 
-#: templates/BASE.html:83 templates/BASE.html:164 templates/academics.html:6
+#: templates/BASE.html:86 templates/BASE.html:170 templates/academics.html:6
 msgid "Chinese Curricula"
 msgstr ""
 
-#: templates/BASE.html:84 templates/BASE.html:165
+#: templates/BASE.html:87 templates/BASE.html:171
 msgid "A Level Program"
 msgstr ""
 
-#: templates/BASE.html:85 templates/BASE.html:166
+#: templates/BASE.html:88 templates/BASE.html:172
 msgid "The Advanced Placement Program"
 msgstr ""
 
-#: templates/BASE.html:86 templates/BASE.html:167 templates/BASE.html:208
+#: templates/BASE.html:89 templates/BASE.html:173 templates/BASE.html:215
 msgid "International Baccalaureate"
 msgstr ""
 
-#: templates/BASE.html:90 templates/BASE.html:171
+#: templates/BASE.html:93 templates/BASE.html:177
 msgid "Student"
 msgstr ""
 
-#: templates/BASE.html:94 templates/BASE.html:174 templates/student.html:6
+#: templates/BASE.html:97 templates/BASE.html:180 templates/student.html:6
 msgid "Extra-curricular Life"
 msgstr ""
 
-#: templates/BASE.html:98 templates/BASE.html:178
+#: templates/BASE.html:101 templates/BASE.html:184 templates/open_day.html:94
 msgid "Resources"
 msgstr ""
 
-#: templates/BASE.html:101 templates/BASE.html:180
+#: templates/BASE.html:104 templates/BASE.html:186
 msgid "Contacts"
 msgstr ""
 
-#: templates/BASE.html:102 templates/BASE.html:181
+#: templates/BASE.html:105 templates/BASE.html:187
 msgid "Calendar"
 msgstr ""
 
-#: templates/BASE.html:103 templates/resources.html:29
+#: templates/BASE.html:106 templates/BASE.html:188 templates/resources.html:35
 msgid "Campus Map"
 msgstr ""
 
-#: templates/BASE.html:104 templates/resources.html:36
+#: templates/BASE.html:107 templates/BASE.html:189 templates/resources.html:42
 msgid "Location"
 msgstr ""
 
-#: templates/BASE.html:182
-msgid "Map"
-msgstr ""
-
-#: templates/BASE.html:200
+#: templates/BASE.html:207
 msgid "The High School Affiliated to Renmin University of China"
 msgstr ""
 
-#: templates/BASE.html:201
+#: templates/BASE.html:208
 msgid "International Curriculum Center"
 msgstr ""
 
-#: templates/BASE.html:202
+#: templates/BASE.html:209
 msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
 msgstr ""
 
-#: templates/BASE.html:205
+#: templates/BASE.html:212
 msgid "Helpful Links"
 msgstr ""
 
-#: templates/BASE.html:209
+#: templates/BASE.html:216
 msgid "Cambridge International Examination"
 msgstr ""
 
-#: templates/BASE.html:210
+#: templates/BASE.html:217
 msgid "The College Board"
 msgstr ""
 
-#: templates/BASE.html:214
+#: templates/BASE.html:221
 msgid "ACT"
 msgstr ""
 
-#: templates/BASE.html:215
+#: templates/BASE.html:222
 msgid "TOEFL"
 msgstr ""
 
-#: templates/BASE.html:229 templates/author.html:4
+#: templates/BASE.html:236 templates/author.html:4
 msgid "Website Authors"
 msgstr ""
 
@@ -589,6 +589,119 @@ msgstr ""
 
 #: templates/home.html:36
 msgid "Read More"
+msgstr ""
+
+#: templates/open_day.html:7
+msgid "Locations"
+msgstr ""
+
+#: templates/open_day.html:16
+msgid "Schedule"
+msgstr ""
+
+#: templates/open_day.html:23
+msgid "Time"
+msgstr ""
+
+#: templates/open_day.html:24
+msgid "Event"
+msgstr ""
+
+#: templates/open_day.html:25
+msgid "People"
+msgstr ""
+
+#: templates/open_day.html:31
+msgid "Video demo"
+msgstr ""
+
+#: templates/open_day.html:36
+msgid "Instrumental performance: Scarborough Fair"
+msgstr ""
+
+#: templates/open_day.html:37
+msgid "Yuqing Zou et al"
+msgstr ""
+
+#: templates/open_day.html:41
+msgid "Speech"
+msgstr ""
+
+#: templates/open_day.html:42
+msgid "School principal"
+msgstr ""
+
+#: templates/open_day.html:46
+msgid "Introduction of the ICC"
+msgstr ""
+
+#: templates/open_day.html:47
+msgid "Shuyan Wang"
+msgstr ""
+
+#: templates/open_day.html:51
+msgid "Speech: Why RDFZ"
+msgstr ""
+
+#: templates/open_day.html:52
+msgid "Yilin Liu"
+msgstr ""
+
+#: templates/open_day.html:56
+msgid "Cello performance"
+msgstr ""
+
+#: templates/open_day.html:57
+msgid "Anyi Wang and Weina Liu"
+msgstr ""
+
+#: templates/open_day.html:61
+msgid "A-level program introduction"
+msgstr ""
+
+#: templates/open_day.html:62
+msgid "Stuart McCall, Shiya Bian, Bowen Xiao, Fengruo Xi and Xinming Zhang"
+msgstr ""
+
+#: templates/open_day.html:66
+msgid "Drama: Les Miserables"
+msgstr ""
+
+#: templates/open_day.html:67
+msgid "Hairuo Hu et al"
+msgstr ""
+
+#: templates/open_day.html:71
+msgid "IB program introduction"
+msgstr ""
+
+#: templates/open_day.html:72
+msgid "Randall Crismond, Yuze Cao, Xuanyu Zhou, Zhuorui Cao and Shuyan Liu"
+msgstr ""
+
+#: templates/open_day.html:76
+msgid "AP program introduction"
+msgstr ""
+
+#: templates/open_day.html:77
+msgid "Angela, Haodi Zou, Jingyi Xu, Yuchen Yanh and Botao Ju"
+msgstr ""
+
+#: templates/open_day.html:81
+msgid "Soul-Cappella choir"
+msgstr ""
+
+#: templates/open_day.html:82
+msgid "Aoyu Zhang et al"
+msgstr ""
+
+#: templates/open_day.html:86
+msgid "Q&A"
+msgstr ""
+
+#: templates/open_day.html:100 templates/open_day.html:101
+#: templates/open_day.html:102
+msgid "program introduction"
 msgstr ""
 
 #: templates/resources.html:8
