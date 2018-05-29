@@ -1,0 +1,128 @@
+{% extends "BASE.html" %}
+{% block body %}
+<div class="ui inverted banner basic segment">
+    <h1 class="ui inverted banner header">{{ _('Open day schedule') }}</h1>
+</div>
+<div class="ui container" style="width: 800px">
+    <div class="ui accordion">
+        <div class="title active" style="font-size: 23px">
+            <i class="dropdown icon"></i>
+            {{ _('Locations') }}
+        </div>
+        <div class="content active">
+            <div class="transition visible" style="display: block !important;">
+                <div class="ui fluid image">
+                    <img src="{{ url_for('static', filename='open-day.jpg') }}"/>
+                </div>
+            </div>
+        </div>
+        <div class="title" style="font-size: 23px">
+            <i class="dropdown icon"></i>
+            {{ _('Schedule') }}
+        </div>
+        <div class="content">
+            <div class="transition visible" style="display: block !important;">
+                <span style="color: red; font-weight: bold">{{ _('This timetable may subject to changes') }}</span>
+                <table class="ui celled table">
+                    <thead>
+                    <tr>
+                        <th>{{ _('Time') }}</th>
+                        <th>{{ _('Event') }}</th>
+                        <th>{{ _('People') }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>8:00 - 8:25</td>
+                        <td>{{ _('Video demo') }}</td>
+                        <td> -</td>
+                    </tr>
+                    <tr>
+                        <td>8:25 - 8:30</td>
+                        <td>{{ _('Instrumental performance: Scarborough Fair') }}</td>
+                        <td> {{ _('Yuqing Zou et al') }}</td>
+                    </tr>
+                    <tr>
+                        <td>8:30 - 8:45</td>
+                        <td>{{ _('Speech') }}</td>
+                        <td> {{ _('School principal') }}</td>
+                    </tr>
+                    <tr>
+                        <td>8:45 - 8:50</td>
+                        <td>{{ _('Introduction of the ICC') }}</td>
+                        <td>{{ _('Shuyan Wang') }}</td>
+                    </tr>
+                    <tr>
+                        <td>8:50 - 9:00</td>
+                        <td>{{ _('Speech: Why RDFZ') }}</td>
+                        <td>{{ _('Yilin Liu') }}</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 - 9:05</td>
+                        <td>{{ _('Cello performance') }}</td>
+                        <td>{{ _('Anyi Wang and Weina Liu') }}</td>
+                    </tr>
+                    <tr>
+                        <td>9:05 - 9:35</td>
+                        <td>{{ _('A-level program introduction') }}</td>
+                        <td>{{ _('Stuart McCall, Shiya Bian, Bowen Xiao, Fengruo Xi and Xinming Zhang') }}</td>
+                    </tr>
+                    <tr>
+                        <td>9:35 - 9:40</td>
+                        <td>{{ _('Drama: Les Miserables') }}</td>
+                        <td>{{ _('Hairuo Hu et al') }}</td>
+                    </tr>
+                    <tr>
+                        <td>9:40 - 10:10</td>
+                        <td>{{ _('IB program introduction') }}</td>
+                        <td>{{ _('Randall Crismond, Yuze Cao, Xuanyu Zhou, Zhuorui Cao and Shuyan Liu') }}</td>
+                    </tr>
+                    <tr>
+                        <td>10:10 - 10:40</td>
+                        <td>{{ _('AP program introduction') }}</td>
+                        <td>{{ _('Angela, Haodi Zou, Jingyi Xu, Yuchen Yanh and Botao Ju') }}</td>
+                    </tr>
+                    <tr>
+                        <td>10:40 - 10:45</td>
+                        <td>{{ _('Soul-Cappella choir') }}</td>
+                        <td>{{ _('Aoyu Zhang et al') }}</td>
+                    </tr>
+                    <tr>
+                        <td>10:45 - 14:00</td>
+                        <td>{{ _('Q&A') }}</td>
+                        <td> -</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="title" style="font-size: 23px">
+            <i class="dropdown icon"></i>
+            {{ _('Live') }}
+        </div>
+        <div class="content">
+            <div class="transition visible" style="display: block !important;">
+                <div class="ui link list" style="font-size: 20px; color: black; margin-left: 40px">
+                    <iframe src="https://live.bilibili.com/h5/56927" frameborder="0" width="800px" height="640px" scrolling="0"></iframe>
+                    <a href="https://live.bilibili.com/56927" target="_blank" class="item">https://live.bilibili.com/h5/56927</a>
+                </div>
+            </div>
+        </div>
+        <div class="title" style="font-size: 23px">
+            <i class="dropdown icon"></i>
+            {{ _('Download slides') }}
+        </div>
+        <div class="content">
+            <div class="transition visible" style="display: block !important;">
+                <div class="ui link list" style="font-size: 20px; color: black; margin-left: 40px;">
+                    <span style="font-size: 16px; color: red; line-height: 20px">{{ _('Note: Not all slides are currently available. Some of the slides used will be uploaded after presentation. ')}}</span>
+                    <a href="{{ url_for('static', filename='web/viewer.html') }}?file=IB.pdf" target="_blank" class="item" style="margin: 10px;">IB {{ _('program introduction') }} PPT </a>
+                    <a href="{{ url_for('static', filename='web/viewer.html') }}?file=AP.pdf" target="_blank" class="item" style="margin: 10px;">AP {{ _('program introduction') }} PPT</a>
+                    <a href="{{ url_for('static', filename='web/viewer.html') }}?file=Principal-presentation.pdf" target="_blank" class="item" style="margin: 10px;">{{ _('School principal speech') }} PPT</a>
+                    <a href="{{ url_for('static', filename='web/viewer.html') }}?file=opendayall.pdf" target="_blank" class="item" style="margin: 10px;">{{ _('All in one') }}</a><br/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

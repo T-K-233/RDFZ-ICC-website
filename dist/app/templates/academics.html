@@ -1,6 +1,7 @@
 {% extends "base/PAGE_BASE.html" %}
 {% set title = INDEX[0]|title+' - '+INDEX[1]|title %}
 {% block body %}
+<<<<<<< HEAD
 {% if INDEX[1] == 'chinese curricula' %}
   <div class="section">
     <div>
@@ -69,6 +70,41 @@
     </div>
   </div>
 {% elif INDEX[1] == 'Cambridge A Level Program' %}
+=======
+    {% if PAGE == 'chinese' %}
+        <!-- ↓ /academics/chinese 页面内容 ↓ -->
+        <div class="ui inverted banner basic segment">
+            <h1 class="ui inverted banner header">{{ _('Chinese Curricula') }}</h1>
+        </div>
+        <div class="ui text container">
+            <p>{{ _('Students in the Chinese curricula are required to learn subjects stipulated by Beijing Municipal Education Commission. According to the commission, each subject is composed of different modules and assessments are given based on those modules. Module scores include processing the evaluations of daily performance and the results of exams. The minimum credits requirement for graduation is 144. Students need to pass the Huikao (high school graduation exam) organized by the Beijing Education Examinations Authority to graduate from high school. Huikao subjects include: <div class="ui basic segment"><b>Chinese, English, math, physics, chemistry, biology, politics, history, geography, information technology, general technology, music, arts, and physical education.</b></div> In 11th grade, students are divided into a social science stream or natural science stream.') }}</p>
+
+            <h2 class="ui red dividing header">{{ _('Chinese National Curriculum') }}</h2>
+            <p>{{ _('In accordance with the school&apos;s principle and cultivating goal, RDFZ has integrated national, local school-based, and international curricula to form a unique curricula system which is contemporary, selective, creative, and open. It covers eight different fields including: language, math, humanity, science, technology, physical education, arts, and interdisciplinary courses. According to the needs of individual students, courses are divided into three levels: basic, extensive, and honors. Basic courses are compulsory for all students to fulfill graduation requirements. Extensive courses include elective and development courses to fit the different interests and learning styles of the student body and each year the school offers more than 200 such courses. Honors courses are challenging for students talented in specific fields, including Olympiad competition courses, advanced college courses and research courses. The curricula promotes students&apos; individuality and creativity while maintaining their well-rounded development.') }}</p>
+            <div class="spacer"></div>
+
+            <h2 class="ui red dividing header">{{ _('Early Development Program') }}</h2>
+            <p>{{ _('The Early Development Program for Top Innovative Talents (EDP) was founded in 2010 in cooperation with the Chinese Academy of Sciences, the Chinese Academy of Social Sciences, and other research institutes. It is a key research program of the Ministry of Education, aiming to cultivate leading innovative talents in various fields. The class of 2018 entered the program after finishing their 5th grade in 2011, and have been studying at RDFZ for seven years (students in classes 16, 17, and 18 are EDP graduates). Apart from Chinese National Curriculum courses, students have access to more than 100 EDP development courses from grade 7 to 11. Course content includes independent inquiry-based learning, Olympiad competitions, college level courses, and research and advanced study at university labs.') }}</p>
+            <div class="spacer"></div>
+
+            <h2 class="ui red dividing header">{{ _('Compulsory courses for Chinese curricula') }}</h2>
+            <table class="ui basic collapsing celled table">
+                <tr>
+                    <td>{{ _('10th Grade') }}</td>
+                    <td>{{ _('Chinese, math, English, chemistry, physics, history, geography, politics, physical education, information technology, general technology, art and music, research study') }}</td>
+                </tr>
+                <tr>
+                    <td>{{ _('11th Grade') }}</td>
+                    <td>{{ _('Chinese, math, English, physics, biology, physical education, research study') }}</td>
+                </tr>
+                <tr>
+                    <td>{{ _('12th Grade') }}</td>
+                    <td>{{ _('Chinese, math, English, physical education') }}</td>
+                </tr>
+            </table>
+        </div>
+    {% elif PAGE == 'a-level' %}
+>>>>>>> 9bb54d5a9bcd31f0a2ac9a280b8834f3047664d1
         <!-- ↓ /academics/a-level 页面内容 ↓ -->
         <div class="ui inverted banner basic segment">
             <h1 class="ui inverted banner header">{{ _('Cambridge A Level Program (AL)') }}</h1>

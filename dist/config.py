@@ -3,6 +3,6 @@ BABEL_DEFAULT_LOCALE = 'zh_CN'
 LANGUAGES = {
     'zh': 'Chinese',
     'en': 'English',
-    'es': 'Español',
-    'ja': 'Japanese'
+    # 'es': 'Español',
+    # 'ja': 'Japanese'
 }
