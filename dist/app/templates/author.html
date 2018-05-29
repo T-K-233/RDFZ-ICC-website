@@ -1,38 +1,105 @@
-{% extends "BASE.html" %}
+{% extends "base/PAGE_BASE.html" %}
+{% set title = INDEX[1]|title %}
 {% block body %}
-    <div class="ui inverted banner basic segment">
-      <h1 class="ui inverted banner header">{{ _('Website Authors') }}</h1>
-    </div>
-    <div class="ui container">
-      <h2 class="ui red dividing header">{{ _('Mentors') }}</h2>
-      <div class="ui segment">
-        <h3>{{ _('LI YI') }}</h3>
-        <p></p>
-      </div>
-      <div class="ui segment">
-        <h3>{{ _('CHEN JINGTAO') }}</h3>
-        <p></p>
-      </div>
-      <h2 class="ui red dividing header">{{ _('Students') }}</h2>
-      <div class="ui segment">
-        <h3>{{ _('Project Leader: CHI YUFENG') }}</h3>
-        <p></p>
-      </div>
-      <div class="ui segment">
-        <h3>{{ _('Technical support: Uncertainty') }}</h3>
-        <p>{{ _('A very uncertain website made by RDFZ students at <a target="_blank" href="https://www.veryuncertain.com">here.</a>') }}</p>
-      </div>
-      <div class="ui segment">
-        <h3>{{ _('Information: AirPrint Club') }}</h3>
-        <p>{{ _('A non-profit student organization that mainly focuses on the innovation of 3D printing technology. Discover more at <a target="_blank" href="https://air3d.sxl.cn">here.</a>') }}</p>
-      </div>
-      <div class="ui segment">
-        <h3>{{ _('Translation: Nebula Subtitle Group') }}</h3>
-        <p></p>
-      </div>
-      <div class="ui segment">
-        <h3>{{ _('Design: Graphic Design Club') }}</h3>
-        <p>{{ _('RDFZ平面设计社是隶属于JODA Studio的学生社团，更是一个聚集着志同道合的朋友们的艺术交流平台。社团的成员是学生，是设计师，更是艺术家。') }}</p>
+<div class="section">
+  <h4 class="red-text header">Mentors</h4>
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">CHEN JINGTAO</span>
+          <p>[introduction]</p>
+        </div>
+        <div class="card-action"><a href="#">This is a link</a></div>
       </div>
     </div>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">LI YI</span>
+          <p>[introduction]</p>
+        </div>
+        <div class="card-action"><a href="#">This is a link</a></div>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">WU DI</span>
+          <p>[introduction]</p>
+        </div>
+        <div class="card-action"><a href="#">This is a link</a></div>
+      </div>
+    </div>
+  </div>
+  <h4 class="red-text header">Project Leader</h4>
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">CHI YUFENG</span>
+          <p>[introduction]</p>
+        </div>
+        <div class="card-action"><a href="#">This is a link</a></div>
+      </div>
+    </div>
+  </div>
+  <h4 class="red-text header">Tech Support</h4>
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">ICC Student Union<br/>Tech Department</span>
+          <p>[introduction]</p>
+        </div>
+        <div class="card-action"><a href="#">This is a link</a></div>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Uncertainty</span>
+          <p>[introduction]</p>
+        </div>
+        <div class="card-action"><a href="#">This is a link</a></div>
+      </div>
+    </div>
+  </div>
+  <h4 class="red-text header">Information</h4>
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">AirPrint Club</span>
+          <p>{{ _('A non-profit student organization that mainly focuses on the innovation of 3D printing technology.') }}</p>
+        </div>
+        <div class="card-action"><a class="red-text accent-1" href="https://air3d.sxl.cn">Discover More</a></div>
+      </div>
+    </div>
+  </div>
+  <h4 class="red-text header">Translation</h4>
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Nebula Subtitle Group</span>
+          <p>[introduction]</p>
+        </div>
+        <div class="card-action"><a href="#">This is a link</a></div>
+      </div>
+    </div>
+  </div>
+  <h4 class="red-text header">UI Design</h4>
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Graphic Design Club</span>
+          <p>{{ _('RDFZ平面设计社是隶属于JODA Studio的学生社团，更是一个聚集着志同道合的朋友们的艺术交流平台。社团的成员是学生，是设计师，更是艺术家。') }}</p>
+        </div>
+        <div class="card-action"><a class="red-text accent-1" href="#">Discover More</a></div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}

@@ -1,0 +1,21 @@
+<!-- ↓ 页面顶部标题 ↓ -->
+<div class="page-header container">
+  <div class="logo row">
+    <div class="col s3 hide-on-small-only">
+      <a href="/"><img class="header-logo-image" src="{{ url_for('static', filename='img/page/page_logo.jpg') }}"></a>
+    </div>
+    <div class="col s12 m9 logo-right right-align">
+      <h4 class="grey-text suitable header">{{ _('RDFZ International Curriculum Center') }}</h4>
+    </div>
+  </div>
+</div>
+<div class="fixed-action-btn">
+  <div class="btn-floating btn-large red"><i class="large material-icons">language</i></div>
+  <ul>
+    <li><a href="{{ url_for('language', lang='en', redirect=request.path) }}" class="btn-floating yellow">EN</a></li>
+    <li><a href="{{ url_for('language', lang='zh', redirect=request.path) }}" class="btn-floating red">ZH</a></li>
+    <li><a href="{{ url_for('language', lang='es', redirect=request.path) }}" class="btn-floating green">ES</a></li>
+    <li><a href="{{ url_for('language', lang='ja', redirect=request.path) }}" class="btn-floating blue">JA</a></li>
+  </ul>
+</div>
+<!-- ↑ 页面顶部标题 ↑ -->

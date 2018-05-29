@@ -1,25 +1,41 @@
-{% extends "BASE.html" %}
+{% extends "base/PAGE_BASE.html" %}
+{% set title = INDEX[0]|title+' - '+INDEX[1]|title %}
 {% block body %}
-  {% if PAGE == 'activity' %}
+  {% if INDEX[1] == 'campus life' %}
     <!-- ↓ /student/activity 页面内容 ↓ -->
-    <div class="ui inverted banner basic segment">
-      <h1 class="ui inverted banner header">{{ _('Extra-curricular Life') }}</h1>
-    </div>
-    <div class="ui container">
+    <div class="container">
       <div class="ui items">
-        <a class="item" href="{{ url_for('student_activity', page='student_union') }}">
+        <a class="item" href="{{ url_for('general_register', branch='student', page='student_union') }}">
           <div class="content"><h3 class="header">{{ _('Student Union') }}</h3></div>
         </a>
-        <a class="item" href="{{ url_for('student_activity', page='STEM') }}">
+        <a class="item" href="{{ url_for('general_register', branch='student', page='STEM') }}">
           <div class="content"><h3 class="header">{{ _('STEM (Science, Technology, Enginnering, Math)') }}</h3></div>
         </a>
-        <a class="item" href="{{ url_for('student_activity', page='art') }}">
+        <a class="item" href="{{ url_for('general_register', branch='student', page='art') }}">
           <div class="content"><h3 class="header">{{ _('Art') }}</h3></div>
         </a>
-        <a class="item" href="{{ url_for('student_activity', page='language_and_literature') }}">
+        <a class="item" href="{{ url_for('general_register', branch='student', page='language_and_literature') }}">
           <div class="content"><h3 class="header">{{ _('Language & Literature') }}</h3></div>
         </a>
-        <a class="item" href="{{ url_for('student_activity', page='volunteer_service') }}">
+        <a class="item" href="{{ url_for('general_register', branch='student', page='volunteer_service') }}">
+          <div class="content"><h3 class="header">{{ _('Volunteer Service') }}</h3></div>
+        </a>
+      </div>
+    </div>
+  {% elif INDEX[1] == 'extra-curricular activity' %}
+    <!-- ↓ /student/activity 页面内容 ↓ -->
+    <div class="container">
+      <div class="ui items">
+        <a class="item" href="{{ url_for('extra_curricular_activity', page='stem') }}">
+          <div class="content"><h3 class="header">{{ _('STEM (Science, Technology, Enginnering, Math)') }}</h3></div>
+        </a>
+        <a class="item" href="{{ url_for('extra_curricular_activity', page='art') }}">
+          <div class="content"><h3 class="header">{{ _('Art') }}</h3></div>
+        </a>
+        <a class="item" href="{{ url_for('extra_curricular_activity', page='language_and_literature') }}">
+          <div class="content"><h3 class="header">{{ _('Language & Literature') }}</h3></div>
+        </a>
+        <a class="item" href="{{ url_for('extra_curricular_activity', page='volunteer_service') }}">
           <div class="content"><h3 class="header">{{ _('Volunteer Service') }}</h3></div>
         </a>
       </div>

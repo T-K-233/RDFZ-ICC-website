@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include 'base/HEAD.html' %}
+  <style>
+    .page.parallax-container{height: 16rem}
+    .parallax>img{
+      z-index: -1
+    }
+    .parallax>h1{
+      margin: 8rem 1em;
+      font-size: 8em
+    }
+  </style>
+</head>
+<body>
+  {% include 'base/PAGE_HEADER.html' %}
+  {% if NAV %}
+  <!-- ↓ 导航栏 ↓ -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- ↑ 导航栏 ↑ -->
+  {% endif %}
+<div class="page parallax-container">
+  <div class="parallax">
+    <img style="width: 100vw" src="{{ url_for('static', filename='img/page/page_banner.jpg') }}"><h1 class="white-text header">{{ INDEX[1]|title }}</h1>
+  </div>
+</div>
+  <div class="white container">
+    {% block body %}
+    {% endblock %}
+  </div>
+  {% include 'base/PAGE_FOOTER.html' %}
+  <script>
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+  </script>
+</body>
+</html>

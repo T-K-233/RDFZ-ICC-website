@@ -1,40 +1,28 @@
-{% extends "BASE.html" %}
+{% extends "base/PAGE_BASE.html" %}
+{% set title = INDEX[0]|title+' - '+INDEX[1]|title %}
 {% block body %}
-  {% if PAGE == 'contacts' %}
-    <div class="ui inverted banner basic segment">
-      <h1 class="ui inverted banner header">{{ _('Contact Information') }}</h1>
+{% if INDEX[1] == 'contacts' %}
+  <div class="section">
+    <h4 class="red-text header">{{ _('Contact Information') }}</h4>
+    <div>
+      <p>Address: No. 37 Zhongguancun Street, Haidian District, Beijing, China 100080</p>
+      <p>Tel: 62513962</p>
+      <p>Email: xinwen@rdfz.cn</p>
     </div>
-    <div class="ui text container">
-      {{ _("Address: No. 37 Zhongguancun Street, Haidian District, Beijing, China 100080<br/>Principal: Mr. Xiaoning Zhai<br/>Tel: 62513962<br/>Email: xinwen@rdfz.cn") }}
-    </div>
-  {% elif PAGE == 'calendar' %}
-    <!-- ↓ /resources/calendar 页面内容 ↓ -->
-    <div class="ui inverted banner basic segment">
-        <h1 class="ui inverted banner header">{{ _('School Calendar') }}</h1>
-    </div>
-    <div class="ui grid container">
-      <div class="eight wide column">
-        <table class="ui orange collapsed celled table">
-          <tr><td><h4 class="ui header">Fall Semester</h4></td><td>Sep. 2017 - Jan. 2018</td></tr>
-          <tr><td><h4 class="ui header">Spring Semester</h4></td><td>Feb. 2018 - Jul. 2018</td></tr>
-        </table>
-      </div>
-      <div class="eight wide column">
-        <div class="ui brown message">Class Hour: 40 mins/period, 8-9 periods/day</div>
-        <div class="ui brown message">Students attend school 8:00a.m.- 4:35p.m.</div>
-        </div>
-    </div>
-  {% elif PAGE == 'campus_map' %}
-      <div class="ui inverted banner basic segment">
-          <h1 class="ui inverted banner header">{{ _('Campus Map') }}</h1>
-      </div>
-      <div class="ui fluid image">
-          <img src="{{ url_for('static', filename='map.png') }}">
-      </div>
-  {% elif PAGE == 'location' %}
-      <div class="ui inverted banner basic segment">
-          <h1 class="ui inverted banner header">{{ _('Location') }}</h1>
-      </div>
-
-  {% endif %}
+  </div>
+{% elif INDEX[1] == 'school calendar' %}
+  <div class="section">
+    <table>
+      <tr><td><h4 class="ui header">Fall Semester</h4></td><td>Sep. 2017 - Jan. 2018</td></tr>
+      <tr><td><h4 class="ui header">Spring Semester</h4></td><td>Feb. 2018 - Jul. 2018</td></tr>
+    </table>
+    <p>Class Hour: 40 mins/period, 8-9 periods/day</p>
+    <p>Students attend school from 8:00a.m.to 4:35p.m.</p>
+  </div>
+{% elif INDEX[1] == 'campus map' %}
+  <div class="section">
+    <img src="{{ url_for('static', filename='map.png') }}" style="width: 100%">
+  </div>
+{% elif INDEX[1] == 'location' %}
+{% endif %}
 {% endblock %}

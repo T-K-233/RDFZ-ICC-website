@@ -1,62 +1,85 @@
 from flask import session, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
-from app import app, babel
+from flask_babel import gettext as _
+from . import app, babel
 from config import LANGUAGES
 import os
+
+PAGE_TREE = {
+    'about': {
+        'about ICC': [],
+        'mission': [],
+        'faculty': [],
+        'matriculation': [],
+        'admission': []
+    },
+    'academics': {
+        'chinese curricula': [],
+        'Cambridge A Level Program': [],
+        'The Advanced Placement Program': [],
+        'International Baccalaureate': [],
+    },
+    'student': {
+        'campus life': [],
+        'extra-curricular activity': [],
+    },
+    'resources': {
+        'contacts': [],
+        'school calendar': [],
+        'campus map': [],
+        'location': [],
+        'for media': [],
+    },
+}
 
 
 @babel.localeselector
 def get_locale():
+    print(session['lang'])
     try:
-        print('setted lang: '+session['lang'])
+        print('set lang: '+session['lang'])
         return session['lang']
     except:
-        print('default lang')
+        print('default lang:', request.accept_languages.best_match(LANGUAGES.keys()))
         return request.accept_languages.best_match(LANGUAGES.keys())
 
 
-@app.route('/api/lang', methods=['POST'])
+@app.route('/api/change_lang')
 def language():
-    if request.form.get('lang') in LANGUAGES:
-        session['lang'] = request.form.get('lang')
-        return 'success'
-    else:
-        return 'error'
+    if request.args.get('lang') in LANGUAGES:
+        session['lang'] = request.args.get('lang')
+    if request.args.get('redirect'):
+        return redirect(request.args.get('redirect'))
+    return redirect(url_for('home'))
 
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('home.html', PAGE_TREE=PAGE_TREE)
 
 
-@app.route('/about/<page>.html')
-def about(page):
-    return render_template('about.html', PAGE=page)
+@app.route('/<branch>/<page>.html')
+def general_register(branch, page):
+    if branch in PAGE_TREE:
+        if page in PAGE_TREE[branch]:
+            if page == 'matriculation':
+                import csv
+                data_list = []
+                for i in range(2010, 2019):
+                    with open('./matriculation/%s.csv' % i, newline='', encoding='utf-8') as csvfile:
+                        data_list.append(list(csv.reader(csvfile, delimiter=',')))
+                return render_template('%s.html' % branch, INDEX=[branch, page], DATA=data_list)
+            return render_template('%s.html' % branch, INDEX=[branch, page])
 
 
-@app.route('/academics/<page>.html')
-def academics(page):
-    return render_template('academics.html', PAGE=page)
-
-
-@app.route('/student/<page>.html')
-def student(page):
-    return render_template('student.html', PAGE=page)
-
-
-@app.route('/student/activity/<page>.html')
-def student_activity(page):
-    return render_template('student_activity.html', PAGE=page)
-
-
-@app.route('/resources/<page>.html')
-def resources(page):
-    return render_template('resources.html', PAGE=page)
+@app.route('/student/extra-curricular-activity/<page>.html')
+def extra_curricular_activity(page):
+    return render_template('activities/%s.html' % page, INDEX=['extra-curricular activity', page])
 
 
 @app.route('/author.html')
 def author():
-    return render_template('author.html')
+    return render_template('author.html', INDEX=[None, 'website authors'])
 
 
 @app.route('/pictures')
@@ -70,15 +93,4 @@ def picture_upload():
     path = './app/static/pics/'+secure_filename(f.filename)
     f.save(path)
     return redirect(url_for('pictures'))
-
-
-@app.route('/app_test')
-def test():
-    return render_template('TEMP.html')
-
-
-@app.route('/open_day')
-def open_day():
-    return render_template('open_day.html')
-
 

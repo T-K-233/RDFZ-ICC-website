@@ -1,17 +1,18 @@
-# Translations template for PROJECT.
+# Chinese translations for PROJECT.
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-29 14:12+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-05-29 14:13+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -354,11 +355,11 @@ msgstr ""
 
 #: app/templates/base/PAGE_FOOTER.html:11
 msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
-msgstr ""
+msgstr "北京市海淀区中关村大街 37 号  100080"
 
 #: app/templates/base/PAGE_FOOTER.html:14
 msgid "Links"
-msgstr ""
+msgstr "相关链接"
 
 #: app/templates/base/PAGE_FOOTER.html:16
 msgid "ACT"
@@ -366,7 +367,7 @@ msgstr ""
 
 #: app/templates/base/PAGE_FOOTER.html:17
 msgid "TOEFL"
-msgstr ""
+msgstr "托福考试"
 
 #: app/templates/base/PAGE_FOOTER.html:18
 msgid "Powerschool"
@@ -374,11 +375,11 @@ msgstr ""
 
 #: app/templates/base/PAGE_FOOTER.html:19
 msgid "IBO.org"
-msgstr ""
+msgstr "IBO国际组织"
 
 #: app/templates/base/PAGE_FOOTER.html:20
 msgid "Cambridge Assessment"
-msgstr ""
+msgstr "剑桥大学考试委员会"
 
 #: app/templates/base/PAGE_FOOTER.html:21
 msgid "Collegeboard"
@@ -386,9 +387,9 @@ msgstr ""
 
 #: app/templates/base/PAGE_FOOTER.html:27
 msgid "Website Author"
-msgstr ""
+msgstr "网站作者"
 
 #: app/templates/base/PAGE_HEADER.html:8
 msgid "RDFZ International Curriculum Center"
-msgstr ""
+msgstr "人大附中中外合作办学项目"
 

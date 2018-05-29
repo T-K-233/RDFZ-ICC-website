@@ -1,0 +1,35 @@
+<div class="white section" style="height: 10rem"></div>
+<!-- ↓ 页脚 ↓ -->
+<div class="parallax-container">
+  <div class="parallax"><img src="{{ url_for('static', filename='img/page/footer_background.jpg') }}"></div>
+</div>
+<footer class="page-footer red lighten-2">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h6 class="white-text">{{ _('The High School Affiliated to Renmin University of China International Curriculum Center') }}</h6>
+        <p class="grey-text text-lighten-4">{{ _('No.37 Zhongguancun St, Haidian, Beijing, China 100080') }}</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">{{ _('Links') }}</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="http://www.act.org/">{{ _('ACT') }}</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://toefl.etest.net.cn/cn">{{ _('TOEFL') }}</a></li>
+          <li><a class="grey-text text-lighten-3" href="http://school.rdfzxishan.cn/public/home.html">{{ _('Powerschool') }}</a></li>
+          <li><a class="grey-text text-lighten-3" href="http://www.ibo.org/">{{ _('IBO.org') }}</a></li>
+          <li><a class="grey-text text-lighten-3" href="http://www.cambridgeinternational.org/">{{ _('Cambridge Assessment') }}</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.collegeboard.org/">{{ _('Collegeboard') }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">© 2018 RDFZ-ICC<a class="grey-text text-lighten-4 right" href="{{ url_for('author') }}">{{ _('Website Author') }}</a></div>
+  </div>
+</footer>
+<script>
+  $(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+  });
+</script>
+<!-- ↑ 页脚 ↑ -->

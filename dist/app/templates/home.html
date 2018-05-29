@@ -1,43 +1,70 @@
-{% extends "BASE.html" %}
-{% block head %}
+<!DOCTYPE html>
+<html>
+<head>
+  {% include 'base/HEAD.html' %}
   <style>
-  .ui.fluid.banner.image{margin-top: -2rem; z-index: -1}
-  .home.banner{position: absolute; bottom: 8rem; left: 0; right: 0; padding: 2rem 5rem; background: rgba(160,10,10, 0.5)}
-  .home.chs{font-size: 3.3rem; color: #fff}
-  .home.eng{font-size: 1.2rem; color: #fff{#rgb(255,87,87)#}; padding:3rem}
-  .home.eng_wrap{margin-top: 1rem}
-  @media screen and (max-width: 800px) {
-    .home.banner{top: 0; bottom: auto; padding: 1rem 1rem}
-    .home.chs{font-size: 1.6rem; color: #fff}
-    .home.eng{font-size: 0.8rem; padding:1rem}
-  .home.eng_wrap{margin-top: 0.5rem}
-    .ui.fluid.banner.image{margin-top: 1rem; z-index: -1}
-  }
+    .card-title{background: rgba(80,80,80,0.6); right: 0; padding: 0.3em !important}
+    .list.header{
+      padding: 0.3em;
+      margin-bottom: -1rem
+    }
+    .page-header.container{height: 160px}
+    .pushpin{
+      z-index: 26;
+    }
+    .nav-holder{display: none}
   </style>
-{% endblock %}
-{% block body %}
-  <div class="ui fluid banner image">
-    <img src="{{ url_for('static', filename='banner.jpg') }}">
-    <div class="home banner">
-      <div><span class="home chs">人大附中中外合作办学项目</span></div>
-      <div class="home eng_wrap"><span class="home eng">The High School Affiliated to Renmin University of China International Curriculum Center</span></div>
-    </div>
-  </div>
-  <div class="ui vertical stripe segment">
-    <div class="ui equal width stackable internally celled grid">
-      <div class="center aligned row">
-        <div class="column">
-          <img src="http://120.79.25.63/static/pics/standard_text.png" width="40%">
-        </div>
-        <div class="column">
-          <h3>{{ _('Not Familiar With Us?') }}</h3>
-          <p>{{ _('The High School Affiliated to Renmin University of China<br/> is a world renowned public school founded in 1950. ') }}</p>
-          <button class="ui large basic red animated button" onClick="window.location='{{ url_for('about', page='introduction') }}'">
-            <div class="visible content">{{ _('Read More') }}</div>
-            <div class="hidden content"><i class="right arrow icon"></i></div>
-          </button>
+</head>
+<body>
+  <!--
+      翻译说明：单引号<>中的内容不要更改； &apos;为单引号转义字符，可以替换为中文单引号’或者不要更改； &#37;为百分号转义字符，不要更改
+  -->
+  {% include 'base/PAGE_HEADER.html' %}
+  <!--<nav class="z-depth-1 grey lighten-1 pushpin"></nav>
+  <nav class="nav-holder"></nav>-->
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="carousel carousel-slider">
+          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner1.jpg') }}"></a>
+          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner2.jpg') }}"></a>
+          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner3.jpg') }}"></a>
         </div>
       </div>
     </div>
+    {% for branch in PAGE_TREE %}
+    <div class="row"><div class="s12 col"><h5 class="grey lighten-1 white-text list header">{{_( branch | capitalize )}}</h5></div></div>
+    <div class="row">
+      {% for page in PAGE_TREE[branch] %}
+      <div class="col s12 m6 l3">
+        <a href="{{ url_for('general_register', branch=branch, page=page) }}">
+          <div class="hoverable card">
+            <div class="card-image">
+              <img src="{{ url_for('static', filename='img/placeholder_24x24.jpg') }}"><span class="card-title">{{_( page )}}</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
   </div>
-{% endblock %}
+  {% include 'base/PAGE_FOOTER.html' %}
+    <script>
+      $(document).ready(function(){
+        $('.parallax').parallax();
+        var carousel_obj = $('.carousel');
+        carousel_obj.carousel({
+          fullWidth: true,
+          indicators: true
+        });
+        $('.pushpin').pushpin({top: 160, onPositionChange: function(e){
+          if(e == 'pin-top')$('.nav-holder').css('display', 'none');
+          else $('.nav-holder').css('display', 'block')}
+        });
+        setInterval(function(){M.Carousel.getInstance(carousel_obj).next()}, 3000);
+      });
+  </script>
+  </div>
+</body>
+</html>
