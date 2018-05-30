@@ -57,9 +57,8 @@
           <p>{{row[0]}} - {{row[1]}}</p>
         {% endif %}
       {% endfor %}
-        </div>
-<<<<<<< HEAD
-      </li>
+      </div>
+    </li>
     {% endfor %}
   </ul>
   <script>
@@ -82,60 +81,4 @@
     </div>
   </div>
 {% endif %}
-=======
-        <div class="ui text container">
-            <!-- 介绍 -->
-            <h2 class="ui red dividing header">{{ _('Introduction') }}</h2>
-            <p>{{ _('The High School Affiliated to Renmin University of China is a world-renowned public school founded in 1950. The school offers both Chinese and international curricula. Two types of Chinese curricula are offered: the national curriculum and the Early Development Program for Top Innovative Talents. Three international curricula are offered at the Chinese-Foreign Education Program: the Cambridge International Advanced Level (A Level) program, started in 2004; the Advanced Placement (AP) program, started in 2010; and the International Baccalaureate Diploma (IB) program, started in 2012. Students are regularly admitted to top Universities domestically and abroad.') }}</p>
-            <div class="spacer"></div>
-
-            <!-- 认证 -->
-            <h2 class="ui red dividing header">{{ _('Accreditation') }}</h2>
-            <p>{{ _('RDFZ has been fully accredited by the University of Cambridge International Examinations (CIE) since 2004. The Cambridge Exam Center number is CN230.') }}</p>
-            <div class="spacer"></div>
-            <p>{{ _('In 2012 RDFZ received IBO authorization to offer the IBDP, and the IB School Code is 049099.')}}</p>
-            <p>{{ _('RDFZ&apos;s CEEB code: 694270')}}
-            <div class="spacer"></div>
-
-            <!-- 联系方式 -->
-            <!--<h2 class="ui red dividing header">{{ _('Contact Information') }}</h2>-->
-            <!--<p><a href="{{ url_for('resources', page='contacts') }}">{{ _('See here') }}</a></p>-->
-        </div>
-    {% elif PAGE == 'mission' %}
-        <!-- ↓ /about/mission 页面内容 ↓ -->
-        <div class="ui inverted banner basic segment">
-            <h1 class="ui inverted banner header">{{ _('Our Mission') }}</h1>
-        </div>
-        <div class="ui text container">
-            <p>{{ _('<b>"Virtue, Erudition, Creativity, and Pragmatism"</b> are the principles of the school.') }}</p>
-            <p>{{ _('RDFZ aims to cultivate students not only with a solid well-rounded development, but also with special skills, innovation, and morality.')}}</p>
-            <p>{{ _('The mission statement of the school is <b>"respect individuality, discover and promote each student&apos;s potential, and help them develop into solid citizens anxious to further the prosperity of our country and the advancement of humanity"</b>.')}}</p>
-        </div>
-    {% elif PAGE == 'faculty' %}
-        <!-- ↓ /about/faculty 页面内容 ↓ -->
-        <div class="ui inverted banner basic segment">
-            <h1 class="ui inverted banner header">{{ _('Faculty') }}</h1>
-        </div>
-        <div class="ui text container">
-            <p>{{ _('RDFZ has a professional Chinese faculty team, with 66&#37; holding a master&apos;s or doctorate degree. There are 60 international faculty teachers at the ChineseForeign Education Program with nationalities represented by the following countries: <div class="ui basic segment"><b>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The U.K. and The U.S. </b></div>More than half of the international teachers hold a master&apos;s or doctorate degree') }}</p>
-        </div>
-    {% elif PAGE == 'matriculation' %}
-        <!-- ↓ /about/matriculation 页面内容 ↓ -->
-        <div class="ui inverted banner basic segment">
-            <h1 class="ui inverted banner header">{{ _('Matriculation') }}</h1>
-        </div>
-        <div class="ui text container">
-        </div>
-    {% elif PAGE == 'admission' %}
-        <!-- ↓ /about/admission 页面内容 ↓ -->
-        <div class="ui inverted banner basic segment">
-            <h1 class="ui inverted banner header">{{ _('Admission') }}</h1>
-        </div>
-        <div class="ui text container">
-            <p>{{ _('Admission to RDFZ high school is dependent on students&apos; Zhongkao (high school entrance exam) score. In addition to the Zhongkao, admission to RDFZ Chinese-Foreign Education Program also depends on interviews and extra exams that test math and English. Year after year, both the national and international curricula have continually increasing application to admission ratios. The admission score for the Chinese National Curriculum is among the highest in Beijing.') }}</p>
-            <div class="spacer"></div>
-            <p>{{ _('* For more information, click') }} <a href="http://www.rdfz.cn/mzszl/zwhzbxzs/">{{ _('here') }}.</a></p>
-        </div>
-    {% endif %}
->>>>>>> 9bb54d5a9bcd31f0a2ac9a280b8834f3047664d1
 {% endblock %}
