@@ -1,7 +1,6 @@
 from flask import session, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
-from flask_babel import gettext as _
-from . import app, babel
+from . import app, babel, lazy_translations
 from config import LANGUAGES
 import os
 

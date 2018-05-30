@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-05-29 21:41+0800\n"
+"POT-Creation-Date: 2018-05-30 09:00+0800\n"
 "PO-Revision-Date: 2018-05-29 21:41+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -18,414 +18,78 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: templates/BASE.html:62 templates/BASE.html:149
-msgid "About ICC"
+#: view.py:36
+msgid "resources"
 msgstr ""
 
-#: templates/BASE.html:65 templates/BASE.html:151
-msgid "Introduction"
+#: templates/academics.html:57
+msgid "10th Grade"
 msgstr ""
 
-#: templates/BASE.html:66 templates/BASE.html:152
-msgid "Mission"
+#: templates/academics.html:58
+msgid ""
+"Chinese, math, English, chemistry, physics, history, geography, politics,"
+" physical education, information technology, general technology, art and "
+"music, research study"
 msgstr ""
 
-#: templates/BASE.html:67 templates/BASE.html:153
-msgid "Faculty"
+#: templates/academics.html:61
+msgid "11th Grade"
 msgstr ""
 
-#: templates/BASE.html:68 templates/BASE.html:96 templates/BASE.html:154
-#: templates/BASE.html:179
-msgid "Matriculation"
+#: templates/academics.html:62
+msgid ""
+"Chinese, math, English, physics, biology, physical education, research "
+"study"
 msgstr ""
 
-#: templates/BASE.html:69 templates/BASE.html:155
-msgid "Admission"
+#: templates/academics.html:65
+msgid "12th Grade"
 msgstr ""
 
-#: templates/BASE.html:73 templates/BASE.html:159 templates/open_day.html:4
-msgid "Open day schedule"
+#: templates/academics.html:66
+msgid "Chinese, math, English, physical education"
 msgstr ""
 
-#: templates/BASE.html:76 templates/BASE.html:162
-msgid "News & Events"
-msgstr ""
-
-#: templates/BASE.html:79 templates/BASE.html:164
-msgid "School Calendar"
-msgstr ""
-
-#: templates/BASE.html:83 templates/BASE.html:168
-msgid "Academics"
-msgstr ""
-
-#: templates/BASE.html:86 templates/BASE.html:170
-msgid "Chinese Curricula"
-msgstr ""
-
-#: templates/BASE.html:87 templates/BASE.html:171
-msgid "A Level Program"
-msgstr ""
-
-#: templates/BASE.html:88 templates/BASE.html:172
-msgid "The Advanced Placement Program"
-msgstr ""
-
-#: templates/BASE.html:89 templates/BASE.html:173 templates/BASE.html:215
-msgid "International Baccalaureate"
-msgstr ""
-
-#: templates/BASE.html:93 templates/BASE.html:177
-msgid "Student"
-msgstr ""
-
-#: templates/BASE.html:97 templates/BASE.html:180
-msgid "Extra-curricular Life"
-msgstr ""
-
-#: templates/BASE.html:101 templates/BASE.html:184
-msgid "Resources"
-msgstr ""
-
-#: templates/BASE.html:104 templates/BASE.html:186
-msgid "Contacts"
-msgstr ""
-
-#: templates/BASE.html:105 templates/BASE.html:187
-msgid "Calendar"
-msgstr ""
-
-#: templates/BASE.html:106 templates/BASE.html:188
-msgid "Campus Map"
-msgstr ""
-
-#: templates/BASE.html:107 templates/BASE.html:189
-msgid "Location"
-msgstr ""
-
-#: templates/BASE.html:207
-msgid "The High School Affiliated to Renmin University of China"
-msgstr ""
-
-#: templates/BASE.html:208
-msgid "International Curriculum Center"
-msgstr ""
-
-#: templates/BASE.html:209 templates/base/PAGE_FOOTER.html:11
-msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
-msgstr ""
-
-#: templates/BASE.html:212
-msgid "Helpful Links"
-msgstr ""
-
-#: templates/BASE.html:216
-msgid "Cambridge International Examination"
-msgstr ""
-
-#: templates/BASE.html:217
-msgid "The College Board"
-msgstr ""
-
-#: templates/BASE.html:221 templates/base/PAGE_FOOTER.html:16
-msgid "ACT"
-msgstr ""
-
-#: templates/BASE.html:222 templates/base/PAGE_FOOTER.html:17
-msgid "TOEFL"
-msgstr ""
-
-#: templates/BASE.html:236 templates/author.html:107
-msgid "Website Authors"
-msgstr ""
-
-#: templates/author.html:75
+#: templates/author.html:74
 msgid ""
 "A non-profit student organization that mainly focuses on the innovation "
 "of 3D printing technology."
 msgstr ""
 
-#: templates/author.html:99
-msgid "RDFZ平面设计社是隶属于JODA Studio的学生社团，更是一个聚集着志同道合的朋友们的艺术交流平台。社团的成员是学生，是设计师，更是艺术家。"
-msgstr ""
-
-#: templates/author.html:110
-msgid "Mentors"
-msgstr ""
-
-#: templates/author.html:112
-msgid "LI YI"
-msgstr ""
-
-#: templates/author.html:116
-msgid "CHEN JINGTAO"
-msgstr ""
-
-#: templates/author.html:119
-msgid "Students"
-msgstr ""
-
-#: templates/author.html:121
-msgid "Founder: YUFENG CHI"
-msgstr ""
-
-#: templates/author.html:122
-msgid "Translators: YUFENG CHI, YUHAO ZHOU, HANZHI ZHOU et al"
-msgstr ""
-
-#: templates/author.html:123
-msgid "Open day content editing by HANZHI ZHOU"
-msgstr ""
-
-#: templates/author.html:127
-msgid "Technical support: Uncertainty"
-msgstr ""
-
-#: templates/author.html:128
+#: templates/author.html:98
 msgid ""
-"A very uncertain website made by RDFZ students at <a target=\"_blank\" "
-"href=\"https://www.veryuncertain.com\">here.</a>"
+"The RDFZ Graphic Design Agency is a student community affiliated with "
+"JODA Studio. It is also an art exchange platform with like-minded "
+"friends. Members of the community are students, designers, and artists."
 msgstr ""
 
-#: templates/author.html:131
-msgid "Information: AirPrint Club"
+#: templates/resources.html:6
+msgid "Contact Information"
 msgstr ""
 
-#: templates/author.html:132
-msgid ""
-"A non-profit student organization that mainly focuses on the innovation "
-"of 3D printing technology. Discover more at <a target=\"_blank\" "
-"href=\"https://air3d.sxl.cn\">here.</a>"
-msgstr ""
-
-#: templates/author.html:135
-msgid "Translation: Nebula Subtitle Group"
-msgstr ""
-
-#: templates/author.html:139
-msgid "Design: Graphic Design Club"
-msgstr ""
-
-#: templates/author.html:140
-msgid ""
-"RDFZ Graphic Design Club, a platform for aspirational friends to discuss "
-"art, is affiliated to JODA Studio. The members of the club are not just "
-"students. They are designers; they are artists."
-msgstr ""
-
-#: templates/open_day.html:10
-msgid "Locations"
-msgstr ""
-
-#: templates/open_day.html:21
-msgid "Schedule"
-msgstr ""
-
-#: templates/open_day.html:25
-msgid "This timetable may subject to changes"
-msgstr ""
-
-#: templates/open_day.html:29
-msgid "Time"
-msgstr ""
-
-#: templates/open_day.html:30
-msgid "Event"
-msgstr ""
-
-#: templates/open_day.html:31
-msgid "People"
-msgstr ""
-
-#: templates/open_day.html:37
-msgid "Video demo"
-msgstr ""
-
-#: templates/open_day.html:42
-msgid "Instrumental performance: Scarborough Fair"
-msgstr ""
-
-#: templates/open_day.html:43
-msgid "Yuqing Zou et al"
-msgstr ""
-
-#: templates/open_day.html:47
-msgid "Speech"
-msgstr ""
-
-#: templates/open_day.html:48
-msgid "School principal"
-msgstr ""
-
-#: templates/open_day.html:52
-msgid "Introduction of the ICC"
-msgstr ""
-
-#: templates/open_day.html:53
-msgid "Shuyan Wang"
-msgstr ""
-
-#: templates/open_day.html:57
-msgid "Speech: Why RDFZ"
-msgstr ""
-
-#: templates/open_day.html:58
-msgid "Yilin Liu"
-msgstr ""
-
-#: templates/open_day.html:62
-msgid "Cello performance"
-msgstr ""
-
-#: templates/open_day.html:63
-msgid "Anyi Wang and Weina Liu"
-msgstr ""
-
-#: templates/open_day.html:67
-msgid "A-level program introduction"
-msgstr ""
-
-#: templates/open_day.html:68
-msgid "Stuart McCall, Shiya Bian, Bowen Xiao, Fengruo Xi and Xinming Zhang"
-msgstr ""
-
-#: templates/open_day.html:72
-msgid "Drama: Les Miserables"
-msgstr ""
-
-#: templates/open_day.html:73
-msgid "Hairuo Hu et al"
-msgstr ""
-
-#: templates/open_day.html:77
-msgid "IB program introduction"
-msgstr ""
-
-#: templates/open_day.html:78
-msgid "Randall Crismond, Yuze Cao, Xuanyu Zhou, Zhuorui Cao and Shuyan Liu"
-msgstr ""
-
-#: templates/open_day.html:82
-msgid "AP program introduction"
-msgstr ""
-
-#: templates/open_day.html:83
-msgid "Angela, Haodi Zou, Jingyi Xu, Yuchen Yanh and Botao Ju"
-msgstr ""
-
-#: templates/open_day.html:87
-msgid "Soul-Cappella choir"
-msgstr ""
-
-#: templates/open_day.html:88
-msgid "Aoyu Zhang et al"
-msgstr ""
-
-#: templates/open_day.html:92
-msgid "Q&A"
-msgstr ""
-
-#: templates/open_day.html:101
-msgid "Live"
-msgstr ""
-
-#: templates/open_day.html:113
-msgid "Download slides"
-msgstr ""
-
-#: templates/open_day.html:118
-msgid ""
-"Note: Not all slides are currently available. Some of the slides used "
-"will be uploaded after presentation. "
-msgstr ""
-
-#: templates/open_day.html:119 templates/open_day.html:120
-msgid "program introduction"
-msgstr ""
-
-#: templates/open_day.html:121
-msgid "School principal speech"
-msgstr ""
-
-#: templates/open_day.html:122
-msgid "All in one"
-msgstr ""
-
-#: templates/student.html:9 templates/student_activity.html:6
+#: templates/student.html:9
 msgid "Student Union"
 msgstr ""
 
 #: templates/student.html:12 templates/student.html:30
-#: templates/student_activity.html:14
 msgid "STEM (Science, Technology, Enginnering, Math)"
 msgstr ""
 
 #: templates/student.html:15 templates/student.html:33
-#: templates/student_activity.html:22
 msgid "Art"
 msgstr ""
 
 #: templates/student.html:18 templates/student.html:36
-#: templates/student_activity.html:29
 msgid "Language & Literature"
 msgstr ""
 
 #: templates/student.html:21 templates/student.html:39
-#: templates/student_activity.html:36
 msgid "Volunteer Service"
 msgstr ""
 
-#: templates/student_activity.html:9
-msgid ""
-"The Students&apos; Union, whose president and heads of each division are "
-"elected by democratic campaign, is a major selfgovernment institution to "
-"serve all students. The campus is full of activities and annual events "
-"such as a movie festival, art and performance festivals, speech contests,"
-" debate tournaments, etc. There are more than 100 student associations on"
-" campus. The RDFZ Art Troupe, consisting of an orchestra, marching band, "
-"dance troupe, martial arts group, choir, and gymnastics team are all "
-"professional groups with numerous national and international accolades."
-msgstr ""
-
-#: templates/student_activity.html:39
-msgid ""
-"The Elementary Education plays a significant role upon the society, both "
-"socially and economically. However, with its \"inequality\" status quo "
-"drawing more attention from the public, reflection as well as action "
-"needs to be addressed in an imperative degree. The responsibility has "
-"then fallen to the shoulder of us, the teenagers.\n"
-"Inspired by the rapid development of Internet, Orange Academy has "
-"initiated an experimental form of education—online curriculum system plus"
-" real-time discussion program—in an effort to better the expression and "
-"thinking ability of those students coming from less-developed areas. As "
-"our volunteer members, coming from Beijing, Shanghai, Hangzhou, Guiyang, "
-"the US, and Australia, soar to 102 and beyond, we incorporate more than "
-"400 students from WuXiang, XingGuo, and YiChun, covering three different "
-"provinces in China. On the other hand, our teaching contents are also "
-"refining along the way. Back in the fall of 2017, aiming at fostering "
-"academic interest, critical thinking, expression ability, and confidence "
-"build-up, we self-designed numerous courses in accordance with the "
-"circumstance of our targeted students. Facilitated by video platforms and"
-" WeChat group, our volunteers uploaded more than 700 minutes tutoring "
-"videos, organized more than 80 times interactive discussions, produced "
-"more than fifty-thousand Q&A, and drew down more than ninety-thousand "
-"original words in the process of lecture preparation. In addition, we "
-"investigated other high-school students&apos; awareness towards the issue"
-" of education, the result was disturbing: most of them submit to the "
-"current education situation and even take it for granted, while only care"
-" about their own benefits and future success. To tackle down this "
-"dilemma, our team strives to spread the awareness by updating public "
-"account, advertising our video, open education-related electives at "
-"school. Hopefully other teenagers will join us and we can lay the "
-"foundation for future \"reformers\".\n"
-"In addition, more and more novel ideas like partnering up with the "
-"organization of Public Speaking in Beijing High Schools and cooperating "
-"with the speech club of High School Affiliated to Renmin University of "
-"China are assimilated and under progression."
-msgstr ""
-
-#: templates/base/HEAD.html:2
-msgid "人大附中中外合作办学项目"
+#: templates/base/HEAD.html:2 templates/base/PAGE_HEADER.html:8
+msgid "RDFZ International Curriculum Center"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:10
@@ -434,16 +98,28 @@ msgid ""
 "Curriculum Center"
 msgstr ""
 
+#: templates/base/PAGE_FOOTER.html:11
+msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
+msgstr ""
+
 #: templates/base/PAGE_FOOTER.html:14
 msgid "Links"
 msgstr ""
 
+#: templates/base/PAGE_FOOTER.html:16
+msgid "TOEFL"
+msgstr ""
+
+#: templates/base/PAGE_FOOTER.html:17
+msgid "ACT"
+msgstr ""
+
 #: templates/base/PAGE_FOOTER.html:18
-msgid "Powerschool"
+msgid "Collegeboard"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:19
-msgid "IBO.org"
+msgid "Powerschool"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:20
@@ -451,14 +127,349 @@ msgid "Cambridge Assessment"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:21
-msgid "Collegeboard"
+msgid "IBO.org"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:27
 msgid "Website Author"
 msgstr ""
 
-#: templates/base/PAGE_HEADER.html:8
-msgid "RDFZ International Curriculum Center"
-msgstr ""
+#~ msgid "About ICC"
+#~ msgstr ""
+
+#~ msgid "Introduction"
+#~ msgstr ""
+
+#~ msgid "Mission"
+#~ msgstr ""
+
+#~ msgid "Faculty"
+#~ msgstr ""
+
+#~ msgid "Matriculation"
+#~ msgstr ""
+
+#~ msgid "Admission"
+#~ msgstr ""
+
+#~ msgid "Open day schedule"
+#~ msgstr ""
+
+#~ msgid "News & Events"
+#~ msgstr ""
+
+#~ msgid "School Calendar"
+#~ msgstr ""
+
+#~ msgid "Academics"
+#~ msgstr ""
+
+#~ msgid "Chinese Curricula"
+#~ msgstr ""
+
+#~ msgid "A Level Program"
+#~ msgstr ""
+
+#~ msgid "The Advanced Placement Program"
+#~ msgstr ""
+
+#~ msgid "International Baccalaureate"
+#~ msgstr ""
+
+#~ msgid "Student"
+#~ msgstr ""
+
+#~ msgid "Extra-curricular Life"
+#~ msgstr ""
+
+#~ msgid "Resources"
+#~ msgstr ""
+
+#~ msgid "Contacts"
+#~ msgstr ""
+
+#~ msgid "Calendar"
+#~ msgstr ""
+
+#~ msgid "Campus Map"
+#~ msgstr ""
+
+#~ msgid "Location"
+#~ msgstr ""
+
+#~ msgid "The High School Affiliated to Renmin University of China"
+#~ msgstr ""
+
+#~ msgid "International Curriculum Center"
+#~ msgstr ""
+
+#~ msgid "Helpful Links"
+#~ msgstr ""
+
+#~ msgid "Cambridge International Examination"
+#~ msgstr ""
+
+#~ msgid "The College Board"
+#~ msgstr ""
+
+#~ msgid "Website Authors"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "RDFZ平面设计社是隶属于JODA "
+#~ "Studio的学生社团，更是一个聚集着志同道合的朋友们的艺术交流平台。社团的成员是学生，是设计师，更是艺术家。"
+#~ msgstr ""
+
+#~ msgid "Mentors"
+#~ msgstr ""
+
+#~ msgid "LI YI"
+#~ msgstr ""
+
+#~ msgid "CHEN JINGTAO"
+#~ msgstr ""
+
+#~ msgid "Students"
+#~ msgstr ""
+
+#~ msgid "Founder: YUFENG CHI"
+#~ msgstr ""
+
+#~ msgid "Translators: YUFENG CHI, YUHAO ZHOU, HANZHI ZHOU et al"
+#~ msgstr ""
+
+#~ msgid "Open day content editing by HANZHI ZHOU"
+#~ msgstr ""
+
+#~ msgid "Technical support: Uncertainty"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A very uncertain website made by "
+#~ "RDFZ students at <a target=\"_blank\" "
+#~ "href=\"https://www.veryuncertain.com\">here.</a>"
+#~ msgstr ""
+
+#~ msgid "Information: AirPrint Club"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A non-profit student organization that"
+#~ " mainly focuses on the innovation of"
+#~ " 3D printing technology. Discover more "
+#~ "at <a target=\"_blank\" "
+#~ "href=\"https://air3d.sxl.cn\">here.</a>"
+#~ msgstr ""
+
+#~ msgid "Translation: Nebula Subtitle Group"
+#~ msgstr ""
+
+#~ msgid "Design: Graphic Design Club"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "RDFZ Graphic Design Club, a platform "
+#~ "for aspirational friends to discuss art,"
+#~ " is affiliated to JODA Studio. The"
+#~ " members of the club are not "
+#~ "just students. They are designers; they"
+#~ " are artists."
+#~ msgstr ""
+
+#~ msgid "Locations"
+#~ msgstr ""
+
+#~ msgid "Schedule"
+#~ msgstr ""
+
+#~ msgid "This timetable may subject to changes"
+#~ msgstr ""
+
+#~ msgid "Time"
+#~ msgstr ""
+
+#~ msgid "Event"
+#~ msgstr ""
+
+#~ msgid "People"
+#~ msgstr ""
+
+#~ msgid "Video demo"
+#~ msgstr ""
+
+#~ msgid "Instrumental performance: Scarborough Fair"
+#~ msgstr ""
+
+#~ msgid "Yuqing Zou et al"
+#~ msgstr ""
+
+#~ msgid "Speech"
+#~ msgstr ""
+
+#~ msgid "School principal"
+#~ msgstr ""
+
+#~ msgid "Introduction of the ICC"
+#~ msgstr ""
+
+#~ msgid "Shuyan Wang"
+#~ msgstr ""
+
+#~ msgid "Speech: Why RDFZ"
+#~ msgstr ""
+
+#~ msgid "Yilin Liu"
+#~ msgstr ""
+
+#~ msgid "Cello performance"
+#~ msgstr ""
+
+#~ msgid "Anyi Wang and Weina Liu"
+#~ msgstr ""
+
+#~ msgid "A-level program introduction"
+#~ msgstr ""
+
+#~ msgid "Stuart McCall, Shiya Bian, Bowen Xiao, Fengruo Xi and Xinming Zhang"
+#~ msgstr ""
+
+#~ msgid "Drama: Les Miserables"
+#~ msgstr ""
+
+#~ msgid "Hairuo Hu et al"
+#~ msgstr ""
+
+#~ msgid "IB program introduction"
+#~ msgstr ""
+
+#~ msgid "Randall Crismond, Yuze Cao, Xuanyu Zhou, Zhuorui Cao and Shuyan Liu"
+#~ msgstr ""
+
+#~ msgid "AP program introduction"
+#~ msgstr ""
+
+#~ msgid "Angela, Haodi Zou, Jingyi Xu, Yuchen Yanh and Botao Ju"
+#~ msgstr ""
+
+#~ msgid "Soul-Cappella choir"
+#~ msgstr ""
+
+#~ msgid "Aoyu Zhang et al"
+#~ msgstr ""
+
+#~ msgid "Q&A"
+#~ msgstr ""
+
+#~ msgid "Live"
+#~ msgstr ""
+
+#~ msgid "Download slides"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: Not all slides are currently "
+#~ "available. Some of the slides used "
+#~ "will be uploaded after presentation. "
+#~ msgstr ""
+
+#~ msgid "program introduction"
+#~ msgstr ""
+
+#~ msgid "School principal speech"
+#~ msgstr ""
+
+#~ msgid "All in one"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Students&apos; Union, whose president "
+#~ "and heads of each division are "
+#~ "elected by democratic campaign, is a "
+#~ "major selfgovernment institution to serve "
+#~ "all students. The campus is full "
+#~ "of activities and annual events such "
+#~ "as a movie festival, art and "
+#~ "performance festivals, speech contests, debate"
+#~ " tournaments, etc. There are more "
+#~ "than 100 student associations on campus."
+#~ " The RDFZ Art Troupe, consisting of"
+#~ " an orchestra, marching band, dance "
+#~ "troupe, martial arts group, choir, and"
+#~ " gymnastics team are all professional "
+#~ "groups with numerous national and "
+#~ "international accolades."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Elementary Education plays a "
+#~ "significant role upon the society, both"
+#~ " socially and economically. However, with"
+#~ " its \"inequality\" status quo drawing "
+#~ "more attention from the public, "
+#~ "reflection as well as action needs "
+#~ "to be addressed in an imperative "
+#~ "degree. The responsibility has then "
+#~ "fallen to the shoulder of us, the"
+#~ " teenagers.\n"
+#~ "Inspired by the rapid development of "
+#~ "Internet, Orange Academy has initiated "
+#~ "an experimental form of education—online "
+#~ "curriculum system plus real-time "
+#~ "discussion program—in an effort to "
+#~ "better the expression and thinking "
+#~ "ability of those students coming from"
+#~ " less-developed areas. As our "
+#~ "volunteer members, coming from Beijing, "
+#~ "Shanghai, Hangzhou, Guiyang, the US, and"
+#~ " Australia, soar to 102 and beyond,"
+#~ " we incorporate more than 400 "
+#~ "students from WuXiang, XingGuo, and "
+#~ "YiChun, covering three different provinces "
+#~ "in China. On the other hand, our"
+#~ " teaching contents are also refining "
+#~ "along the way. Back in the fall"
+#~ " of 2017, aiming at fostering "
+#~ "academic interest, critical thinking, "
+#~ "expression ability, and confidence build-"
+#~ "up, we self-designed numerous courses"
+#~ " in accordance with the circumstance "
+#~ "of our targeted students. Facilitated by"
+#~ " video platforms and WeChat group, "
+#~ "our volunteers uploaded more than 700"
+#~ " minutes tutoring videos, organized more"
+#~ " than 80 times interactive discussions, "
+#~ "produced more than fifty-thousand Q&A,"
+#~ " and drew down more than ninety-"
+#~ "thousand original words in the process"
+#~ " of lecture preparation. In addition, "
+#~ "we investigated other high-school "
+#~ "students&apos; awareness towards the issue "
+#~ "of education, the result was disturbing:"
+#~ " most of them submit to the "
+#~ "current education situation and even "
+#~ "take it for granted, while only "
+#~ "care about their own benefits and "
+#~ "future success. To tackle down this "
+#~ "dilemma, our team strives to spread "
+#~ "the awareness by updating public "
+#~ "account, advertising our video, open "
+#~ "education-related electives at school. "
+#~ "Hopefully other teenagers will join us"
+#~ " and we can lay the foundation "
+#~ "for future \"reformers\".\n"
+#~ "In addition, more and more novel "
+#~ "ideas like partnering up with the "
+#~ "organization of Public Speaking in "
+#~ "Beijing High Schools and cooperating "
+#~ "with the speech club of High "
+#~ "School Affiliated to Renmin University "
+#~ "of China are assimilated and under "
+#~ "progression."
+#~ msgstr ""
+
+#~ msgid "人大附中中外合作办学项目"
+#~ msgstr ""
+
+#~ msgid "about"
+#~ msgstr ""
 
