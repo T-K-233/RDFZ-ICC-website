@@ -23,3 +23,4 @@ lazy_gettext('school calendar')
 lazy_gettext('campus map')
 lazy_gettext('location')
 lazy_gettext('for media')
+
