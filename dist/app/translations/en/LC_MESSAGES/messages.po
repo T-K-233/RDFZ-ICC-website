@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-05-30 09:00+0800\n"
+"POT-Creation-Date: 2018-05-30 09:08+0800\n"
 "PO-Revision-Date: 2018-05-29 21:41+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,8 +18,84 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: view.py:36
+#: lazy_translations.py:3
+msgid "about"
+msgstr ""
+
+#: lazy_translations.py:4
+msgid "about ICC"
+msgstr ""
+
+#: lazy_translations.py:5
+msgid "mission"
+msgstr ""
+
+#: lazy_translations.py:6
+msgid "faculty"
+msgstr ""
+
+#: lazy_translations.py:7
+msgid "matriculation"
+msgstr ""
+
+#: lazy_translations.py:8
+msgid "admission"
+msgstr ""
+
+#: lazy_translations.py:10
+msgid "academics"
+msgstr ""
+
+#: lazy_translations.py:11
+msgid "chinese curricula"
+msgstr ""
+
+#: lazy_translations.py:12
+msgid "Cambridge A Level Program"
+msgstr ""
+
+#: lazy_translations.py:13
+msgid "The Advanced Placement Program"
+msgstr ""
+
+#: lazy_translations.py:14
+msgid "International Baccalaureate"
+msgstr ""
+
+#: lazy_translations.py:16
+msgid "student"
+msgstr ""
+
+#: lazy_translations.py:17
+msgid "campus life"
+msgstr ""
+
+#: lazy_translations.py:18
+msgid "extra-curricular activity"
+msgstr ""
+
+#: lazy_translations.py:20
 msgid "resources"
+msgstr ""
+
+#: lazy_translations.py:21
+msgid "contacts"
+msgstr ""
+
+#: lazy_translations.py:22
+msgid "school calendar"
+msgstr ""
+
+#: lazy_translations.py:23
+msgid "campus map"
+msgstr ""
+
+#: lazy_translations.py:24
+msgid "location"
+msgstr ""
+
+#: lazy_translations.py:25
+msgid "for media"
 msgstr ""
 
 #: templates/academics.html:57

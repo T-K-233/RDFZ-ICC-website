@@ -34,7 +34,7 @@
       </div>
     </div>
     {% for branch in PAGE_TREE %}
-    <div class="row"><div class="s12 col"><h5 class="grey lighten-1 white-text list header">{{_( branch | capitalize )}}</h5></div></div>
+    <div class="row"><div class="s12 col"><h5 class="grey lighten-1 white-text list header">{{_( branch )| capitalize }}</h5></div></div>
     <div class="row">
       {% for page in PAGE_TREE[branch] %}
       <div class="col s12 m6 l3">
