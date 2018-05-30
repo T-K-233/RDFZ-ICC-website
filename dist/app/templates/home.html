@@ -14,7 +14,7 @@
     }
     .nav-holder{display: none}
   </style>
-<<<<<<< HEAD
+  {% include 'base/HEAD.html' %}
 </head>
 <body>
   <!--
@@ -30,30 +30,6 @@
           <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner1.jpg') }}"></a>
           <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner2.jpg') }}"></a>
           <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner3.jpg') }}"></a>
-=======
-{% endblock %}
-{% block body %}
-  <div class="ui fluid banner image">
-    <img src="{{ url_for('static', filename='banner.jpg') }}">
-    <div class="home banner">
-      <div><span class="home chs">人大附中中外合作办学项目</span></div>
-      <div class="home eng_wrap"><span class="home eng">The High School Affiliated to Renmin University of China International Curriculum Center</span></div>
-    </div>
-  </div>
-  <div class="ui vertical stripe segment">
-    <div class="ui equal width stackable internally celled grid">
-      <div class="center aligned row">
-        <div class="column">
-          <img src="/static/pics/standard_text.png" width="40%">
-        </div>
-        <div class="column">
-          <h3>{{ _('Not Familiar With Us?') }}</h3>
-          <p>{{ _('The High School Affiliated to Renmin University of China<br/> is a world renowned public school founded in 1950. ') }}</p>
-          <button class="ui large basic red animated button" onClick="window.location='{{ url_for('about', page='introduction') }}'">
-            <div class="visible content">{{ _('Read More') }}</div>
-            <div class="hidden content"><i class="right arrow icon"></i></div>
-          </button>
->>>>>>> 9bb54d5a9bcd31f0a2ac9a280b8834f3047664d1
         </div>
       </div>
     </div>
@@ -75,21 +51,20 @@
     {% endfor %}
   </div>
   {% include 'base/PAGE_FOOTER.html' %}
-    <script>
-      $(document).ready(function(){
-        $('.parallax').parallax();
-        var carousel_obj = $('.carousel');
-        carousel_obj.carousel({
-          fullWidth: true,
-          indicators: true
-        });
-        $('.pushpin').pushpin({top: 160, onPositionChange: function(e){
-          if(e == 'pin-top')$('.nav-holder').css('display', 'none');
-          else $('.nav-holder').css('display', 'block')}
-        });
-        setInterval(function(){M.Carousel.getInstance(carousel_obj).next()}, 3000);
+  <script>
+    $(document).ready(function(){
+      $('.parallax').parallax();
+      var carousel_obj = $('.carousel');
+      carousel_obj.carousel({
+        fullWidth: true,
+        indicators: true
       });
+      $('.pushpin').pushpin({top: 160, onPositionChange: function(e){
+        if(e == 'pin-top')$('.nav-holder').css('display', 'none');
+        else $('.nav-holder').css('display', 'block')}
+      });
+      setInterval(function(){M.Carousel.getInstance(carousel_obj).next()}, 3000);
+    });
   </script>
-  </div>
 </body>
 </html>

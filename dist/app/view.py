@@ -35,13 +35,7 @@ PAGE_TREE = {
 
 @babel.localeselector
 def get_locale():
-    print(session['lang'])
-    try:
-        print('set lang: '+session['lang'])
-        return session['lang']
-    except:
-        print('default lang:', request.accept_languages.best_match(LANGUAGES.keys()))
-        return request.accept_languages.best_match(LANGUAGES.keys())
+    return session['lang'] if 'lang' in session else request.accept_languages.best_match(LANGUAGES.keys())
 
 
 @app.route('/api/change_lang')
