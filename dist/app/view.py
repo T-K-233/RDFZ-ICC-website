@@ -1,7 +1,10 @@
-from flask import session, render_template, request, redirect, url_for
+from flask import session, render_template, request, redirect, url_for, jsonify
 from werkzeug.utils import secure_filename
 from . import app, babel, lazy_translations
+from .TK import HWARecognizer
 from config import LANGUAGES
+import base64
+from matplotlib import pyplot as plt
 import os
 
 PAGE_TREE = {
@@ -31,6 +34,8 @@ PAGE_TREE = {
     },
 }
 
+lazy_translations.init_all()
+HWA_recognizer = HWARecognizer()
 
 @babel.localeselector
 def get_locale():
@@ -73,6 +78,18 @@ def extra_curricular_activity(page):
 @app.route('/author.html')
 def author():
     return render_template('author.html', INDEX=[None, 'website authors'])
+
+
+@app.route('/stem/ai_experiments', methods=['GET', 'POST'])
+def ai_experiments():
+    if request.method == 'POST':
+        img = base64.b64decode(request.form.get('img')[22:])
+        with open('temp.jpg', 'wb') as f:
+            f.write(img)
+        img = plt.imread('temp.jpg')
+        res_arr = HWA_recognizer.recognize(img)
+        return jsonify({'pred': res_arr})
+    return render_template('draw.html')
 
 
 @app.route('/pictures')
