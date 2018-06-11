@@ -2,3 +2,4 @@
 __pycache__/
 .DS_Store
 .cache/
+/dist/app/static/not_using/
