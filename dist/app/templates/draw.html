@@ -60,7 +60,7 @@
 
     $('.pred_bt').html('Processing...');
     $.post(
-      '{{ url_for("ai_experiments") }}',
+      '{{ url_for("plugins_ai") }}',
       {img: document.getElementById('canvas').toDataURL()},
       function(data){update(data['pred'])}
     );

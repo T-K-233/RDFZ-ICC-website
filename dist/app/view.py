@@ -1,41 +1,45 @@
 from flask import session, render_template, request, redirect, url_for, jsonify
 from werkzeug.utils import secure_filename
 from . import app, babel, lazy_translations
-from .TK import HWARecognizer
+from .plugins import HWARecognizer
 from config import LANGUAGES
 import base64
 from matplotlib import pyplot as plt
 import os
 
+square_path = "img/square/"
+
 PAGE_TREE = {
     'about': {
-        'about ICC': [],
-        'mission': [],
-        'faculty': [],
-        'matriculation': [],
-        'admission': []
+        'about ICC': {'img': 'img/square/1.jpg'},
+        'mission': {'img': 'img/square/2.jpg'},
+        'faculty': {'img': 'img/square/3.jpg'},
+        'matriculation': {'img': 'img/square/4.jpg'},
+        'admission': {'img': 'img/square/5.jpg'},
     },
     'academics': {
-        'chinese curricula': [],
-        'Cambridge A Level Program': [],
-        'The Advanced Placement Program': [],
-        'International Baccalaureate': [],
+        'chinese curricula': {'img': 'img/square/6.jpg'},
+        'Cambridge A Level Program': {'img': 'img/square/7.jpg'},
+        'The Advanced Placement Program': {'img': 'img/square/8.jpg'},
+        'International Baccalaureate': {'img': 'img/square/9.jpg'},
     },
     'student': {
-        'campus life': [],
-        'extra-curricular activity': [],
+        'campus life': {'img': 'img/square/10.jpg'},
+        'extra-curricular activity': {'img': 'img/square/11.jpg'},
     },
     'resources': {
-        'contacts': [],
-        'school calendar': [],
-        'campus map': [],
-        'location': [],
-        'for media': [],
+        'contacts': {'img': 'img/square/12.jpg'},
+        'school calendar': {'img': 'img/square/13.jpg'},
+        'campus map': {'img': 'img/square/5.jpg'},
+        'location': {'img': 'img/square/8.jpg'},
+        'for media': {'img': 'img/square/2.jpg'},
     },
 }
 
 lazy_translations.init_all()
-HWA_recognizer = HWARecognizer()
+
+# load plugins
+# HWA_recognizer = HWARecognizer()
 
 @babel.localeselector
 def get_locale():
@@ -80,8 +84,8 @@ def author():
     return render_template('author.html', INDEX=[None, 'website authors'])
 
 
-@app.route('/stem/ai_experiments', methods=['GET', 'POST'])
-def ai_experiments():
+@app.route('/stem/nai', methods=['GET', 'POST'])
+def plugins_ai():
     if request.method == 'POST':
         img = base64.b64decode(request.form.get('img')[22:])
         with open('temp.jpg', 'wb') as f:

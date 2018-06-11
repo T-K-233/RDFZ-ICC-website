@@ -41,7 +41,7 @@
         <a href="{{ url_for('general_register', branch=branch, page=page) }}">
           <div class="hoverable card">
             <div class="card-image">
-              <img src="{{ url_for('static', filename='img/placeholder_24x24.jpg') }}"><span class="card-title">{{_( page )}}</span>
+              <img src="{{ url_for('static', filename=PAGE_TREE[branch][page]['img']) }}"><span class="card-title">{{_( page )}}</span>
             </div>
           </div>
         </a>
