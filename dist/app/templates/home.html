@@ -27,9 +27,9 @@
     <div class="row">
       <div class="col s12">
         <div class="carousel carousel-slider">
-          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner1.jpg') }}"></a>
-          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner2.jpg') }}"></a>
-          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/page/banner3.jpg') }}"></a>
+          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/banner/banner1.jpg') }}"></a>
+          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/banner/banner2.jpg') }}"></a>
+          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/banner/banner3.jpg') }}"></a>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@
     <div class="row"><div class="s12 col"><h5 class="grey lighten-1 white-text list header">{{_( branch )| capitalize }}</h5></div></div>
     <div class="row">
       {% for page in PAGE_TREE[branch] %}
-      <div class="col s12 m6 l3">
+      <div class="col s6 m4 l3">
         <a href="{{ url_for('general_register', branch=branch, page=page) }}">
           <div class="hoverable card">
             <div class="card-image">
@@ -49,6 +49,10 @@
       {% endfor %}
     </div>
     {% endfor %}
+    <div class="row">
+      <h4 class="red-text header">{{ _("About ICC") }}</h4>
+      {{ _('<p>The High School Affiliated to Renmin University of China is a world-renowned public school founded in 1950.</p><p>The school offers both Chinese and international curricula.</p><p>Two types of Chinese curricula are offered: the national curriculum and the Early Development Program for Top Innovative Talents.</p><p>Three international curricula are offered at the Chinese-Foreign Education Program: the Cambridge International Advanced Level (A Level) program, started in 2004; the Advanced Placement (AP) program, started in 2010; and the International Baccalaureate Diploma (IB) program, started in 2012.</p><p>Students are regularly admitted to top Universities domestically and abroad.</p>') }}
+    </div>
   </div>
   {% include 'base/PAGE_FOOTER.html' %}
   <script>

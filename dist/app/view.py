@@ -1,7 +1,7 @@
 from flask import session, render_template, request, redirect, url_for, jsonify
 from werkzeug.utils import secure_filename
 from . import app, babel, lazy_translations
-from .plugins import HWARecognizer
+# from .plugins import HWARecognizer
 from config import LANGUAGES
 import base64
 from matplotlib import pyplot as plt
@@ -9,14 +9,9 @@ import os
 
 square_path = "img/square/"
 
-PAGE_TREE = {
-    'about': {
-        'about ICC': {'img': 'img/square/1.jpg'},
-        'mission': {'img': 'img/square/2.jpg'},
-        'faculty': {'img': 'img/square/3.jpg'},
-        'matriculation': {'img': 'img/square/4.jpg'},
-        'admission': {'img': 'img/square/5.jpg'},
-    },
+
+'''
+
     'academics': {
         'chinese curricula': {'img': 'img/square/6.jpg'},
         'Cambridge A Level Program': {'img': 'img/square/7.jpg'},
@@ -34,12 +29,26 @@ PAGE_TREE = {
         'location': {'img': 'img/square/8.jpg'},
         'for media': {'img': 'img/square/2.jpg'},
     },
+    '''
+
+PAGE_TREE = {
+    'about': {
+        'about ICC': {'img': 'img/square/about.jpg'},
+        'mission': {'img': 'img/square/mission.jpg'},
+        'faculty': {'img': 'img/square/faculty.jpg'},
+        'matriculation': {'img': 'img/square/matriculation.jpg'},
+        'admission': {'img': 'img/square/admission.jpg'},
+        'academics': {'img': 'img/square/academics.jpg'},
+        'students': {'img': 'img/square/students.jpg'},
+        'resource': {'img': 'img/square/resource.jpg'},
+    },
 }
 
 lazy_translations.init_all()
 
 # load plugins
 # HWA_recognizer = HWARecognizer()
+
 
 @babel.localeselector
 def get_locale():

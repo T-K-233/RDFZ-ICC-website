@@ -2,13 +2,23 @@
 <div class="page-header container">
   <div class="logo row">
     <div class="col s3 hide-on-small-only">
-      <a href="/"><img class="header-logo-image" src="{{ url_for('static', filename='img/page/page_logo.jpg') }}"></a>
+      <a href="/"><img class="header-logo-image" src="{{ url_for('static', filename='img/page_logo.jpg') }}"></a>
     </div>
-    <div class="col s12 m9 logo-right right-align">
-      <h4 class="grey-text suitable header">{{ _('RDFZ International Curriculum Center') }}</h4>
+    <div class="col s12 m9 right-align">
+      <div class="logo-right">
+        <h4 class="grey-text suitable header">{{ _('RDFZ International Curriculum Center') }}</h4>
+      </div>
     </div>
   </div>
 </div>
+<!--<div class="pushpin">-->
+<!--asdasdsadsad-->
+<!--</div>-->
+<script>
+  $(document).ready(function(){
+    $('.pushpin').pushpin({top: 100, onPositionChange:function(e){console.log(e)}});
+  });
+</script>
 <div class="fixed-action-btn">
   <div class="btn-floating btn-large red"><i class="large material-icons">language</i></div>
   <ul>
