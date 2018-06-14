@@ -33,22 +33,19 @@
         </div>
       </div>
     </div>
-    {% for branch in PAGE_TREE %}
-    <div class="row"><div class="s12 col"><h5 class="grey lighten-1 white-text list header">{{_( branch )| capitalize }}</h5></div></div>
     <div class="row">
-      {% for page in PAGE_TREE[branch] %}
+    {% for page in PAGE_TREE %}
       <div class="col s6 m4 l3">
-        <a href="{{ url_for('general_register', branch=branch, page=page) }}">
+        <a href="{{ url_for('general_register', page=page) }}">
           <div class="hoverable card">
             <div class="card-image">
-              <img src="{{ url_for('static', filename=PAGE_TREE[branch][page]['img']) }}"><span class="card-title">{{_( page )}}</span>
+              <img src="{{ url_for('static', filename=PAGE_TREE[page]['img']) }}"><span class="card-title">{{_( page )}}</span>
             </div>
           </div>
         </a>
       </div>
-      {% endfor %}
-    </div>
     {% endfor %}
+    </div>
     <div class="row">
       <h4 class="red-text header">{{ _("About ICC") }}</h4>
       {{ _('<p>The High School Affiliated to Renmin University of China is a world-renowned public school founded in 1950.</p><p>The school offers both Chinese and international curricula.</p><p>Two types of Chinese curricula are offered: the national curriculum and the Early Development Program for Top Innovative Talents.</p><p>Three international curricula are offered at the Chinese-Foreign Education Program: the Cambridge International Advanced Level (A Level) program, started in 2004; the Advanced Placement (AP) program, started in 2010; and the International Baccalaureate Diploma (IB) program, started in 2012.</p><p>Students are regularly admitted to top Universities domestically and abroad.</p>') }}

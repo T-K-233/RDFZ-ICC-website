@@ -32,16 +32,14 @@ square_path = "img/square/"
     '''
 
 PAGE_TREE = {
-    'about': {
-        'about ICC': {'img': 'img/square/about.jpg'},
-        'mission': {'img': 'img/square/mission.jpg'},
-        'faculty': {'img': 'img/square/faculty.jpg'},
-        'matriculation': {'img': 'img/square/matriculation.jpg'},
-        'admission': {'img': 'img/square/admission.jpg'},
-        'academics': {'img': 'img/square/academics.jpg'},
-        'students': {'img': 'img/square/students.jpg'},
-        'resource': {'img': 'img/square/resource.jpg'},
-    },
+    'about ICC': {'img': 'img/square/about.jpg'},
+    'mission': {'img': 'img/square/mission.jpg'},
+    'faculty': {'img': 'img/square/faculty.jpg'},
+    'matriculation': {'img': 'img/square/matriculation.jpg'},
+    'admission': {'img': 'img/square/admission.jpg'},
+    'academics': {'img': 'img/square/academics.jpg'},
+    'students': {'img': 'img/square/students.jpg', 'redirect': True},
+    'resource': {'img': 'img/square/resource.jpg', 'redirect': True},
 }
 
 lazy_translations.init_all()
@@ -69,18 +67,17 @@ def home():
     return render_template('home.html', PAGE_TREE=PAGE_TREE)
 
 
-@app.route('/<branch>/<page>.html')
-def general_register(branch, page):
-    if branch in PAGE_TREE:
-        if page in PAGE_TREE[branch]:
-            if page == 'matriculation':
-                import csv
-                data_list = []
-                for i in range(2010, 2019):
-                    with open('./matriculation/%s.csv' % i, newline='', encoding='utf-8') as csvfile:
-                        data_list.append(list(csv.reader(csvfile, delimiter=',')))
-                return render_template('%s.html' % branch, INDEX=[branch, page], DATA=data_list)
-            return render_template('%s.html' % branch, INDEX=[branch, page])
+@app.route('/<page>.html')
+def general_register(page):
+    if page in PAGE_TREE:
+        if page == 'matriculation':
+            import csv
+            data_list = []
+            for i in range(2010, 2019):
+                with open('./matriculation/%s.csv' % i, newline='', encoding='utf-8') as csvfile:
+                    data_list.append(list(csv.reader(csvfile, delimiter=',')))
+            return render_template('first_level/%s.html' % page, INDEX=page, DATA=data_list)
+        return render_template('first_level/%s.html' % page, INDEX=page)
 
 
 @app.route('/student/extra-curricular-activity/<page>.html')
