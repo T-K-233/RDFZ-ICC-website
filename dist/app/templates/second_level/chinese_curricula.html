@@ -1,8 +1,8 @@
 {% extends "base/PAGE_BASE.html" %}
 {% set title = INDEX[1]|title+' - '+INDEX[0]|title %}
 {% block body %}
-{% if INDEX[1] == 'chinese curricula' %}
   <div class="section">
+    <h4 class="red-text header">{{ _("Chinese Curricula") }}</h4>
     <div>
       <p>Students in the Chinese curricula are required to learn subjects stipulated by Beijing Municipal Education Commission.</p>
       <p>According to the commission, each subject is composed of different modules and assessments are given based on those modules.</p>
@@ -30,7 +30,7 @@
     </div>
   </div>
   <div class="section">
-    <h4 class="red-text header">Chinese National Curriculum</h4>
+    <h5 class="red-text header">Chinese National Curriculum</h5>
     <div>
       <p>In accordance with the school&apos;s principle and cultivating goal, RDFZ has integrated national, local school-based, and international curricula to form a unique curricula system which is contemporary, selective, creative, and open.</p>
       <p>It covers eight different fields including: language, math, humanity, science, technology, physical education, arts, and interdisciplinary courses.</p>
@@ -41,7 +41,7 @@
     </div>
   </div>
   <div class="section">
-    <h4 class="red-text header">Early Development Program</h4>
+    <h5 class="red-text header">Early Development Program</h5>
     <div>
       <p>The Early Development Program for Top Innovative Talents (EDP) was founded in 2010 in cooperation with the Chinese Academy of Sciences, the Chinese Academy of Social Sciences, and other research institutes.</p>
       <p>It is a key research program of the Ministry of Education, aiming to cultivate leading innovative talents in various fields. The class of 2018 entered the program after finishing their 5th grade in 2011, and have been studying at RDFZ for seven years (students in classes 16, 17, and 18 are EDP graduates).</p>
@@ -50,7 +50,7 @@
     </div>
   </div>
   <div class="section">
-    <h4 class="red-text header">Compulsory courses for Chinese curricula</h4>
+    <h5 class="red-text header">Compulsory courses for Chinese curricula</h5>
     <div>
       <table>
       <tr>
@@ -68,7 +68,5 @@
       </table>
     </div>
   </div>
-{% elif INDEX[1] == 'Cambridge A Level Program' %}
 
-{% endif %}
 {% endblock %}

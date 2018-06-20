@@ -80,9 +80,9 @@ def general_register(page):
         return render_template('first_level/%s.html' % page, INDEX=page)
 
 
-@app.route('/student/extra-curricular-activity/<page>.html')
-def extra_curricular_activity(page):
-    return render_template('activities/%s.html' % page, INDEX=['extra-curricular activity', page])
+@app.route('/<branch>/<page>.html')
+def secondary_register(branch, page):
+    return render_template('second_level/%s.html' % page, INDEX=[branch, page])
 
 
 @app.route('/author.html')

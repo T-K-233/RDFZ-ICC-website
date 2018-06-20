@@ -34,21 +34,82 @@
       </div>
     </div>
     <div class="row">
-    {% for page in PAGE_TREE %}
+      <h5 class="red-text header">{{ _("Page Navigation") }}</h5>
       <div class="col s6 m4 l3">
-        <a href="{{ url_for('general_register', page=page) }}">
+        <a href="{{ url_for('general_register', page='about ICC') }}">
           <div class="hoverable card">
-            <div class="card-image">
-              <img src="{{ url_for('static', filename=PAGE_TREE[page]['img']) }}"><span class="card-title">{{_( page )}}</span>
-            </div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/about.jpg') }}"><span class="card-title">{{_('about ICC')}}</span></div>
           </div>
         </a>
       </div>
-    {% endfor %}
+      <div class="col s6 m4 l3">
+        <a href="{{ url_for('general_register', page='mission') }}">
+          <div class="hoverable card">
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/mission.jpg') }}"><span class="card-title">{{_('mission')}}</span></div>
+          </div>
+        </a>
+      </div>
+      <div class="col s6 m4 l3">
+        <a href="{{ url_for('general_register', page='faculty') }}">
+          <div class="hoverable card">
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/faculty.jpg') }}"><span class="card-title">{{_('faculty')}}</span></div>
+          </div>
+        </a>
+      </div>
+      <div class="col s6 m4 l3">
+        <a href="{{ url_for('general_register', page='matriculation') }}">
+          <div class="hoverable card">
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/matriculation.jpg') }}"><span class="card-title">{{_('matriculation')}}</span></div>
+          </div>
+        </a>
+      </div>
+      <div class="col s6 m4 l3">
+        <a href="{{ url_for('general_register', page='admission') }}">
+          <div class="hoverable card">
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/admission.jpg') }}"><span class="card-title">{{_('admission')}}</span></div>
+          </div>
+        </a>
+      </div>
+      <div class="col s6 m4 l3">
+        <a href="{{ url_for('general_register', page='academics') }}">
+          <div class="hoverable card">
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/academics.jpg') }}"><span class="card-title">{{_('academics')}}</span></div>
+          </div>
+        </a>
+      </div>
+      <div class="col s6 m4 l3">
+        <a href="{{ url_for('general_register', page='students') }}">
+          <div class="hoverable card">
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/students.jpg') }}"><span class="card-title">{{_('students')}}</span></div>
+          </div>
+        </a>
+      </div>
+      <div class="col s6 m4 l3">
+        <a href="{{ url_for('general_register', page='resource') }}">
+          <div class="hoverable card">
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/resource.jpg') }}"><span class="card-title">{{_('resource')}}</span></div>
+          </div>
+        </a>
+      </div>
     </div>
     <div class="row">
-      <h4 class="red-text header">{{ _("About ICC") }}</h4>
-      {{ _('<p>The High School Affiliated to Renmin University of China is a world-renowned public school founded in 1950.</p><p>The school offers both Chinese and international curricula.</p><p>Two types of Chinese curricula are offered: the national curriculum and the Early Development Program for Top Innovative Talents.</p><p>Three international curricula are offered at the Chinese-Foreign Education Program: the Cambridge International Advanced Level (A Level) program, started in 2004; the Advanced Placement (AP) program, started in 2010; and the International Baccalaureate Diploma (IB) program, started in 2012.</p><p>Students are regularly admitted to top Universities domestically and abroad.</p>') }}
+      <div class="section">
+        <h5 class="red-text header">{{ _('About ICC') }}</h5>
+        {{ _("<p>The High School Affiliated to Renmin University of China International Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive a university education abroad. </p>
+        <p>There are three programs in the three-year ICC course system: <a>General Certificate of Education Advanced Level (AL)</a>, <a>Advanced Placement Program (AP)</a>, and <a>International Baccalaureate Diploma Programme (IBDP)</a>. </p>
+        <p>The <a>campus</a> is located in the Haidian district of Beijing in China. </p>
+        <p>After a rigorous High School Entrance Exam (Zhongkao) and our own exam, students entering ICC are highly motivated and action orientated. </p>
+        <p>For the past several years, they have achieved awards in international competitions and exhibitions, including art, dance, debate, drama, math, science, robotics, and sports. </p>
+        <p>All <a>resources</a> in the main school of RDFZ are shared with the ICC. </p> ") }}
+        <a class="waves-effect waves-red red accent-1 btn-small" href="{{ url_for('general_register', page='about ICC') }}">{{ _('Learn More') }}<i class="material-icons right">arrow_forward</i></a>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="row">
+      <div class="section">
+        <h5 class="red-text header">{{ _('ICC Stats') }}</h5>
+        <a class="waves-effect waves-red red accent-1 btn-small" href="">{{ _('Learn More') }}<i class="material-icons right">arrow_forward</i></a>
+      </div>
     </div>
   </div>
   {% include 'base/PAGE_FOOTER.html' %}
