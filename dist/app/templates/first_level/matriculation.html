@@ -1,0 +1,25 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = _(INDEX)|title %}
+{% block body %}
+<ul class="collapsible">
+  {% for year_result in DATA | reverse %}
+  <li>
+    <div class="red-text collapsible-header">{{ 2018 - loop.index0 }}</div>
+    <div class="collapsible-body">
+    {% for row in year_result %}
+      {% if row|length == 1 %}
+        <h6 class="grey-text header">{{ row[0] }}</h6>
+      {% else %}
+        <p>{{row[0]}} - {{row[1]}}</p>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+<script>
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  })
+</script>
+{% endblock %}
