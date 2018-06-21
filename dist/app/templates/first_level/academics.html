@@ -4,28 +4,37 @@
 <div class="row">
   <h5 class="red-text header">{{ _("ICC Curriculums") }}</h5>
   <div class="col s6 m4 l3">
-    <a href="{{ url_for('secondary_register', branch='academics', page=page) }}">
+    <a href="{{ url_for('secondary_register', branch='academics', page='chinese_curricula') }}">
       <div class="hoverable card">
         <div class="card-image">
-          <img src="{{ url_for('static', filename='') }}"><span class="card-title">{{_('Chinese Curricula')}}</span>
+          <img src="{{ url_for('static', filename='img/square/academics_chs.jpg') }}"><span class="shadow card-title">{{_('Chinese Curricula')}}</span>
         </div>
       </div>
     </a>
   </div>
   <div class="col s6 m4 l3">
-    <a href="{{ url_for('general_register', page=page) }}">
+    <a href="{{ url_for('secondary_register', branch='academics', page='a_level') }}">
       <div class="hoverable card">
         <div class="card-image">
-          <img src="{{ url_for('static', filename='') }}"><span class="card-title">{{_('asd')}}</span>
+          <img src="{{ url_for('static', filename='img/square/academics_al.jpg') }}"><span class="shadow card-title">{{_('A Level')}}</span>
         </div>
       </div>
     </a>
   </div>
   <div class="col s6 m4 l3">
-    <a href="{{ url_for('general_register', page=page) }}">
+    <a href="{{ url_for('secondary_register', branch='academics', page='advanced_placement') }}">
       <div class="hoverable card">
         <div class="card-image">
-          <img src="{{ url_for('static', filename='') }}"><span class="card-title">{{_('asd')}}</span>
+          <img src="{{ url_for('static', filename='img/square/academics_ap.jpg') }}"><span class="shadow card-title">{{_('Advanced Placement')}}</span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col s6 m4 l3">
+    <a href="{{ url_for('secondary_register', branch='academics', page='international_baccalaureate') }}">
+      <div class="hoverable card">
+        <div class="card-image">
+          <img src="{{ url_for('static', filename='img/square/academics_ib.jpg') }}"><span class="shadow card-title">{{_('International Baccalaureate')}}</span>
         </div>
       </div>
     </a>

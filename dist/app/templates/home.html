@@ -3,15 +3,12 @@
 <head>
   {% include 'base/HEAD.html' %}
   <style>
-    .card-title{background: rgba(80,80,80,0.6); right: 0; padding: 0.3em !important}
     .list.header{
       padding: 0.3em;
       margin-bottom: -1rem
     }
     .page-header.container{height: 160px}
-    .pushpin{
-      z-index: 26;
-    }
+    .pushpin{z-index: 26}
     .nav-holder{display: none}
   </style>
   {% include 'base/HEAD.html' %}
@@ -27,7 +24,7 @@
     <div class="row">
       <div class="col s12">
         <div class="carousel carousel-slider">
-          <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/banner/banner1.jpg') }}"></a>
+          <a class="carousel-item" href="{{ url_for('general_register', page='about_ICC') }}"><img src="{{ url_for('static', filename='img/banner/banner1.jpg') }}"></a>
           <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/banner/banner2.jpg') }}"></a>
           <a class="carousel-item" href="#two!"><img src="{{ url_for('static', filename='img/banner/banner3.jpg') }}"></a>
         </div>
@@ -36,58 +33,58 @@
     <div class="row">
       <h5 class="red-text header">{{ _("Page Navigation") }}</h5>
       <div class="col s6 m4 l3">
-        <a href="{{ url_for('general_register', page='about ICC') }}">
+        <a href="{{ url_for('general_register', page='about_ICC') }}">
           <div class="hoverable card">
-            <div class="card-image"><img src="{{ url_for('static', filename='img/square/about.jpg') }}"><span class="card-title">{{_('about ICC')}}</span></div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/about.jpg') }}"><span class="shadow card-title">{{_('about ICC')}}</span></div>
           </div>
         </a>
       </div>
       <div class="col s6 m4 l3">
         <a href="{{ url_for('general_register', page='mission') }}">
           <div class="hoverable card">
-            <div class="card-image"><img src="{{ url_for('static', filename='img/square/mission.jpg') }}"><span class="card-title">{{_('mission')}}</span></div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/mission.jpg') }}"><span class="shadow card-title">{{_('mission')}}</span></div>
           </div>
         </a>
       </div>
       <div class="col s6 m4 l3">
         <a href="{{ url_for('general_register', page='faculty') }}">
           <div class="hoverable card">
-            <div class="card-image"><img src="{{ url_for('static', filename='img/square/faculty.jpg') }}"><span class="card-title">{{_('faculty')}}</span></div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/faculty.jpg') }}"><span class="shadow card-title">{{_('faculty')}}</span></div>
           </div>
         </a>
       </div>
       <div class="col s6 m4 l3">
         <a href="{{ url_for('general_register', page='matriculation') }}">
           <div class="hoverable card">
-            <div class="card-image"><img src="{{ url_for('static', filename='img/square/matriculation.jpg') }}"><span class="card-title">{{_('matriculation')}}</span></div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/matriculation.jpg') }}"><span class="shadow card-title">{{_('matriculation')}}</span></div>
           </div>
         </a>
       </div>
       <div class="col s6 m4 l3">
         <a href="{{ url_for('general_register', page='admission') }}">
           <div class="hoverable card">
-            <div class="card-image"><img src="{{ url_for('static', filename='img/square/admission.jpg') }}"><span class="card-title">{{_('admission')}}</span></div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/admission.jpg') }}"><span class="shadow card-title">{{_('admission')}}</span></div>
           </div>
         </a>
       </div>
       <div class="col s6 m4 l3">
         <a href="{{ url_for('general_register', page='academics') }}">
           <div class="hoverable card">
-            <div class="card-image"><img src="{{ url_for('static', filename='img/square/academics.jpg') }}"><span class="card-title">{{_('academics')}}</span></div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/academics.jpg') }}"><span class="shadow card-title">{{_('academics')}}</span></div>
           </div>
         </a>
       </div>
       <div class="col s6 m4 l3">
         <a href="{{ url_for('general_register', page='students') }}">
           <div class="hoverable card">
-            <div class="card-image"><img src="{{ url_for('static', filename='img/square/students.jpg') }}"><span class="card-title">{{_('students')}}</span></div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/students.jpg') }}"><span class="shadow card-title">{{_('students')}}</span></div>
           </div>
         </a>
       </div>
       <div class="col s6 m4 l3">
-        <a href="{{ url_for('general_register', page='resource') }}">
+        <a href="{{ url_for('general_register', page='resources') }}">
           <div class="hoverable card">
-            <div class="card-image"><img src="{{ url_for('static', filename='img/square/resource.jpg') }}"><span class="card-title">{{_('resource')}}</span></div>
+            <div class="card-image"><img src="{{ url_for('static', filename='img/square/resources.jpg') }}"><span class="shadow card-title">{{_('resources')}}</span></div>
           </div>
         </a>
       </div>
@@ -95,13 +92,16 @@
     <div class="row">
       <div class="section">
         <h5 class="red-text header">{{ _('About ICC') }}</h5>
-        {{ _("<p>The High School Affiliated to Renmin University of China International Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive a university education abroad. </p>
-        <p>There are three programs in the three-year ICC course system: <a>General Certificate of Education Advanced Level (AL)</a>, <a>Advanced Placement Program (AP)</a>, and <a>International Baccalaureate Diploma Programme (IBDP)</a>. </p>
-        <p>The <a>campus</a> is located in the Haidian district of Beijing in China. </p>
+        {{ _("<p>The High School Affiliated to Renmin University of China International Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive a university education abroad. </p>") }}
+        {{ _("<p>There are three programs in the three-year ICC course system: ") }}
+        <a href="{{ url_for('secondary_register', branch='academics', page='a_level') }}">{{_('General Certificate of Education Advanced Level (AL)')}}</a>,
+        <a href="{{ url_for('secondary_register', branch='academics', page='advanced_placement') }}">{{_('Advanced Placement Program (AP)')}}</a>, and
+        <a href="{{ url_for('secondary_register', branch='academics', page='international_baccalaureate') }}">{{_('International Baccalaureate Diploma Programme (IBDP)')}}</a>.</p>
+        {{ _("<p>The <a href='"+url_for('secondary_register', branch='resources', page='campus_map')+"'>campus</a> is located in the Haidian district of Beijing in China. </p>
         <p>After a rigorous High School Entrance Exam (Zhongkao) and our own exam, students entering ICC are highly motivated and action orientated. </p>
         <p>For the past several years, they have achieved awards in international competitions and exhibitions, including art, dance, debate, drama, math, science, robotics, and sports. </p>
-        <p>All <a>resources</a> in the main school of RDFZ are shared with the ICC. </p> ") }}
-        <a class="waves-effect waves-red red accent-1 btn-small" href="{{ url_for('general_register', page='about ICC') }}">{{ _('Learn More') }}<i class="material-icons right">arrow_forward</i></a>
+        <p>All <a href='"+url_for('general_register', page='resources')+"'>resources</a> in the main school of RDFZ are shared with the ICC. </p> ") }}
+        <a class="waves-effect waves-red red accent-1 btn-small" href="{{ url_for('general_register', page='about_ICC') }}">{{ _('Learn More') }}<i class="material-icons right">arrow_forward</i></a>
       </div>
     </div>
     <div class="divider"></div>

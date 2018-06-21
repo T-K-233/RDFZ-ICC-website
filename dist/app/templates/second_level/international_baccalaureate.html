@@ -1,0 +1,25 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = PAGE|title+' - '+BRANCH|title %}
+{% block body %}
+  <h4 class="red-text header">{{ _('International Baccalaureate (IB/IBDP)') }}</h4>
+  {{ _("<p>International Baccalaureate Diploma Program students in the IB curriculum are all IB Diploma candidates. IBDP Students must study three or four courses at HL and two or three others at SL. They must complete 150 hours of creativity, action, and service (CAS) study, be assessed in Theory of Knowledge, and write a 4000-word Extended Essay. Since the IB diploma curriculum runs in a two-year period from grade 11 to grade 12, the grade 10 IB curriculum shares the same courses with A Level grade 10 curriculum. </p>") }}
+  <div class="section">
+    <h6 class="red-text header">{{ _('Grade 10 (Year 1) Mandatory courses') }}</h6>
+    {{ _('
+    <p>In Chinese: Chinese Literature, Chinese History & Politics, Geography. </p>
+    <p>In English: Art, Music, ICT (information Communication & Technology), Thinking Skills, IGCSE English, IGCSE Biology, IGCSE Chemistry, IGCSE Physics, AS Mathematics, AS Statistics. </p>
+    ') }}
+  </div>
+  <div class="section">
+    <h6 class="red-text header">{{ _('Grade 11 & 12 (Year 2 & 3)') }}</h6>
+    {{ _("
+    <p>Group 1: Chinese A Literature, English A Language and Literature</p>
+    <p>Group 2: Language B English, Language B French ab initio</p>
+    <p>Group 3: Economics, Business Management, Environmental System and Society</p>
+    <p>Group 4: Biology, Chemistry, Computer Science, Environmental System and Society, Physics</p>
+    <p>Group 5: Further Mathematics, Mathematics</p>
+    <p>Group 6: Music, Visual Arts</p>
+    ") }}
+    <h6 class="grey-text header">{{ _("* CAS, EE, TOK are required for the IB curriculum.") }}</h6>
+  </div>
+{% endblock %}

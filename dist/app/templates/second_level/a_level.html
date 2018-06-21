@@ -1,0 +1,27 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = PAGE|title+' - '+BRANCH|title %}
+{% block body %}
+  <h4 class="red-text header">{{ _('Cambridge A Level Program (AL)') }}</h4>
+  {{ _("<p>Students in the A level program sit the UK Cambridge International Examinations (CIE) Advanced Level (A Levels) exams. Besides the mandatory courses that students are required to take, the average number of A Level subjects is four at AS level, carrying on three of them into A2 level. </p>") }}
+  <div class="section">
+    <h6 class="red-text header">{{ _('Grade 10 (Year 1) Mandatory courses') }}</h6>
+    {{ _('
+    <p>In Chinese: Chinese Literature, Chinese History & Politics, Geography. </p>
+    <p>In English: Art, Music, ICT (Information, Communication & Technology, IGCSE Biology, IGCSE Chemistry, IGCSE English, IGCSE Physics, AS Mathematics, AS Statistics, Thinking Skills. </p>
+    ') }}
+  </div>
+  <div class="section">
+    <h6 class="red-text header">{{ _('Grade 11 (Year 2) [Mandatory courses marked with*]') }}</h6>
+    {{ _('
+    <p>In Chinese: Chinese Language & Literature*, Technology & Design*. </p>
+    <p>In English: IB Certificate Language A/B English SL or HL, A2 Mathematics. </p>
+    ') }}
+  </div>
+  <div class="section">
+    <h6 class="red-text header">{{ _('Grade 12 (Year 3) [Mandatory courses marked with*]') }}</h6>
+    {{ _('
+    <p>In English: A Level Art and Design, A L e v e l Biology, A Level Business, A L e v e l Chemistry, A Level Economics, A Level Computer Science, A Level Further Mathematics, A Level Music, A Level Physics, AP Statistics. </p>
+    ') }}
+    <h6 class="grey-text header">{{ _("* Students taking IB Certificate Language A English SL need approval from English teachers to enter into the class. All other students take Language B English SL.") }}</h6>
+  </div>
+{% endblock %}

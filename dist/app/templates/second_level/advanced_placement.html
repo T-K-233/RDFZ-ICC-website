@@ -1,0 +1,27 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = PAGE|title+' - '+BRANCH|title %}
+{% block body %}
+  <h4 class="red-text header">{{ _('The Advanced Placement Program (AP)') }}</h4>
+  {{ _("<p>Students in the Advanced Placement (AP) Program take the College Board AP courses to earn university recognized credits. Over the three-year program, students may take up to 9 AP courses. Beside the mandatory courses that students are required to take, students are required to choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on each course&apos; s prerequisites. </p>") }}
+  <div class="section">
+    <h6 class="red-text header">{{ _('Grade 10 (Year 1) Mandatory courses') }}</h6>
+    {{ _('
+    <p>In Chinese: Chinese Language & Literature, Geography, History, Political Science, ICT (Information Communication & Technology). </p>
+    <p>In English: Intensive English, Pre-AP Chemistry, Pre-AP Biology, Pre-AP Calculus or AP Calculus, Pre-AP Economics, AP Physics I, Music, Art. </p>
+    ') }}
+  </div>
+  <div class="section">
+    <h6 class="red-text header">{{ _('Grade 11 (Year 2) [Mandatory courses marked with*]') }}</h6>
+    {{ _('
+    <p>In Chinese: Chinese Language & Literature*, Technology & Design*. </p>
+    <p>In English: Academic Research*, English Speech*, Integrated Global Studies*, Pre-AP English Language & Composition*, Pre-AP World Cultures, AP Calculus AB/BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP Microeconomics. </p>
+    ') }}
+  </div>
+  <div class="section">
+    <h6 class="red-text header">{{ _('Grade 12 (Year 3) [Mandatory courses marked with*]') }}</h6>
+    {{ _('
+    <p>In Chinese: Chinese Language & Literature*. </p>
+    <p>In English: AP English Literature & Composition, AP English Language & Composition, AP Calculus BC, AP Statistics, AP Computer Science A, AP Biology, AP Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP Physics C (E&M), AP Macro-economics, AP World Cultures. </p>
+    ') }}
+  </div>
+{% endblock %}

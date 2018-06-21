@@ -1,0 +1,5 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = PAGE|title+' - '+BRANCH|title %}
+{% block body %}
+<img width=100% src="{{ url_for('static', filename='img/bin/map.png') }}">
+{% endblock %}
