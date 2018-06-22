@@ -3,14 +3,17 @@
 <head>
   {% include 'base/HEAD.html' %}
   <style>
-    .page.parallax-container{height: 16rem}
-    .parallax>img{
-      z-index: -1
-    }
-    .parallax>h1{
-      margin: 8rem 1em;
-      font-size: 8em
-    }
+  .parallax>img{
+    z-index: -1
+  }
+  .page.parallax-container{
+    height: 20vw;
+  }
+  .parallax>h1{
+    margin-top: 5vw;
+    margin-left: 8vw;
+    font-size: 16vw
+  }
   </style>
 </head>
 <body>
@@ -31,8 +34,8 @@
   {% endif %}
 <div class="page parallax-container">
   <div class="parallax">
-    <img style="width: 100vw" src="{{ url_for('static', filename='img/placeholder-image.jpg') }}">
-    <h1 class="white-text header">{{ _(INDEX)|title }}</h1>
+    <img width="100%" src="{{ url_for('static', filename='img/banner/header_parallel.jpg') }}">
+    <h1 class="white-text page header">{{ _(INDEX)|title }}</h1>
   </div>
 </div>
   <div class="white container">
