@@ -1,0 +1,782 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-06-24 15:31+0800\n"
+"PO-Revision-Date: 2018-06-24 15:41+0800\n"
+"Last-Translator: \n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Generator: Poedit 2.0.7\n"
+
+#: templates/author.html:74
+msgid "A non-profit student organization that mainly focuses on the innovation of 3D printing technology."
+msgstr "一个以3D 印刷技术创新为主要重点的非营利性学生组织。"
+
+#: templates/author.html:98
+msgid ""
+"The RDFZ Graphic Design Agency is a student community affiliated with JODA Studio. It is also an art exchange platform with like-minded friends. Members of the community are students, "
+"designers, and artists."
+msgstr "RDFZ 图形设计机构是隶属于 JODA 工作室的学生社区。它也是一个艺术交流平台与志同道合的朋友。社区成员是学生、设计师和艺术家。"
+
+#: templates/home.html:29
+msgid "Page Navigation"
+msgstr "页面导航"
+
+#: templates/home.html:33
+msgid "about ICC"
+msgstr "关于ICC"
+
+#: templates/home.html:40
+msgid "mission"
+msgstr "使命"
+
+#: templates/home.html:47
+msgid "faculty"
+msgstr "教职工"
+
+#: templates/home.html:54
+msgid "matriculation"
+msgstr "录取情况"
+
+#: templates/home.html:61
+msgid "admission"
+msgstr "招生"
+
+#: templates/home.html:68
+msgid "academics"
+msgstr "学术"
+
+#: templates/home.html:75
+msgid "students"
+msgstr "学生"
+
+#: templates/home.html:82
+msgid "resources"
+msgstr "资源"
+
+#: templates/first_level/about_ICC.html:12 templates/home.html:90
+msgid "About ICC"
+msgstr "关于ICC"
+
+#: templates/home.html:91
+msgid ""
+"<p>The High School Affiliated to Renmin University of China International Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive "
+"a university education abroad. </p>"
+msgstr "<p> 中国人民大学国际课程中心 (RDFZ ICC) 附属高中成立于 2004年, 以辅导那些希望在国外接受大学教育的中国学生为宗旨。</p>"
+
+#: templates/first_level/about_ICC.html:14 templates/home.html:92
+msgid "<p>There are three programs in the three-year ICC course system: "
+msgstr "<p> ICC 为期三年的课程系统中有三个系统: "
+
+#: templates/first_level/about_ICC.html:15 templates/home.html:93
+msgid "General Certificate of Education Advanced Level (AL)"
+msgstr "IGCSE 国际普通中等教育证书（AL）"
+
+#: templates/first_level/about_ICC.html:16 templates/home.html:94
+msgid "Advanced Placement Program (AP)"
+msgstr "美国大学先修课程（AP）"
+
+#: templates/first_level/about_ICC.html:17 templates/home.html:95
+msgid "International Baccalaureate Diploma Programme (IBDP)"
+msgstr "国际学士文凭课程（IBDP）"
+
+#: templates/first_level/about_ICC.html:46 templates/first_level/admission.html:12 templates/home.html:100 templates/home.html:112
+msgid "Learn More"
+msgstr "了解更多"
+
+#: templates/home.html:111
+msgid "ICC Stats"
+msgstr "ICC 数据"
+
+#: templates/mission.html:6
+msgid "Introduction"
+msgstr "简介"
+
+#: templates/mission.html:8
+msgid ""
+"<p>The High School Affiliated to Renmin University of China is a world-renowned public school founded in 1950.</p><p>The school offers both Chinese and international curricula.</p><p>Two types "
+"of Chinese curricula are offered: the national curriculum and the Early Development Program for Top Innovative Talents.</p><p>Three international curricula are offered at the Chinese-Foreign "
+"Education Program: the Cambridge International Advanced Level (A Level) program, started in 2004; the Advanced Placement (AP) program, started in 2010; and the International Baccalaureate "
+"Diploma (IB) program, started in 2012.</p><p>Students are regularly admitted to top Universities domestically and abroad.</p>"
+msgstr ""
+"<p>中国人民大学附属中学是成立于1950年的世界着名公立学校。</p><p>学校同时提供中文课程和国际课程</p><p>有两种的中文课程：国家课程和顶尖创新人才早期培养计划。</p><p>有三个国际课程体系：于 2004 年开"
+"始的剑桥国际高级程度课程（A Level），于 2010 年开始的大学先修课程（AP）课程和 2012 年开始的国际文凭课程（IB）课程。</p><p>学生毕业后就读于国内外的一流大学。</p>"
+
+#: templates/mission.html:12
+msgid "Accreditation"
+msgstr "认证"
+
+#: templates/mission.html:14
+msgid ""
+"<p>RDFZ has been fully accredited by the University of Cambridge International Examinations (CIE) since 2004.</p><p>The Cambridge Exam Center number is CN230.</p><p>In 2012 RDFZ received lBO "
+"authorization to offer the IBDP, and the IB School Code is 049099.</p><p>RDFZ&apos;s CEEB code: 694270</p>"
+msgstr ""
+"<p> RDFZ 自2004年以来已由剑桥大学国际考试 (CIE) 正式认证. </p><p> 剑桥考试中心号码是 CN230. </p><p> 在 2012年 RDFZ 接受了杠杆收购授权提供 IBDP, IB 学校代码是 049099. </p><p> RDFZ ' s CEEB 代码: "
+"694270 </p>"
+
+#: templates/first_level/about_ICC.html:45 templates/mission.html:18 templates/resources/resources.html:6
+msgid "Contact Information"
+msgstr "联系方式"
+
+#: templates/mission.html:20
+msgid "<p>See <a href=\"\">here</a>.</p>"
+msgstr "<p>看 <a href=\"\">这里</a>。</p>"
+
+#: templates/mission.html:26
+msgid ""
+"<p>\"Virtue, Erudition, Creativity, and Pragmatism\" are the principles of the school.</p><p>RDFZ aims to cultivate students not only with a solid well-rounded development, but also with "
+"special skills, innovation, and morality.</p><p>The mission statement of the school is \"respect individuality, discover and promote each student&apos;s potential, and help them develop into "
+"solid citizens anxious to further the prosperity of our country and the advancement of humanity\".</p>"
+msgstr ""
+"<p> \"美德、博学、创造性和实用主义\" 是学校的原则. </p><p> RDFZ 旨在培养学生, 不仅要有扎实的全面发展, 而且要有特殊的技能、创新和道德. </p><p> 学校的任务说明是 \"尊重个性, 发掘和促进每一个学生 ' "
+"潜能, 并帮助他们发展成为渴望促进我国繁荣和人类进步的坚实公民\". </p>"
+
+#: templates/first_level/faculty.html:6 templates/first_level/students.html:6 templates/mission.html:32
+msgid ""
+"<p>RDFZ has a professional Chinese faculty team, with 66&#37; holding a master&apos;s or doctorate degree. </p><p>There are 60 international faculty teachers at the ChineseForeign Education "
+"Program with nationalities represented by the following countries:</p><p>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The U.K. and The U.S.</p><p>More than "
+"half of the international teachers hold a master&apos;s or doctorate degree</p>"
+msgstr ""
+"<p> RDFZ 拥有一支专业的中国师资队伍, 拥有 66 &#37; 持有硕士 ' 博士学位. </p><p> ChineseForeign 教育项目中有60名国际教员教师, 其国籍由下列国家代表: </p><p> 澳大利亚、加拿大、印度、爱尔兰、新西"
+"兰、菲律宾、斯里兰卡、尼泊尔、英国和美国 </p><p> 半数以上的国际教师持有硕士 ' 或博士学位 </p>"
+
+#: templates/first_level/admission.html:7 templates/mission.html:60
+msgid ""
+"<p>Admission to RDFZ high school is dependent on students&apos; Zhongkao (high school entrance exam) score. </p><p>In addition to the Zhongkao, admission to RDFZ Chinese-Foreign Education "
+"Program also depends on interviews and extra exams that test math and English. </p><p>Year after year, both the national and international curricula have continually increasing application to "
+"admission ratios. </p><p>The admission score for the Chinese National Curriculum is among the highest in Beijing.</p>"
+msgstr ""
+"<p>RDFZ ICC 的录取取决于学生中考分数. </p><p>除期中考之外, RDFZ ICC 的录取也取决于在我们的面试和数学、英语考试的成绩。</p><p>每年，ICC 都在不断增加入学的申请录取率。</p><p>ICC 的中考录取分数在北"
+"京名列前茅。</p>"
+
+#: templates/second_level/student_union.html:8 templates/student.html:9
+msgid "Student Union"
+msgstr "学生会"
+
+#: templates/student.html:12 templates/student.html:30
+msgid "STEM (Science, Technology, Enginnering, Math)"
+msgstr "STEM - 科学、技术、工程与数学"
+
+#: templates/student.html:15 templates/student.html:33
+msgid "Art"
+msgstr "艺术"
+
+#: templates/student.html:18 templates/student.html:36
+msgid "Language & Literature"
+msgstr "语言和文学"
+
+#: templates/student.html:21 templates/student.html:39
+msgid "Volunteer Service"
+msgstr "志愿服务"
+
+#: templates/base/HEAD.html:2 templates/base/PAGE_HEADER.html:9
+msgid "RDFZ International Curriculum Center"
+msgstr "人大附中中外合作办学项目"
+
+#: templates/base/PAGE_FOOTER.html:10
+msgid "The High School Affiliated to Renmin University of China International Curriculum Center"
+msgstr "人民大学附属中学 中外合作办学项目"
+
+#: templates/base/PAGE_FOOTER.html:11
+msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
+msgstr "北京市海淀区中关村大街 37 号 100080"
+
+#: templates/base/PAGE_FOOTER.html:15
+msgid "Campus Map"
+msgstr "校园地图"
+
+#: templates/base/PAGE_FOOTER.html:16
+msgid "Contacts"
+msgstr "联系方式"
+
+#: templates/base/PAGE_FOOTER.html:17
+msgid "Location"
+msgstr "地理位置"
+
+#: templates/base/PAGE_FOOTER.html:18
+msgid "School Calendar"
+msgstr "校历"
+
+#: templates/base/PAGE_FOOTER.html:23
+msgid "ACT"
+msgstr "ACT 标准化考试"
+
+#: templates/base/PAGE_FOOTER.html:24
+msgid "Cambridge Assessment"
+msgstr "剑桥大学考试委员会"
+
+#: templates/base/PAGE_FOOTER.html:25
+msgid "Collegeboard"
+msgstr "Collegeboard"
+
+#: templates/base/PAGE_FOOTER.html:26
+msgid "IBO.org"
+msgstr "IBO国际组织"
+
+#: templates/base/PAGE_FOOTER.html:27
+msgid "TOEFL"
+msgstr "托福"
+
+#: templates/base/PAGE_FOOTER.html:28
+msgid "Powerschool"
+msgstr "Powerschool"
+
+#: templates/base/PAGE_FOOTER.html:34
+msgid "Website Author"
+msgstr "网站作者"
+
+#: templates/first_level/about_ICC.html:5
+msgid "About RDFZ"
+msgstr "关于人大附中"
+
+#: templates/first_level/about_ICC.html:6
+msgid ""
+"<p>The High School Affiliated to Renmin University of China, abbreviated to Renda Fuzhong (RDFZ), was founded in 1940 and is now one of China’s top high schools. </p>\n"
+"  <p>There are over 4500 students in the heavily oversubscribed <a href=\"http://www.rdfz.cn/\">main school</a>. </p>\n"
+"  <p>Most of these students, achieving a high score on the National University Entrance Exam (Gaokao), enter the best Chinese universities. </p>\n"
+"  <p>The campus is located in the Haidian district of Beijing in China.</p>"
+msgstr ""
+"<p>中国人民大学附属中学（简称人大附中）成立于1940年，现为中国顶尖高中之一。</p><p><a href=\"http://www.rdfz.cn/\">人大附中本部</a>有超过4500名学生。</p><p>大多数学生在国家大学入学考试（高考）中"
+"取得高分，进入中国最好的大学。</p>校园位于中国北京市海淀区中关村大街旁。</p>"
+
+#: templates/first_level/about_ICC.html:13
+msgid "<p>The International Curriculum Center (ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive a university education abroad. </p>"
+msgstr "<p>人大附中中外合作办学项目（ICC）成立于2004年，目标是教育那些希望在国外接受大学教育的中国学生。</p>"
+
+#: templates/first_level/about_ICC.html:16
+msgid "and"
+msgstr "和"
+
+#: templates/first_level/about_ICC.html:18
+msgid ""
+"<p>The foundation courses required for all the student are PE, Mandarin, art, music, Chinese history, political science, speech, and research.</p>\n"
+"  <p>Currently, there are 800 students — ~400 for AL, ~250 for AP and ~120 for IB — in the ICC, and the following courses are available for students' choice: </p>\n"
+"  <p>• AL: biology, chemistry, physics, applied ICT, mathematics, further mathematics, business studies, and economics. </p>\n"
+"  <p>• IB: Chinese Literature, Business, Environmental Science, Psychology, Chemistry, Physics, Computer Science, Music, Art, Math, Economics, French, Spanish, English, Theory of Knowledge, EE, "
+"CAS. </p>\n"
+"  <p>• AP: Advanced English, AP World Culture, AP Language and Composition, AP Literature and Composition, AP Calculus AB & BC, AP Statistics, AP Physics I & II, AP Physics CM & CEM, AP "
+"Biology, AP Microeconomics & Macroeconomics, AP Chemistry, AP Environmental Science, AP Psychology. </p>\n"
+"  <p>There are approximately 50 expatriate teachers and 40 Chinese teachers within the ICC. </p>\n"
+"  <p>After a rigorous High School Entrance Exam (Zhongkao) and our own exam, students entering ICC are highly motivated and action orientated. </p>\n"
+"  <p>For the past several years, they have achieved awards in international competitions and exhibitions, including art, dance, debate, drama, math, science, robotics, and sports. </p>\n"
+"  <p>With the English-only classes, all the teachers can help the students with their English speaking skills. </p>"
+msgstr ""
+"<p>必修课程是体育、语文、艺术、音乐、中国历史、政治、演讲和学术研究。</p><p>目前共有800名学生 —— AL 大约 400人，AP 约 250，IB 约 120 人 - 在ICC，和下列课程可供学生选择：</p>\n"
+"<p>•AL :.生物学，化学，物理学，应用信息通信技术，数学，进阶数学，商业研究，经济学</p>\n"
+"<p>•IB :.中国文学，商务，环境科学，心理学，化学，物理，计算机科学，音乐，美术，数学，经济学，法语，西班牙语，英语，知识理论，EE，CAS </p>\n"
+"<p>•AP：高级英语，AP 世界文化，AP 语言和写作，AP 文学与写作，AP 微积分 AB​​ & BC，AP 统计学，AP 物理 I ＆ II，AP 物理 CM ＆ CEM，AP 生物，AP 微观经济＆宏观经济，AP 化学，AP 环境科学，AP 心理学。</"
+"p>\n"
+"<p>ICC 有大约50外籍教师和40名中国教师。</p>\n"
+"<p>ICC 的学生在经过严格的中考考试和我们自己的招生考试后，都非常积极、有目标性。</p>\n"
+"<p>在过去的几年里，他们已经在国内外的各种比赛取得了佳绩，包括美术，舞蹈，辩论，戏剧，数学，科学，机器人和体育领域。</p>\n"
+"<p>在 ICC 的课堂中，学生们只能说英语，这样所有的老师都可以帮助学生提高他们的英语口语能力。</p>"
+
+#: templates/first_level/about_ICC.html:29
+msgid "About the Schedule"
+msgstr "关于校历"
+
+#: templates/first_level/about_ICC.html:30
+msgid ""
+"<p>Students attend scheduled classes, rotating through nine periods a day.</p>\n"
+"  <p>There are 5 science labs, an ICT lab, library and use of several auditoriums and conference facilities.</p>\n"
+"  <p>The average size of a required courses are 18-38, and 8-21 for selective courses, but smaller for English language lessons. </p>\n"
+"  <p>There are 45 lessons a week, each lasts for 40 minutes and followed by a 5-minute break. </p>\n"
+"  <p>The school time begins at 7:40 and ends at 16:35. </p>\n"
+"  <p>Following the Chinese calendar for holidays, we have a week for National Holiday, 4 weeks for Chinese New Year, and also the full day break for Tomb Sweeping, Dragon Boat and May Day. </"
+"p>\n"
+"  <p>In addition, we also take the break on Christmas and Western New Year. </p>\n"
+"  <p>Sometimes we have class on a Saturday or Sunday to enable taking several days off together. </p>"
+msgstr ""
+"<p>每天总共9节课时，采用走班式教学。</p>\n"
+"<p>学校有 5 个科学实验室，一个 ICT 实验室、一个图书馆和几个礼堂。</p>\n"
+"<p>班级的平均大小为18-38人，其中选修课程为 8-21人，而英语课人数更少一些。</p>\n"
+"<p>每周 45 节课，每节课 40 分钟，中间有 5 分钟课间休息。</p>\n"
+"<p>7:40 课程开始，16:35 放学。</p>\n"
+"<p>中国节假日中，我们有一周的国庆假期，四周的农历新年，以及清明、端午和五一的全天假期。</p>\n"
+"<p>另外，我们也会在圣诞节和西方新年期间放假。</p>\n"
+"<p>有时我们会在周六或周日上课，以便节假日的调休。</p>"
+
+#: templates/first_level/about_ICC.html:40
+msgid "About Activities"
+msgstr "关于活动"
+
+#: templates/first_level/about_ICC.html:41
+msgid ""
+"<p>RDFZ has over 300 clubs for extracurricular activities, more than 150 elective courses, and numerous opportunities for charity and community services. </p>\n"
+"  <p>All resources in the main school of RDFZ are shared with the ICC.</p>"
+msgstr ""
+"<p> RDFZ 有300多个俱乐部用于课外活动、150多门选修课, 以及许多慈善和社区服务的机会. </p>\n"
+"  <p> RDFZ 主学校中的所有资源都与 ICC 共享. </p>"
+
+#: templates/first_level/academics.html:5
+msgid "ICC Curriculums"
+msgstr "ICC 课程"
+
+#: templates/first_level/academics.html:10 templates/second_level/chinese_curricula.html:5
+msgid "Chinese Curricula"
+msgstr "国内课程"
+
+#: templates/first_level/academics.html:19
+msgid "A Level"
+msgstr "IGCSE 国际普通中等教育证书"
+
+#: templates/first_level/academics.html:28
+msgid "Advanced Placement"
+msgstr "美国大学先修课程"
+
+#: templates/first_level/academics.html:37
+msgid "International Baccalaureate"
+msgstr "国际学士文凭课程（IBDP）"
+
+#: templates/first_level/admission.html:5
+msgid "How to get into here? "
+msgstr "如何加入我们？ "
+
+#: templates/first_level/mission.html:5
+msgid "Our Goal"
+msgstr "我们的宗旨"
+
+#: templates/first_level/mission.html:7
+msgid ""
+"<p>\"Virtue, Erudition, Creativity, and Pragmatism\" are the principles of the school.</p>\n"
+"    <p>RDFZ aims to cultivate students not only with a solid well-rounded development, but also with special skills, innovation, and morality.</p>\n"
+"    <p>The International Curriculum Center (ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive a university education abroad. </p>\n"
+"    <p>The mission statement of the school is \"respect individuality, discover and promote each student&apos;s potential, and help them develop into solid citizens anxious to further the "
+"prosperity of our country and the advancement of humanity\".</p>"
+msgstr ""
+"<p>“美德，博学，创造力和实用主义”是学校教育的核心。</p><p>RDFZ的目标是培养学生不仅全面发展，而且具备特殊技能，创新精神和道德品质。</p><p>国际课程中心（ICC）成立于2004年，目标是教育那些希望在国外"
+"接受大学教育的中国学生。</p><p>学校的使命宣言是“探索学生的潜力，帮助他们发展成为能够进一步繁荣我们的国家和推动人类进步的坚定的公民”。</p>"
+
+#: templates/first_level/resources.html:10
+msgid "campus map"
+msgstr "校园地图"
+
+#: templates/second_level/a_level.html:4
+msgid "Cambridge A Level Program (AL)"
+msgstr "AL课程"
+
+#: templates/second_level/a_level.html:5
+msgid ""
+"<p>Students in the A level program sit the UK Cambridge International Examinations (CIE) Advanced Level (A Levels) exams. Besides the mandatory courses that students are required to take, the "
+"average number of A Level subjects is four at AS level, carrying on three of them into A2 level. </p>"
+msgstr "<p> A Level 学生需要参加英国剑桥国际考试 (CIE) 高级水平 (A 级) 考试。除了学生必须选修的必修课程外, 需要选择大约 4 门一级科目，并在 A2 阶段选择 4 门中的 3 门继续学习。</p>"
+
+#: templates/second_level/a_level.html:7 templates/second_level/advanced_placement.html:7 templates/second_level/international_baccalaureate.html:7
+msgid "Grade 10 (Year 1) Mandatory courses"
+msgstr "10年级 必修课程"
+
+#: templates/second_level/a_level.html:8
+msgid ""
+"<p>In Chinese: Chinese Literature, Chinese History & Politics, Geography. </p>\n"
+"    <p>In English: Art, Music, ICT (Information, Communication & Technology, IGCSE Biology, IGCSE Chemistry, IGCSE English, IGCSE Physics, AS Mathematics, AS Statistics, Thinking Skills. </p>"
+msgstr ""
+"<p> 中文课程: 中国文学、中国历史和政治、地理. </p>\n"
+"<p> 英语课程: 艺术、音乐、ICT (信息、通信和技术、IGCSE 生物学、IGCSE 化学、IGCSE 英语、IGCSE 物理、数学、思维技巧. </p>"
+
+#: templates/second_level/a_level.html:12 templates/second_level/advanced_placement.html:11
+msgid "Grade 11 (Year 2) [Mandatory courses marked with*]"
+msgstr "11 年级 [必选课程用 * 标出]"
+
+#: templates/second_level/a_level.html:13
+msgid ""
+"<p>In Chinese: Chinese Language & Literature*, Technology & Design*. </p>\n"
+"    <p>In English: IB Certificate Language A/B English SL or HL, A2 Mathematics. </p>"
+msgstr ""
+"<p>中文课程: 中文和文学 *, 技术与设计 *. </p>\n"
+"    <p> 英语课程: IB 语言证书 A/B 英语 SL 或 HL , A2 数学. </p>"
+
+#: templates/second_level/a_level.html:17 templates/second_level/advanced_placement.html:15
+msgid "Grade 12 (Year 3) [Mandatory courses marked with*]"
+msgstr "12 年级 [必选课程用 * 标出]"
+
+#: templates/second_level/a_level.html:18
+msgid ""
+"<p>In English: A Level Art and Design, A Level Biology, A Level Business, A Level Chemistry, A Level Economics, A Level Computer Science, A Level Further Mathematics, A Level Music, A Level "
+"Physics, AP Statistics. </p>"
+msgstr "<p>英语课程: 水平艺术和设计、水平生物学、水平业务、水平化学、水平经济、水平计算机科学、水平进一步数学、水平音乐、水平物理、AP 统计. </p>"
+
+#: templates/second_level/a_level.html:19
+msgid "* Students taking IB Certificate Language A English SL need approval from English teachers to enter into the class. All other students take Language B English SL."
+msgstr "*选择 IB 英语语言 A SL 证书的学生需要英语教师批准，所有其他学生学习英语语言 B SL 这门课。"
+
+#: templates/second_level/advanced_placement.html:4
+msgid "The Advanced Placement Program (AP)"
+msgstr "美国大学先修课程（AP）"
+
+#: templates/second_level/advanced_placement.html:5
+msgid ""
+"<p>Students in the Advanced Placement (AP) Program take the College Board AP courses to earn university recognized credits. Over the three-year program, students may take up to 9 AP courses. "
+"Beside the mandatory courses that students are required to take, students are required to choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on each course&apos; s "
+"prerequisites. </p>"
+msgstr ""
+"<p> 美国大学先修课程（AP）中的学生可以通过美国大学董事会的课程获得大学认可学分。在三年里，学生最多可选修 9 门 AP 课程。除了学生的必修课程之外, 学生须根据每项课程的先决条件, 在 11 年级选 3 项 AP "
+"课程、在 12 年级选 4 项。</p>"
+
+#: templates/second_level/advanced_placement.html:8
+msgid ""
+"<p>In Chinese: Chinese Language & Literature, Geography, History, Political Science, ICT (Information Communication & Technology). </p><p>In English: Intensive English, Pre-AP Chemistry, Pre-AP "
+"Biology, Pre-AP Calculus or AP Calculus, Pre-AP Economics, AP Physics I, Music, Art. </p>"
+msgstr ""
+"<p>中文课程: 中文、文学、地理、历史、政治学、ICT (信息通信与技术)。</p><p>英语课程: 强化英语, Pre-AP 化学, Pre-AP 生物学, Pre-AP 微积分或 Pre-AP 微积分, Pre-AP 经济, AP 物理 I, 音乐, 美术。</p>"
+
+#: templates/second_level/advanced_placement.html:12
+msgid ""
+"<p>In Chinese: Chinese Language & Literature*, Technology & Design*. </p><p>In English: Academic Research*, English Speech*, Integrated Global Studies*, Pre-AP English Language & Composition*, "
+"Pre-AP World Cultures, AP Calculus AB/BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP Microeconomics. </p>"
+msgstr ""
+"<p>中文课程: 中文和文学 *, 技术与设计 *。</p>\n"
+"    <p>英语课程: 学术研究 *, 英语演讲 *, 综合全球研究 *, Pre-AP 英语语言和作文 *, Pre-AP 世界文化, AP 微积分 AB/BC *, AP 化学, AP 物理 2, AP 物理 CM, AP 微观经济学。</p>"
+
+#: templates/second_level/advanced_placement.html:16
+msgid ""
+"<p>In Chinese: Chinese Language & Literature*. </p><p>In English: AP English Literature & Composition, AP English Language & Composition, AP Calculus BC, AP Statistics, AP Computer Science A, "
+"AP Biology, AP Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP Physics C (E&M), AP Macro-economics, AP World Cultures. </p>"
+msgstr ""
+"<p>中文课程: 中文和文学 *. </p><p> 英语课程: AP 英语文学与作文, AP 英语语言和作文, AP 微积分, AP 统计, AP 计算机科学 A, AP 生物学, AP 化学, AP 环境科学, AP 物理 CE（力学）, AP 物理 CEM（电磁"
+"学）, AP 宏观经济, AP 世界文化。</p>"
+
+#: templates/second_level/chinese_curricula.html:6
+msgid ""
+"<p>Students in the Chinese curricula are required to learn subjects stipulated by Beijing Municipal Education Commission.</p>\n"
+"      <p>According to the commission, each subject is composed of different modules and assessments are given based on those modules.</p>\n"
+"      <p>Module scores include processing the evaluations of daily performance and the results of exams.</p>\n"
+"      <p>The minimum credits requirement for graduation is 144.</p>\n"
+"      <p>Students need to pass the Huikao (high school graduation exam) organized by the Beijing Education Examinations Authority to graduate from high school.</p>\n"
+"      <p>Huikao subjects include the following:</p>"
+msgstr ""
+"<p>中文课程是北京市教委必修科目。</p><p>根据教委的说法，每个科目都由不同的模块组成，并根据这些模块进行评估。</p>\n"
+"<p>模块评分包含课堂表现和考试结果。</p>\n"
+"<p>毕业的最低学分要求是144. </p>\n"
+"<p>学生需要通过北京教育考试局组织的会考才能毕业。</p>\n"
+"<p>会考科目包括以下内容：</p>"
+
+#: templates/second_level/chinese_curricula.html:13
+msgid "Chinese"
+msgstr "语文"
+
+#: templates/second_level/chinese_curricula.html:14
+msgid "English"
+msgstr "英语"
+
+#: templates/second_level/chinese_curricula.html:15
+msgid "math"
+msgstr "数学"
+
+#: templates/second_level/chinese_curricula.html:16
+msgid "physics"
+msgstr "物理"
+
+#: templates/second_level/chinese_curricula.html:17
+msgid "chemistry"
+msgstr "化学"
+
+#: templates/second_level/chinese_curricula.html:18
+msgid "biology"
+msgstr "生物学"
+
+#: templates/second_level/chinese_curricula.html:19
+msgid "politics"
+msgstr "政治"
+
+#: templates/second_level/chinese_curricula.html:20
+msgid "history"
+msgstr "历史"
+
+#: templates/second_level/chinese_curricula.html:21
+msgid "geography"
+msgstr "地理"
+
+#: templates/second_level/chinese_curricula.html:22
+msgid "information & technology"
+msgstr "信息技术"
+
+#: templates/second_level/chinese_curricula.html:23
+msgid "general technology"
+msgstr "通用技术"
+
+#: templates/second_level/chinese_curricula.html:24
+msgid "music"
+msgstr "音乐"
+
+#: templates/second_level/chinese_curricula.html:25
+msgid "art"
+msgstr "艺术"
+
+#: templates/second_level/chinese_curricula.html:26
+msgid "physical education"
+msgstr "体育"
+
+#: templates/second_level/chinese_curricula.html:32
+msgid "Chinese National Curriculum"
+msgstr "中国必修课程"
+
+#: templates/second_level/chinese_curricula.html:43
+msgid "Early Development Program"
+msgstr "早培计划"
+
+#: templates/second_level/chinese_curricula.html:52
+msgid "Compulsory courses for Chinese curricula"
+msgstr "中文课程必修课程"
+
+#: templates/second_level/chinese_curricula.html:56
+msgid "10th Grade"
+msgstr "10 年级"
+
+#: templates/second_level/chinese_curricula.html:57
+msgid "Chinese, math, English, chemistry, physics, history, geography, politics, physical education, information technology, general technology, art and music, research study"
+msgstr "语文, 数学, 英语, 化学, 物理, 历史, 地理, 政治, 体育, 信息技术, 一般技术, 艺术和音乐, 研究研究"
+
+#: templates/second_level/chinese_curricula.html:60
+msgid "11th Grade"
+msgstr "11 年级"
+
+#: templates/second_level/chinese_curricula.html:61
+msgid "Chinese, math, English, physics, biology, physical education, research study"
+msgstr "语文, 数学, 英语, 物理, 生物, 体育, 学术研究"
+
+#: templates/second_level/chinese_curricula.html:64
+msgid "12th Grade"
+msgstr "12 年级"
+
+#: templates/second_level/chinese_curricula.html:65
+msgid "Chinese, math, English, physical education"
+msgstr "语文、数学、英语、体育"
+
+#: templates/second_level/icc_stats.html:9
+msgid "ICC Statistics"
+msgstr "ICC 数据"
+
+#: templates/second_level/icc_stats.html:11
+msgid ""
+"<p><big class=\"red-text header\">14 </big>years has been passed after the foundation of RDFZ ICC in 2004.</p>\n"
+"  <p><big class=\"red-text header\">＞4500 </big>students in the main campus and<big class=\"red-text header\"> ≈800 </big>students in ICC. </p>\n"
+"  <p><big class=\"red-text header\">50 </big>expatriate teachers and<big class=\"red-text header\"> 40 </big>Chinese teachers. </p>\n"
+"  <p>Staff-student ratio is <big class=\"red-text header\">1 : 8.88 </big>. </p>\n"
+"  <p><big class=\"red-text header\">45 </big>lessons a week. </p>\n"
+"  <p>Each year,<big class=\"red-text header\"> 71 </big>days are ready for holiday (weekends excluded). </p>"
+msgstr ""
+"<p>距离ICC在2004年的创办已经过去了<big class=\"red-text header\">14 </big>年了。</p>\n"
+"  <p>人大附中有<big class=\"red-text header\"> 4500 </big>以上的学生，其中有约<big class=\"red-text header\"> 800 </big>名是ICC的学生。</p>\n"
+"  <p><big class=\"red-text header\">50 </big>名外教和<big class=\"red-text header\"> 40 </big>名中教构成了教师团体。</p>\n"
+"  <p>师生比为<big class=\"red-text header\">1 : 8.88 </big>. </p>\n"
+"  <p>每周有<big class=\"red-text header\"> 45 </big>节课。</p>\n"
+"  <p>每年，<big class=\"red-text header\"> 71 </big>天是为假期准备的（除周末的节假日）。</p>"
+
+#: templates/second_level/international_baccalaureate.html:4
+msgid "International Baccalaureate (IB/IBDP)"
+msgstr "国际学士文凭课程 (IBDP)"
+
+#: templates/second_level/international_baccalaureate.html:5
+msgid ""
+"<p>International Baccalaureate Diploma Program students in the IB curriculum are all IB Diploma candidates. IBDP Students must study three or four courses at HL and two or three others at SL. "
+"They must complete 150 hours of creativity, action, and service (CAS) study, be assessed in Theory of Knowledge, and write a 4000-word Extended Essay. Since the IB diploma curriculum runs in a "
+"two-year period from grade 11 to grade 12, the grade 10 IB curriculum shares the same courses with A Level grade 10 curriculum. </p>"
+msgstr ""
+"<p>国际学士学位文凭课程（IB）的学生必须选择三至四门 HL 课程和两至三门 SL 课程，他们必须完成150小时的创意，行动和服务课程（CAS）学习，在知识理论中进行评估，并撰写一篇4000字的扩展论文。由于IB文凭"
+"课程是从 11 年级至 12 年级的两年课程，所以 10 年级 IB 学生与 A Level 学生一起上课。</p>"
+
+#: templates/second_level/international_baccalaureate.html:8
+msgid ""
+"<p>In Chinese: Chinese Literature, Chinese History & Politics, Geography. </p>\n"
+"    <p>In English: Art, Music, ICT (information Communication & Technology), Thinking Skills, IGCSE English, IGCSE Biology, IGCSE Chemistry, IGCSE Physics, AS Mathematics, AS Statistics. </p>"
+msgstr ""
+"<p>中文课程: 中国文学、中国历史和政治、地理。 </p>\n"
+"<p>英文课程: 艺术、音乐、ICT (信息交流与技术)、思维技巧、IGCSE 英语、IGCSE 生物学、IGCSE 化学、IGCSE 物理、数理统计。</p>"
+
+#: templates/second_level/international_baccalaureate.html:12
+msgid "Grade 11 & 12 (Year 2 & 3)"
+msgstr "11 和 12 年级"
+
+#: templates/second_level/international_baccalaureate.html:13
+msgid ""
+"<p>Group 1: Chinese A Literature, English A Language and Literature</p>\n"
+"    <p>Group 2: Language B English, Language B French ab initio</p>\n"
+"    <p>Group 3: Economics, Business Management, Environmental System and Society</p>\n"
+"    <p>Group 4: Biology, Chemistry, Computer Science, Environmental System and Society, Physics</p>\n"
+"    <p>Group 5: Further Mathematics, Mathematics</p>\n"
+"    <p>Group 6: Music, Visual Arts</p>"
+msgstr ""
+"<p> 组 1: 中文文学, 英语语言和文学 </p>\n"
+"    <p> 组 2: 语言 b 英语, 语言 b 法语从头学 </p>\n"
+"    <p> 3 组: 经济、企业管理、环境系统和社会 </p>\n"
+"    <p> 4 组: 生物、化学、计算机科学、环境系统和社会、物理 </p>\n"
+"    <p> 组 5: 进一步数学, 数学 </p>\n"
+"    <p> 6 组: 音乐、视觉艺术 </p>"
+
+#: templates/second_level/international_baccalaureate.html:19
+msgid "* CAS, EE, TOK are required for the IB curriculum."
+msgstr "* 对于 IB 课程，CAS、EE 和 TOK 是必选课程。"
+
+#: templates/second_level/student_union.html:4
+msgid "ICC Student Union"
+msgstr "ICC 学生会"
+
+#: templates/second_level/student_union.html:13
+msgid "Presidium"
+msgstr "主席团"
+
+#: templates/second_level/student_union.html:14
+msgid "President"
+msgstr "主席"
+
+#: templates/second_level/student_union.html:14
+msgid "LePing Qiu"
+msgstr "邱乐平"
+
+#: templates/second_level/student_union.html:15
+msgid "Vice-president"
+msgstr "副主席"
+
+#: templates/second_level/student_union.html:15
+msgid "Irene Wang, Delia Zou"
+msgstr "王珺莹 邹灏迪"
+
+#: templates/second_level/student_union.html:22
+msgid "Activity Department"
+msgstr "活动部"
+
+#: templates/second_level/student_union.html:23 templates/second_level/student_union.html:32 templates/second_level/student_union.html:41 templates/second_level/student_union.html:50
+#: templates/second_level/student_union.html:59 templates/second_level/student_union.html:68 templates/second_level/student_union.html:77
+msgid "Head"
+msgstr "部长"
+
+#: templates/second_level/student_union.html:23
+msgid "Alejandro He"
+msgstr "何一苇"
+
+#: templates/second_level/student_union.html:24 templates/second_level/student_union.html:33 templates/second_level/student_union.html:42 templates/second_level/student_union.html:51
+#: templates/second_level/student_union.html:60 templates/second_level/student_union.html:69 templates/second_level/student_union.html:78
+msgid "Undersecretary"
+msgstr "副部长"
+
+#: templates/second_level/student_union.html:24
+msgid "Tiffany Wei, Tiffany Su"
+msgstr "魏佳仪 孙鹤宁"
+
+#: templates/second_level/student_union.html:31
+msgid "Publicity Department"
+msgstr "宣传部"
+
+#: templates/second_level/student_union.html:32
+msgid "Ellabella Liu"
+msgstr "刘可萱"
+
+#: templates/second_level/student_union.html:33
+msgid "Norah Liao, Erica Ye"
+msgstr "廖芳懿 叶知春"
+
+#: templates/second_level/student_union.html:40
+msgid "Academic Department"
+msgstr "学习部"
+
+#: templates/second_level/student_union.html:41
+msgid "Jerry Zhao"
+msgstr "赵子渊"
+
+#: templates/second_level/student_union.html:42
+msgid "Violet Wu"
+msgstr "吴昔檐"
+
+#: templates/second_level/student_union.html:49
+msgid "Athletic Department"
+msgstr "体育部"
+
+#: templates/second_level/student_union.html:50
+msgid "Justin Li"
+msgstr "黎梓峰"
+
+#: templates/second_level/student_union.html:51
+msgid "Kevin Li"
+msgstr "李凯文"
+
+#: templates/second_level/student_union.html:58
+msgid "Discipline Department"
+msgstr "纪检部"
+
+#: templates/second_level/student_union.html:59
+msgid "Hugo Han"
+msgstr "韩雨果"
+
+#: templates/second_level/student_union.html:60
+msgid "Ayla Wang"
+msgstr "王芊文"
+
+#: templates/second_level/student_union.html:67
+msgid "Tech Department"
+msgstr "科技部"
+
+#: templates/second_level/student_union.html:68
+msgid "YuFeng Chi"
+msgstr "池雨峰"
+
+#: templates/second_level/student_union.html:69
+msgid "NAI"
+msgstr "奈"
+
+#: templates/second_level/student_union.html:76
+msgid "Secretariat"
+msgstr "秘书处"
+
+#: templates/second_level/student_union.html:77
+msgid "Tony Lin"
+msgstr "林竞初"
+
+#: templates/second_level/student_union.html:78
+msgid "Faith Feng"
+msgstr "冯暖曦"
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>In Chinese: Chinese Language & Literature, Geography, History, Political Science, ICT (Information Communication & Technology). </p>\n"
+#~ "    <p>In English: Intensive English, Pre-AP Chemistry, Pre-AP Biology, Pre-AP Calculus or AP Calculus, Pre-AP Economics, AP Physics I, Music, Art. </p>\n"
+#~ "    "
+#~ msgstr ""
+#~ "<p>中文课程: 中文、文学、地理、历史、政治学、ICT (信息通信与技术)。</p><p>英语课程: 强化英语, 前 ap 化学, 前 ap 生物学, 前 ap 微积分或 ap 微积分, 前 ap 经济, ap 物理 I, 音乐, 艺术。</p>"
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>In Chinese: Chinese Language & Literature*, Technology & Design*. </p>\n"
+#~ "    <p>In English: Academic Research*, English Speech*, Integrated Global Studies*, Pre-AP English Language & Composition*, Pre-AP World Cultures, AP Calculus AB/BC*, AP Chemistry, AP "
+#~ "Physics 2, AP Physics CM, AP Microeconomics. </p>\n"
+#~ "    "
+#~ msgstr ""
+#~ "<p>中文课程: 中文和文学 *, 技术与设计 *。</p>\n"
+#~ "    <p>英语课程: 学术研究 *, 英语演讲 *, 综合全球研究 *, 前 ap 英语语言和作文 *, 前 ap 世界文化, ap 微积分 AB/BC *, ap 化学, ap 物理 2, ap 物理 CM, ap 微观经济学。</p>"
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>In Chinese: Chinese Literature, Chinese History & Politics, Geography. </p>\n"
+#~ "    <p>In English: Art, Music, ICT (information Communication & Technology), Thinking Skills, IGCSE English, IGCSE Biology, IGCSE Chemistry, IGCSE Physics, AS Mathematics, AS Statistics. </"
+#~ "p>\n"
+#~ "    "
+#~ msgstr ""
+#~ "<p>中文课程: 中国文学、中国历史和政治、地理。 </p>\n"
+#~ "    <p>英文课程: 艺术、音乐、ICT (信息交流与技术)、思维技巧、IGCSE 英语、IGCSE 生物学、IGCSE 化学、IGCSE 物理、数理统计等。</p>"
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>Group 1: Chinese A Literature, English A Language and Literature</p>\n"
+#~ "    <p>Group 2: Language B English, Language B French ab initio</p>\n"
+#~ "    <p>Group 3: Economics, Business Management, Environmental System and Society</p>\n"
+#~ "    <p>Group 4: Biology, Chemistry, Computer Science, Environmental System and Society, Physics</p>\n"
+#~ "    <p>Group 5: Further Mathematics, Mathematics</p>\n"
+#~ "    <p>Group 6: Music, Visual Arts</p>\n"
+#~ "    "
+#~ msgstr ""
+#~ "<p> 组 1: 中文文学, 英语语言和文学 </p>\n"
+#~ "    <p> 组 2: 语言 b 英语, 语言 b 法语从头学 </p>\n"
+#~ "    <p> 3 组: 经济、企业管理、环境系统和社会 </p>\n"
+#~ "    <p> 4 组: 生物、化学、计算机科学、环境系统和社会、物理 </p>\n"
+#~ "    <p> 组 5: 进一步数学, 数学 </p>\n"
+#~ "    <p> 6 组: 音乐、视觉艺术 </p>"
