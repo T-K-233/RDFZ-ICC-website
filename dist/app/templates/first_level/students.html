@@ -2,8 +2,16 @@
 {% set title = _(INDEX)|title %}
 {% block body %}
 <div class="section">
-  <div>
-    {{ _('<p>RDFZ has a professional Chinese faculty team, with 66&#37; holding a master&apos;s or doctorate degree. </p><p>There are 60 international faculty teachers at the ChineseForeign Education Program with nationalities represented by the following countries:</p><p>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The U.K. and The U.S.</p><p>More than half of the international teachers hold a master&apos;s or doctorate degree</p>') }}
+  <div class="row">
+    <div class="col s6 m3">
+      <a href="{{ url_for('secondary_register', branch='students', page='student_union') }}">
+        <div class="hoverable card">
+          <div class="card-image">
+            <img src="{{ url_for('static', filename='img/square/students_student_union.jpg') }}"><span class="shadow card-title">{{_('ICC Student Union')}}</span>
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 {% endblock %}

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-24 15:31+0800\n"
-"PO-Revision-Date: 2018-06-24 15:41+0800\n"
+"POT-Creation-Date: 2018-06-24 16:07+0800\n"
+"PO-Revision-Date: 2018-06-24 16:08+0800\n"
 "Last-Translator: \n"
 "Language: zh\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr "RDFZ 图形设计机构是隶属于 JODA 工作室的学生社区。它�
 msgid "Page Navigation"
 msgstr "页面导航"
 
-#: templates/home.html:33
+#: templates/base/PAGE_HEADER.html:19 templates/home.html:33
 msgid "about ICC"
 msgstr "关于ICC"
 
@@ -45,7 +45,7 @@ msgstr "使命"
 msgid "faculty"
 msgstr "教职工"
 
-#: templates/home.html:54
+#: templates/base/PAGE_HEADER.html:20 templates/home.html:54
 msgid "matriculation"
 msgstr "录取情况"
 
@@ -53,11 +53,11 @@ msgstr "录取情况"
 msgid "admission"
 msgstr "招生"
 
-#: templates/home.html:68
+#: templates/base/PAGE_HEADER.html:21 templates/home.html:68
 msgid "academics"
 msgstr "学术"
 
-#: templates/home.html:75
+#: templates/base/PAGE_HEADER.html:22 templates/home.html:75
 msgid "students"
 msgstr "学生"
 
@@ -142,7 +142,7 @@ msgstr ""
 "<p> \"美德、博学、创造性和实用主义\" 是学校的原则. </p><p> RDFZ 旨在培养学生, 不仅要有扎实的全面发展, 而且要有特殊的技能、创新和道德. </p><p> 学校的任务说明是 \"尊重个性, 发掘和促进每一个学生 ' "
 "潜能, 并帮助他们发展成为渴望促进我国繁荣和人类进步的坚实公民\". </p>"
 
-#: templates/first_level/faculty.html:6 templates/first_level/students.html:6 templates/mission.html:32
+#: templates/first_level/faculty.html:6 templates/mission.html:32
 msgid ""
 "<p>RDFZ has a professional Chinese faculty team, with 66&#37; holding a master&apos;s or doctorate degree. </p><p>There are 60 international faculty teachers at the ChineseForeign Education "
 "Program with nationalities represented by the following countries:</p><p>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The U.K. and The U.S.</p><p>More than "
@@ -235,6 +235,10 @@ msgstr "Powerschool"
 #: templates/base/PAGE_FOOTER.html:34
 msgid "Website Author"
 msgstr "网站作者"
+
+#: templates/base/PAGE_HEADER.html:17
+msgid "Home"
+msgstr "首页"
 
 #: templates/first_level/about_ICC.html:5
 msgid "About RDFZ"
@@ -361,6 +365,10 @@ msgstr ""
 #: templates/first_level/resources.html:10
 msgid "campus map"
 msgstr "校园地图"
+
+#: templates/first_level/students.html:10 templates/second_level/student_union.html:4
+msgid "ICC Student Union"
+msgstr "ICC 学生会"
 
 #: templates/second_level/a_level.html:4
 msgid "Cambridge A Level Program (AL)"
@@ -617,10 +625,6 @@ msgstr ""
 #: templates/second_level/international_baccalaureate.html:19
 msgid "* CAS, EE, TOK are required for the IB curriculum."
 msgstr "* 对于 IB 课程，CAS、EE 和 TOK 是必选课程。"
-
-#: templates/second_level/student_union.html:4
-msgid "ICC Student Union"
-msgstr "ICC 学生会"
 
 #: templates/second_level/student_union.html:13
 msgid "Presidium"

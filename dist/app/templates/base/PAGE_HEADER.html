@@ -14,12 +14,13 @@
 <!-- ↑ 页面顶部标题 ↑ -->
 <!-- ↓ 页面侧边栏 ↓ -->
 <div id="slide-out" class="sidenav">
-  <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
-  <a href="#!">Second Link</a>
+  <p><a class="btn-flat fullfill" href="/">{{_('Home')}}</a></p>
   <div class="divider"></div>
-  <a class="subheader">Subheader</a>
-  <a class="waves-effect" href="#!">Third Link With Waves</a>
-
+  <p><a class="btn-flat fullfill" href="{{url_for('general_register', page='about_ICC')}}">{{_('about ICC')}}</a></p>
+  <p><a class="btn-flat fullfill" href="{{url_for('general_register', page='matriculation')}}">{{_('matriculation')}}</a></p>
+  <p><a class="btn-flat fullfill" href="{{url_for('general_register', page='academics')}}">{{_('academics')}}</a></p>
+  <p><a class="btn-flat fullfill" href="{{url_for('general_register', page='students')}}">{{_('students')}}</a></p>
+  <div class="divider"></div>
   <ul class="collapsible">
     <li>
       <div class="red-text collapsible-header"><i class="tiny material-icons">language</i> Language</div>

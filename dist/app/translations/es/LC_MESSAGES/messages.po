@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-24 15:31+0800\n"
+"POT-Creation-Date: 2018-06-24 16:07+0800\n"
 "PO-Revision-Date: 2018-06-22 10:48+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -35,7 +35,7 @@ msgstr ""
 msgid "Page Navigation"
 msgstr ""
 
-#: templates/home.html:33
+#: templates/base/PAGE_HEADER.html:19 templates/home.html:33
 msgid "about ICC"
 msgstr ""
 
@@ -47,7 +47,7 @@ msgstr ""
 msgid "faculty"
 msgstr ""
 
-#: templates/home.html:54
+#: templates/base/PAGE_HEADER.html:20 templates/home.html:54
 msgid "matriculation"
 msgstr ""
 
@@ -55,11 +55,11 @@ msgstr ""
 msgid "admission"
 msgstr ""
 
-#: templates/home.html:68
+#: templates/base/PAGE_HEADER.html:21 templates/home.html:68
 msgid "academics"
 msgstr ""
 
-#: templates/home.html:75
+#: templates/base/PAGE_HEADER.html:22 templates/home.html:75
 msgid "students"
 msgstr ""
 
@@ -156,8 +156,7 @@ msgid ""
 "of our country and the advancement of humanity\".</p>"
 msgstr ""
 
-#: templates/first_level/faculty.html:6 templates/first_level/students.html:6
-#: templates/mission.html:32
+#: templates/first_level/faculty.html:6 templates/mission.html:32
 msgid ""
 "<p>RDFZ has a professional Chinese faculty team, with 66&#37; holding a "
 "master&apos;s or doctorate degree. </p><p>There are 60 international "
@@ -255,6 +254,10 @@ msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:34
 msgid "Website Author"
+msgstr ""
+
+#: templates/base/PAGE_HEADER.html:17
+msgid "Home"
 msgstr ""
 
 #: templates/first_level/about_ICC.html:5
@@ -399,6 +402,11 @@ msgstr ""
 
 #: templates/first_level/resources.html:10
 msgid "campus map"
+msgstr ""
+
+#: templates/first_level/students.html:10
+#: templates/second_level/student_union.html:4
+msgid "ICC Student Union"
 msgstr ""
 
 #: templates/second_level/a_level.html:4
@@ -677,10 +685,6 @@ msgstr ""
 
 #: templates/second_level/international_baccalaureate.html:19
 msgid "* CAS, EE, TOK are required for the IB curriculum."
-msgstr ""
-
-#: templates/second_level/student_union.html:4
-msgid "ICC Student Union"
 msgstr ""
 
 #: templates/second_level/student_union.html:13
