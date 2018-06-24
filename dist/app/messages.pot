@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-22 10:48+0800\n"
+"POT-Creation-Date: 2018-06-24 15:31+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,47 +30,47 @@ msgid ""
 "friends. Members of the community are students, designers, and artists."
 msgstr ""
 
-#: templates/home.html:34
+#: templates/home.html:29
 msgid "Page Navigation"
 msgstr ""
 
-#: templates/home.html:38
+#: templates/home.html:33
 msgid "about ICC"
 msgstr ""
 
-#: templates/home.html:45
+#: templates/home.html:40
 msgid "mission"
 msgstr ""
 
-#: templates/home.html:52
+#: templates/home.html:47
 msgid "faculty"
 msgstr ""
 
-#: templates/home.html:59
+#: templates/home.html:54
 msgid "matriculation"
 msgstr ""
 
-#: templates/home.html:66
+#: templates/home.html:61
 msgid "admission"
 msgstr ""
 
-#: templates/home.html:73
+#: templates/home.html:68
 msgid "academics"
 msgstr ""
 
-#: templates/home.html:80
+#: templates/home.html:75
 msgid "students"
 msgstr ""
 
-#: templates/home.html:87
+#: templates/home.html:82
 msgid "resources"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:12 templates/home.html:94
+#: templates/first_level/about_ICC.html:12 templates/home.html:90
 msgid "About ICC"
 msgstr ""
 
-#: templates/home.html:95
+#: templates/home.html:91
 msgid ""
 "<p>The High School Affiliated to Renmin University of China International"
 " Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of "
@@ -78,29 +78,29 @@ msgid ""
 "education abroad. </p>"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:14 templates/home.html:96
+#: templates/first_level/about_ICC.html:14 templates/home.html:92
 msgid "<p>There are three programs in the three-year ICC course system: "
 msgstr ""
 
-#: templates/first_level/about_ICC.html:15 templates/home.html:97
+#: templates/first_level/about_ICC.html:15 templates/home.html:93
 msgid "General Certificate of Education Advanced Level (AL)"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:16 templates/home.html:98
+#: templates/first_level/about_ICC.html:16 templates/home.html:94
 msgid "Advanced Placement Program (AP)"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:17 templates/home.html:99
+#: templates/first_level/about_ICC.html:17 templates/home.html:95
 msgid "International Baccalaureate Diploma Programme (IBDP)"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:52
-#: templates/first_level/admission.html:12 templates/home.html:104
-#: templates/home.html:111
+#: templates/first_level/about_ICC.html:46
+#: templates/first_level/admission.html:12 templates/home.html:100
+#: templates/home.html:112
 msgid "Learn More"
 msgstr ""
 
-#: templates/home.html:110
+#: templates/home.html:111
 msgid "ICC Stats"
 msgstr ""
 
@@ -135,7 +135,7 @@ msgid ""
 "code: 694270</p>"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:51 templates/mission.html:18
+#: templates/first_level/about_ICC.html:45 templates/mission.html:18
 #: templates/resources/resources.html:6
 msgid "Contact Information"
 msgstr ""
@@ -178,7 +178,7 @@ msgid ""
 "for the Chinese National Curriculum is among the highest in Beijing.</p>"
 msgstr ""
 
-#: templates/student.html:9
+#: templates/second_level/student_union.html:8 templates/student.html:9
 msgid "Student Union"
 msgstr ""
 
@@ -281,12 +281,15 @@ msgid ""
 "university education abroad. </p>"
 msgstr ""
 
+#: templates/first_level/about_ICC.html:16
+msgid "and"
+msgstr ""
+
 #: templates/first_level/about_ICC.html:18
 msgid ""
+"<p>The foundation courses required for all the student are PE, Mandarin, "
+"art, music, Chinese history, political science, speech, and research.</p>"
 "\n"
-"  <p>The foundation courses required for all the student are PE, "
-"Mandarin, art, music, Chinese history, political science, speech, and "
-"research.</p>\n"
 "  <p>Currently, there are 800 students — ~400 for AL, ~250 for AP and "
 "~120 for IB — in the ICC, and the following courses are available for "
 "students' choice: </p>\n"
@@ -309,18 +312,16 @@ msgid ""
 "international competitions and exhibitions, including art, dance, debate,"
 " drama, math, science, robotics, and sports. </p>\n"
 "  <p>With the English-only classes, all the teachers can help the "
-"students with their English speaking skills. </p>\n"
-"  "
+"students with their English speaking skills. </p>"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:31
+#: templates/first_level/about_ICC.html:29
 msgid "About the Schedule"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:32
+#: templates/first_level/about_ICC.html:30
 msgid ""
-"\n"
-"  <p>Students attend scheduled classes, rotating through nine periods a "
+"<p>Students attend scheduled classes, rotating through nine periods a "
 "day.</p>\n"
 "  <p>There are 5 science labs, an ICT lab, library and use of several "
 "auditoriums and conference facilities.</p>\n"
@@ -335,23 +336,19 @@ msgid ""
 "  <p>In addition, we also take the break on Christmas and Western New "
 "Year. </p>\n"
 "  <p>Sometimes we have class on a Saturday or Sunday to enable taking "
-"several days off together. </p>\n"
-"  "
+"several days off together. </p>"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:44
+#: templates/first_level/about_ICC.html:40
 msgid "About Activities"
 msgstr ""
 
-#: templates/first_level/about_ICC.html:45
+#: templates/first_level/about_ICC.html:41
 msgid ""
-"\n"
-"  <p>RDFZ has over 300 clubs for extracurricular activities, more than "
-"150 elective courses, and numerous opportunities for charity and "
-"community services. </p>\n"
-"  <p>All resources in the main school of RDFZ are shared with the "
-"ICC.</p>\n"
-"  "
+"<p>RDFZ has over 300 clubs for extracurricular activities, more than 150 "
+"elective courses, and numerous opportunities for charity and community "
+"services. </p>\n"
+"  <p>All resources in the main school of RDFZ are shared with the ICC.</p>"
 msgstr ""
 
 #: templates/first_level/academics.html:5
@@ -385,9 +382,8 @@ msgstr ""
 
 #: templates/first_level/mission.html:7
 msgid ""
-"\n"
-"    <p>\"Virtue, Erudition, Creativity, and Pragmatism\" are the "
-"principles of the school.</p>\n"
+"<p>\"Virtue, Erudition, Creativity, and Pragmatism\" are the principles "
+"of the school.</p>\n"
 "    <p>RDFZ aims to cultivate students not only with a solid well-rounded"
 " development, but also with special skills, innovation, and morality.</p>"
 "\n"
@@ -397,8 +393,7 @@ msgid ""
 "    <p>The mission statement of the school is \"respect individuality, "
 "discover and promote each student&apos;s potential, and help them develop"
 " into solid citizens anxious to further the prosperity of our country and"
-" the advancement of humanity\".</p>\n"
-"    "
+" the advancement of humanity\".</p>"
 msgstr ""
 
 #: templates/first_level/resources.html:10
@@ -426,46 +421,39 @@ msgstr ""
 
 #: templates/second_level/a_level.html:8
 msgid ""
-"\n"
-"    <p>In Chinese: Chinese Literature, Chinese History & Politics, "
-"Geography. </p>\n"
+"<p>In Chinese: Chinese Literature, Chinese History & Politics, Geography."
+" </p>\n"
 "    <p>In English: Art, Music, ICT (Information, Communication & "
 "Technology, IGCSE Biology, IGCSE Chemistry, IGCSE English, IGCSE Physics,"
-" AS Mathematics, AS Statistics, Thinking Skills. </p>\n"
-"    "
+" AS Mathematics, AS Statistics, Thinking Skills. </p>"
 msgstr ""
 
-#: templates/second_level/a_level.html:14
-#: templates/second_level/advanced_placement.html:14
+#: templates/second_level/a_level.html:12
+#: templates/second_level/advanced_placement.html:11
 msgid "Grade 11 (Year 2) [Mandatory courses marked with*]"
 msgstr ""
 
-#: templates/second_level/a_level.html:15
+#: templates/second_level/a_level.html:13
 msgid ""
+"<p>In Chinese: Chinese Language & Literature*, Technology & Design*. </p>"
 "\n"
-"    <p>In Chinese: Chinese Language & Literature*, Technology & Design*. "
-"</p>\n"
 "    <p>In English: IB Certificate Language A/B English SL or HL, A2 "
-"Mathematics. </p>\n"
-"    "
+"Mathematics. </p>"
 msgstr ""
 
-#: templates/second_level/a_level.html:21
-#: templates/second_level/advanced_placement.html:21
+#: templates/second_level/a_level.html:17
+#: templates/second_level/advanced_placement.html:15
 msgid "Grade 12 (Year 3) [Mandatory courses marked with*]"
 msgstr ""
 
-#: templates/second_level/a_level.html:22
+#: templates/second_level/a_level.html:18
 msgid ""
-"\n"
-"    <p>In English: A Level Art and Design, A L e v e l Biology, A Level "
-"Business, A L e v e l Chemistry, A Level Economics, A Level Computer "
-"Science, A Level Further Mathematics, A Level Music, A Level Physics, AP "
-"Statistics. </p>\n"
-"    "
+"<p>In English: A Level Art and Design, A Level Biology, A Level Business,"
+" A Level Chemistry, A Level Economics, A Level Computer Science, A Level "
+"Further Mathematics, A Level Music, A Level Physics, AP Statistics. </p>"
 msgstr ""
 
-#: templates/second_level/a_level.html:25
+#: templates/second_level/a_level.html:19
 msgid ""
 "* Students taking IB Certificate Language A English SL need approval from"
 " English teachers to enter into the class. All other students take "
@@ -488,66 +476,161 @@ msgstr ""
 
 #: templates/second_level/advanced_placement.html:8
 msgid ""
-"\n"
-"    <p>In Chinese: Chinese Language & Literature, Geography, History, "
-"Political Science, ICT (Information Communication & Technology). </p>\n"
-"    <p>In English: Intensive English, Pre-AP Chemistry, Pre-AP Biology, "
+"<p>In Chinese: Chinese Language & Literature, Geography, History, "
+"Political Science, ICT (Information Communication & Technology). "
+"</p><p>In English: Intensive English, Pre-AP Chemistry, Pre-AP Biology, "
 "Pre-AP Calculus or AP Calculus, Pre-AP Economics, AP Physics I, Music, "
-"Art. </p>\n"
-"    "
+"Art. </p>"
 msgstr ""
 
-#: templates/second_level/advanced_placement.html:15
+#: templates/second_level/advanced_placement.html:12
 msgid ""
-"\n"
-"    <p>In Chinese: Chinese Language & Literature*, Technology & Design*. "
-"</p>\n"
-"    <p>In English: Academic Research*, English Speech*, Integrated Global"
+"<p>In Chinese: Chinese Language & Literature*, Technology & Design*. "
+"</p><p>In English: Academic Research*, English Speech*, Integrated Global"
 " Studies*, Pre-AP English Language & Composition*, Pre-AP World Cultures,"
 " AP Calculus AB/BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP "
-"Microeconomics. </p>\n"
-"    "
+"Microeconomics. </p>"
 msgstr ""
 
-#: templates/second_level/advanced_placement.html:22
+#: templates/second_level/advanced_placement.html:16
 msgid ""
-"\n"
-"    <p>In Chinese: Chinese Language & Literature*. </p>\n"
-"    <p>In English: AP English Literature & Composition, AP English "
-"Language & Composition, AP Calculus BC, AP Statistics, AP Computer "
-"Science A, AP Biology, AP Chemistry, AP Environmental Science, AP Physics"
-" C (Mechanics), AP Physics C (E&M), AP Macro-economics, AP World "
-"Cultures. </p>\n"
-"    "
+"<p>In Chinese: Chinese Language & Literature*. </p><p>In English: AP "
+"English Literature & Composition, AP English Language & Composition, AP "
+"Calculus BC, AP Statistics, AP Computer Science A, AP Biology, AP "
+"Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP Physics"
+" C (E&M), AP Macro-economics, AP World Cultures. </p>"
 msgstr ""
 
-#: templates/second_level/chinese_curricula.html:57
+#: templates/second_level/chinese_curricula.html:6
+msgid ""
+"<p>Students in the Chinese curricula are required to learn subjects "
+"stipulated by Beijing Municipal Education Commission.</p>\n"
+"      <p>According to the commission, each subject is composed of "
+"different modules and assessments are given based on those modules.</p>\n"
+"      <p>Module scores include processing the evaluations of daily "
+"performance and the results of exams.</p>\n"
+"      <p>The minimum credits requirement for graduation is 144.</p>\n"
+"      <p>Students need to pass the Huikao (high school graduation exam) "
+"organized by the Beijing Education Examinations Authority to graduate "
+"from high school.</p>\n"
+"      <p>Huikao subjects include the following:</p>"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:13
+msgid "Chinese"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:14
+msgid "English"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:15
+msgid "math"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:16
+msgid "physics"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:17
+msgid "chemistry"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:18
+msgid "biology"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:19
+msgid "politics"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:20
+msgid "history"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:21
+msgid "geography"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:22
+msgid "information & technology"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:23
+msgid "general technology"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:24
+msgid "music"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:25
+msgid "art"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:26
+msgid "physical education"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:32
+msgid "Chinese National Curriculum"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:43
+msgid "Early Development Program"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:52
+msgid "Compulsory courses for Chinese curricula"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:56
 msgid "10th Grade"
 msgstr ""
 
-#: templates/second_level/chinese_curricula.html:58
+#: templates/second_level/chinese_curricula.html:57
 msgid ""
 "Chinese, math, English, chemistry, physics, history, geography, politics,"
 " physical education, information technology, general technology, art and "
 "music, research study"
 msgstr ""
 
-#: templates/second_level/chinese_curricula.html:61
+#: templates/second_level/chinese_curricula.html:60
 msgid "11th Grade"
 msgstr ""
 
-#: templates/second_level/chinese_curricula.html:62
+#: templates/second_level/chinese_curricula.html:61
 msgid ""
 "Chinese, math, English, physics, biology, physical education, research "
 "study"
 msgstr ""
 
-#: templates/second_level/chinese_curricula.html:65
+#: templates/second_level/chinese_curricula.html:64
 msgid "12th Grade"
 msgstr ""
 
-#: templates/second_level/chinese_curricula.html:66
+#: templates/second_level/chinese_curricula.html:65
 msgid "Chinese, math, English, physical education"
+msgstr ""
+
+#: templates/second_level/icc_stats.html:9
+msgid "ICC Statistics"
+msgstr ""
+
+#: templates/second_level/icc_stats.html:11
+msgid ""
+"<p><big class=\"red-text header\">14 </big>years has been passed after "
+"the foundation of RDFZ ICC in 2004.</p>\n"
+"  <p><big class=\"red-text header\">＞4500 </big>students in the main "
+"campus and<big class=\"red-text header\"> ≈800 </big>students in ICC. "
+"</p>\n"
+"  <p><big class=\"red-text header\">50 </big>expatriate teachers and<big "
+"class=\"red-text header\"> 40 </big>Chinese teachers. </p>\n"
+"  <p>Staff-student ratio is <big class=\"red-text header\">1 : 8.88 "
+"</big>. </p>\n"
+"  <p><big class=\"red-text header\">45 </big>lessons a week. </p>\n"
+"  <p>Each year,<big class=\"red-text header\"> 71 </big>days are ready "
+"for holiday (weekends excluded). </p>"
 msgstr ""
 
 #: templates/second_level/international_baccalaureate.html:4
@@ -568,35 +651,158 @@ msgstr ""
 
 #: templates/second_level/international_baccalaureate.html:8
 msgid ""
-"\n"
-"    <p>In Chinese: Chinese Literature, Chinese History & Politics, "
-"Geography. </p>\n"
+"<p>In Chinese: Chinese Literature, Chinese History & Politics, Geography."
+" </p>\n"
 "    <p>In English: Art, Music, ICT (information Communication & "
 "Technology), Thinking Skills, IGCSE English, IGCSE Biology, IGCSE "
-"Chemistry, IGCSE Physics, AS Mathematics, AS Statistics. </p>\n"
-"    "
+"Chemistry, IGCSE Physics, AS Mathematics, AS Statistics. </p>"
 msgstr ""
 
-#: templates/second_level/international_baccalaureate.html:14
+#: templates/second_level/international_baccalaureate.html:12
 msgid "Grade 11 & 12 (Year 2 & 3)"
 msgstr ""
 
-#: templates/second_level/international_baccalaureate.html:15
+#: templates/second_level/international_baccalaureate.html:13
 msgid ""
-"\n"
-"    <p>Group 1: Chinese A Literature, English A Language and "
-"Literature</p>\n"
+"<p>Group 1: Chinese A Literature, English A Language and Literature</p>\n"
 "    <p>Group 2: Language B English, Language B French ab initio</p>\n"
 "    <p>Group 3: Economics, Business Management, Environmental System and "
 "Society</p>\n"
 "    <p>Group 4: Biology, Chemistry, Computer Science, Environmental "
 "System and Society, Physics</p>\n"
 "    <p>Group 5: Further Mathematics, Mathematics</p>\n"
-"    <p>Group 6: Music, Visual Arts</p>\n"
-"    "
+"    <p>Group 6: Music, Visual Arts</p>"
 msgstr ""
 
-#: templates/second_level/international_baccalaureate.html:23
+#: templates/second_level/international_baccalaureate.html:19
 msgid "* CAS, EE, TOK are required for the IB curriculum."
+msgstr ""
+
+#: templates/second_level/student_union.html:4
+msgid "ICC Student Union"
+msgstr ""
+
+#: templates/second_level/student_union.html:13
+msgid "Presidium"
+msgstr ""
+
+#: templates/second_level/student_union.html:14
+msgid "President"
+msgstr ""
+
+#: templates/second_level/student_union.html:14
+msgid "LePing Qiu"
+msgstr ""
+
+#: templates/second_level/student_union.html:15
+msgid "Vice-president"
+msgstr ""
+
+#: templates/second_level/student_union.html:15
+msgid "Irene Wang, Delia Zou"
+msgstr ""
+
+#: templates/second_level/student_union.html:22
+msgid "Activity Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:23
+#: templates/second_level/student_union.html:32
+#: templates/second_level/student_union.html:41
+#: templates/second_level/student_union.html:50
+#: templates/second_level/student_union.html:59
+#: templates/second_level/student_union.html:68
+#: templates/second_level/student_union.html:77
+msgid "Head"
+msgstr ""
+
+#: templates/second_level/student_union.html:23
+msgid "Alejandro He"
+msgstr ""
+
+#: templates/second_level/student_union.html:24
+#: templates/second_level/student_union.html:33
+#: templates/second_level/student_union.html:42
+#: templates/second_level/student_union.html:51
+#: templates/second_level/student_union.html:60
+#: templates/second_level/student_union.html:69
+#: templates/second_level/student_union.html:78
+msgid "Undersecretary"
+msgstr ""
+
+#: templates/second_level/student_union.html:24
+msgid "Tiffany Wei, Tiffany Su"
+msgstr ""
+
+#: templates/second_level/student_union.html:31
+msgid "Publicity Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:32
+msgid "Ellabella Liu"
+msgstr ""
+
+#: templates/second_level/student_union.html:33
+msgid "Norah Liao, Erica Ye"
+msgstr ""
+
+#: templates/second_level/student_union.html:40
+msgid "Academic Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:41
+msgid "Jerry Zhao"
+msgstr ""
+
+#: templates/second_level/student_union.html:42
+msgid "Violet Wu"
+msgstr ""
+
+#: templates/second_level/student_union.html:49
+msgid "Athletic Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:50
+msgid "Justin Li"
+msgstr ""
+
+#: templates/second_level/student_union.html:51
+msgid "Kevin Li"
+msgstr ""
+
+#: templates/second_level/student_union.html:58
+msgid "Discipline Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:59
+msgid "Hugo Han"
+msgstr ""
+
+#: templates/second_level/student_union.html:60
+msgid "Ayla Wang"
+msgstr ""
+
+#: templates/second_level/student_union.html:67
+msgid "Tech Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:68
+msgid "YuFeng Chi"
+msgstr ""
+
+#: templates/second_level/student_union.html:69
+msgid "NAI"
+msgstr ""
+
+#: templates/second_level/student_union.html:76
+msgid "Secretariat"
+msgstr ""
+
+#: templates/second_level/student_union.html:77
+msgid "Tony Lin"
+msgstr ""
+
+#: templates/second_level/student_union.html:78
+msgid "Faith Feng"
 msgstr ""
 

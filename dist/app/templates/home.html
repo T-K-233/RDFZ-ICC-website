@@ -7,9 +7,6 @@
       padding: 0.3em;
       margin-bottom: -1rem
     }
-    .page-header.container{height: 160px}
-    .pushpin{z-index: 26}
-    .nav-holder{display: none}
   </style>
   {% include 'base/HEAD.html' %}
 </head>
@@ -18,8 +15,6 @@
       翻译说明：单引号<>中的内容不要更改； &apos;为单引号转义字符，可以替换为中文单引号’或者不要更改； &#37;为百分号转义字符，不要更改
   -->
   {% include 'base/PAGE_HEADER.html' %}
-  <!--<nav class="z-depth-1 grey lighten-1 pushpin"></nav>
-  <nav class="nav-holder"></nav>-->
   <div class="container">
     <div class="row">
       <div class="col s12">
@@ -90,25 +85,32 @@
       </div>
     </div>
     <div class="row">
-      <div class="section">
-        <h5 class="red-text header">{{ _('About ICC') }}</h5>
-        {{ _("<p>The High School Affiliated to Renmin University of China International Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive a university education abroad. </p>") }}
-        {{ _("<p>There are three programs in the three-year ICC course system: ") }}
-        <a href="{{ url_for('secondary_register', branch='academics', page='a_level') }}">{{_('General Certificate of Education Advanced Level (AL)')}}</a>,
-        <a href="{{ url_for('secondary_register', branch='academics', page='advanced_placement') }}">{{_('Advanced Placement Program (AP)')}}</a>, and
-        <a href="{{ url_for('secondary_register', branch='academics', page='international_baccalaureate') }}">{{_('International Baccalaureate Diploma Programme (IBDP)')}}</a>.</p>
-        {{ _("<p>The <a href='"+url_for('secondary_register', branch='resources', page='campus_map')+"'>campus</a> is located in the Haidian district of Beijing in China. </p>
-        <p>After a rigorous High School Entrance Exam (Zhongkao) and our own exam, students entering ICC are highly motivated and action orientated. </p>
-        <p>For the past several years, they have achieved awards in international competitions and exhibitions, including art, dance, debate, drama, math, science, robotics, and sports. </p>
-        <p>All <a href='"+url_for('general_register', page='resources')+"'>resources</a> in the main school of RDFZ are shared with the ICC. </p> ") }}
-        <a class="waves-effect waves-red red accent-1 btn-small" href="{{ url_for('general_register', page='about_ICC') }}">{{ _('Learn More') }}<i class="material-icons right">arrow_forward</i></a>
+      <div class="col m8">
+        <div class="section">
+          <h5 class="red-text header">{{ _('About ICC') }}</h5>
+          {{ _("<p>The High School Affiliated to Renmin University of China International Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive a university education abroad. </p>") }}
+          {{ _("<p>There are three programs in the three-year ICC course system: ") }}
+          <a href="{{ url_for('secondary_register', branch='academics', page='a_level') }}">{{_('General Certificate of Education Advanced Level (AL)')}}</a>,
+          <a href="{{ url_for('secondary_register', branch='academics', page='advanced_placement') }}">{{_('Advanced Placement Program (AP)')}}</a>, and
+          <a href="{{ url_for('secondary_register', branch='academics', page='international_baccalaureate') }}">{{_('International Baccalaureate Diploma Programme (IBDP)')}}</a>.</p>
+          {{ _("<p>The <a href='"+url_for('secondary_register', branch='resources', page='campus_map')+"'>campus</a> is located in the Haidian district of Beijing in China. </p>
+          <p>After a rigorous High School Entrance Exam (Zhongkao) and our own exam, students entering ICC are highly motivated and action orientated. </p>
+          <p>For the past several years, they have achieved awards in international competitions and exhibitions, including art, dance, debate, drama, math, science, robotics, and sports. </p>
+          <p>All <a href='"+url_for('general_register', page='resources')+"'>resources</a> in the main school of RDFZ are shared with the ICC. </p> ") }}
+          <a class="waves-effect waves-red red accent-1 btn-small" href="{{ url_for('general_register', page='about_ICC') }}">{{ _('Learn More') }}<i class="material-icons right">arrow_forward</i></a>
+        </div>
+      </div>
+      <div class="col m4 hide-on-small-only">
+        <img width="100%" src="{{url_for('static', filename='img/icc_standard_text.png')}}">
       </div>
     </div>
     <div class="divider"></div>
     <div class="row">
-      <div class="section">
-        <h5 class="red-text header">{{ _('ICC Stats') }}</h5>
-        <a class="waves-effect waves-red red accent-1 btn-small" href="">{{ _('Learn More') }}<i class="material-icons right">arrow_forward</i></a>
+      <div class="col s12">
+        <div class="section">
+          <h5 class="red-text header">{{ _('ICC Stats') }}</h5>
+          <a class="waves-effect waves-red red accent-1 btn-small" href="{{ url_for('secondary_register', branch='info', page='icc_stats') }}">{{ _('Learn More') }}<i class="material-icons right">arrow_forward</i></a>
+        </div>
       </div>
     </div>
   </div>

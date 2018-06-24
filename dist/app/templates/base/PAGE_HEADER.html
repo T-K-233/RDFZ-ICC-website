@@ -11,21 +11,34 @@
     </div>
   </div>
 </div>
-<!--<div class="pushpin">-->
-<!--asdasdsadsad-->
-<!--</div>-->
-<script>
-  $(document).ready(function(){
-    $('.pushpin').pushpin({top: 100, onPositionChange:function(e){console.log(e)}});
-  });
-</script>
-<div class="fixed-action-btn">
-  <div class="btn-floating btn-large red"><i class="large material-icons">language</i></div>
-  <ul>
-    <li><a href="{{ url_for('language', lang='en', redirect=request.path) }}" class="btn-floating yellow">EN</a></li>
-    <li><a href="{{ url_for('language', lang='zh', redirect=request.path) }}" class="btn-floating red">ZH</a></li>
-    <li><a href="{{ url_for('language', lang='es', redirect=request.path) }}" class="btn-floating green">ES</a></li>
-    <li><a href="{{ url_for('language', lang='ja', redirect=request.path) }}" class="btn-floating blue">JA</a></li>
-  </ul>
-</div>
 <!-- ↑ 页面顶部标题 ↑ -->
+<!-- ↓ 页面侧边栏 ↓ -->
+<div id="slide-out" class="sidenav">
+  <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
+  <a href="#!">Second Link</a>
+  <div class="divider"></div>
+  <a class="subheader">Subheader</a>
+  <a class="waves-effect" href="#!">Third Link With Waves</a>
+
+  <ul class="collapsible">
+    <li>
+      <div class="red-text collapsible-header"><i class="tiny material-icons">language</i> Language</div>
+      <div class="collapsible-body">
+        <div class="collection">
+          <a href="{{ url_for('language', lang='en', redirect=request.path) }}" class="grey-text text-darken-1 collection-item">English</a>
+          <a href="{{ url_for('language', lang='zh', redirect=request.path) }}" class="grey-text text-darken-1 collection-item">中文</a>
+          <a href="{{ url_for('language', lang='es', redirect=request.path) }}" class="grey-text text-darken-1 collection-item">Español</a>
+          <a href="{{ url_for('language', lang='ja', redirect=request.path) }}" class="grey-text text-darken-1 collection-item">日本語</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+</div>
+<!-- ↑ 页面侧边栏 ↑ -->
+<script>
+  $('.dropdown-trigger').dropdown();
+  $('.sidenav').sidenav({edge: 'right'});
+  $('.collapsible').collapsible();
+</script>
+<a href="#" data-target="slide-out" class="fixed-action-btn sidenav-trigger btn-floating btn-large red"><i class="material-icons">menu</i></a>

@@ -1,0 +1,18 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = PAGE|title+' - '+BRANCH|title %}
+{% block body %}
+<style>
+  big{
+    font-size: 3.5rem;
+  }
+</style>
+<h4 class="red-text header">{{ _('ICC Statistics') }}</h4>
+<div class="grey-text text-darken-2 section">
+  {{_('<p><big class="red-text header">14 </big>years has been passed after the foundation of RDFZ ICC in 2004.</p>
+  <p><big class="red-text header">＞4500 </big>students in the main campus and<big class="red-text header"> ≈800 </big>students in ICC. </p>
+  <p><big class="red-text header">50 </big>expatriate teachers and<big class="red-text header"> 40 </big>Chinese teachers. </p>
+  <p>Staff-student ratio is <big class="red-text header">1 : 8.88 </big>. </p>
+  <p><big class="red-text header">45 </big>lessons a week. </p>
+  <p>Each year,<big class="red-text header"> 71 </big>days are ready for holiday (weekends excluded). </p>')}}
+</div>
+{% endblock %}

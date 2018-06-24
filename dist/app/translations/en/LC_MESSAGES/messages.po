@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-05-30 09:28+0800\n"
+"POT-Creation-Date: 2018-06-24 15:31+0800\n"
 "PO-Revision-Date: 2018-05-29 21:41+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -17,187 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
-
-#: lazy_translations.py:3
-msgid "about"
-msgstr ""
-
-#: lazy_translations.py:4
-msgid "about ICC"
-msgstr ""
-
-#: lazy_translations.py:5
-msgid "mission"
-msgstr ""
-
-#: lazy_translations.py:6
-msgid "faculty"
-msgstr ""
-
-#: lazy_translations.py:7
-msgid "matriculation"
-msgstr ""
-
-#: lazy_translations.py:8
-msgid "admission"
-msgstr ""
-
-#: lazy_translations.py:10
-msgid "academics"
-msgstr ""
-
-#: lazy_translations.py:11
-msgid "chinese curricula"
-msgstr ""
-
-#: lazy_translations.py:12
-msgid "Cambridge A Level Program"
-msgstr ""
-
-#: lazy_translations.py:13
-msgid "The Advanced Placement Program"
-msgstr ""
-
-#: lazy_translations.py:14
-msgid "International Baccalaureate"
-msgstr ""
-
-#: lazy_translations.py:16
-msgid "student"
-msgstr ""
-
-#: lazy_translations.py:17
-msgid "campus life"
-msgstr ""
-
-#: lazy_translations.py:18
-msgid "extra-curricular activity"
-msgstr ""
-
-#: lazy_translations.py:20
-msgid "resources"
-msgstr ""
-
-#: lazy_translations.py:21
-msgid "contacts"
-msgstr ""
-
-#: lazy_translations.py:22
-msgid "school calendar"
-msgstr ""
-
-#: lazy_translations.py:23
-msgid "campus map"
-msgstr ""
-
-#: lazy_translations.py:24
-msgid "location"
-msgstr ""
-
-#: lazy_translations.py:25
-msgid "for media"
-msgstr ""
-
-#: templates/about.html:6
-msgid "Introduction"
-msgstr ""
-
-#: templates/about.html:8
-msgid ""
-"<p>The High School Affiliated to Renmin University of China is a world-"
-"renowned public school founded in 1950.</p><p>The school offers both "
-"Chinese and international curricula.</p><p>Two types of Chinese curricula"
-" are offered: the national curriculum and the Early Development Program "
-"for Top Innovative Talents.</p><p>Three international curricula are "
-"offered at the Chinese-Foreign Education Program: the Cambridge "
-"International Advanced Level (A Level) program, started in 2004; the "
-"Advanced Placement (AP) program, started in 2010; and the International "
-"Baccalaureate Diploma (IB) program, started in 2012.</p><p>Students are "
-"regularly admitted to top Universities domestically and abroad.</p>"
-msgstr ""
-
-#: templates/about.html:12
-msgid "Accreditation"
-msgstr ""
-
-#: templates/about.html:14
-msgid ""
-"<p>RDFZ has been fully accredited by the University of Cambridge "
-"International Examinations (CIE) since 2004.</p><p>The Cambridge Exam "
-"Center number is CN230.</p><p>In 2012 RDFZ received lBO authorization to "
-"offer the IBDP, and the IB School Code is 049099.</p><p>RDFZ&apos;s CEEB "
-"code: 694270</p>"
-msgstr ""
-
-#: templates/about.html:18 templates/resources.html:6
-msgid "Contact Information"
-msgstr ""
-
-#: templates/about.html:20
-msgid "<p>See <a href=\"\">here</a>.</p>"
-msgstr ""
-
-#: templates/about.html:26
-msgid ""
-"<p>\"Virtue, Erudition, Creativity, and Pragmatism\" are the principles "
-"of the school.</p><p>RDFZ aims to cultivate students not only with a "
-"solid well-rounded development, but also with special skills, innovation,"
-" and morality.</p><p>The mission statement of the school is \"respect "
-"individuality, discover and promote each student&apos;s potential, and "
-"help them develop into solid citizens anxious to further the prosperity "
-"of our country and the advancement of humanity\".</p>"
-msgstr ""
-
-#: templates/about.html:32
-msgid ""
-"<p>RDFZ has a professional Chinese faculty team, with 66&#37; holding a "
-"master&apos;s or doctorate degree. </p><p>There are 60 international "
-"faculty teachers at the ChineseForeign Education Program with "
-"nationalities represented by the following countries:</p><p>Australia, "
-"Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The "
-"U.K. and The U.S.</p><p>More than half of the international teachers hold"
-" a master&apos;s or doctorate degree</p>"
-msgstr ""
-
-#: templates/about.html:60
-msgid ""
-"<p>Admission to RDFZ high school is dependent on students&apos; Zhongkao "
-"(high school entrance exam) score. </p><p>In addition to the Zhongkao, "
-"admission to RDFZ Chinese-Foreign Education Program also depends on "
-"interviews and extra exams that test math and English. </p><p>Year after "
-"year, both the national and international curricula have continually "
-"increasing application to admission ratios. </p><p>The admission score "
-"for the Chinese National Curriculum is among the highest in Beijing.</p>"
-msgstr ""
-
-#: templates/academics.html:57
-msgid "10th Grade"
-msgstr ""
-
-#: templates/academics.html:58
-msgid ""
-"Chinese, math, English, chemistry, physics, history, geography, politics,"
-" physical education, information technology, general technology, art and "
-"music, research study"
-msgstr ""
-
-#: templates/academics.html:61
-msgid "11th Grade"
-msgstr ""
-
-#: templates/academics.html:62
-msgid ""
-"Chinese, math, English, physics, biology, physical education, research "
-"study"
-msgstr ""
-
-#: templates/academics.html:65
-msgid "12th Grade"
-msgstr ""
-
-#: templates/academics.html:66
-msgid "Chinese, math, English, physical education"
-msgstr ""
 
 #: templates/author.html:74
 msgid ""
@@ -212,7 +31,155 @@ msgid ""
 "friends. Members of the community are students, designers, and artists."
 msgstr ""
 
-#: templates/student.html:9
+#: templates/home.html:29
+msgid "Page Navigation"
+msgstr ""
+
+#: templates/home.html:33
+msgid "about ICC"
+msgstr ""
+
+#: templates/home.html:40
+msgid "mission"
+msgstr ""
+
+#: templates/home.html:47
+msgid "faculty"
+msgstr ""
+
+#: templates/home.html:54
+msgid "matriculation"
+msgstr ""
+
+#: templates/home.html:61
+msgid "admission"
+msgstr ""
+
+#: templates/home.html:68
+msgid "academics"
+msgstr ""
+
+#: templates/home.html:75
+msgid "students"
+msgstr ""
+
+#: templates/home.html:82
+msgid "resources"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:12 templates/home.html:90
+msgid "About ICC"
+msgstr ""
+
+#: templates/home.html:91
+msgid ""
+"<p>The High School Affiliated to Renmin University of China International"
+" Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of "
+"educating those Chinese students who wish to receive a university "
+"education abroad. </p>"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:14 templates/home.html:92
+msgid "<p>There are three programs in the three-year ICC course system: "
+msgstr ""
+
+#: templates/first_level/about_ICC.html:15 templates/home.html:93
+msgid "General Certificate of Education Advanced Level (AL)"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:16 templates/home.html:94
+msgid "Advanced Placement Program (AP)"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:17 templates/home.html:95
+msgid "International Baccalaureate Diploma Programme (IBDP)"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:46
+#: templates/first_level/admission.html:12 templates/home.html:100
+#: templates/home.html:112
+msgid "Learn More"
+msgstr ""
+
+#: templates/home.html:111
+msgid "ICC Stats"
+msgstr ""
+
+#: templates/mission.html:6
+msgid "Introduction"
+msgstr ""
+
+#: templates/mission.html:8
+msgid ""
+"<p>The High School Affiliated to Renmin University of China is a world-"
+"renowned public school founded in 1950.</p><p>The school offers both "
+"Chinese and international curricula.</p><p>Two types of Chinese curricula"
+" are offered: the national curriculum and the Early Development Program "
+"for Top Innovative Talents.</p><p>Three international curricula are "
+"offered at the Chinese-Foreign Education Program: the Cambridge "
+"International Advanced Level (A Level) program, started in 2004; the "
+"Advanced Placement (AP) program, started in 2010; and the International "
+"Baccalaureate Diploma (IB) program, started in 2012.</p><p>Students are "
+"regularly admitted to top Universities domestically and abroad.</p>"
+msgstr ""
+
+#: templates/mission.html:12
+msgid "Accreditation"
+msgstr ""
+
+#: templates/mission.html:14
+msgid ""
+"<p>RDFZ has been fully accredited by the University of Cambridge "
+"International Examinations (CIE) since 2004.</p><p>The Cambridge Exam "
+"Center number is CN230.</p><p>In 2012 RDFZ received lBO authorization to "
+"offer the IBDP, and the IB School Code is 049099.</p><p>RDFZ&apos;s CEEB "
+"code: 694270</p>"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:45 templates/mission.html:18
+#: templates/resources/resources.html:6
+msgid "Contact Information"
+msgstr ""
+
+#: templates/mission.html:20
+msgid "<p>See <a href=\"\">here</a>.</p>"
+msgstr ""
+
+#: templates/mission.html:26
+msgid ""
+"<p>\"Virtue, Erudition, Creativity, and Pragmatism\" are the principles "
+"of the school.</p><p>RDFZ aims to cultivate students not only with a "
+"solid well-rounded development, but also with special skills, innovation,"
+" and morality.</p><p>The mission statement of the school is \"respect "
+"individuality, discover and promote each student&apos;s potential, and "
+"help them develop into solid citizens anxious to further the prosperity "
+"of our country and the advancement of humanity\".</p>"
+msgstr ""
+
+#: templates/first_level/faculty.html:6 templates/first_level/students.html:6
+#: templates/mission.html:32
+msgid ""
+"<p>RDFZ has a professional Chinese faculty team, with 66&#37; holding a "
+"master&apos;s or doctorate degree. </p><p>There are 60 international "
+"faculty teachers at the ChineseForeign Education Program with "
+"nationalities represented by the following countries:</p><p>Australia, "
+"Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The "
+"U.K. and The U.S.</p><p>More than half of the international teachers hold"
+" a master&apos;s or doctorate degree</p>"
+msgstr ""
+
+#: templates/first_level/admission.html:7 templates/mission.html:60
+msgid ""
+"<p>Admission to RDFZ high school is dependent on students&apos; Zhongkao "
+"(high school entrance exam) score. </p><p>In addition to the Zhongkao, "
+"admission to RDFZ Chinese-Foreign Education Program also depends on "
+"interviews and extra exams that test math and English. </p><p>Year after "
+"year, both the national and international curricula have continually "
+"increasing application to admission ratios. </p><p>The admission score "
+"for the Chinese National Curriculum is among the highest in Beijing.</p>"
+msgstr ""
+
+#: templates/second_level/student_union.html:8 templates/student.html:9
 msgid "Student Union"
 msgstr ""
 
@@ -232,7 +199,7 @@ msgstr ""
 msgid "Volunteer Service"
 msgstr ""
 
-#: templates/base/HEAD.html:2 templates/base/PAGE_HEADER.html:8
+#: templates/base/HEAD.html:2 templates/base/PAGE_HEADER.html:9
 msgid "RDFZ International Curriculum Center"
 msgstr ""
 
@@ -246,36 +213,598 @@ msgstr ""
 msgid "No.37 Zhongguancun St, Haidian, Beijing, China 100080"
 msgstr ""
 
-#: templates/base/PAGE_FOOTER.html:14
-msgid "Links"
+#: templates/base/PAGE_FOOTER.html:15
+msgid "Campus Map"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:16
-msgid "TOEFL"
+msgid "Contacts"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:17
-msgid "ACT"
+msgid "Location"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:18
-msgid "Collegeboard"
+msgid "School Calendar"
 msgstr ""
 
-#: templates/base/PAGE_FOOTER.html:19
-msgid "Powerschool"
+#: templates/base/PAGE_FOOTER.html:23
+msgid "ACT"
 msgstr ""
 
-#: templates/base/PAGE_FOOTER.html:20
+#: templates/base/PAGE_FOOTER.html:24
 msgid "Cambridge Assessment"
 msgstr ""
 
-#: templates/base/PAGE_FOOTER.html:21
+#: templates/base/PAGE_FOOTER.html:25
+msgid "Collegeboard"
+msgstr ""
+
+#: templates/base/PAGE_FOOTER.html:26
 msgid "IBO.org"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:27
+msgid "TOEFL"
+msgstr ""
+
+#: templates/base/PAGE_FOOTER.html:28
+msgid "Powerschool"
+msgstr ""
+
+#: templates/base/PAGE_FOOTER.html:34
 msgid "Website Author"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:5
+msgid "About RDFZ"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:6
+msgid ""
+"<p>The High School Affiliated to Renmin University of China, abbreviated "
+"to Renda Fuzhong (RDFZ), was founded in 1940 and is now one of China’s "
+"top high schools. </p>\n"
+"  <p>There are over 4500 students in the heavily oversubscribed <a "
+"href=\"http://www.rdfz.cn/\">main school</a>. </p>\n"
+"  <p>Most of these students, achieving a high score on the National "
+"University Entrance Exam (Gaokao), enter the best Chinese universities. "
+"</p>\n"
+"  <p>The campus is located in the Haidian district of Beijing in "
+"China.</p>"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:13
+msgid ""
+"<p>The International Curriculum Center (ICC) was founded in 2004 with the"
+" goal of educating those Chinese students who wish to receive a "
+"university education abroad. </p>"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:16
+msgid "and"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:18
+msgid ""
+"<p>The foundation courses required for all the student are PE, Mandarin, "
+"art, music, Chinese history, political science, speech, and research.</p>"
+"\n"
+"  <p>Currently, there are 800 students — ~400 for AL, ~250 for AP and "
+"~120 for IB — in the ICC, and the following courses are available for "
+"students' choice: </p>\n"
+"  <p>• AL: biology, chemistry, physics, applied ICT, mathematics, further"
+" mathematics, business studies, and economics. </p>\n"
+"  <p>• IB: Chinese Literature, Business, Environmental Science, "
+"Psychology, Chemistry, Physics, Computer Science, Music, Art, Math, "
+"Economics, French, Spanish, English, Theory of Knowledge, EE, CAS. </p>\n"
+"  <p>• AP: Advanced English, AP World Culture, AP Language and "
+"Composition, AP Literature and Composition, AP Calculus AB & BC, AP "
+"Statistics, AP Physics I & II, AP Physics CM & CEM, AP Biology, AP "
+"Microeconomics & Macroeconomics, AP Chemistry, AP Environmental Science, "
+"AP Psychology. </p>\n"
+"  <p>There are approximately 50 expatriate teachers and 40 Chinese "
+"teachers within the ICC. </p>\n"
+"  <p>After a rigorous High School Entrance Exam (Zhongkao) and our own "
+"exam, students entering ICC are highly motivated and action orientated. "
+"</p>\n"
+"  <p>For the past several years, they have achieved awards in "
+"international competitions and exhibitions, including art, dance, debate,"
+" drama, math, science, robotics, and sports. </p>\n"
+"  <p>With the English-only classes, all the teachers can help the "
+"students with their English speaking skills. </p>"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:29
+msgid "About the Schedule"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:30
+msgid ""
+"<p>Students attend scheduled classes, rotating through nine periods a "
+"day.</p>\n"
+"  <p>There are 5 science labs, an ICT lab, library and use of several "
+"auditoriums and conference facilities.</p>\n"
+"  <p>The average size of a required courses are 18-38, and 8-21 for "
+"selective courses, but smaller for English language lessons. </p>\n"
+"  <p>There are 45 lessons a week, each lasts for 40 minutes and followed "
+"by a 5-minute break. </p>\n"
+"  <p>The school time begins at 7:40 and ends at 16:35. </p>\n"
+"  <p>Following the Chinese calendar for holidays, we have a week for "
+"National Holiday, 4 weeks for Chinese New Year, and also the full day "
+"break for Tomb Sweeping, Dragon Boat and May Day. </p>\n"
+"  <p>In addition, we also take the break on Christmas and Western New "
+"Year. </p>\n"
+"  <p>Sometimes we have class on a Saturday or Sunday to enable taking "
+"several days off together. </p>"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:40
+msgid "About Activities"
+msgstr ""
+
+#: templates/first_level/about_ICC.html:41
+msgid ""
+"<p>RDFZ has over 300 clubs for extracurricular activities, more than 150 "
+"elective courses, and numerous opportunities for charity and community "
+"services. </p>\n"
+"  <p>All resources in the main school of RDFZ are shared with the ICC.</p>"
+msgstr ""
+
+#: templates/first_level/academics.html:5
+msgid "ICC Curriculums"
+msgstr ""
+
+#: templates/first_level/academics.html:10
+#: templates/second_level/chinese_curricula.html:5
+msgid "Chinese Curricula"
+msgstr ""
+
+#: templates/first_level/academics.html:19
+msgid "A Level"
+msgstr ""
+
+#: templates/first_level/academics.html:28
+msgid "Advanced Placement"
+msgstr ""
+
+#: templates/first_level/academics.html:37
+msgid "International Baccalaureate"
+msgstr ""
+
+#: templates/first_level/admission.html:5
+msgid "How to get into here? "
+msgstr ""
+
+#: templates/first_level/mission.html:5
+msgid "Our Goal"
+msgstr ""
+
+#: templates/first_level/mission.html:7
+msgid ""
+"<p>\"Virtue, Erudition, Creativity, and Pragmatism\" are the principles "
+"of the school.</p>\n"
+"    <p>RDFZ aims to cultivate students not only with a solid well-rounded"
+" development, but also with special skills, innovation, and morality.</p>"
+"\n"
+"    <p>The International Curriculum Center (ICC) was founded in 2004 with"
+" the goal of educating those Chinese students who wish to receive a "
+"university education abroad. </p>\n"
+"    <p>The mission statement of the school is \"respect individuality, "
+"discover and promote each student&apos;s potential, and help them develop"
+" into solid citizens anxious to further the prosperity of our country and"
+" the advancement of humanity\".</p>"
+msgstr ""
+
+#: templates/first_level/resources.html:10
+msgid "campus map"
+msgstr ""
+
+#: templates/second_level/a_level.html:4
+msgid "Cambridge A Level Program (AL)"
+msgstr ""
+
+#: templates/second_level/a_level.html:5
+msgid ""
+"<p>Students in the A level program sit the UK Cambridge International "
+"Examinations (CIE) Advanced Level (A Levels) exams. Besides the mandatory"
+" courses that students are required to take, the average number of A "
+"Level subjects is four at AS level, carrying on three of them into A2 "
+"level. </p>"
+msgstr ""
+
+#: templates/second_level/a_level.html:7
+#: templates/second_level/advanced_placement.html:7
+#: templates/second_level/international_baccalaureate.html:7
+msgid "Grade 10 (Year 1) Mandatory courses"
+msgstr ""
+
+#: templates/second_level/a_level.html:8
+msgid ""
+"<p>In Chinese: Chinese Literature, Chinese History & Politics, Geography."
+" </p>\n"
+"    <p>In English: Art, Music, ICT (Information, Communication & "
+"Technology, IGCSE Biology, IGCSE Chemistry, IGCSE English, IGCSE Physics,"
+" AS Mathematics, AS Statistics, Thinking Skills. </p>"
+msgstr ""
+
+#: templates/second_level/a_level.html:12
+#: templates/second_level/advanced_placement.html:11
+msgid "Grade 11 (Year 2) [Mandatory courses marked with*]"
+msgstr ""
+
+#: templates/second_level/a_level.html:13
+msgid ""
+"<p>In Chinese: Chinese Language & Literature*, Technology & Design*. </p>"
+"\n"
+"    <p>In English: IB Certificate Language A/B English SL or HL, A2 "
+"Mathematics. </p>"
+msgstr ""
+
+#: templates/second_level/a_level.html:17
+#: templates/second_level/advanced_placement.html:15
+msgid "Grade 12 (Year 3) [Mandatory courses marked with*]"
+msgstr ""
+
+#: templates/second_level/a_level.html:18
+msgid ""
+"<p>In English: A Level Art and Design, A Level Biology, A Level Business,"
+" A Level Chemistry, A Level Economics, A Level Computer Science, A Level "
+"Further Mathematics, A Level Music, A Level Physics, AP Statistics. </p>"
+msgstr ""
+
+#: templates/second_level/a_level.html:19
+msgid ""
+"* Students taking IB Certificate Language A English SL need approval from"
+" English teachers to enter into the class. All other students take "
+"Language B English SL."
+msgstr ""
+
+#: templates/second_level/advanced_placement.html:4
+msgid "The Advanced Placement Program (AP)"
+msgstr ""
+
+#: templates/second_level/advanced_placement.html:5
+msgid ""
+"<p>Students in the Advanced Placement (AP) Program take the College Board"
+" AP courses to earn university recognized credits. Over the three-year "
+"program, students may take up to 9 AP courses. Beside the mandatory "
+"courses that students are required to take, students are required to "
+"choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on "
+"each course&apos; s prerequisites. </p>"
+msgstr ""
+
+#: templates/second_level/advanced_placement.html:8
+msgid ""
+"<p>In Chinese: Chinese Language & Literature, Geography, History, "
+"Political Science, ICT (Information Communication & Technology). "
+"</p><p>In English: Intensive English, Pre-AP Chemistry, Pre-AP Biology, "
+"Pre-AP Calculus or AP Calculus, Pre-AP Economics, AP Physics I, Music, "
+"Art. </p>"
+msgstr ""
+
+#: templates/second_level/advanced_placement.html:12
+msgid ""
+"<p>In Chinese: Chinese Language & Literature*, Technology & Design*. "
+"</p><p>In English: Academic Research*, English Speech*, Integrated Global"
+" Studies*, Pre-AP English Language & Composition*, Pre-AP World Cultures,"
+" AP Calculus AB/BC*, AP Chemistry, AP Physics 2, AP Physics CM, AP "
+"Microeconomics. </p>"
+msgstr ""
+
+#: templates/second_level/advanced_placement.html:16
+msgid ""
+"<p>In Chinese: Chinese Language & Literature*. </p><p>In English: AP "
+"English Literature & Composition, AP English Language & Composition, AP "
+"Calculus BC, AP Statistics, AP Computer Science A, AP Biology, AP "
+"Chemistry, AP Environmental Science, AP Physics C (Mechanics), AP Physics"
+" C (E&M), AP Macro-economics, AP World Cultures. </p>"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:6
+msgid ""
+"<p>Students in the Chinese curricula are required to learn subjects "
+"stipulated by Beijing Municipal Education Commission.</p>\n"
+"      <p>According to the commission, each subject is composed of "
+"different modules and assessments are given based on those modules.</p>\n"
+"      <p>Module scores include processing the evaluations of daily "
+"performance and the results of exams.</p>\n"
+"      <p>The minimum credits requirement for graduation is 144.</p>\n"
+"      <p>Students need to pass the Huikao (high school graduation exam) "
+"organized by the Beijing Education Examinations Authority to graduate "
+"from high school.</p>\n"
+"      <p>Huikao subjects include the following:</p>"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:13
+msgid "Chinese"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:14
+msgid "English"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:15
+msgid "math"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:16
+msgid "physics"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:17
+msgid "chemistry"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:18
+msgid "biology"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:19
+msgid "politics"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:20
+msgid "history"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:21
+msgid "geography"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:22
+msgid "information & technology"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:23
+msgid "general technology"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:24
+msgid "music"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:25
+msgid "art"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:26
+msgid "physical education"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:32
+msgid "Chinese National Curriculum"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:43
+msgid "Early Development Program"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:52
+msgid "Compulsory courses for Chinese curricula"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:56
+msgid "10th Grade"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:57
+msgid ""
+"Chinese, math, English, chemistry, physics, history, geography, politics,"
+" physical education, information technology, general technology, art and "
+"music, research study"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:60
+msgid "11th Grade"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:61
+msgid ""
+"Chinese, math, English, physics, biology, physical education, research "
+"study"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:64
+msgid "12th Grade"
+msgstr ""
+
+#: templates/second_level/chinese_curricula.html:65
+msgid "Chinese, math, English, physical education"
+msgstr ""
+
+#: templates/second_level/icc_stats.html:9
+msgid "ICC Statistics"
+msgstr ""
+
+#: templates/second_level/icc_stats.html:11
+msgid ""
+"<p><big class=\"red-text header\">14 </big>years has been passed after "
+"the foundation of RDFZ ICC in 2004.</p>\n"
+"  <p><big class=\"red-text header\">＞4500 </big>students in the main "
+"campus and<big class=\"red-text header\"> ≈800 </big>students in ICC. "
+"</p>\n"
+"  <p><big class=\"red-text header\">50 </big>expatriate teachers and<big "
+"class=\"red-text header\"> 40 </big>Chinese teachers. </p>\n"
+"  <p>Staff-student ratio is <big class=\"red-text header\">1 : 8.88 "
+"</big>. </p>\n"
+"  <p><big class=\"red-text header\">45 </big>lessons a week. </p>\n"
+"  <p>Each year,<big class=\"red-text header\"> 71 </big>days are ready "
+"for holiday (weekends excluded). </p>"
+msgstr ""
+
+#: templates/second_level/international_baccalaureate.html:4
+msgid "International Baccalaureate (IB/IBDP)"
+msgstr ""
+
+#: templates/second_level/international_baccalaureate.html:5
+msgid ""
+"<p>International Baccalaureate Diploma Program students in the IB "
+"curriculum are all IB Diploma candidates. IBDP Students must study three "
+"or four courses at HL and two or three others at SL. They must complete "
+"150 hours of creativity, action, and service (CAS) study, be assessed in "
+"Theory of Knowledge, and write a 4000-word Extended Essay. Since the IB "
+"diploma curriculum runs in a two-year period from grade 11 to grade 12, "
+"the grade 10 IB curriculum shares the same courses with A Level grade 10 "
+"curriculum. </p>"
+msgstr ""
+
+#: templates/second_level/international_baccalaureate.html:8
+msgid ""
+"<p>In Chinese: Chinese Literature, Chinese History & Politics, Geography."
+" </p>\n"
+"    <p>In English: Art, Music, ICT (information Communication & "
+"Technology), Thinking Skills, IGCSE English, IGCSE Biology, IGCSE "
+"Chemistry, IGCSE Physics, AS Mathematics, AS Statistics. </p>"
+msgstr ""
+
+#: templates/second_level/international_baccalaureate.html:12
+msgid "Grade 11 & 12 (Year 2 & 3)"
+msgstr ""
+
+#: templates/second_level/international_baccalaureate.html:13
+msgid ""
+"<p>Group 1: Chinese A Literature, English A Language and Literature</p>\n"
+"    <p>Group 2: Language B English, Language B French ab initio</p>\n"
+"    <p>Group 3: Economics, Business Management, Environmental System and "
+"Society</p>\n"
+"    <p>Group 4: Biology, Chemistry, Computer Science, Environmental "
+"System and Society, Physics</p>\n"
+"    <p>Group 5: Further Mathematics, Mathematics</p>\n"
+"    <p>Group 6: Music, Visual Arts</p>"
+msgstr ""
+
+#: templates/second_level/international_baccalaureate.html:19
+msgid "* CAS, EE, TOK are required for the IB curriculum."
+msgstr ""
+
+#: templates/second_level/student_union.html:4
+msgid "ICC Student Union"
+msgstr ""
+
+#: templates/second_level/student_union.html:13
+msgid "Presidium"
+msgstr ""
+
+#: templates/second_level/student_union.html:14
+msgid "President"
+msgstr ""
+
+#: templates/second_level/student_union.html:14
+msgid "LePing Qiu"
+msgstr ""
+
+#: templates/second_level/student_union.html:15
+msgid "Vice-president"
+msgstr ""
+
+#: templates/second_level/student_union.html:15
+msgid "Irene Wang, Delia Zou"
+msgstr ""
+
+#: templates/second_level/student_union.html:22
+msgid "Activity Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:23
+#: templates/second_level/student_union.html:32
+#: templates/second_level/student_union.html:41
+#: templates/second_level/student_union.html:50
+#: templates/second_level/student_union.html:59
+#: templates/second_level/student_union.html:68
+#: templates/second_level/student_union.html:77
+msgid "Head"
+msgstr ""
+
+#: templates/second_level/student_union.html:23
+msgid "Alejandro He"
+msgstr ""
+
+#: templates/second_level/student_union.html:24
+#: templates/second_level/student_union.html:33
+#: templates/second_level/student_union.html:42
+#: templates/second_level/student_union.html:51
+#: templates/second_level/student_union.html:60
+#: templates/second_level/student_union.html:69
+#: templates/second_level/student_union.html:78
+msgid "Undersecretary"
+msgstr ""
+
+#: templates/second_level/student_union.html:24
+msgid "Tiffany Wei, Tiffany Su"
+msgstr ""
+
+#: templates/second_level/student_union.html:31
+msgid "Publicity Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:32
+msgid "Ellabella Liu"
+msgstr ""
+
+#: templates/second_level/student_union.html:33
+msgid "Norah Liao, Erica Ye"
+msgstr ""
+
+#: templates/second_level/student_union.html:40
+msgid "Academic Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:41
+msgid "Jerry Zhao"
+msgstr ""
+
+#: templates/second_level/student_union.html:42
+msgid "Violet Wu"
+msgstr ""
+
+#: templates/second_level/student_union.html:49
+msgid "Athletic Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:50
+msgid "Justin Li"
+msgstr ""
+
+#: templates/second_level/student_union.html:51
+msgid "Kevin Li"
+msgstr ""
+
+#: templates/second_level/student_union.html:58
+msgid "Discipline Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:59
+msgid "Hugo Han"
+msgstr ""
+
+#: templates/second_level/student_union.html:60
+msgid "Ayla Wang"
+msgstr ""
+
+#: templates/second_level/student_union.html:67
+msgid "Tech Department"
+msgstr ""
+
+#: templates/second_level/student_union.html:68
+msgid "YuFeng Chi"
+msgstr ""
+
+#: templates/second_level/student_union.html:69
+msgid "NAI"
+msgstr ""
+
+#: templates/second_level/student_union.html:76
+msgid "Secretariat"
+msgstr ""
+
+#: templates/second_level/student_union.html:77
+msgid "Tony Lin"
+msgstr ""
+
+#: templates/second_level/student_union.html:78
+msgid "Faith Feng"
 msgstr ""
 
 #~ msgid "About ICC"
@@ -663,5 +1192,230 @@ msgstr ""
 #~ "<p>Students are regularly admitted to "
 #~ "top Universities domestically and abroad.</p>"
 #~ "\n"
+#~ msgstr ""
+
+#~ msgid "chinese curricula"
+#~ msgstr ""
+
+#~ msgid "Cambridge A Level Program"
+#~ msgstr ""
+
+#~ msgid "student"
+#~ msgstr ""
+
+#~ msgid "campus life"
+#~ msgstr ""
+
+#~ msgid "extra-curricular activity"
+#~ msgstr ""
+
+#~ msgid "contacts"
+#~ msgstr ""
+
+#~ msgid "school calendar"
+#~ msgstr ""
+
+#~ msgid "location"
+#~ msgstr ""
+
+#~ msgid "for media"
+#~ msgstr ""
+
+#~ msgid "Links"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "  <p>The foundation courses required for"
+#~ " all the student are PE, Mandarin,"
+#~ " art, music, Chinese history, political "
+#~ "science, speech, and research.</p>\n"
+#~ "  <p>Currently, there are 800 students"
+#~ " — ~400 for AL, ~250 for AP "
+#~ "and ~120 for IB — in the "
+#~ "ICC, and the following courses are "
+#~ "available for students' choice: </p>\n"
+#~ "  <p>• AL: biology, chemistry, physics,"
+#~ " applied ICT, mathematics, further "
+#~ "mathematics, business studies, and economics."
+#~ " </p>\n"
+#~ "  <p>• IB: Chinese Literature, Business,"
+#~ " Environmental Science, Psychology, Chemistry,"
+#~ " Physics, Computer Science, Music, Art, "
+#~ "Math, Economics, French, Spanish, English, "
+#~ "Theory of Knowledge, EE, CAS. </p>\n"
+#~ ""
+#~ "  <p>• AP: Advanced English, AP "
+#~ "World Culture, AP Language and "
+#~ "Composition, AP Literature and Composition,"
+#~ " AP Calculus AB & BC, AP "
+#~ "Statistics, AP Physics I & II, AP"
+#~ " Physics CM & CEM, AP Biology, "
+#~ "AP Microeconomics & Macroeconomics, AP "
+#~ "Chemistry, AP Environmental Science, AP "
+#~ "Psychology. </p>\n"
+#~ "  <p>There are approximately 50 "
+#~ "expatriate teachers and 40 Chinese "
+#~ "teachers within the ICC. </p>\n"
+#~ "  <p>After a rigorous High School "
+#~ "Entrance Exam (Zhongkao) and our own "
+#~ "exam, students entering ICC are highly"
+#~ " motivated and action orientated. </p>\n"
+#~ ""
+#~ "  <p>For the past several years, "
+#~ "they have achieved awards in "
+#~ "international competitions and exhibitions, "
+#~ "including art, dance, debate, drama, "
+#~ "math, science, robotics, and sports. "
+#~ "</p>\n"
+#~ "  <p>With the English-only classes, "
+#~ "all the teachers can help the "
+#~ "students with their English speaking "
+#~ "skills. </p>\n"
+#~ "  "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "  <p>Students attend scheduled classes, "
+#~ "rotating through nine periods a day.</p>"
+#~ "\n"
+#~ "  <p>There are 5 science labs, an"
+#~ " ICT lab, library and use of "
+#~ "several auditoriums and conference "
+#~ "facilities.</p>\n"
+#~ "  <p>The average size of a "
+#~ "required courses are 18-38, and 8-21 "
+#~ "for selective courses, but smaller for"
+#~ " English language lessons. </p>\n"
+#~ "  <p>There are 45 lessons a week,"
+#~ " each lasts for 40 minutes and "
+#~ "followed by a 5-minute break. </p>\n"
+#~ ""
+#~ "  <p>The school time begins at 7:40 and ends at 16:35. </p>\n"
+#~ "  <p>Following the Chinese calendar for"
+#~ " holidays, we have a week for "
+#~ "National Holiday, 4 weeks for Chinese"
+#~ " New Year, and also the full "
+#~ "day break for Tomb Sweeping, Dragon "
+#~ "Boat and May Day. </p>\n"
+#~ "  <p>In addition, we also take the"
+#~ " break on Christmas and Western New"
+#~ " Year. </p>\n"
+#~ "  <p>Sometimes we have class on a"
+#~ " Saturday or Sunday to enable taking"
+#~ " several days off together. </p>\n"
+#~ "  "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "  <p>RDFZ has over 300 clubs for"
+#~ " extracurricular activities, more than 150"
+#~ " elective courses, and numerous "
+#~ "opportunities for charity and community "
+#~ "services. </p>\n"
+#~ "  <p>All resources in the main "
+#~ "school of RDFZ are shared with the"
+#~ " ICC.</p>\n"
+#~ "  "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>In Chinese: Chinese Language &"
+#~ " Literature, Geography, History, Political "
+#~ "Science, ICT (Information Communication & "
+#~ "Technology). </p>\n"
+#~ "    <p>In English: Intensive English, "
+#~ "Pre-AP Chemistry, Pre-AP Biology, "
+#~ "Pre-AP Calculus or AP Calculus, "
+#~ "Pre-AP Economics, AP Physics I, "
+#~ "Music, Art. </p>\n"
+#~ "    "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>In Chinese: Chinese Language &"
+#~ " Literature*, Technology & Design*. </p>"
+#~ "\n"
+#~ "    <p>In English: Academic Research*, "
+#~ "English Speech*, Integrated Global Studies*,"
+#~ " Pre-AP English Language & "
+#~ "Composition*, Pre-AP World Cultures, AP"
+#~ " Calculus AB/BC*, AP Chemistry, AP "
+#~ "Physics 2, AP Physics CM, AP "
+#~ "Microeconomics. </p>\n"
+#~ "    "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>In Chinese: Chinese Language & Literature*. </p>\n"
+#~ "    <p>In English: AP English Literature"
+#~ " & Composition, AP English Language &"
+#~ " Composition, AP Calculus BC, AP "
+#~ "Statistics, AP Computer Science A, AP"
+#~ " Biology, AP Chemistry, AP Environmental"
+#~ " Science, AP Physics C (Mechanics), "
+#~ "AP Physics C (E&M), AP Macro-"
+#~ "economics, AP World Cultures. </p>\n"
+#~ "    "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>\"Virtue, Erudition, Creativity, and"
+#~ " Pragmatism\" are the principles of "
+#~ "the school.</p>\n"
+#~ "    <p>RDFZ aims to cultivate students"
+#~ " not only with a solid well-"
+#~ "rounded development, but also with "
+#~ "special skills, innovation, and morality.</p>"
+#~ "\n"
+#~ "    <p>The International Curriculum Center "
+#~ "(ICC) was founded in 2004 with the"
+#~ " goal of educating those Chinese "
+#~ "students who wish to receive a "
+#~ "university education abroad. </p>\n"
+#~ "    <p>The mission statement of the "
+#~ "school is \"respect individuality, discover"
+#~ " and promote each student&apos;s potential,"
+#~ " and help them develop into solid "
+#~ "citizens anxious to further the "
+#~ "prosperity of our country and the "
+#~ "advancement of humanity\".</p>\n"
+#~ "    "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>In Chinese: Chinese Literature, "
+#~ "Chinese History & Politics, Geography. "
+#~ "</p>\n"
+#~ "    <p>In English: Art, Music, ICT "
+#~ "(information Communication & Technology), "
+#~ "Thinking Skills, IGCSE English, IGCSE "
+#~ "Biology, IGCSE Chemistry, IGCSE Physics, "
+#~ "AS Mathematics, AS Statistics. </p>\n"
+#~ "    "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>Group 1: Chinese A Literature,"
+#~ " English A Language and Literature</p>\n"
+#~ ""
+#~ "    <p>Group 2: Language B English, Language B French ab initio</p>\n"
+#~ "    <p>Group 3: Economics, Business "
+#~ "Management, Environmental System and "
+#~ "Society</p>\n"
+#~ "    <p>Group 4: Biology, Chemistry, "
+#~ "Computer Science, Environmental System and "
+#~ "Society, Physics</p>\n"
+#~ "    <p>Group 5: Further Mathematics, Mathematics</p>\n"
+#~ "    <p>Group 6: Music, Visual Arts</p>\n"
+#~ "    "
 #~ msgstr ""
 

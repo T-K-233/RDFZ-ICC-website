@@ -1,6 +1,6 @@
 from flask import session, render_template, request, redirect, url_for, jsonify
 from werkzeug.utils import secure_filename
-from . import app, babel, lazy_translations
+from . import app, babel
 # from .plugins import HWARecognizer
 from config import LANGUAGES
 import base64
@@ -30,8 +30,6 @@ square_path = "img/square/"
         'for media': {'img': 'img/square/2.jpg'},
     },
     '''
-
-lazy_translations.init_all()
 
 # load plugins
 # HWA_recognizer = HWARecognizer()
