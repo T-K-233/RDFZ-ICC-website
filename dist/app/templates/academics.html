@@ -1,36 +1,36 @@
 {% extends "base/PAGE_BASE.html" %}
-{% set title = PAGE|title+' - '+BRANCH|title %}
+{% set title = INDEX[1]|title+' - '+INDEX[0]|title %}
 {% block body %}
+{% if INDEX[1] == 'chinese curricula' %}
   <div class="section">
-    <h4 class="red-text header">{{ _("Chinese Curricula") }}</h4>
-    <div>{{ _('<p>Students in the Chinese curricula are required to learn subjects stipulated by Beijing Municipal Education Commission.</p>
+    <div>
+      <p>Students in the Chinese curricula are required to learn subjects stipulated by Beijing Municipal Education Commission.</p>
       <p>According to the commission, each subject is composed of different modules and assessments are given based on those modules.</p>
       <p>Module scores include processing the evaluations of daily performance and the results of exams.</p>
       <p>The minimum credits requirement for graduation is 144.</p>
       <p>Students need to pass the Huikao (high school graduation exam) organized by the Beijing Education Examinations Authority to graduate from high school.</p>
-      <p>Huikao subjects include the following:</p>') }}
+      <p>Huikao subjects include the following:</p>
         <ul class="collection">
-        <li class="collection-item">{{ _('Chinese') }}</li>
-        <li class="collection-item">{{ _('English') }}</li>
-        <li class="collection-item">{{ _('math') }}</li>
-        <li class="collection-item">{{ _('physics') }}</li>
-        <li class="collection-item">{{ _('chemistry') }}</li>
-        <li class="collection-item">{{ _('biology') }}</li>
-        <li class="collection-item">{{ _('politics') }}</li>
-        <li class="collection-item">{{ _('history') }}</li>
-        <li class="collection-item">{{ _('geography') }}</li>
-        <li class="collection-item">{{ _('information & technology') }}</li>
-        <li class="collection-item">{{ _('general technology') }}</li>
-        <li class="collection-item">{{ _('music') }}</li>
-        <li class="collection-item">{{ _('art') }}</li>
-        <li class="collection-item">{{ _('physical education') }}</li>
+        <li class="collection-item">Chinese</li>
+        <li class="collection-item">English</li>
+        <li class="collection-item">math</li>
+        <li class="collection-item">physics</li>
+        <li class="collection-item">chemistry</li>
+        <li class="collection-item">biology</li>
+        <li class="collection-item">politics</li>
+        <li class="collection-item">history</li>
+        <li class="collection-item">geography</li>
+        <li class="collection-item">information & technology</li>
+        <li class="collection-item">general technology</li>
+        <li class="collection-item">music</li>
+        <li class="collection-item">art</li>
+        <li class="collection-item">physical education</li>
       </ul>
       <p>* In 11th grade, students are divided into a social science stream or natural science stream.</p>
     </div>
   </div>
-<!--
   <div class="section">
-    <h5 class="red-text header">{{ _('Chinese National Curriculum') }}</h5>
+    <h4 class="red-text header">Chinese National Curriculum</h4>
     <div>
       <p>In accordance with the school&apos;s principle and cultivating goal, RDFZ has integrated national, local school-based, and international curricula to form a unique curricula system which is contemporary, selective, creative, and open.</p>
       <p>It covers eight different fields including: language, math, humanity, science, technology, physical education, arts, and interdisciplinary courses.</p>
@@ -41,7 +41,7 @@
     </div>
   </div>
   <div class="section">
-    <h5 class="red-text header">{{ _('Early Development Program') }}</h5>
+    <h4 class="red-text header">Early Development Program</h4>
     <div>
       <p>The Early Development Program for Top Innovative Talents (EDP) was founded in 2010 in cooperation with the Chinese Academy of Sciences, the Chinese Academy of Social Sciences, and other research institutes.</p>
       <p>It is a key research program of the Ministry of Education, aiming to cultivate leading innovative talents in various fields. The class of 2018 entered the program after finishing their 5th grade in 2011, and have been studying at RDFZ for seven years (students in classes 16, 17, and 18 are EDP graduates).</p>
@@ -49,9 +49,8 @@
       <p>Course content includes independent inquiry-based learning, Olympiad competitions, college level courses, and research and advanced study at university labs.</p>
     </div>
   </div>
-  -->
   <div class="section">
-    <h5 class="red-text header">{{ _('Compulsory courses for Chinese curricula') }}</h5>
+    <h4 class="red-text header">Compulsory courses for Chinese curricula</h4>
     <div>
       <table>
       <tr>
@@ -69,5 +68,7 @@
       </table>
     </div>
   </div>
+{% elif INDEX[1] == 'Cambridge A Level Program' %}
 
+{% endif %}
 {% endblock %}

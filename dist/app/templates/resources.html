@@ -1,0 +1,28 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = INDEX[1]|title+' - '+INDEX[0]|title %}
+{% block body %}
+{% if INDEX[1] == 'contacts' %}
+  <div class="section">
+    <h4 class="red-text header">{{ _('Contact Information') }}</h4>
+    <div>
+      <p>Address: No. 37 Zhongguancun Street, Haidian District, Beijing, China 100080</p>
+      <p>Tel: 62513962</p>
+      <p>Email: xinwen@rdfz.cn</p>
+    </div>
+  </div>
+{% elif INDEX[1] == 'school calendar' %}
+  <div class="section">
+    <table>
+      <tr><td><h4 class="ui header">Fall Semester</h4></td><td>Sep. 2017 - Jan. 2018</td></tr>
+      <tr><td><h4 class="ui header">Spring Semester</h4></td><td>Feb. 2018 - Jul. 2018</td></tr>
+    </table>
+    <p>Class Hour: 40 mins/period, 8-9 periods/day</p>
+    <p>Students attend school from 8:00a.m.to 4:35p.m.</p>
+  </div>
+{% elif INDEX[1] == 'campus map' %}
+  <div class="section">
+    <img src="{{ url_for('static', filename='map.png') }}" style="width: 100%">
+  </div>
+{% elif INDEX[1] == 'location' %}
+{% endif %}
+{% endblock %}

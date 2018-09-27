@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-06 15:20+0800\n"
-"PO-Revision-Date: 2018-07-07 09:01+0800\n"
+"POT-Creation-Date: 2018-07-03 15:54+0800\n"
+"PO-Revision-Date: 2018-07-03 22:30+0800\n"
 "Last-Translator: \n"
 "Language: zh\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -25,49 +25,29 @@ msgstr "指导教师"
 
 #: templates/author.html:48
 msgid "Website Project Coordinator"
-msgstr "网站总负责"
-
-#: templates/author.html:53
-msgid "CHI YUFENG (-T.K.-)"
-msgstr "-T.K.-"
-
-#: templates/author.html:54
-msgid "A Student @ 2019 Class 7 who builds this entire website..."
-msgstr "负责 策划 & 页面逻辑设计 & 版式设计 & 建设 & 进度维持 & 维护..."
+msgstr "网站项目总负责"
 
 #: templates/author.html:59
-msgid "Helper"
-msgstr "助理"
-
-#: templates/author.html:64 templates/second_level/student_union.html:69
-msgid "NAI"
-msgstr "奈AI"
-
-#: templates/author.html:67
-msgid "More About Her"
-msgstr ""
-
-#: templates/author.html:71
 msgid "Tech Support"
 msgstr "技术支持"
 
-#: templates/author.html:90
+#: templates/author.html:78
 msgid "Information"
 msgstr "信息收集"
 
-#: templates/author.html:96
+#: templates/author.html:84
 msgid "A non-profit student organization that mainly focuses on the innovation of 3D printing technology."
 msgstr "一个以3D 印刷技术创新为主要重点的非营利性学生组织。"
 
-#: templates/author.html:102
+#: templates/author.html:90
 msgid "Translation Proofreading"
 msgstr "翻译校对"
 
-#: templates/author.html:113
+#: templates/author.html:101
 msgid "UI Design"
 msgstr "界面设计"
 
-#: templates/author.html:119
+#: templates/author.html:107
 msgid ""
 "The RDFZ Graphic Design Agency is a student community affiliated with JODA Studio. It is also an art exchange platform with like-minded friends. Members of the community are students, "
 "designers, and artists."
@@ -77,37 +57,37 @@ msgstr "RDFZ 图形设计机构是隶属于 JODA 工作室的学生社区。它�
 msgid "Page Navigation"
 msgstr "页面导航"
 
-#: templates/home.html:33
-msgid "ABOUT INTERNATIONAL CURRICULUM CENTER"
-msgstr "关于人大附中中外合作办学项目"
+#: templates/base/PAGE_HEADER.html:19 templates/home.html:33
+msgid "about ICC"
+msgstr "关于ICC"
 
 #: templates/home.html:40
-msgid "ACADEMICS"
-msgstr "学术"
+msgid "news"
+msgstr "新闻"
 
 #: templates/home.html:47
-msgid "FACULTY"
-msgstr "中外教师"
+msgid "faculty"
+msgstr "教职工"
 
-#: templates/home.html:54
-msgid "MATRICULATION"
+#: templates/base/PAGE_HEADER.html:20 templates/home.html:54
+msgid "matriculation"
 msgstr "录取结果"
 
 #: templates/home.html:61
-msgid "STUDENTS"
-msgstr "学生活动"
+msgid "admission"
+msgstr "招生"
 
-#: templates/home.html:68
-msgid "RESOURCES"
-msgstr "资源"
+#: templates/base/PAGE_HEADER.html:21 templates/home.html:68
+msgid "academics"
+msgstr "课程"
 
-#: templates/home.html:75
-msgid "NEWS"
-msgstr "新闻资讯"
+#: templates/base/PAGE_HEADER.html:22 templates/home.html:75
+msgid "students"
+msgstr "学生"
 
 #: templates/home.html:82
-msgid "ADMISSION"
-msgstr "招生"
+msgid "resources"
+msgstr "资源"
 
 #: templates/first_level/about_ICC.html:12 templates/home.html:90
 msgid "About ICC"
@@ -117,7 +97,7 @@ msgstr "关于ICC"
 msgid ""
 "<p>The High School Affiliated to Renmin University of China International Curriculum Center (RDFZ ICC) was founded in 2004 with the goal of educating those Chinese students who wish to receive "
 "a university education abroad. </p>"
-msgstr "<p> 中国人民大学国际课程中心 (RDFZ ICC) 附属高中成立于 2004年，是北京市首个中外合作办学项目，致力于为将赴国外接受大学教育的高中生提供最优质的国际教育。</p>"
+msgstr "<p> 中国人民大学国际课程中心 (RDFZ ICC) 附属高中成立于 2004年, 以辅导那些希望在国外接受大学教育的中国学生为宗旨。</p>"
 
 #: templates/first_level/about_ICC.html:14 templates/home.html:92
 msgid "<p>There are three programs in the three-year ICC course system: "
@@ -125,7 +105,7 @@ msgstr "<p> ICC 为期三年的课程系统中有三个系统: "
 
 #: templates/first_level/about_ICC.html:15 templates/home.html:93
 msgid "General Certificate of Education Advanced Level (AL)"
-msgstr "中英合作国际高中课程（AL）"
+msgstr "IGCSE 国际普通中等教育证书（AL）"
 
 #: templates/first_level/about_ICC.html:16 templates/home.html:94
 msgid "Advanced Placement Program (AP)"
@@ -152,18 +132,19 @@ msgid ""
 "<p>After a rigorous High School Entrance Exam (Zhongkao) and our own exam, students entering ICC are highly motivated and action orientated. </p><p>For the past several years, they have "
 "achieved awards in international competitions and exhibitions, including art, dance, debate, drama, math, science, robotics, and sports. </p>"
 msgstr ""
-"<p>ICC 的学生在经过严格的中考考试和我们自己的招生考试后，都非常积极、有目标性。</p><p>在过去的几年里，他们已经在国内外的各种比赛取得了相当出色的成绩，包括数学，科学，美术，舞蹈，辩论，戏剧，机器"
-"人和体育领域。</p>"
+"<p>ICC 的学生在经过严格的中考考试和我们自己的招生考试后，都非常积极、有目标性。</p><p>在过去的几年里，他们已经在国内外的各种比赛取得了佳绩，包括美术，舞蹈，辩论，戏剧，数学，科学，机器人和体育领"
+"域。</p>"
 
 #: templates/home.html:98
 msgid "<p>All <a href=\""
-msgstr "<p>人大附中 ICC 与人大附中本部共享人大附中的所有教学<a href=\""
+msgstr "<p>所有人本的<a href=\""
 
 #: templates/home.html:98
 msgid "\"> resources</a> in the main school of RDFZ are shared with the ICC. </p> "
-msgstr "\"> 资源 </a></p>"
+msgstr "\"> 资源 </a>都与 ICC 共享。</p> "
 
-#: templates/first_level/about_ICC.html:46 templates/first_level/admission.html:12 templates/first_level/news.html:14 templates/home.html:99 templates/home.html:112
+#: templates/first_level/about_ICC.html:46 templates/first_level/admission.html:12 templates/first_level/news.html:16 templates/first_level/news.html:30 templates/first_level/news.html:44
+#: templates/home.html:99 templates/home.html:112
 msgid "Learn More"
 msgstr "了解更多"
 
@@ -187,7 +168,7 @@ msgid ""
 "Diploma (IB) program, started in 2012.</p><p>Students are regularly admitted to top Universities domestically and abroad.</p>"
 msgstr ""
 "<p>中国人民大学附属中学是成立于1950年的世界着名公立学校。</p><p>学校同时提供中文课程和国际课程</p><p>有两种的中文课程：国家课程和顶尖创新人才早期培养计划。</p><p>有三个国际课程体系：于 2004 年开"
-"始的中英合作国际高中课程（A Level），于 2010 年开始的大学先修课程（AP）课程和 2012 年开始的国际文凭课程（IB）课程。</p><p>学生毕业后就读于国内外的一流大学。</p>"
+"始的剑桥国际高级程度课程（A Level），于 2010 年开始的大学先修课程（AP）课程和 2012 年开始的国际文凭课程（IB）课程。</p><p>学生毕业后就读于国内外的一流大学。</p>"
 
 #: templates/mission.html:12
 msgid "Accreditation"
@@ -224,8 +205,8 @@ msgid ""
 "Program with nationalities represented by the following countries:</p><p>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The U.K. and The U.S.</p><p>More than "
 "half of the international teachers hold a master&apos;s or doctorate degree</p>"
 msgstr ""
-"<p> RDFZ 拥有一支专业的中国师资队伍, 其中 66 &#37; 的教师有硕士或博士学位。</p><p> 项目中有60余名国际教员教师, 他们来自澳大利亚、加拿大、印度、爱尔兰、新西兰、菲律宾、斯里兰卡、尼泊尔、英国和美"
-"国。 </p><p> 半数以上的国际教师持有硕士或博士学位。 </p>"
+"<p> RDFZ 拥有一支专业的中国师资队伍, 拥有 66 &#37; 持有硕士 ' 博士学位. </p><p> ChineseForeign 教育项目中有60名国际教员教师, 其国籍由下列国家代表: </p><p> 澳大利亚、加拿大、印度、爱尔兰、新西"
+"兰、菲律宾、斯里兰卡、尼泊尔、英国和美国 </p><p> 半数以上的国际教师持有硕士 ' 或博士学位 </p>"
 
 #: templates/first_level/admission.html:7 templates/mission.html:60
 msgid ""
@@ -324,22 +305,6 @@ msgstr "网站作者"
 msgid "Home"
 msgstr "首页"
 
-#: templates/base/PAGE_HEADER.html:19
-msgid "about ICC"
-msgstr "关于中外合作办学项目"
-
-#: templates/base/PAGE_HEADER.html:20
-msgid "matriculation"
-msgstr "录取结果"
-
-#: templates/base/PAGE_HEADER.html:21
-msgid "academics"
-msgstr "课程"
-
-#: templates/base/PAGE_HEADER.html:22
-msgid "students"
-msgstr "学生活动"
-
 #: templates/first_level/about_ICC.html:5
 msgid "About RDFZ"
 msgstr "关于人大附中"
@@ -382,7 +347,7 @@ msgstr ""
 "p>\n"
 "<p>ICC 有大约50外籍教师和40名中国教师。</p>\n"
 "<p>ICC 的学生在经过严格的中考考试和我们自己的招生考试后，都非常积极、有目标性。</p>\n"
-"在过去的几年里，他们已经在国内外的各种比赛取得了相当出色的成绩，包括数学，科学，美术，舞蹈，辩论，戏剧，机器人和体育领域。</p>\n"
+"<p>在过去的几年里，他们已经在国内外的各种比赛取得了佳绩，包括美术，舞蹈，辩论，戏剧，数学，科学，机器人和体育领域。</p>\n"
 "<p>在 ICC 的课堂中，学生们只能说英语，这样所有的老师都可以帮助学生提高他们的英语口语能力。</p>"
 
 #: templates/first_level/about_ICC.html:29
@@ -432,15 +397,15 @@ msgstr "国内课程"
 
 #: templates/first_level/academics.html:19
 msgid "A Level"
-msgstr "中英合作办学项目 AL"
+msgstr "A Level 剑桥国际高中课程"
 
 #: templates/first_level/academics.html:28
 msgid "Advanced Placement"
-msgstr "中美合作办学项目 AP"
+msgstr "AP 美国大学先修课程"
 
 #: templates/first_level/academics.html:37
 msgid "International Baccalaureate"
-msgstr "中英合作IB项目 IBDP"
+msgstr "IBDP 国际文凭课程"
 
 #: templates/first_level/admission.html:5
 msgid "How to get into here? "
@@ -477,16 +442,7 @@ msgstr "AL课程"
 msgid ""
 "<p>Students in the A level program sit the UK Cambridge International Examinations (CIE) Advanced Level (A Levels) exams. Besides the mandatory courses that students are required to take, the "
 "average number of A Level subjects is four at AS level, carrying on three of them into A2 level. </p>"
-msgstr ""
-"<p>“ 中英合作国际高中课程”（General Certificate of Education Advanced Level) 简称A-level课程，是英国的全民课程。英国学生在进入大学前普遍要通过A-Level课程的考试，然后凭借获得的成绩申请大学。A-"
-"Level课程于1950年在英国正式启用，经过60多年的发展已被国际教育体系誉为“金牌教育体系”。世界上有150多个国家8000多所学校和教育机构采纳剑桥国际高中课程，每年有500多万学生参加A-Level考试。中国学生完成"
-"剑桥国际高中课程的学习，通过剑桥大学国际考试委员会（CIE）的考试，可获得由其颁发的“剑桥国际高中课程”成绩证书。英国、美国、加拿大、澳大利亚、新西兰、新加坡等英语国家的主流大学都认可此课程成绩证"
-"书，许多非英语国家的大学也承认该证书。学生持该证书可以去申请英国、美国、加拿大、澳大利亚等英语国家的所有大学，且无需再读预科，无需再参加任何形式的入学考试。</p><p>“剑桥国际高中课程”的考试由剑桥"
-"大学国际考试委员会（CIE）分别于每年5-6月和10-11月在全球组织统一考试，试题由CIE统一命题，阅卷评分亦由CIE统一组织，考试成绩在8月和次年的2月公布。</p><p>“剑桥国际高中课程”的考试并非“一考定终身”。如"
-"果学生对某门课的考试成绩不满意，可以选择重考，以考试结果最好的一次作为最终成绩获得证书。一般来说，5-6月份为常规考试，10-11月份为补考。A-Level课程的考试成绩分为A*、A、B、C、D、E、U等级，A*为最"
-"优，E为通过，U为不及格。</p><p>我校是剑桥大学国际考试委员会批准的该课程考试中心，本项目的学生在人大附中参加考试，每场考试结束后，我校将按照剑桥大学国际考试委员会严格的安全措施，在规定时间内将学"
-"生的答卷送达英国，由剑桥大学国际考试委员会组织专家统一评卷。</p><p>“剑桥国际高中课程”具有很高的国际认可度， 学生可依据自身取得的相应学科成绩申请包括牛津大学、剑桥大学、帝国理工学院在内的英国所有"
-"大学；美国的哈佛大学、耶鲁大学、麻省理工学院等；加拿大的多伦多大学、UBC大学、皇后大学等；爱尔兰的国立大学等；澳大利亚的悉尼大学、墨尔本大学、国立大学等；新西兰的奥克兰大学等世界名牌大学。</p>"
+msgstr "<p> A Level 学生需要参加英国剑桥国际考试 (CIE) 高级水平 (A 级) 考试。除了学生必须选修的必修课程外, 需要选择大约 4 门一级科目，并在 A2 阶段选择 4 门中的 3 门继续学习。</p>"
 
 #: templates/second_level/a_level.html:7 templates/second_level/advanced_placement.html:7 templates/second_level/international_baccalaureate.html:7
 msgid "Grade 10 (Year 1) Mandatory courses"
@@ -536,14 +492,8 @@ msgid ""
 "Beside the mandatory courses that students are required to take, students are required to choose 3 AP courses in Grade 11 and 4 AP courses in Grade 12 based on each course&apos; s "
 "prerequisites. </p>"
 msgstr ""
-"<p> 从课程类别上，人大附中“中美合作办学项目”课程可分中国高中课程、美国AP课程、英语语言和文化类课程、升学指导课程及课外实践活动四大类。这些课程相辅相成，一方面注重课程内容的全面性和有效性，实现知"
-"识与技能、过程与方法、情感态度与价值观的有机整合；另一方面满足了学生的个性发展需求，有的放矢地提高学生的知识水平和能力，促进其人格完善和自我价值实现。</p><p>1. 中国高中课程是按照普通高中会考要求"
-"设计，学生参加会考，成绩合格且修业期满，由人大附中颁发高中毕业证书。</p><p>2. 美国AP课程及引进的相关课程主要有英语语言和写作、微积分AB、微积分BC、物理I、物理II、物理CM、物理CEM、化学、生物、统计"
-"学、心理学、环境科学、经济学等课程，由中、外AP专业学科教师全英文授课。目前，人大附中共开设了13门AP课程供学生选择，每个学生可以根据自己的实际情况，在高二和高三学习5-7门AP课程。</p><p>3. 英语语言"
-"和文化类课程针对学生海外留学需要而专门设计的英语语言课程和世界文化课程，全面提升学生的英语听说读写能力，文化认知水平及批判性思维能力，为海外留学打下坚实的语言及文化基础。</p><p>4. 升学指导课程及"
-"社会实践活动包括认知AP课程和美国大学课程设置、认知标准化考试、大学申请指导（包括大学选校要素、申请大学三年规划、申请文书写作和申请流程指导等）、健康心理指导（包括时间管理和压力管理等）、其他技能"
-"培养指导（包括领导力培养、演讲能力培养等）。课外公益实践活动有野外科考活动、贫困地区义务建屋活动、环境/动物保护活动等，这些活动都是与全球知名的非盈利机构共同组织。此外，我们还将利用寒、暑假组织"
-"海外高中和大学寻访及学习活动。通过升学指导课及课外实践活动，旨在丰富学生校外经历，帮助学生提升学业以外的其他技能和综合素养，增加学生申请世界一流大学的竞争力。</p>"
+"<p> 美国大学先修课程（AP）中的学生可以通过美国大学董事会的课程获得大学认可学分。在三年里，学生最多可选修 9 门 AP 课程。除了学生的必修课程之外, 学生须根据每项课程的先决条件, 在 11 年级选 3 项 AP "
+"课程、在 12 年级选 4 项。</p>"
 
 #: templates/second_level/advanced_placement.html:8
 msgid ""
@@ -705,14 +655,8 @@ msgid ""
 "They must complete 150 hours of creativity, action, and service (CAS) study, be assessed in Theory of Knowledge, and write a 4000-word Extended Essay. Since the IB diploma curriculum runs in a "
 "two-year period from grade 11 to grade 12, the grade 10 IB curriculum shares the same courses with A Level grade 10 curriculum. </p>"
 msgstr ""
-"<p>IBDP的课程包括三门核心课程和六个组别的学科选择：</p><p>核心课程：包括知识理论（Theory of Knowledge）简称TOK，拓展论文（Extended Essay）简称EE，和创造、行动与服务（Creativity，Action and "
-"Service）CAS活动。　</p><p>六个组别的学科选择是：　</p><p>第一组：语言A1（母语）与世界文学　</p><p>第二组：语言B（母语以外的现代语）</p><p>第三组：个人与社会学：包括历史、地理、商业与管理、经济"
-"学等</p><p>第四组：实验科学：包括物理、化学、生物等</p><p>第五组：数学与计算机科学：包括数学高等级、数学标准等级、进阶数学等</p><p>第六组：艺术与选修：艺术包视觉艺术、音乐、戏剧、电影、舞蹈等</"
-"p><p>所有IBDP项目的学生必须从前五组科目中选择其一，第六组为艺术与选修，学生可以选择一门艺术类学科学习，或选学第三种现代语，或从第三组、第四组中再选一门课程，或选择进阶数学。在所选科目中，应至少"
-"选择三门高等级课程</p><p>IBDP通过内部评估和外部评估对学生进行评价。内部评估由学科老师按照IBO制定的评价标准完成。学科教师按照评价标准全面评价学生表现，并给出学科成绩（包括预估成绩）。为了保持评估"
-"的一致性，部分学生作业样本被随机抽出并寄给IB指定的评审官进行评审，最后对所有学生成绩进行调整。外部评估为全球统考，一般在每年的五月份由IBO统一安排，学生在各自学校参加考试，IBO将根据学生的表现给出"
-"最终成绩。</p><p>IBDP的学科课程成绩以1至7分计分，六门学科满分共42分；在“知识理论”和“扩展论文”两个部分成绩优异的学生可获得最多3分的奖励分。因此IBDP课程的最高分数为45分，及格分数为24分。满足上述学"
-"科分布、核心课程要求并取得24分及以上的学生，将会获得IBO颁发的IBDP证书，否则只能获得单科证书。</p>"
+"<p>国际文凭课程（IB）的学生必须选择三至四门 HL 课程和两至三门 SL 课程，他们必须完成150小时的创意，行动和服务课程（CAS）学习，在知识理论中进行评估，并撰写一篇4000字的扩展论文。由于IB文凭课程是从 "
+"11 年级至 12 年级的两年课程，所以 10 年级 IB 学生与 A Level 学生一起上课。</p>"
 
 #: templates/second_level/international_baccalaureate.html:8
 msgid ""
@@ -844,6 +788,10 @@ msgstr "科技部"
 msgid "YuFeng Chi"
 msgstr "池雨峰"
 
+#: templates/second_level/student_union.html:69
+msgid "NAI"
+msgstr "奈AI"
+
 #: templates/second_level/student_union.html:76
 msgid "Secretariat"
 msgstr "秘书处"
@@ -915,15 +863,3 @@ msgstr "冯暖曦"
 
 #~ msgid "mission"
 #~ msgstr "使命"
-
-#~ msgid "news"
-#~ msgstr "新闻咨询"
-
-#~ msgid "faculty"
-#~ msgstr "中外教师"
-
-#~ msgid "admission"
-#~ msgstr "招生"
-
-#~ msgid "resources"
-#~ msgstr "资源"

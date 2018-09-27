@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-24 16:07+0800\n"
+"POT-Creation-Date: 2018-07-06 15:20+0800\n"
 "PO-Revision-Date: 2018-05-29 21:41+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,13 +18,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: templates/author.html:74
+#: templates/author.html:5
+msgid "Mentors"
+msgstr ""
+
+#: templates/author.html:48
+msgid "Website Project Coordinator"
+msgstr ""
+
+#: templates/author.html:53
+msgid "CHI YUFENG (-T.K.-)"
+msgstr ""
+
+#: templates/author.html:54
+msgid "A Student @ 2019 Class 7 who builds this entire website..."
+msgstr ""
+
+#: templates/author.html:59
+msgid "Helper"
+msgstr ""
+
+#: templates/author.html:64 templates/second_level/student_union.html:69
+msgid "NAI"
+msgstr ""
+
+#: templates/author.html:67
+msgid "More About Her"
+msgstr ""
+
+#: templates/author.html:71
+msgid "Tech Support"
+msgstr ""
+
+#: templates/author.html:90
+msgid "Information"
+msgstr ""
+
+#: templates/author.html:96
 msgid ""
 "A non-profit student organization that mainly focuses on the innovation "
 "of 3D printing technology."
 msgstr ""
 
-#: templates/author.html:98
+#: templates/author.html:102
+msgid "Translation Proofreading"
+msgstr ""
+
+#: templates/author.html:113
+msgid "UI Design"
+msgstr ""
+
+#: templates/author.html:119
 msgid ""
 "The RDFZ Graphic Design Agency is a student community affiliated with "
 "JODA Studio. It is also an art exchange platform with like-minded "
@@ -35,36 +79,36 @@ msgstr ""
 msgid "Page Navigation"
 msgstr ""
 
-#: templates/base/PAGE_HEADER.html:19 templates/home.html:33
-msgid "about ICC"
+#: templates/home.html:33
+msgid "ABOUT INTERNATIONAL CURRICULUM CENTER"
 msgstr ""
 
 #: templates/home.html:40
-msgid "mission"
+msgid "ACADEMICS"
 msgstr ""
 
 #: templates/home.html:47
-msgid "faculty"
+msgid "FACULTY"
 msgstr ""
 
-#: templates/base/PAGE_HEADER.html:20 templates/home.html:54
-msgid "matriculation"
+#: templates/home.html:54
+msgid "MATRICULATION"
 msgstr ""
 
 #: templates/home.html:61
-msgid "admission"
+msgid "STUDENTS"
 msgstr ""
 
-#: templates/base/PAGE_HEADER.html:21 templates/home.html:68
-msgid "academics"
+#: templates/home.html:68
+msgid "RESOURCES"
 msgstr ""
 
-#: templates/base/PAGE_HEADER.html:22 templates/home.html:75
-msgid "students"
+#: templates/home.html:75
+msgid "NEWS"
 msgstr ""
 
 #: templates/home.html:82
-msgid "resources"
+msgid "ADMISSION"
 msgstr ""
 
 #: templates/first_level/about_ICC.html:12 templates/home.html:90
@@ -91,18 +135,53 @@ msgstr ""
 msgid "Advanced Placement Program (AP)"
 msgstr ""
 
+#: templates/first_level/about_ICC.html:16 templates/home.html:94
+msgid "and"
+msgstr ""
+
 #: templates/first_level/about_ICC.html:17 templates/home.html:95
 msgid "International Baccalaureate Diploma Programme (IBDP)"
 msgstr ""
 
+#: templates/home.html:96
+msgid "<p>The <a href='"
+msgstr ""
+
+#: templates/home.html:96
+msgid "'>campus</a> is located in the Haidian district of Beijing in China. </p>"
+msgstr ""
+
+#: templates/home.html:97
+msgid ""
+"<p>After a rigorous High School Entrance Exam (Zhongkao) and our own "
+"exam, students entering ICC are highly motivated and action orientated. "
+"</p><p>For the past several years, they have achieved awards in "
+"international competitions and exhibitions, including art, dance, debate,"
+" drama, math, science, robotics, and sports. </p>"
+msgstr ""
+
+#: templates/home.html:98
+msgid "<p>All <a href=\""
+msgstr ""
+
+#: templates/home.html:98
+msgid ""
+"\"> resources</a> in the main school of RDFZ are shared with the ICC. "
+"</p> "
+msgstr ""
+
 #: templates/first_level/about_ICC.html:46
-#: templates/first_level/admission.html:12 templates/home.html:100
-#: templates/home.html:112
+#: templates/first_level/admission.html:12 templates/first_level/news.html:14
+#: templates/home.html:99 templates/home.html:112
 msgid "Learn More"
 msgstr ""
 
-#: templates/home.html:111
+#: templates/home.html:110
 msgid "ICC Stats"
+msgstr ""
+
+#: templates/home.html:111
+msgid "Some interesting statistics about ICC."
 msgstr ""
 
 #: templates/mission.html:6
@@ -229,7 +308,7 @@ msgid "School Calendar"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:23
-msgid "ACT"
+msgid "AP"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:24
@@ -237,27 +316,51 @@ msgid "Cambridge Assessment"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:25
-msgid "Collegeboard"
+msgid "IBO"
 msgstr ""
 
 #: templates/base/PAGE_FOOTER.html:26
-msgid "IBO.org"
-msgstr ""
-
-#: templates/base/PAGE_FOOTER.html:27
-msgid "TOEFL"
-msgstr ""
-
-#: templates/base/PAGE_FOOTER.html:28
 msgid "Powerschool"
 msgstr ""
 
+#: templates/base/PAGE_FOOTER.html:31
+msgid "ACT"
+msgstr ""
+
+#: templates/base/PAGE_FOOTER.html:32
+msgid "SAT"
+msgstr ""
+
+#: templates/base/PAGE_FOOTER.html:33
+msgid "SAT II"
+msgstr ""
+
 #: templates/base/PAGE_FOOTER.html:34
+msgid "TOEFL"
+msgstr ""
+
+#: templates/base/PAGE_FOOTER.html:40
 msgid "Website Author"
 msgstr ""
 
 #: templates/base/PAGE_HEADER.html:17
 msgid "Home"
+msgstr ""
+
+#: templates/base/PAGE_HEADER.html:19
+msgid "about ICC"
+msgstr ""
+
+#: templates/base/PAGE_HEADER.html:20
+msgid "matriculation"
+msgstr ""
+
+#: templates/base/PAGE_HEADER.html:21
+msgid "academics"
+msgstr ""
+
+#: templates/base/PAGE_HEADER.html:22
+msgid "students"
 msgstr ""
 
 #: templates/first_level/about_ICC.html:5
@@ -283,10 +386,6 @@ msgid ""
 "<p>The International Curriculum Center (ICC) was founded in 2004 with the"
 " goal of educating those Chinese students who wish to receive a "
 "university education abroad. </p>"
-msgstr ""
-
-#: templates/first_level/about_ICC.html:16
-msgid "and"
 msgstr ""
 
 #: templates/first_level/about_ICC.html:18
@@ -793,10 +892,6 @@ msgstr ""
 
 #: templates/second_level/student_union.html:68
 msgid "YuFeng Chi"
-msgstr ""
-
-#: templates/second_level/student_union.html:69
-msgid "NAI"
 msgstr ""
 
 #: templates/second_level/student_union.html:76
@@ -1421,5 +1516,41 @@ msgstr ""
 #~ "    <p>Group 5: Further Mathematics, Mathematics</p>\n"
 #~ "    <p>Group 6: Music, Visual Arts</p>\n"
 #~ "    "
+#~ msgstr ""
+
+#~ msgid "All"
+#~ msgstr ""
+
+#~ msgid " in the main school of RDFZ are shared with the ICC. </p> "
+#~ msgstr ""
+
+#~ msgid "<p>All <a href='"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "'> resources</a> in the main school "
+#~ "of RDFZ are shared with the ICC."
+#~ " </p> "
+#~ msgstr ""
+
+#~ msgid "Collegeboard"
+#~ msgstr ""
+
+#~ msgid "IBO.org"
+#~ msgstr ""
+
+#~ msgid "mission"
+#~ msgstr ""
+
+#~ msgid "news"
+#~ msgstr ""
+
+#~ msgid "faculty"
+#~ msgstr ""
+
+#~ msgid "admission"
+#~ msgstr ""
+
+#~ msgid "resources"
 #~ msgstr ""
 

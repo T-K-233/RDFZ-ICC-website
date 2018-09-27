@@ -1,0 +1,20 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = _(INDEX)|title %}
+{% block body %}
+<div class="section">
+  <div class="row">
+    {% for news in DATA %}
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{url_for('static', filename='newsfeed/'+news[2])}}">
+          <span class="shadow card-title small">{{ news[0] }}</span>
+        </div>
+        <div class="card-content small"><p>{{ news[1] }}</p></div>
+        <div class="card-action"><a class="red-text" href="{{ news[3] }}">{{_('Learn More')}}</a></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

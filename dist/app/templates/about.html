@@ -1,0 +1,69 @@
+{% extends "base/PAGE_BASE.html" %}
+{% set title = _(INDEX[1])|title+' - '+ _(INDEX[0])|title %}
+{% block body %}
+{% if INDEX[1] == 'about ICC' %}
+  <div class="section">
+    <h4 class="red-text header">{{ _('Introduction') }}</h4>
+    <div>
+      {{ _('<p>The High School Affiliated to Renmin University of China is a world-renowned public school founded in 1950.</p><p>The school offers both Chinese and international curricula.</p><p>Two types of Chinese curricula are offered: the national curriculum and the Early Development Program for Top Innovative Talents.</p><p>Three international curricula are offered at the Chinese-Foreign Education Program: the Cambridge International Advanced Level (A Level) program, started in 2004; the Advanced Placement (AP) program, started in 2010; and the International Baccalaureate Diploma (IB) program, started in 2012.</p><p>Students are regularly admitted to top Universities domestically and abroad.</p>') }}
+    </div>
+  </div>
+  <div class="section">
+    <h4 class="red-text header">{{ _('Accreditation') }}</h4>
+    <div>
+      {{ _('<p>RDFZ has been fully accredited by the University of Cambridge International Examinations (CIE) since 2004.</p><p>The Cambridge Exam Center number is CN230.</p><p>In 2012 RDFZ received lBO authorization to offer the IBDP, and the IB School Code is 049099.</p><p>RDFZ&apos;s CEEB code: 694270</p>') }}
+    </div>
+  </div>
+  <div class="section">
+    <h4 class="red-text header">{{ _('Contact Information') }}</h4>
+    <div>
+      {{ _('<p>See <a href="">here</a>.</p>') }}
+    </div>
+  </div>
+{% elif INDEX[1] == 'mission' %}
+  <div class="section">
+    <div>
+      {{ _('<p>"Virtue, Erudition, Creativity, and Pragmatism" are the principles of the school.</p><p>RDFZ aims to cultivate students not only with a solid well-rounded development, but also with special skills, innovation, and morality.</p><p>The mission statement of the school is "respect individuality, discover and promote each student&apos;s potential, and help them develop into solid citizens anxious to further the prosperity of our country and the advancement of humanity".</p>') }}
+    </div>
+  </div>
+{% elif INDEX[1] == 'faculty' %}
+  <div class="section">
+    <div>
+      {{ _('<p>RDFZ has a professional Chinese faculty team, with 66&#37; holding a master&apos;s or doctorate degree. </p><p>There are 60 international faculty teachers at the ChineseForeign Education Program with nationalities represented by the following countries:</p><p>Australia, Canada, India, Ireland, New Zealand, Philippines, Sri Lanka, Nepal, The U.K. and The U.S.</p><p>More than half of the international teachers hold a master&apos;s or doctorate degree</p>') }}
+    </div>
+  </div>
+{% elif INDEX[1] == 'matriculation' %}
+  <ul class="collapsible">
+    {% for year_result in DATA | reverse %}
+    <li>
+      <div class="red-text collapsible-header">{{ 2018 - loop.index0 }}</div>
+      <div class="collapsible-body">
+      {% for row in year_result %}
+        {% if row|length == 1 %}
+          <h6 class="grey-text header">{{ row[0] }}</h6>
+        {% else %}
+          <p>{{row[0]}} - {{row[1]}}</p>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  <script>
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+    })
+  </script>
+{% elif INDEX[1] == 'admission' %}
+  <div class="section">
+    <div>
+      {{ _('<p>Admission to RDFZ high school is dependent on students&apos; Zhongkao (high school entrance exam) score. </p><p>In addition to the Zhongkao, admission to RDFZ Chinese-Foreign Education Program also depends on interviews and extra exams that test math and English. </p><p>Year after year, both the national and international curricula have continually increasing application to admission ratios. </p><p>The admission score for the Chinese National Curriculum is among the highest in Beijing.</p>') }}
+    </div>
+  </div>
+  <div class="section">
+    <div>
+      <p>* For more information, click <a href="http://www.rdfz.cn/mzszl/zwhzbxzs/">here</a>.</p>
+    </div>
+  </div>
+{% endif %}
+{% endblock %}
