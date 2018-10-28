@@ -1,6 +1,10 @@
 # RDFZ-ICC-website
 
+## Important Notice
 
+This repo is archived, all the work will be moved to [here](https://github.com/ICC-Tech-Dept/ICC-Website)
+
+:D
 
 ## Dependencies
 
@@ -16,6 +20,3 @@ run the  `run.py`  file
 
 the website is at  `localhost:80` 
 
-
-## Demo
-[TBA]
